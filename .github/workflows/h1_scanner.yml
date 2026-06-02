@@ -1,0 +1,39 @@
+name: H1 Scanner
+
+on:
+  schedule:
+    - cron: '5 * * * *'  # 5 minutes past every hour — gives H1 candle time to close
+  workflow_dispatch:      # allows manual trigger from GitHub Actions tab
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run H1 scanner
+        env:
+          DERIV_TOKEN:  ${{ secrets.DERIV_TOKEN }}
+          DERIV_APP_ID: ${{ secrets.DERIV_APP_ID }}
+          DERIV_ACCOUNT:${{ secrets.DERIV_ACCOUNT }}
+        run: python bot.py --mode h1
+
+      - name: Commit updated state and chart
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add state/market_state.json output/chart.html
+          git diff --staged --quiet || git commit -m "H1 scan: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push

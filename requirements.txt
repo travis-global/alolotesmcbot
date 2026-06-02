@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+websockets
+python-dotenv
+jinja2
+plotly
+python-dateutil
+requests

@@ -1,0 +1,21 @@
+{
+  "order_blocks": [],
+  "fvgs": [],
+  "breakers": [],
+  "bos_choch_events": [],
+  "sweeps": [],
+  "trendlines": [],
+  "double_tops": [],
+  "double_bottoms": [],
+  "pois": [],
+  "pd_arrays": {},
+  "structure": [],
+  "swings": [],
+  "active_signals": [],
+  "open_trades": [],
+  "closed_trades": [],
+  "last_h1_run": null,
+  "last_m5_run": null,
+  "symbols": [],
+  "per_symbol": {}
+}

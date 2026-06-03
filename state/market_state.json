@@ -42,12 +42,69 @@
       "symbol": "USDJPY",
       "staged_at": "2026-06-03T07:57:02.958312",
       "confirmed": false
+    },
+    {
+      "source": "LGN",
+      "pattern": "Trendline",
+      "direction": "short",
+      "trigger_price": 1.34467,
+      "zone_top": 1.34548,
+      "zone_bottom": 1.34488,
+      "time": "2026-06-03 07:25:00",
+      "confluence": [
+        "Descending trendline",
+        "Touch count: 2",
+        "5M close below trendline"
+      ],
+      "source_detail": {
+        "type": "Trendline",
+        "direction": "descending",
+        "trade_bias": "short",
+        "state": "watching",
+        "touch_count": 2,
+        "touches": [
+          {
+            "type": "SH",
+            "price": 1.34807,
+            "index": 330,
+            "time": "2026-06-02 14:00:00"
+          },
+          {
+            "type": "SH",
+            "price": 1.34722,
+            "index": 335,
+            "time": "2026-06-02 19:00:00"
+          }
+        ],
+        "anchor_1": {
+          "type": "SH",
+          "price": 1.34807,
+          "index": 330,
+          "time": "2026-06-02 14:00:00"
+        },
+        "anchor_2": {
+          "type": "SH",
+          "price": 1.34722,
+          "index": 335,
+          "time": "2026-06-02 19:00:00"
+        },
+        "slope": -0.00017000000000000348,
+        "projected_y": 1.34518,
+        "last_touch_index": 335,
+        "last_touch_time": "2026-06-02 19:00:00",
+        "broken": false,
+        "broken_index": null,
+        "time": "2026-06-02 19:00:00"
+      },
+      "status": "pending",
+      "id": "GBPUSD_Trendline_short_1.34467",
+      "symbol": "GBPUSD"
     }
   ],
   "open_trades": [],
   "closed_trades": [],
   "last_h1_run": "2026-06-03T07:57:12.347085",
-  "last_m5_run": null,
+  "last_m5_run": "2026-06-03T08:01:53.572310",
   "symbols": [
     "EURUSD",
     "GBPUSD",

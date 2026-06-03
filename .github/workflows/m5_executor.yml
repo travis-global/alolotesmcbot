@@ -27,7 +27,7 @@ jobs:
         env:
           DERIV_TOKEN:  ${{ secrets.DERIV_TOKEN }}
           DERIV_APP_ID: ${{ secrets.DERIV_APP_ID }}
-          DERIV_ACCOUNT:${{ secrets.DERIV_ACCOUNT }}
+          DERIV_ACCOUNT: ${{ secrets.DERIV_ACCOUNT }}
         run: python bot.py --mode m5
 
       - name: Commit updated state

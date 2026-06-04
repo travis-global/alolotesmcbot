@@ -1767,12 +1767,135 @@
       "symbol": "Volatility 50 Index",
       "staged_at": "2026-06-04T12:12:55.557463",
       "confirmed": false
+    },
+    {
+      "source": "LGN",
+      "pattern": "Trendline",
+      "direction": "short",
+      "trigger_price": 0.71404,
+      "zone_top": 0.7145099999999999,
+      "zone_bottom": 0.7139099999999999,
+      "time": "2026-06-04 14:05:00",
+      "confluence": [
+        "Descending trendline",
+        "Touch count: 2",
+        "5M close below trendline"
+      ],
+      "source_detail": {
+        "type": "Trendline",
+        "direction": "descending",
+        "trade_bias": "short",
+        "state": "watching",
+        "touch_count": 2,
+        "touches": [
+          {
+            "type": "SH",
+            "price": 0.7188,
+            "index": 302,
+            "time": "2026-06-02 15:00:00"
+          },
+          {
+            "type": "SH",
+            "price": 0.71829,
+            "index": 307,
+            "time": "2026-06-02 20:00:00"
+          }
+        ],
+        "anchor_1": {
+          "type": "SH",
+          "price": 0.7188,
+          "index": 302,
+          "time": "2026-06-02 15:00:00"
+        },
+        "anchor_2": {
+          "type": "SH",
+          "price": 0.71829,
+          "index": 307,
+          "time": "2026-06-02 20:00:00"
+        },
+        "slope": -0.00010200000000000209,
+        "projected_y": 0.7142099999999999,
+        "last_touch_index": 307,
+        "last_touch_time": "2026-06-02 20:00:00",
+        "broken": false,
+        "broken_index": null,
+        "time": "2026-06-02 20:00:00"
+      },
+      "status": "pending",
+      "id": "AUDUSD_Trendline_short_0.71404",
+      "symbol": "AUDUSD"
+    },
+    {
+      "source": "LGN",
+      "pattern": "OB",
+      "direction": "short",
+      "trigger_price": 64097.12,
+      "zone_top": 64336.438,
+      "zone_bottom": 63189.157,
+      "time": "2026-06-04 14:20:00",
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "source_detail": {
+        "type": "Bearish OB",
+        "index": 70,
+        "time": "2026-06-04 03:00:00",
+        "top": 64336.438,
+        "bottom": 63189.157,
+        "mid": 63762.7975,
+        "mitigated": false,
+        "mitigation_index": null,
+        "break_index": 78,
+        "impulse_start": 77,
+        "has_fvg": false,
+        "source": "BOS_DOWN",
+        "age": 9,
+        "touch_count": 0,
+        "expired_by": null
+      },
+      "status": "pending",
+      "id": "BTCUSD_OB_short_64097.12",
+      "symbol": "BTCUSD"
+    },
+    {
+      "source": "LGN",
+      "pattern": "OB",
+      "direction": "short",
+      "trigger_price": 1780.975,
+      "zone_top": 1808.495,
+      "zone_bottom": 1765.885,
+      "time": "2026-06-04 14:20:00",
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "source_detail": {
+        "type": "Bearish OB",
+        "index": 70,
+        "time": "2026-06-04 03:00:00",
+        "top": 1808.495,
+        "bottom": 1765.885,
+        "mid": 1787.19,
+        "mitigated": false,
+        "mitigation_index": null,
+        "break_index": 78,
+        "impulse_start": 77,
+        "has_fvg": false,
+        "source": "BOS_DOWN",
+        "age": 9,
+        "touch_count": 0,
+        "expired_by": null
+      },
+      "status": "pending",
+      "id": "ETHUSD_OB_short_1780.975",
+      "symbol": "ETHUSD"
     }
   ],
   "open_trades": [],
   "closed_trades": [],
   "last_h1_run": "2026-06-04T12:13:08.398379",
-  "last_m5_run": "2026-06-04T11:53:03.305997",
+  "last_m5_run": "2026-06-04T14:21:41.781925",
   "symbols": [
     "EURUSD",
     "GBPUSD",

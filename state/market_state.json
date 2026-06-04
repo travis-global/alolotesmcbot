@@ -2006,12 +2006,126 @@
       "symbol": "Range Break 100 Index",
       "staged_at": "2026-06-04T16:28:19.547025",
       "confirmed": false
+    },
+    {
+      "source": "LGN",
+      "pattern": "Trendline",
+      "direction": "long",
+      "trigger_price": 1.16254,
+      "zone_top": 1.1626140000000003,
+      "zone_bottom": 1.1620140000000003,
+      "time": "2026-06-04 16:45:00",
+      "confluence": [
+        "Ascending trendline",
+        "Touch count: 2",
+        "5M close above trendline"
+      ],
+      "source_detail": {
+        "type": "Trendline",
+        "direction": "ascending",
+        "trade_bias": "long",
+        "state": "watching",
+        "touch_count": 2,
+        "touches": [
+          {
+            "type": "SL",
+            "price": 1.15947,
+            "index": 329,
+            "time": "2026-06-03 22:00:00"
+          },
+          {
+            "type": "SL",
+            "price": 1.16026,
+            "index": 334,
+            "time": "2026-06-04 03:00:00"
+          }
+        ],
+        "anchor_1": {
+          "type": "SL",
+          "price": 1.15947,
+          "index": 329,
+          "time": "2026-06-03 22:00:00"
+        },
+        "anchor_2": {
+          "type": "SL",
+          "price": 1.16026,
+          "index": 334,
+          "time": "2026-06-04 03:00:00"
+        },
+        "slope": 0.00015800000000001368,
+        "projected_y": 1.1623140000000003,
+        "last_touch_index": 334,
+        "last_touch_time": "2026-06-04 03:00:00",
+        "broken": false,
+        "broken_index": null,
+        "time": "2026-06-04 03:00:00"
+      },
+      "status": "pending",
+      "id": "EURUSD_Trendline_long_1.16254",
+      "symbol": "EURUSD"
+    },
+    {
+      "source": "LGN",
+      "pattern": "Trendline",
+      "direction": "long",
+      "trigger_price": 0.71391,
+      "zone_top": 0.7140136363636362,
+      "zone_bottom": 0.7134136363636363,
+      "time": "2026-06-04 17:25:00",
+      "confluence": [
+        "Ascending trendline",
+        "Touch count: 2",
+        "5M close above trendline"
+      ],
+      "source_detail": {
+        "type": "Trendline",
+        "direction": "ascending",
+        "trade_bias": "long",
+        "state": "watching",
+        "touch_count": 2,
+        "touches": [
+          {
+            "type": "SL",
+            "price": 0.71226,
+            "index": 334,
+            "time": "2026-06-04 03:00:00"
+          },
+          {
+            "type": "SL",
+            "price": 0.71349,
+            "index": 345,
+            "time": "2026-06-04 14:00:00"
+          }
+        ],
+        "anchor_1": {
+          "type": "SL",
+          "price": 0.71226,
+          "index": 334,
+          "time": "2026-06-04 03:00:00"
+        },
+        "anchor_2": {
+          "type": "SL",
+          "price": 0.71349,
+          "index": 345,
+          "time": "2026-06-04 14:00:00"
+        },
+        "slope": 0.00011181818181817757,
+        "projected_y": 0.7137136363636363,
+        "last_touch_index": 345,
+        "last_touch_time": "2026-06-04 14:00:00",
+        "broken": false,
+        "broken_index": null,
+        "time": "2026-06-04 14:00:00"
+      },
+      "status": "pending",
+      "id": "AUDUSD_Trendline_long_0.71391",
+      "symbol": "AUDUSD"
     }
   ],
   "open_trades": [],
   "closed_trades": [],
   "last_h1_run": "2026-06-04T16:28:19.547021",
-  "last_m5_run": "2026-06-04T14:21:41.781925",
+  "last_m5_run": "2026-06-04T17:26:44.091827",
   "symbols": [
     "EURUSD",
     "GBPUSD",

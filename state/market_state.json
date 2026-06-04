@@ -270,12 +270,138 @@
       "symbol": "EURUSD",
       "staged_at": "2026-06-03T23:56:20.620350",
       "confirmed": false
+    },
+    {
+      "source": "LGN",
+      "pattern": "Trendline",
+      "direction": "short",
+      "trigger_price": 1.16086,
+      "zone_top": 1.1613899999999993,
+      "zone_bottom": 1.1607899999999993,
+      "time": "2026-06-04 00:10:00",
+      "confluence": [
+        "Descending trendline",
+        "Touch count: 4",
+        "5M close below trendline"
+      ],
+      "source_detail": {
+        "type": "Trendline",
+        "direction": "descending",
+        "trade_bias": "short",
+        "state": "third_touch_confirmed",
+        "touch_count": 4,
+        "touches": [
+          {
+            "type": "SH",
+            "price": 1.16609,
+            "index": 247,
+            "time": "2026-05-28 16:00:00"
+          },
+          {
+            "type": "SH",
+            "price": 1.16564,
+            "index": 256,
+            "time": "2026-05-29 01:00:00"
+          },
+          {
+            "type": "SH",
+            "price": 1.16545,
+            "index": 261,
+            "time": "2026-05-29 06:00:00"
+          },
+          {
+            "type": "SH",
+            "price": 1.16129,
+            "index": 339,
+            "time": "2026-06-03 15:00:00"
+          }
+        ],
+        "anchor_1": {
+          "type": "SH",
+          "price": 1.16609,
+          "index": 247,
+          "time": "2026-05-28 16:00:00"
+        },
+        "anchor_2": {
+          "type": "SH",
+          "price": 1.16564,
+          "index": 256,
+          "time": "2026-05-29 01:00:00"
+        },
+        "slope": -5.0000000000006826e-05,
+        "projected_y": 1.1610899999999993,
+        "last_touch_index": 339,
+        "last_touch_time": "2026-06-03 15:00:00",
+        "broken": false,
+        "broken_index": null,
+        "time": "2026-05-29 01:00:00"
+      },
+      "status": "pending",
+      "id": "EURUSD_Trendline_short_1.16086",
+      "symbol": "EURUSD"
+    },
+    {
+      "source": "LGN",
+      "pattern": "Trendline",
+      "direction": "short",
+      "trigger_price": 1.34224,
+      "zone_top": 1.34276,
+      "zone_bottom": 1.34216,
+      "time": "2026-06-03 23:35:00",
+      "confluence": [
+        "Descending trendline",
+        "Touch count: 2",
+        "5M close below trendline"
+      ],
+      "source_detail": {
+        "type": "Trendline",
+        "direction": "descending",
+        "trade_bias": "short",
+        "state": "watching",
+        "touch_count": 2,
+        "touches": [
+          {
+            "type": "SH",
+            "price": 1.34807,
+            "index": 314,
+            "time": "2026-06-02 14:00:00"
+          },
+          {
+            "type": "SH",
+            "price": 1.34722,
+            "index": 319,
+            "time": "2026-06-02 19:00:00"
+          }
+        ],
+        "anchor_1": {
+          "type": "SH",
+          "price": 1.34807,
+          "index": 314,
+          "time": "2026-06-02 14:00:00"
+        },
+        "anchor_2": {
+          "type": "SH",
+          "price": 1.34722,
+          "index": 319,
+          "time": "2026-06-02 19:00:00"
+        },
+        "slope": -0.00017000000000000348,
+        "projected_y": 1.34246,
+        "last_touch_index": 319,
+        "last_touch_time": "2026-06-02 19:00:00",
+        "broken": false,
+        "broken_index": null,
+        "time": "2026-06-02 19:00:00"
+      },
+      "status": "pending",
+      "id": "GBPUSD_Trendline_short_1.34224",
+      "symbol": "GBPUSD"
     }
   ],
   "open_trades": [],
   "closed_trades": [],
   "last_h1_run": "2026-06-03T23:56:31.586794",
-  "last_m5_run": "2026-06-03T22:39:01.067881",
+  "last_m5_run": "2026-06-04T00:16:59.760161",
   "symbols": [
     "EURUSD",
     "GBPUSD",

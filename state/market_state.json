@@ -2311,12 +2311,45 @@
       "symbol": "AUDUSD",
       "staged_at": "2026-06-04T21:51:05.901858",
       "confirmed": false
+    },
+    {
+      "source": "LGN",
+      "pattern": "OB",
+      "direction": "long",
+      "trigger_price": 0.71326,
+      "zone_top": 0.71355,
+      "zone_bottom": 0.71306,
+      "time": "2026-06-04 22:45:00",
+      "confluence": [
+        "Bullish OB",
+        "5M close above OB bottom"
+      ],
+      "source_detail": {
+        "type": "Bullish OB",
+        "index": 65,
+        "time": "2026-06-04 07:00:00",
+        "top": 0.71355,
+        "bottom": 0.71306,
+        "mid": 0.7133050000000001,
+        "mitigated": false,
+        "mitigation_index": null,
+        "break_index": 78,
+        "impulse_start": 70,
+        "has_fvg": true,
+        "source": "BOS_UP",
+        "age": 14,
+        "touch_count": 1,
+        "expired_by": null
+      },
+      "status": "pending",
+      "id": "AUDUSD_OB_long_0.71326",
+      "symbol": "AUDUSD"
     }
   ],
   "open_trades": [],
   "closed_trades": [],
   "last_h1_run": "2026-06-04T21:51:14.762750",
-  "last_m5_run": "2026-06-04T21:16:59.236636",
+  "last_m5_run": "2026-06-04T22:47:19.475914",
   "symbols": [
     "EURUSD",
     "GBPUSD",

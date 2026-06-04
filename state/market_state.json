@@ -1580,12 +1580,165 @@
       "status": "pending",
       "id": "Jump 100 Index_POI_short_350.15",
       "symbol": "Jump 100 Index"
+    },
+    {
+      "source": "LGN",
+      "pattern": "OB",
+      "direction": "short",
+      "trigger_price": 0.71455,
+      "zone_top": 0.71472,
+      "zone_bottom": 0.71412,
+      "time": "2026-06-04 11:40:00",
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "source_detail": {
+        "type": "Bearish OB",
+        "index": 61,
+        "time": "2026-06-03 14:00:00",
+        "top": 0.71472,
+        "bottom": 0.71412,
+        "mid": 0.71442,
+        "mitigated": false,
+        "mitigation_index": null,
+        "break_index": 65,
+        "impulse_start": 62,
+        "has_fvg": false,
+        "source": "BOS_DOWN",
+        "age": 18,
+        "touch_count": 0,
+        "expired_by": null
+      },
+      "status": "pending",
+      "id": "AUDUSD_OB_short_0.71455",
+      "symbol": "AUDUSD"
+    },
+    {
+      "source": "LGN",
+      "pattern": "Trendline",
+      "direction": "short",
+      "trigger_price": 0.71433,
+      "zone_top": 0.7149179999999998,
+      "zone_bottom": 0.7143179999999999,
+      "time": "2026-06-04 11:35:00",
+      "confluence": [
+        "Descending trendline",
+        "Touch count: 2",
+        "5M close below trendline"
+      ],
+      "source_detail": {
+        "type": "Trendline",
+        "direction": "descending",
+        "trade_bias": "short",
+        "state": "watching",
+        "touch_count": 2,
+        "touches": [
+          {
+            "type": "SH",
+            "price": 0.7188,
+            "index": 306,
+            "time": "2026-06-02 15:00:00"
+          },
+          {
+            "type": "SH",
+            "price": 0.71829,
+            "index": 311,
+            "time": "2026-06-02 20:00:00"
+          }
+        ],
+        "anchor_1": {
+          "type": "SH",
+          "price": 0.7188,
+          "index": 306,
+          "time": "2026-06-02 15:00:00"
+        },
+        "anchor_2": {
+          "type": "SH",
+          "price": 0.71829,
+          "index": 311,
+          "time": "2026-06-02 20:00:00"
+        },
+        "slope": -0.00010200000000000209,
+        "projected_y": 0.7146179999999999,
+        "last_touch_index": 311,
+        "last_touch_time": "2026-06-02 20:00:00",
+        "broken": false,
+        "broken_index": null,
+        "time": "2026-06-02 20:00:00"
+      },
+      "status": "pending",
+      "id": "AUDUSD_Trendline_short_0.71433",
+      "symbol": "AUDUSD"
+    },
+    {
+      "source": "LGN",
+      "pattern": "OB",
+      "direction": "short",
+      "trigger_price": 351.71,
+      "zone_top": 357.19,
+      "zone_bottom": 349.04,
+      "time": "2026-06-04 11:50:00",
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "source_detail": {
+        "type": "Bearish OB",
+        "index": 64,
+        "time": "2026-06-03 17:00:00",
+        "top": 357.19,
+        "bottom": 349.04,
+        "mid": 353.115,
+        "mitigated": false,
+        "mitigation_index": null,
+        "break_index": 77,
+        "impulse_start": 65,
+        "has_fvg": true,
+        "source": "CHoCH_DOWN",
+        "age": 15,
+        "touch_count": 1,
+        "expired_by": null
+      },
+      "status": "pending",
+      "id": "Jump 100 Index_OB_short_351.71",
+      "symbol": "Jump 100 Index"
+    },
+    {
+      "source": "LGN",
+      "pattern": "POI",
+      "direction": "short",
+      "trigger_price": 351.71,
+      "zone_top": 357.19,
+      "zone_bottom": 349.04,
+      "time": "2026-06-04 11:50:00",
+      "confluence": [
+        "Bearish POI",
+        "Tier 2",
+        "5M close below POI top"
+      ],
+      "source_detail": {
+        "type": "Bearish POI",
+        "tier": 2,
+        "top": 357.19,
+        "bottom": 349.04,
+        "time": "2026-06-03 17:00:00",
+        "origin_index": 64,
+        "has_fvg": false,
+        "has_breaker": false,
+        "has_structure": true,
+        "pd_zone": "premium",
+        "status": "active"
+      },
+      "status": "pending",
+      "id": "Jump 100 Index_POI_short_351.71",
+      "symbol": "Jump 100 Index"
     }
   ],
   "open_trades": [],
   "closed_trades": [],
   "last_h1_run": "2026-06-04T08:58:35.603010",
-  "last_m5_run": "2026-06-04T08:59:15.527139",
+  "last_m5_run": "2026-06-04T11:53:03.305997",
   "symbols": [
     "EURUSD",
     "GBPUSD",

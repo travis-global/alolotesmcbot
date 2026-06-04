@@ -652,12 +652,201 @@
       "symbol": "USDCHF",
       "staged_at": "2026-06-04T05:00:41.042111",
       "confirmed": false
+    },
+    {
+      "source": "LGN",
+      "pattern": "Trendline",
+      "direction": "short",
+      "trigger_price": 1.1606,
+      "zone_top": 1.1610899999999993,
+      "zone_bottom": 1.1604899999999994,
+      "time": "2026-06-04 04:25:00",
+      "confluence": [
+        "Descending trendline",
+        "Touch count: 5",
+        "5M close below trendline"
+      ],
+      "source_detail": {
+        "type": "Trendline",
+        "direction": "descending",
+        "trade_bias": "short",
+        "state": "third_touch_confirmed",
+        "touch_count": 5,
+        "touches": [
+          {
+            "type": "SH",
+            "price": 1.16609,
+            "index": 241,
+            "time": "2026-05-28 16:00:00"
+          },
+          {
+            "type": "SH",
+            "price": 1.16564,
+            "index": 250,
+            "time": "2026-05-29 01:00:00"
+          },
+          {
+            "type": "SH",
+            "price": 1.16545,
+            "index": 255,
+            "time": "2026-05-29 06:00:00"
+          },
+          {
+            "type": "SH",
+            "price": 1.16129,
+            "index": 333,
+            "time": "2026-06-03 15:00:00"
+          },
+          {
+            "type": "SH",
+            "price": 1.16126,
+            "index": 342,
+            "time": "2026-06-04 00:00:00"
+          }
+        ],
+        "anchor_1": {
+          "type": "SH",
+          "price": 1.16609,
+          "index": 241,
+          "time": "2026-05-28 16:00:00"
+        },
+        "anchor_2": {
+          "type": "SH",
+          "price": 1.16564,
+          "index": 250,
+          "time": "2026-05-29 01:00:00"
+        },
+        "slope": -5.0000000000006826e-05,
+        "projected_y": 1.1607899999999993,
+        "last_touch_index": 342,
+        "last_touch_time": "2026-06-04 00:00:00",
+        "broken": false,
+        "broken_index": null,
+        "time": "2026-05-29 01:00:00"
+      },
+      "status": "pending",
+      "id": "EURUSD_Trendline_short_1.1606",
+      "symbol": "EURUSD"
+    },
+    {
+      "source": "LGN",
+      "pattern": "Trendline",
+      "direction": "long",
+      "trigger_price": 1.16086,
+      "zone_top": 1.160876,
+      "zone_bottom": 1.160276,
+      "time": "2026-06-04 05:05:00",
+      "confluence": [
+        "Ascending trendline",
+        "Touch count: 2",
+        "5M close above trendline"
+      ],
+      "source_detail": {
+        "type": "Trendline",
+        "direction": "ascending",
+        "trade_bias": "long",
+        "state": "watching",
+        "touch_count": 2,
+        "touches": [
+          {
+            "type": "SL",
+            "price": 1.15947,
+            "index": 340,
+            "time": "2026-06-03 22:00:00"
+          },
+          {
+            "type": "SL",
+            "price": 1.16026,
+            "index": 345,
+            "time": "2026-06-04 03:00:00"
+          }
+        ],
+        "anchor_1": {
+          "type": "SL",
+          "price": 1.15947,
+          "index": 340,
+          "time": "2026-06-03 22:00:00"
+        },
+        "anchor_2": {
+          "type": "SL",
+          "price": 1.16026,
+          "index": 345,
+          "time": "2026-06-04 03:00:00"
+        },
+        "slope": 0.00015800000000001368,
+        "projected_y": 1.160576,
+        "last_touch_index": 345,
+        "last_touch_time": "2026-06-04 03:00:00",
+        "broken": false,
+        "broken_index": null,
+        "time": "2026-06-04 03:00:00"
+      },
+      "status": "pending",
+      "id": "EURUSD_Trendline_long_1.16086",
+      "symbol": "EURUSD"
+    },
+    {
+      "source": "LGN",
+      "pattern": "Trendline",
+      "direction": "long",
+      "trigger_price": 0.79103,
+      "zone_top": 0.7911159999999999,
+      "zone_bottom": 0.790516,
+      "time": "2026-06-04 04:25:00",
+      "confluence": [
+        "Ascending trendline",
+        "Touch count: 2",
+        "5M close above trendline"
+      ],
+      "source_detail": {
+        "type": "Trendline",
+        "direction": "ascending",
+        "trade_bias": "long",
+        "state": "watching",
+        "touch_count": 2,
+        "touches": [
+          {
+            "type": "SL",
+            "price": 0.78844,
+            "index": 329,
+            "time": "2026-06-03 11:00:00"
+          },
+          {
+            "type": "SL",
+            "price": 0.79042,
+            "index": 344,
+            "time": "2026-06-04 02:00:00"
+          }
+        ],
+        "anchor_1": {
+          "type": "SL",
+          "price": 0.78844,
+          "index": 329,
+          "time": "2026-06-03 11:00:00"
+        },
+        "anchor_2": {
+          "type": "SL",
+          "price": 0.79042,
+          "index": 344,
+          "time": "2026-06-04 02:00:00"
+        },
+        "slope": 0.0001319999999999988,
+        "projected_y": 0.790816,
+        "last_touch_index": 344,
+        "last_touch_time": "2026-06-04 02:00:00",
+        "broken": false,
+        "broken_index": null,
+        "time": "2026-06-04 02:00:00"
+      },
+      "status": "pending",
+      "id": "USDCHF_Trendline_long_0.79103",
+      "symbol": "USDCHF"
     }
   ],
   "open_trades": [],
   "closed_trades": [],
   "last_h1_run": "2026-06-04T05:00:49.631143",
-  "last_m5_run": "2026-06-04T00:16:59.760161",
+  "last_m5_run": "2026-06-04T05:10:02.383960",
   "symbols": [
     "EURUSD",
     "GBPUSD",

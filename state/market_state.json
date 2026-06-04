@@ -2187,12 +2187,102 @@
       "status": "pending",
       "id": "Step Index_OB_short_7979.9",
       "symbol": "Step Index"
+    },
+    {
+      "source": "LGN",
+      "pattern": "Trendline",
+      "direction": "short",
+      "trigger_price": 0.71395,
+      "zone_top": 0.7144388461538461,
+      "zone_bottom": 0.7138388461538462,
+      "time": "2026-06-04 21:15:00",
+      "confluence": [
+        "Descending trendline",
+        "Touch count: 2",
+        "5M close below trendline"
+      ],
+      "source_detail": {
+        "type": "Trendline",
+        "direction": "descending",
+        "trade_bias": "short",
+        "state": "watching",
+        "touch_count": 2,
+        "touches": [
+          {
+            "type": "SH",
+            "price": 0.71768,
+            "index": 314,
+            "time": "2026-06-03 10:00:00"
+          },
+          {
+            "type": "SH",
+            "price": 0.71489,
+            "index": 340,
+            "time": "2026-06-04 12:00:00"
+          }
+        ],
+        "anchor_1": {
+          "type": "SH",
+          "price": 0.71768,
+          "index": 314,
+          "time": "2026-06-03 10:00:00"
+        },
+        "anchor_2": {
+          "type": "SH",
+          "price": 0.71489,
+          "index": 340,
+          "time": "2026-06-04 12:00:00"
+        },
+        "slope": -0.00010730769230769074,
+        "projected_y": 0.7141388461538462,
+        "last_touch_index": 340,
+        "last_touch_time": "2026-06-04 12:00:00",
+        "broken": false,
+        "broken_index": null,
+        "time": "2026-06-04 12:00:00"
+      },
+      "status": "pending",
+      "id": "AUDUSD_Trendline_short_0.71395",
+      "symbol": "AUDUSD"
+    },
+    {
+      "source": "LGN",
+      "pattern": "OB",
+      "direction": "long",
+      "trigger_price": 7965.6,
+      "zone_top": 7970.2,
+      "zone_bottom": 7963.7,
+      "time": "2026-06-04 21:15:00",
+      "confluence": [
+        "Bullish OB",
+        "5M close above OB bottom"
+      ],
+      "source_detail": {
+        "type": "Bullish OB",
+        "index": 12,
+        "time": "2026-06-02 00:00:00",
+        "top": 7970.2,
+        "bottom": 7963.7,
+        "mid": 7966.95,
+        "mitigated": false,
+        "mitigation_index": null,
+        "break_index": 21,
+        "impulse_start": 16,
+        "has_fvg": true,
+        "source": "BOS_UP",
+        "age": 67,
+        "touch_count": 0,
+        "expired_by": null
+      },
+      "status": "pending",
+      "id": "Step Index_OB_long_7965.6",
+      "symbol": "Step Index"
     }
   ],
   "open_trades": [],
   "closed_trades": [],
   "last_h1_run": "2026-06-04T19:30:20.832677",
-  "last_m5_run": "2026-06-04T19:36:01.002386",
+  "last_m5_run": "2026-06-04T21:16:59.236636",
   "symbols": [
     "EURUSD",
     "GBPUSD",

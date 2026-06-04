@@ -2500,12 +2500,69 @@
       "symbol": "ETHUSD",
       "staged_at": "2026-06-04T23:19:50.920865",
       "confirmed": false
+    },
+    {
+      "source": "LGN",
+      "pattern": "Trendline",
+      "direction": "long",
+      "trigger_price": 1.34246,
+      "zone_top": 1.3425776923076924,
+      "zone_bottom": 1.3419776923076925,
+      "time": "2026-06-04 23:20:00",
+      "confluence": [
+        "Ascending trendline",
+        "Touch count: 2",
+        "5M close above trendline"
+      ],
+      "source_detail": {
+        "type": "Trendline",
+        "direction": "ascending",
+        "trade_bias": "long",
+        "state": "watching",
+        "touch_count": 2,
+        "touches": [
+          {
+            "type": "SL",
+            "price": 1.34117,
+            "index": 331,
+            "time": "2026-06-04 07:00:00"
+          },
+          {
+            "type": "SL",
+            "price": 1.34207,
+            "index": 344,
+            "time": "2026-06-04 20:00:00"
+          }
+        ],
+        "anchor_1": {
+          "type": "SL",
+          "price": 1.34117,
+          "index": 331,
+          "time": "2026-06-04 07:00:00"
+        },
+        "anchor_2": {
+          "type": "SL",
+          "price": 1.34207,
+          "index": 344,
+          "time": "2026-06-04 20:00:00"
+        },
+        "slope": 6.923076923077868e-05,
+        "projected_y": 1.3422776923076924,
+        "last_touch_index": 344,
+        "last_touch_time": "2026-06-04 20:00:00",
+        "broken": false,
+        "broken_index": null,
+        "time": "2026-06-04 20:00:00"
+      },
+      "status": "pending",
+      "id": "GBPUSD_Trendline_long_1.34246",
+      "symbol": "GBPUSD"
     }
   ],
   "open_trades": [],
   "closed_trades": [],
   "last_h1_run": "2026-06-04T23:19:57.830474",
-  "last_m5_run": "2026-06-04T22:47:19.475914",
+  "last_m5_run": "2026-06-04T23:53:53.723927",
   "symbols": [
     "EURUSD",
     "GBPUSD",

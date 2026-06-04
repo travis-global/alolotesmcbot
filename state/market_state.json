@@ -2154,12 +2154,45 @@
       "symbol": "Step Index",
       "staged_at": "2026-06-04T19:30:17.393352",
       "confirmed": false
+    },
+    {
+      "source": "LGN",
+      "pattern": "OB",
+      "direction": "short",
+      "trigger_price": 7979.9,
+      "zone_top": 7986.5,
+      "zone_bottom": 7973.8,
+      "time": "2026-06-04 19:35:00",
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "source_detail": {
+        "type": "Bearish OB",
+        "index": 72,
+        "time": "2026-06-04 12:00:00",
+        "top": 7986.5,
+        "bottom": 7973.8,
+        "mid": 7980.15,
+        "mitigated": false,
+        "mitigation_index": null,
+        "break_index": 79,
+        "impulse_start": 73,
+        "has_fvg": false,
+        "source": "BOS_DOWN",
+        "age": 7,
+        "touch_count": 0,
+        "expired_by": null
+      },
+      "status": "pending",
+      "id": "Step Index_OB_short_7979.9",
+      "symbol": "Step Index"
     }
   ],
   "open_trades": [],
   "closed_trades": [],
   "last_h1_run": "2026-06-04T19:30:20.832677",
-  "last_m5_run": "2026-06-04T17:26:44.091827",
+  "last_m5_run": "2026-06-04T19:36:01.002386",
   "symbols": [
     "EURUSD",
     "GBPUSD",

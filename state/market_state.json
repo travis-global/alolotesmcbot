@@ -2557,12 +2557,159 @@
       "status": "pending",
       "id": "GBPUSD_Trendline_long_1.34246",
       "symbol": "GBPUSD"
+    },
+    {
+      "source": "LGN",
+      "pattern": "Trendline",
+      "direction": "long",
+      "trigger_price": 1.34248,
+      "zone_top": 1.3425776923076924,
+      "zone_bottom": 1.3419776923076925,
+      "time": "2026-06-05 01:55:00",
+      "confluence": [
+        "Ascending trendline",
+        "Touch count: 2",
+        "5M close above trendline"
+      ],
+      "source_detail": {
+        "type": "Trendline",
+        "direction": "ascending",
+        "trade_bias": "long",
+        "state": "watching",
+        "touch_count": 2,
+        "touches": [
+          {
+            "type": "SL",
+            "price": 1.34117,
+            "index": 331,
+            "time": "2026-06-04 07:00:00"
+          },
+          {
+            "type": "SL",
+            "price": 1.34207,
+            "index": 344,
+            "time": "2026-06-04 20:00:00"
+          }
+        ],
+        "anchor_1": {
+          "type": "SL",
+          "price": 1.34117,
+          "index": 331,
+          "time": "2026-06-04 07:00:00"
+        },
+        "anchor_2": {
+          "type": "SL",
+          "price": 1.34207,
+          "index": 344,
+          "time": "2026-06-04 20:00:00"
+        },
+        "slope": 6.923076923077868e-05,
+        "projected_y": 1.3422776923076924,
+        "last_touch_index": 344,
+        "last_touch_time": "2026-06-04 20:00:00",
+        "broken": false,
+        "broken_index": null,
+        "time": "2026-06-04 20:00:00"
+      },
+      "status": "pending",
+      "id": "GBPUSD_Trendline_long_1.34248",
+      "symbol": "GBPUSD"
+    },
+    {
+      "source": "LGN",
+      "pattern": "Trendline",
+      "direction": "short",
+      "trigger_price": 1.34225,
+      "zone_top": 1.3427244444444446,
+      "zone_bottom": 1.3421244444444447,
+      "time": "2026-06-05 01:45:00",
+      "confluence": [
+        "Descending trendline",
+        "Touch count: 2",
+        "5M close below trendline"
+      ],
+      "source_detail": {
+        "type": "Trendline",
+        "direction": "descending",
+        "trade_bias": "short",
+        "state": "watching",
+        "touch_count": 2,
+        "touches": [
+          {
+            "type": "SH",
+            "price": 1.34625,
+            "index": 336,
+            "time": "2026-06-04 12:00:00"
+          },
+          {
+            "type": "SH",
+            "price": 1.34312,
+            "index": 345,
+            "time": "2026-06-04 21:00:00"
+          }
+        ],
+        "anchor_1": {
+          "type": "SH",
+          "price": 1.34625,
+          "index": 336,
+          "time": "2026-06-04 12:00:00"
+        },
+        "anchor_2": {
+          "type": "SH",
+          "price": 1.34312,
+          "index": 345,
+          "time": "2026-06-04 21:00:00"
+        },
+        "slope": -0.0003477777777777617,
+        "projected_y": 1.3424244444444446,
+        "last_touch_index": 345,
+        "last_touch_time": "2026-06-04 21:00:00",
+        "broken": false,
+        "broken_index": null,
+        "time": "2026-06-04 21:00:00"
+      },
+      "status": "pending",
+      "id": "GBPUSD_Trendline_short_1.34225",
+      "symbol": "GBPUSD"
+    },
+    {
+      "source": "LGN",
+      "pattern": "OB",
+      "direction": "long",
+      "trigger_price": 1754.8185,
+      "zone_top": 1765.535,
+      "zone_bottom": 1736.1985,
+      "time": "2026-06-05 01:55:00",
+      "confluence": [
+        "Bullish OB",
+        "5M close above OB bottom"
+      ],
+      "source_detail": {
+        "type": "Bullish OB",
+        "index": 66,
+        "time": "2026-06-04 10:00:00",
+        "top": 1765.535,
+        "bottom": 1736.1985,
+        "mid": 1750.8667500000001,
+        "mitigated": false,
+        "mitigation_index": null,
+        "break_index": 79,
+        "impulse_start": 68,
+        "has_fvg": false,
+        "source": "BOS_UP",
+        "age": 13,
+        "touch_count": 0,
+        "expired_by": null
+      },
+      "status": "pending",
+      "id": "ETHUSD_OB_long_1754.8185",
+      "symbol": "ETHUSD"
     }
   ],
   "open_trades": [],
   "closed_trades": [],
   "last_h1_run": "2026-06-04T23:19:57.830474",
-  "last_m5_run": "2026-06-04T23:53:53.723927",
+  "last_m5_run": "2026-06-05T01:57:06.828508",
   "symbols": [
     "EURUSD",
     "GBPUSD",

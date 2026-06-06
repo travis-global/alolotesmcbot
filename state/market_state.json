@@ -3254,12 +3254,78 @@
       "symbol": "Range Break 100 Index",
       "staged_at": "2026-06-06T08:01:27.122502",
       "confirmed": false
+    },
+    {
+      "source": "LGN",
+      "pattern": "OB",
+      "direction": "short",
+      "trigger_price": 341.16,
+      "zone_top": 345.33,
+      "zone_bottom": 338.73,
+      "time": "2026-06-06 08:10:00",
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "source_detail": {
+        "type": "Bearish OB",
+        "index": 72,
+        "time": "2026-06-06 01:00:00",
+        "top": 345.33,
+        "bottom": 338.73,
+        "mid": 342.03,
+        "mitigated": false,
+        "mitigation_index": null,
+        "break_index": 78,
+        "impulse_start": 76,
+        "has_fvg": false,
+        "source": "BOS_DOWN",
+        "age": 7,
+        "touch_count": 1,
+        "expired_by": null
+      },
+      "status": "pending",
+      "id": "Volatility 100 Index_OB_short_341.16",
+      "symbol": "Volatility 100 Index"
+    },
+    {
+      "source": "LGN",
+      "pattern": "OB",
+      "direction": "long",
+      "trigger_price": 7970.1,
+      "zone_top": 7976.9,
+      "zone_bottom": 7969.8,
+      "time": "2026-06-06 08:10:00",
+      "confluence": [
+        "Bullish OB",
+        "5M close above OB bottom"
+      ],
+      "source_detail": {
+        "type": "Bullish OB",
+        "index": 72,
+        "time": "2026-06-06 01:00:00",
+        "top": 7976.9,
+        "bottom": 7969.8,
+        "mid": 7973.35,
+        "mitigated": false,
+        "mitigation_index": null,
+        "break_index": 78,
+        "impulse_start": 77,
+        "has_fvg": false,
+        "source": "BOS_UP",
+        "age": 7,
+        "touch_count": 1,
+        "expired_by": null
+      },
+      "status": "pending",
+      "id": "Step Index_OB_long_7970.1",
+      "symbol": "Step Index"
     }
   ],
   "open_trades": [],
   "closed_trades": [],
   "last_h1_run": "2026-06-06T08:01:27.122499",
-  "last_m5_run": "2026-06-06T05:42:37.923651",
+  "last_m5_run": "2026-06-06T08:11:53.217957",
   "symbols": [
     "EURUSD",
     "GBPUSD",

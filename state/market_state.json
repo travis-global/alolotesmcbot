@@ -1838,82 +1838,12 @@
       "status": "pending",
       "id": "Step Index_OB_long_7970.1",
       "symbol": "Step Index"
-    },
-    {
-      "source": "LGN",
-      "pattern": "OB",
-      "direction": "long",
-      "trigger_price": 60428.02,
-      "zone_top": 60661.916,
-      "zone_bottom": 60063.56,
-      "time": "2026-06-06 18:15:00",
-      "confluence": [
-        "Bullish OB",
-        "5M close above OB bottom"
-      ],
-      "source_detail": {
-        "type": "Bullish OB",
-        "index": 65,
-        "time": "2026-06-06 04:00:00",
-        "top": 60661.916,
-        "bottom": 60063.56,
-        "mid": 60362.738,
-        "mitigated": false,
-        "mitigation_index": null,
-        "break_index": 78,
-        "impulse_start": 66,
-        "has_fvg": false,
-        "source": "BOS_UP",
-        "age": 14,
-        "touch_count": 1,
-        "expired_by": null
-      },
-      "status": "pending",
-      "symbol": "BTCUSD",
-      "staged_at": "2026-06-06T18:17:29.485655",
-      "confirmed": false,
-      "id": "BTCUSD_OB_long_60661.916_60063.56"
-    },
-    {
-      "source": "LGN",
-      "pattern": "OB",
-      "direction": "long",
-      "trigger_price": 1551.635,
-      "zone_top": 1562.325,
-      "zone_bottom": 1521.185,
-      "time": "2026-06-06 18:15:00",
-      "confluence": [
-        "Bullish OB",
-        "5M close above OB bottom"
-      ],
-      "source_detail": {
-        "type": "Bullish OB",
-        "index": 65,
-        "time": "2026-06-06 04:00:00",
-        "top": 1562.325,
-        "bottom": 1521.185,
-        "mid": 1541.755,
-        "mitigated": false,
-        "mitigation_index": null,
-        "break_index": 78,
-        "impulse_start": 66,
-        "has_fvg": false,
-        "source": "BOS_UP",
-        "age": 14,
-        "touch_count": 1,
-        "expired_by": null
-      },
-      "status": "pending",
-      "symbol": "ETHUSD",
-      "staged_at": "2026-06-06T18:17:30.048688",
-      "confirmed": false,
-      "id": "ETHUSD_OB_long_1562.325_1521.185"
     }
   ],
   "open_trades": [],
   "closed_trades": [],
   "last_h1_run": "2026-06-06T22:13:57.486791",
-  "last_m5_run": "2026-06-06T22:17:29.241363",
+  "last_m5_run": "2026-06-06T23:18:57.216240",
   "symbols": [
     "EURUSD",
     "GBPUSD",

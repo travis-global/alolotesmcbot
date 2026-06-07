@@ -103,6 +103,10 @@ def update_h1_state(state: dict, symbol: str, retina_result: dict) -> dict:
     state["last_h1_run"] = datetime.utcnow().isoformat()
 
     if symbol not in state.get("symbols", []):
+        from datetime import datetime
+        sig["staged_at"] = datetime.utcnow().isoformat()
+        sig.setdefault("status", "pending")
+        sig.setdefault("confirmed", False)
         state.setdefault("symbols", []).append(symbol)
 
     return state

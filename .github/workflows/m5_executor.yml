@@ -2,9 +2,12 @@ name: M5 Executor
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # every 5 minutes
-  workflow_dispatch:        # allows manual trigger from GitHub Actions tab
+    - cron: '*/5 * * * *'
 
+  workflow_dispatch:
+
+  repository_dispatch:
+    types: [run-m5]
 jobs:
   execute:
     runs-on: ubuntu-latest

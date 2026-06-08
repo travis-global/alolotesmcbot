@@ -25,9 +25,11 @@ jobs:
 
       - name: Run H1 scanner
         env:
-          DERIV_TOKEN:  ${{ secrets.DERIV_TOKEN }}
-          DERIV_APP_ID: ${{ secrets.DERIV_APP_ID }}
-          DERIV_ACCOUNT: ${{ secrets.DERIV_ACCOUNT }}
+          DERIV_TOKEN:     ${{ secrets.DERIV_TOKEN }}
+          DERIV_APP_ID:    ${{ secrets.DERIV_APP_ID }}
+          DERIV_ACCOUNT:   ${{ secrets.DERIV_ACCOUNT }}
+          TELEGRAM_TOKEN:   ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python bot.py --mode h1
 
       - name: Commit updated state and chart

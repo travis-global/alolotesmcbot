@@ -2,9 +2,12 @@ name: H1 Scanner
 
 on:
   schedule:
-    - cron: '5 * * * *'  # 5 minutes past every hour — gives H1 candle time to close
-  workflow_dispatch:      # allows manual trigger from GitHub Actions tab
+    - cron: '5 * * * *'
 
+  workflow_dispatch:
+
+  repository_dispatch:
+    types: [run-h1]
 jobs:
   scan:
     runs-on: ubuntu-latest

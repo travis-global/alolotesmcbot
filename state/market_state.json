@@ -15,65 +15,6 @@
     {
       "source": "LGN",
       "pattern": "Trendline",
-      "direction": "long",
-      "trigger_price": 0.70516,
-      "zone_top": 0.7052799999999999,
-      "zone_bottom": 0.70468,
-      "time": "2026-06-09 07:35:00",
-      "confluence": [
-        "Ascending trendline",
-        "Touch count: 2",
-        "5M close above trendline"
-      ],
-      "source_detail": {
-        "type": "Trendline",
-        "direction": "ascending",
-        "trade_bias": "long",
-        "state": "watching",
-        "touch_count": 2,
-        "touches": [
-          {
-            "type": "SL",
-            "price": 0.70344,
-            "index": 340,
-            "time": "2026-06-09 00:00:00"
-          },
-          {
-            "type": "SL",
-            "price": 0.7041,
-            "index": 343,
-            "time": "2026-06-09 03:00:00"
-          }
-        ],
-        "anchor_1": {
-          "type": "SL",
-          "price": 0.70344,
-          "index": 340,
-          "time": "2026-06-09 00:00:00"
-        },
-        "anchor_2": {
-          "type": "SL",
-          "price": 0.7041,
-          "index": 343,
-          "time": "2026-06-09 03:00:00"
-        },
-        "slope": 0.00021999999999999797,
-        "projected_y": 0.7049799999999999,
-        "last_touch_index": 343,
-        "last_touch_time": "2026-06-09 03:00:00",
-        "broken": false,
-        "broken_index": null,
-        "time": "2026-06-09 03:00:00"
-      },
-      "status": "pending",
-      "symbol": "AUDUSD",
-      "staged_at": "2026-06-09T07:37:48.584455",
-      "confirmed": false,
-      "id": "AUDUSD_Trendline_long_0.70516"
-    },
-    {
-      "source": "LGN",
-      "pattern": "Trendline",
       "direction": "short",
       "trigger_price": 0.70512,
       "zone_top": 0.70564,
@@ -132,7 +73,7 @@
       },
       "status": "pending",
       "symbol": "AUDUSD",
-      "staged_at": "2026-06-09T08:37:47.049679",
+      "staged_at": "2026-06-09T08:38:59.501899",
       "confirmed": false,
       "id": "AUDUSD_Trendline_short_0.70512"
     },
@@ -140,7 +81,7 @@
       "source": "LGN",
       "pattern": "OB",
       "direction": "short",
-      "trigger_price": 7994.6,
+      "trigger_price": 7995.4,
       "zone_top": 8004.0,
       "zone_bottom": 7993.5,
       "time": "2026-06-09 08:35:00",
@@ -167,20 +108,47 @@
       },
       "status": "pending",
       "symbol": "Step Index",
-      "staged_at": "2026-06-09T08:38:00.014886",
+      "staged_at": "2026-06-09T08:39:07.394264",
       "confirmed": false,
-      "id": "Step Index_OB_short_7994.6"
+      "id": "Step Index_OB_short_7995.4"
+    },
+    {
+      "source": "LGN",
+      "pattern": "POI",
+      "direction": "short",
+      "trigger_price": 7995.4,
+      "zone_top": 8004.0,
+      "zone_bottom": 7993.5,
+      "time": "2026-06-09 08:35:00",
+      "confluence": [
+        "Bearish POI",
+        "Tier 2",
+        "5M close below POI top"
+      ],
+      "source_detail": {
+        "type": "Bearish POI",
+        "tier": 2,
+        "top": 8004.0,
+        "bottom": 7993.5,
+        "time": "2026-06-09 05:00:00",
+        "origin_index": 76,
+        "has_fvg": false,
+        "has_breaker": false,
+        "has_structure": true,
+        "pd_zone": "premium",
+        "status": "active"
+      },
+      "status": "pending",
+      "symbol": "Step Index",
+      "staged_at": "2026-06-09T08:39:07.394276",
+      "confirmed": false,
+      "id": "Step Index_POI_short_7995.4"
     }
   ],
   "open_trades": [],
   "closed_trades": [],
-<<<<<<< Updated upstream
-  "last_h1_run": "2026-06-09T08:38:03.146977",
-  "last_m5_run": "2026-06-09T08:33:29.505177",
-=======
-  "last_h1_run": "2026-06-09T07:38:07.810429",
-  "last_m5_run": "2026-06-09T08:38:27.753234",
->>>>>>> Stashed changes
+  "last_h1_run": "2026-06-09T08:39:08.798396",
+  "last_m5_run": null,
   "symbols": [
     "EURUSD",
     "GBPUSD",
@@ -1758,7 +1726,7 @@
           "bottom": 1.15272,
           "top": 1.15319
         },
-        "current_price": 1.15466,
+        "current_price": 1.15468,
         "current_zone": "premium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -3081,12 +3049,12 @@
         {
           "time": "2026-06-09 08:00:00",
           "O": 1.15393,
-          "H": 1.15466,
+          "H": 1.15473,
           "L": 1.15366,
-          "C": 1.15466
+          "C": 1.15468
         }
       ],
-      "updated_at": "2026-06-09T08:37:43.229718"
+      "updated_at": "2026-06-09T08:38:57.336103"
     },
     "GBPUSD": {
       "order_blocks": [
@@ -5137,7 +5105,7 @@
           "bottom": 1.33314,
           "top": 1.3339233333333333
         },
-        "current_price": 1.33804,
+        "current_price": 1.33796,
         "current_zone": "premium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -6690,10 +6658,10 @@
           "O": 1.33675,
           "H": 1.33814,
           "L": 1.33648,
-          "C": 1.33804
+          "C": 1.33796
         }
       ],
-      "updated_at": "2026-06-09T08:37:44.151082"
+      "updated_at": "2026-06-09T08:38:57.812261"
     },
     "USDJPY": {
       "order_blocks": [
@@ -8705,7 +8673,7 @@
           "bottom": 160.055,
           "top": 160.10366666666667
         },
-        "current_price": 160.203,
+        "current_price": 160.198,
         "current_zone": "premium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -10126,10 +10094,10 @@
           "O": 160.199,
           "H": 160.222,
           "L": 160.177,
-          "C": 160.203
+          "C": 160.198
         }
       ],
-      "updated_at": "2026-06-09T08:37:45.104738"
+      "updated_at": "2026-06-09T08:38:58.406913"
     },
     "USDCHF": {
       "order_blocks": [
@@ -12296,7 +12264,7 @@
           "bottom": 0.79751,
           "top": 0.7978166666666667
         },
-        "current_price": 0.79676,
+        "current_price": 0.7967,
         "current_zone": "discount",
         "valid_ob": null,
         "valid_fvg": null,
@@ -13885,10 +13853,10 @@
           "O": 0.79706,
           "H": 0.79734,
           "L": 0.79666,
-          "C": 0.79676
+          "C": 0.7967
         }
       ],
-      "updated_at": "2026-06-09T08:37:46.059788"
+      "updated_at": "2026-06-09T08:38:58.996978"
     },
     "AUDUSD": {
       "order_blocks": [
@@ -15985,7 +15953,7 @@
           "bottom": 0.7041,
           "top": 0.7050833333333333
         },
-        "current_price": 0.70523,
+        "current_price": 0.70527,
         "current_zone": "equilibrium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -17406,10 +17374,10 @@
           "O": 0.70512,
           "H": 0.70561,
           "L": 0.70467,
-          "C": 0.70523
+          "C": 0.70527
         }
       ],
-      "updated_at": "2026-06-09T08:37:47.049593"
+      "updated_at": "2026-06-09T08:38:59.501887"
     },
     "XAUUSD": {
       "order_blocks": [
@@ -18954,7 +18922,7 @@
           "bottom": 4313.09,
           "top": 4324.14
         },
-        "current_price": 4332.25,
+        "current_price": 4333.48,
         "current_zone": "equilibrium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -20231,10 +20199,10 @@
           "O": 4326.74,
           "H": 4336.04,
           "L": 4321.46,
-          "C": 4332.25
+          "C": 4333.48
         }
       ],
-      "updated_at": "2026-06-09T08:37:48.166187"
+      "updated_at": "2026-06-09T08:39:00.041555"
     },
     "BTCUSD": {
       "order_blocks": [
@@ -23256,7 +23224,7 @@
           "bottom": 62384.166,
           "top": 62755.99
         },
-        "current_price": 62860.204,
+        "current_price": 62903.909,
         "current_zone": "equilibrium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -25145,10 +25113,10 @@
           "O": 63170.984,
           "H": 63183.454,
           "L": 62738.186,
-          "C": 62860.204
+          "C": 62903.909
         }
       ],
-      "updated_at": "2026-06-09T08:37:49.168960"
+      "updated_at": "2026-06-09T08:39:00.603165"
     },
     "ETHUSD": {
       "order_blocks": [
@@ -28158,7 +28126,7 @@
           "bottom": 1653.893,
           "top": 1667.8603333333333
         },
-        "current_price": 1674.7145,
+        "current_price": 1676.495,
         "current_zone": "equilibrium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -30023,10 +29991,10 @@
           "O": 1679.185,
           "H": 1679.855,
           "L": 1668.2385,
-          "C": 1674.7145
+          "C": 1676.495
         }
       ],
-      "updated_at": "2026-06-09T08:37:50.178748"
+      "updated_at": "2026-06-09T08:39:01.187333"
     },
     "Volatility 25 Index": {
       "order_blocks": [
@@ -33024,7 +32992,7 @@
           "bottom": 2772.896,
           "top": 2788.1993333333335
         },
-        "current_price": 2790.885,
+        "current_price": 2791.057,
         "current_zone": "equilibrium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -34781,10 +34749,10 @@
           "O": 2791.97,
           "H": 2794.355,
           "L": 2785.845,
-          "C": 2790.885
+          "C": 2791.057
         }
       ],
-      "updated_at": "2026-06-09T08:37:51.175695"
+      "updated_at": "2026-06-09T08:39:01.904258"
     },
     "Volatility 50 Index": {
       "order_blocks": [
@@ -35535,13 +35503,6 @@
           "time": "2026-06-09 02:00:00",
           "level": 98.3356,
           "index": 73,
-          "confirmed": false
-        },
-        {
-          "type": "Sell-side Sweep",
-          "time": "2026-06-09 08:00:00",
-          "level": 96.4978,
-          "index": 79,
           "confirmed": false
         }
       ],
@@ -37766,7 +37727,7 @@
           "bottom": 96.4978,
           "top": 97.09396666666666
         },
-        "current_price": 96.7731,
+        "current_price": 96.6603,
         "current_zone": "discount",
         "valid_ob": null,
         "valid_fvg": null,
@@ -39679,10 +39640,10 @@
           "O": 96.5938,
           "H": 96.8255,
           "L": 96.2985,
-          "C": 96.7731
+          "C": 96.6603
         }
       ],
-      "updated_at": "2026-06-09T08:37:52.895652"
+      "updated_at": "2026-06-09T08:39:03.319181"
     },
     "Volatility 75 Index": {
       "order_blocks": [
@@ -42789,7 +42750,7 @@
           "bottom": 33159.3891,
           "top": 33516.26413333333
         },
-        "current_price": 34341.2884,
+        "current_price": 34351.4365,
         "current_zone": "premium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -44666,10 +44627,10 @@
           "O": 34608.5718,
           "H": 34670.3232,
           "L": 34297.442,
-          "C": 34341.2884
+          "C": 34351.4365
         }
       ],
-      "updated_at": "2026-06-09T08:37:53.948378"
+      "updated_at": "2026-06-09T08:39:03.959756"
     },
     "Volatility 100 Index": {
       "order_blocks": [
@@ -46830,7 +46791,7 @@
           "bottom": 302.7,
           "top": 305.92
         },
-        "current_price": 328.51,
+        "current_price": 329.78,
         "current_zone": "premium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -48501,12 +48462,12 @@
         {
           "time": "2026-06-09 08:00:00",
           "O": 327.96,
-          "H": 328.9,
+          "H": 329.79,
           "L": 325.73,
-          "C": 328.51
+          "C": 329.78
         }
       ],
-      "updated_at": "2026-06-09T08:37:54.970331"
+      "updated_at": "2026-06-09T08:39:04.511485"
     },
     "Crash 500 Index": {
       "order_blocks": [
@@ -51769,7 +51730,7 @@
           "bottom": 3003.004,
           "top": 3015.058
         },
-        "current_price": 3019.902,
+        "current_price": 3020.29,
         "current_zone": "equilibrium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -53658,10 +53619,10 @@
           "O": 3022.003,
           "H": 3026.0,
           "L": 3018.482,
-          "C": 3019.902
+          "C": 3020.29
         }
       ],
-      "updated_at": "2026-06-09T08:37:55.916837"
+      "updated_at": "2026-06-09T08:39:05.081913"
     },
     "Crash 1000 Index": {
       "order_blocks": [
@@ -55915,7 +55876,7 @@
           "bottom": 6030.864,
           "top": 6048.632666666666
         },
-        "current_price": 6073.82,
+        "current_price": 6074.289,
         "current_zone": "premium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -57528,10 +57489,10 @@
           "O": 6069.313,
           "H": 6077.51,
           "L": 6069.313,
-          "C": 6073.82
+          "C": 6074.289
         }
       ],
-      "updated_at": "2026-06-09T08:37:56.975119"
+      "updated_at": "2026-06-09T08:39:05.715315"
     },
     "Boom 500 Index": {
       "order_blocks": [
@@ -60560,7 +60521,7 @@
           "bottom": 5070.029,
           "top": 5094.768
         },
-        "current_price": 5137.572,
+        "current_price": 5136.936,
         "current_zone": "premium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -62497,10 +62458,10 @@
           "O": 5127.187,
           "H": 5143.469,
           "L": 5125.016,
-          "C": 5137.572
+          "C": 5136.936
         }
       ],
-      "updated_at": "2026-06-09T08:37:57.997844"
+      "updated_at": "2026-06-09T08:39:06.310780"
     },
     "Boom 1000 Index": {
       "order_blocks": [
@@ -65514,7 +65475,7 @@
           "bottom": 13928.622,
           "top": 13955.634
         },
-        "current_price": 13921.768,
+        "current_price": 13920.79,
         "current_zone": "discount",
         "valid_ob": null,
         "valid_fvg": null,
@@ -67415,10 +67376,10 @@
           "O": 13919.026,
           "H": 13933.363,
           "L": 13910.31,
-          "C": 13921.768
+          "C": 13920.79
         }
       ],
-      "updated_at": "2026-06-09T08:37:59.015712"
+      "updated_at": "2026-06-09T08:39:06.863019"
     },
     "Step Index": {
       "order_blocks": [
@@ -67563,8 +67524,8 @@
           "index": 78,
           "time": "2026-06-09 07:00:00",
           "top": 7996.2,
-          "bottom": 7994.7,
-          "mid": 7995.45,
+          "bottom": 7995.5,
+          "mid": 7995.85,
           "mitigated": true,
           "mitigation_index": null,
           "source_events": [
@@ -70097,7 +70058,21 @@
       ],
       "double_tops": [],
       "double_bottoms": [],
-      "pois": [],
+      "pois": [
+        {
+          "type": "Bearish POI",
+          "tier": 2,
+          "top": 8004.0,
+          "bottom": 7993.5,
+          "time": "2026-06-09 05:00:00",
+          "origin_index": 76,
+          "has_fvg": false,
+          "has_breaker": false,
+          "has_structure": true,
+          "pd_zone": "premium",
+          "status": "active"
+        }
+      ],
       "pd_arrays": {
         "trend": "bearish",
         "range_high": 8003.0,
@@ -70114,11 +70089,27 @@
           "bottom": 7979.0,
           "top": 7987.0
         },
-        "current_price": 7994.6,
-        "current_zone": "equilibrium",
-        "valid_ob": null,
+        "current_price": 7995.5,
+        "current_zone": "premium",
+        "valid_ob": {
+          "type": "Bearish OB",
+          "index": 76,
+          "time": "2026-06-09 05:00:00",
+          "top": 8004.0,
+          "bottom": 7993.5,
+          "mid": 7998.75,
+          "mitigated": false,
+          "mitigation_index": null,
+          "break_index": 79,
+          "impulse_start": 78,
+          "has_fvg": false,
+          "source": "BOS_DOWN",
+          "age": 3,
+          "touch_count": 0,
+          "expired_by": null
+        },
         "valid_fvg": null,
-        "entry_valid": false
+        "entry_valid": true
       },
       "structure": [
         {
@@ -71905,12 +71896,12 @@
         {
           "time": "2026-06-09 08:00:00",
           "O": 7987.9,
-          "H": 7994.7,
+          "H": 7995.5,
           "L": 7985.0,
-          "C": 7994.6
+          "C": 7995.5
         }
       ],
-      "updated_at": "2026-06-09T08:38:00.014770"
+      "updated_at": "2026-06-09T08:39:07.394253"
     },
     "Jump 75 Index": {
       "order_blocks": [
@@ -74340,7 +74331,7 @@
           "bottom": 8038.82,
           "top": 8110.349999999999
         },
-        "current_price": 8177.22,
+        "current_price": 8178.86,
         "current_zone": "equilibrium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -76073,10 +76064,10 @@
           "O": 8145.09,
           "H": 8195.12,
           "L": 8124.07,
-          "C": 8177.22
+          "C": 8178.86
         }
       ],
-      "updated_at": "2026-06-09T08:38:01.034834"
+      "updated_at": "2026-06-09T08:39:07.942958"
     },
     "Jump 100 Index": {
       "order_blocks": [
@@ -78491,7 +78482,7 @@
           "bottom": 246.68,
           "top": 251.70333333333335
         },
-        "current_price": 249.16,
+        "current_price": 248.57,
         "current_zone": "discount",
         "valid_ob": null,
         "valid_fvg": null,
@@ -80295,515 +80286,515 @@
           "time": "2026-06-09 08:00:00",
           "O": 251.81,
           "H": 252.14,
-          "L": 249.15,
-          "C": 249.16
+          "L": 248.49,
+          "C": 248.57
         }
       ],
-      "updated_at": "2026-06-09T08:38:02.191902"
+      "updated_at": "2026-06-09T08:39:08.539053"
     },
     "Range Break 100 Index": {
       "order_blocks": [
         {
           "type": "Bearish OB",
-          "index": 17,
-          "time": "2026-06-27 13:38:02",
-          "top": 1.18295,
-          "bottom": 1.18147,
-          "mid": 1.18221,
-          "mitigated": false,
-          "mitigation_index": null,
-          "break_index": 29,
-          "impulse_start": 21,
+          "index": 54,
+          "time": "2026-06-29 02:39:08",
+          "top": 1.16153,
+          "bottom": 1.16058,
+          "mid": 1.161055,
+          "mitigated": true,
+          "mitigation_index": 65,
+          "break_index": 61,
+          "impulse_start": 60,
+          "has_fvg": false,
+          "source": "BOS_DOWN",
+          "age": 0,
+          "touch_count": 0,
+          "expired_by": null
+        },
+        {
+          "type": "Bullish OB",
+          "index": 53,
+          "time": "2026-06-29 01:39:08",
+          "top": 1.16245,
+          "bottom": 1.16058,
+          "mid": 1.161515,
+          "mitigated": true,
+          "mitigation_index": 71,
+          "break_index": 70,
+          "impulse_start": 60,
+          "has_fvg": false,
+          "source": "BOS_UP",
+          "age": 0,
+          "touch_count": 0,
+          "expired_by": null
+        },
+        {
+          "type": "Bearish OB",
+          "index": 68,
+          "time": "2026-06-29 16:39:08",
+          "top": 1.1604,
+          "bottom": 1.15976,
+          "mid": 1.16008,
+          "mitigated": true,
+          "mitigation_index": 77,
+          "break_index": 76,
+          "impulse_start": 73,
           "has_fvg": false,
           "source": "CHoCH_DOWN",
-          "age": 62,
-          "touch_count": 0,
-          "expired_by": null
-        },
-        {
-          "type": "Bearish OB",
-          "index": 46,
-          "time": "2026-06-28 18:38:02",
-          "top": 1.17078,
-          "bottom": 1.1698,
-          "mid": 1.17029,
-          "mitigated": true,
-          "mitigation_index": 53,
-          "break_index": 52,
-          "impulse_start": 50,
-          "has_fvg": false,
-          "source": "BOS_DOWN",
-          "age": 0,
-          "touch_count": 0,
-          "expired_by": null
-        },
-        {
-          "type": "Bearish OB",
-          "index": 54,
-          "time": "2026-06-29 02:38:02",
-          "top": 1.17693,
-          "bottom": 1.1759,
-          "mid": 1.176415,
-          "mitigated": true,
-          "mitigation_index": 78,
-          "break_index": 57,
-          "impulse_start": 55,
-          "has_fvg": false,
-          "source": "BOS_DOWN",
-          "age": 0,
-          "touch_count": 0,
-          "expired_by": null
-        },
-        {
-          "type": "Bearish OB",
-          "index": 59,
-          "time": "2026-06-29 07:38:02",
-          "top": 1.17483,
-          "bottom": 1.1743,
-          "mid": 1.1745649999999999,
-          "mitigated": true,
-          "mitigation_index": 76,
-          "break_index": 73,
-          "impulse_start": 61,
-          "has_fvg": false,
-          "source": "BOS_DOWN",
           "age": 0,
           "touch_count": 0,
           "expired_by": null
         }
       ],
-      "fvgs": [],
+      "fvgs": [
+        {
+          "type": "FVG_BEARISH",
+          "index": 60,
+          "time": "2026-06-29 08:39:08",
+          "top": 1.1606,
+          "bottom": 1.15993,
+          "mid": 1.1602649999999999,
+          "mitigated": true,
+          "mitigation_index": 65,
+          "source_events": [
+            "BOS_DOWN"
+          ],
+          "age": 0,
+          "touch_count": 0,
+          "expired_by": null
+        }
+      ],
       "breakers": [],
       "bos_events": [
         {
+          "type": "BOS_DOWN",
+          "level": 1.19259,
+          "break_index": 46,
+          "swing_index": 31,
+          "time": "2026-06-11 06:39:08"
+        },
+        {
+          "type": "BOS_DOWN",
+          "level": 1.18954,
+          "break_index": 61,
+          "swing_index": 47,
+          "time": "2026-06-11 21:39:08"
+        },
+        {
+          "type": "BOS_DOWN",
+          "level": 1.18683,
+          "break_index": 82,
+          "swing_index": 62,
+          "time": "2026-06-12 18:39:08"
+        },
+        {
           "type": "BOS_UP",
-          "level": 1.206,
-          "break_index": 14,
-          "swing_index": 9,
-          "time": "2026-06-09 22:38:02"
+          "level": 1.19119,
+          "break_index": 70,
+          "swing_index": 64,
+          "time": "2026-06-12 06:39:08"
         },
         {
           "type": "BOS_DOWN",
-          "level": 1.1967,
-          "break_index": 52,
-          "swing_index": 37,
-          "time": "2026-06-11 12:38:02"
-        },
-        {
-          "type": "BOS_DOWN",
-          "level": 1.19501,
-          "break_index": 57,
-          "swing_index": 53,
-          "time": "2026-06-11 17:38:02"
-        },
-        {
-          "type": "BOS_DOWN",
-          "level": 1.19219,
-          "break_index": 73,
-          "swing_index": 60,
-          "time": "2026-06-12 09:38:02"
-        },
-        {
-          "type": "BOS_DOWN",
-          "level": 1.1889,
+          "level": 1.18148,
           "break_index": 100,
-          "swing_index": 78,
-          "time": "2026-06-13 12:38:02"
+          "swing_index": 87,
+          "time": "2026-06-13 12:39:08"
+        },
+        {
+          "type": "BOS_DOWN",
+          "level": 1.17711,
+          "break_index": 152,
+          "swing_index": 102,
+          "time": "2026-06-15 16:39:08"
         },
         {
           "type": "BOS_UP",
-          "level": 1.19477,
-          "break_index": 322,
-          "swing_index": 84,
-          "time": "2026-06-22 18:38:02"
-        },
-        {
-          "type": "BOS_DOWN",
-          "level": 1.1907,
-          "break_index": 90,
-          "swing_index": 85,
-          "time": "2026-06-13 02:38:02"
-        },
-        {
-          "type": "BOS_DOWN",
-          "level": 1.18539,
-          "break_index": 156,
-          "swing_index": 106,
-          "time": "2026-06-15 20:38:02"
+          "level": 1.18239,
+          "break_index": 115,
+          "swing_index": 110,
+          "time": "2026-06-14 03:39:08"
         },
         {
           "type": "BOS_UP",
-          "level": 1.19219,
-          "break_index": 315,
-          "swing_index": 108,
-          "time": "2026-06-22 11:38:02"
+          "level": 1.18412,
+          "break_index": 132,
+          "swing_index": 116,
+          "time": "2026-06-14 20:39:08"
         },
         {
           "type": "BOS_DOWN",
-          "level": 1.18824,
-          "break_index": 149,
-          "swing_index": 138,
-          "time": "2026-06-15 13:38:02"
+          "level": 1.17519,
+          "break_index": 194,
+          "swing_index": 152,
+          "time": "2026-06-17 10:39:08"
         },
         {
           "type": "BOS_DOWN",
-          "level": 1.18092,
-          "break_index": 186,
-          "swing_index": 157,
-          "time": "2026-06-17 02:38:02"
+          "level": 1.17118,
+          "break_index": 219,
+          "swing_index": 196,
+          "time": "2026-06-18 11:39:08"
         },
         {
           "type": "BOS_UP",
-          "level": 1.18589,
-          "break_index": 169,
-          "swing_index": 161,
-          "time": "2026-06-16 09:38:02"
+          "level": 1.17543,
+          "break_index": 205,
+          "swing_index": 198,
+          "time": "2026-06-17 21:39:08"
         },
         {
           "type": "BOS_UP",
-          "level": 1.18931,
-          "break_index": 271,
-          "swing_index": 170,
-          "time": "2026-06-20 15:38:02"
+          "level": 1.17859,
+          "break_index": 349,
+          "swing_index": 211,
+          "time": "2026-06-23 21:39:08"
         },
         {
           "type": "BOS_DOWN",
-          "level": 1.17187,
-          "break_index": 456,
-          "swing_index": 202,
-          "time": "2026-06-28 08:38:02"
+          "level": 1.16793,
+          "break_index": 399,
+          "swing_index": 223,
+          "time": "2026-06-25 23:39:08"
         },
         {
           "type": "BOS_UP",
-          "level": 1.18284,
-          "break_index": 217,
-          "swing_index": 212,
-          "time": "2026-06-18 09:38:02"
+          "level": 1.17375,
+          "break_index": 235,
+          "swing_index": 228,
+          "time": "2026-06-19 03:39:08"
         },
         {
           "type": "BOS_UP",
-          "level": 1.18509,
-          "break_index": 233,
-          "swing_index": 218,
-          "time": "2026-06-19 01:38:02"
-        },
-        {
-          "type": "BOS_DOWN",
-          "level": 1.18037,
-          "break_index": 415,
-          "swing_index": 220,
-          "time": "2026-06-26 15:38:02"
-        },
-        {
-          "type": "BOS_DOWN",
-          "level": 1.18004,
-          "break_index": 441,
-          "swing_index": 225,
-          "time": "2026-06-27 17:38:02"
+          "level": 1.17582,
+          "break_index": 252,
+          "swing_index": 238,
+          "time": "2026-06-19 20:39:08"
         },
         {
           "type": "BOS_UP",
-          "level": 1.18717,
-          "break_index": 264,
-          "swing_index": 233,
-          "time": "2026-06-20 08:38:02"
+          "level": 1.17706,
+          "break_index": 312,
+          "swing_index": 252,
+          "time": "2026-06-22 08:39:08"
         },
         {
           "type": "BOS_DOWN",
-          "level": 1.18242,
-          "break_index": 298,
-          "swing_index": 243,
-          "time": "2026-06-21 18:38:02"
-        },
-        {
-          "type": "BOS_DOWN",
-          "level": 1.18217,
-          "break_index": 374,
-          "swing_index": 301,
-          "time": "2026-06-24 22:38:02"
+          "level": 1.16946,
+          "break_index": 278,
+          "swing_index": 269,
+          "time": "2026-06-20 22:39:08"
         },
         {
           "type": "BOS_UP",
-          "level": 1.18702,
-          "break_index": 310,
-          "swing_index": 303,
-          "time": "2026-06-22 06:38:02"
-        },
-        {
-          "type": "BOS_DOWN",
-          "level": 1.18915,
-          "break_index": 369,
-          "swing_index": 344,
-          "time": "2026-06-24 17:38:02"
-        },
-        {
-          "type": "BOS_DOWN",
-          "level": 1.18698,
-          "break_index": 373,
-          "swing_index": 369,
-          "time": "2026-06-24 21:38:02"
-        },
-        {
-          "type": "BOS_DOWN",
-          "level": 1.18335,
-          "break_index": 435,
-          "swing_index": 429,
-          "time": "2026-06-27 11:38:02"
+          "level": 1.17394,
+          "break_index": 293,
+          "swing_index": 271,
+          "time": "2026-06-21 13:39:08"
         },
         {
           "type": "BOS_UP",
-          "level": 1.17329,
-          "break_index": 496,
-          "swing_index": 487,
-          "time": "2026-06-30 00:38:02"
+          "level": 1.17148,
+          "break_index": 292,
+          "swing_index": 286,
+          "time": "2026-06-21 12:39:08"
+        },
+        {
+          "type": "BOS_DOWN",
+          "level": 1.17064,
+          "break_index": 386,
+          "swing_index": 304,
+          "time": "2026-06-25 10:39:08"
+        },
+        {
+          "type": "BOS_DOWN",
+          "level": 1.17308,
+          "break_index": 324,
+          "swing_index": 317,
+          "time": "2026-06-22 20:39:08"
+        },
+        {
+          "type": "BOS_DOWN",
+          "level": 1.17558,
+          "break_index": 366,
+          "swing_index": 361,
+          "time": "2026-06-24 14:39:08"
+        },
+        {
+          "type": "BOS_DOWN",
+          "level": 1.1631,
+          "break_index": 461,
+          "swing_index": 403,
+          "time": "2026-06-28 13:39:08"
+        },
+        {
+          "type": "BOS_DOWN",
+          "level": 1.15909,
+          "break_index": 480,
+          "swing_index": 465,
+          "time": "2026-06-29 08:39:08"
         }
       ],
       "choch_events": [
         {
-          "type": "CHoCH_DOWN",
-          "level": 1.20327,
-          "break_index": 29,
-          "swing_index": 14,
-          "time": "2026-06-10 13:38:02"
-        },
-        {
-          "type": "CHoCH_DOWN",
-          "level": 1.19839,
-          "break_index": 52,
-          "swing_index": 48,
-          "time": "2026-06-11 12:38:02"
-        },
-        {
-          "type": "CHoCH_DOWN",
-          "level": 1.19238,
-          "break_index": 73,
+          "type": "CHoCH_UP",
+          "level": 1.19119,
+          "break_index": 70,
           "swing_index": 64,
-          "time": "2026-06-12 09:38:02"
-        },
-        {
-          "type": "CHoCH_UP",
-          "level": 1.19583,
-          "break_index": 322,
-          "swing_index": 73,
-          "time": "2026-06-22 18:38:02"
-        },
-        {
-          "type": "CHoCH_UP",
-          "level": 1.19477,
-          "break_index": 322,
-          "swing_index": 84,
-          "time": "2026-06-22 18:38:02"
+          "time": "2026-06-12 06:39:08"
         },
         {
           "type": "CHoCH_DOWN",
-          "level": 1.1907,
-          "break_index": 90,
-          "swing_index": 85,
-          "time": "2026-06-13 02:38:02"
+          "level": 1.18822,
+          "break_index": 76,
+          "swing_index": 68,
+          "time": "2026-06-12 12:39:08"
         },
         {
           "type": "CHoCH_UP",
-          "level": 1.19467,
-          "break_index": 322,
-          "swing_index": 87,
-          "time": "2026-06-22 18:38:02"
+          "level": 1.18385,
+          "break_index": 132,
+          "swing_index": 100,
+          "time": "2026-06-14 20:39:08"
         },
         {
           "type": "CHoCH_UP",
-          "level": 1.19219,
-          "break_index": 315,
-          "swing_index": 108,
-          "time": "2026-06-22 11:38:02"
+          "level": 1.18239,
+          "break_index": 115,
+          "swing_index": 110,
+          "time": "2026-06-14 03:39:08"
         },
         {
           "type": "CHoCH_DOWN",
-          "level": 1.18637,
-          "break_index": 149,
+          "level": 1.17906,
+          "break_index": 147,
           "swing_index": 115,
-          "time": "2026-06-15 13:38:02"
+          "time": "2026-06-15 11:39:08"
         },
         {
           "type": "CHoCH_DOWN",
-          "level": 1.18909,
-          "break_index": 149,
-          "swing_index": 129,
-          "time": "2026-06-15 13:38:02"
+          "level": 1.18213,
+          "break_index": 147,
+          "swing_index": 130,
+          "time": "2026-06-15 11:39:08"
         },
         {
           "type": "CHoCH_UP",
-          "level": 1.1926,
-          "break_index": 315,
-          "swing_index": 139,
-          "time": "2026-06-22 11:38:02"
+          "level": 1.17959,
+          "break_index": 356,
+          "swing_index": 155,
+          "time": "2026-06-24 04:39:08"
         },
         {
           "type": "CHoCH_UP",
-          "level": 1.18589,
-          "break_index": 169,
-          "swing_index": 161,
-          "time": "2026-06-16 09:38:02"
-        },
-        {
-          "type": "CHoCH_DOWN",
-          "level": 1.18225,
-          "break_index": 186,
-          "swing_index": 162,
-          "time": "2026-06-17 02:38:02"
+          "level": 1.17912,
+          "break_index": 349,
+          "swing_index": 172,
+          "time": "2026-06-23 21:39:08"
         },
         {
           "type": "CHoCH_UP",
-          "level": 1.18284,
-          "break_index": 217,
-          "swing_index": 212,
-          "time": "2026-06-18 09:38:02"
-        },
-        {
-          "type": "CHoCH_DOWN",
-          "level": 1.17915,
-          "break_index": 442,
-          "swing_index": 215,
-          "time": "2026-06-27 18:38:02"
-        },
-        {
-          "type": "CHoCH_DOWN",
-          "level": 1.18037,
-          "break_index": 415,
-          "swing_index": 220,
-          "time": "2026-06-26 15:38:02"
+          "level": 1.17897,
+          "break_index": 349,
+          "swing_index": 186,
+          "time": "2026-06-23 21:39:08"
         },
         {
           "type": "CHoCH_UP",
-          "level": 1.18387,
-          "break_index": 233,
-          "swing_index": 223,
-          "time": "2026-06-19 01:38:02"
+          "level": 1.17543,
+          "break_index": 205,
+          "swing_index": 198,
+          "time": "2026-06-17 21:39:08"
         },
         {
           "type": "CHoCH_DOWN",
-          "level": 1.18203,
-          "break_index": 384,
-          "swing_index": 232,
-          "time": "2026-06-25 08:38:02"
-        },
-        {
-          "type": "CHoCH_DOWN",
-          "level": 1.18251,
-          "break_index": 298,
-          "swing_index": 239,
-          "time": "2026-06-21 18:38:02"
+          "level": 1.17183,
+          "break_index": 219,
+          "swing_index": 199,
+          "time": "2026-06-18 11:39:08"
         },
         {
           "type": "CHoCH_UP",
-          "level": 1.18639,
-          "break_index": 262,
-          "swing_index": 251,
-          "time": "2026-06-20 06:38:02"
+          "level": 1.17375,
+          "break_index": 235,
+          "swing_index": 228,
+          "time": "2026-06-19 03:39:08"
         },
         {
           "type": "CHoCH_DOWN",
-          "level": 1.18357,
-          "break_index": 298,
-          "swing_index": 282,
-          "time": "2026-06-21 18:38:02"
+          "level": 1.16927,
+          "break_index": 278,
+          "swing_index": 229,
+          "time": "2026-06-20 22:39:08"
+        },
+        {
+          "type": "CHoCH_DOWN",
+          "level": 1.17218,
+          "break_index": 266,
+          "swing_index": 241,
+          "time": "2026-06-20 10:39:08"
         },
         {
           "type": "CHoCH_UP",
-          "level": 1.18777,
-          "break_index": 310,
-          "swing_index": 284,
-          "time": "2026-06-22 06:38:02"
+          "level": 1.17394,
+          "break_index": 293,
+          "swing_index": 271,
+          "time": "2026-06-21 13:39:08"
+        },
+        {
+          "type": "CHoCH_DOWN",
+          "level": 1.16977,
+          "break_index": 278,
+          "swing_index": 272,
+          "time": "2026-06-20 22:39:08"
         },
         {
           "type": "CHoCH_UP",
-          "level": 1.18619,
-          "break_index": 310,
-          "swing_index": 294,
-          "time": "2026-06-22 06:38:02"
-        },
-        {
-          "type": "CHoCH_DOWN",
-          "level": 1.18273,
-          "break_index": 374,
-          "swing_index": 310,
-          "time": "2026-06-24 22:38:02"
-        },
-        {
-          "type": "CHoCH_DOWN",
-          "level": 1.19163,
-          "break_index": 339,
-          "swing_index": 322,
-          "time": "2026-06-23 11:38:02"
-        },
-        {
-          "type": "CHoCH_DOWN",
-          "level": 1.19275,
-          "break_index": 339,
-          "swing_index": 326,
-          "time": "2026-06-23 11:38:02"
-        },
-        {
-          "type": "CHoCH_DOWN",
-          "level": 1.19098,
-          "break_index": 354,
-          "swing_index": 347,
-          "time": "2026-06-24 02:38:02"
+          "level": 1.17208,
+          "break_index": 292,
+          "swing_index": 277,
+          "time": "2026-06-21 12:39:08"
         },
         {
           "type": "CHoCH_UP",
-          "level": 1.18614,
-          "break_index": 396,
-          "swing_index": 384,
-          "time": "2026-06-25 20:38:02"
+          "level": 1.17148,
+          "break_index": 292,
+          "swing_index": 286,
+          "time": "2026-06-21 12:39:08"
         },
         {
           "type": "CHoCH_DOWN",
-          "level": 1.18152,
-          "break_index": 415,
-          "swing_index": 411,
-          "time": "2026-06-26 15:38:02"
+          "level": 1.16878,
+          "break_index": 389,
+          "swing_index": 292,
+          "time": "2026-06-25 13:39:08"
         },
         {
           "type": "CHoCH_DOWN",
-          "level": 1.18335,
-          "break_index": 435,
-          "swing_index": 429,
-          "time": "2026-06-27 11:38:02"
+          "level": 1.17335,
+          "break_index": 303,
+          "swing_index": 297,
+          "time": "2026-06-21 23:39:08"
         },
         {
           "type": "CHoCH_UP",
-          "level": 1.17146,
-          "break_index": 470,
-          "swing_index": 465,
-          "time": "2026-06-28 22:38:02"
+          "level": 1.17579,
+          "break_index": 312,
+          "swing_index": 306,
+          "time": "2026-06-22 08:39:08"
+        },
+        {
+          "type": "CHoCH_DOWN",
+          "level": 1.17196,
+          "break_index": 386,
+          "swing_index": 307,
+          "time": "2026-06-25 10:39:08"
+        },
+        {
+          "type": "CHoCH_DOWN",
+          "level": 1.17308,
+          "break_index": 324,
+          "swing_index": 317,
+          "time": "2026-06-22 20:39:08"
         },
         {
           "type": "CHoCH_UP",
-          "level": 1.17329,
-          "break_index": 496,
-          "swing_index": 487,
-          "time": "2026-06-30 00:38:02"
+          "level": 1.17712,
+          "break_index": 349,
+          "swing_index": 324,
+          "time": "2026-06-23 21:39:08"
+        },
+        {
+          "type": "CHoCH_DOWN",
+          "level": 1.17339,
+          "break_index": 379,
+          "swing_index": 342,
+          "time": "2026-06-25 03:39:08"
+        },
+        {
+          "type": "CHoCH_DOWN",
+          "level": 1.17558,
+          "break_index": 366,
+          "swing_index": 361,
+          "time": "2026-06-24 14:39:08"
+        },
+        {
+          "type": "CHoCH_DOWN",
+          "level": 1.16785,
+          "break_index": 399,
+          "swing_index": 393,
+          "time": "2026-06-25 23:39:08"
+        },
+        {
+          "type": "CHoCH_DOWN",
+          "level": 1.16472,
+          "break_index": 431,
+          "swing_index": 410,
+          "time": "2026-06-27 07:39:08"
+        },
+        {
+          "type": "CHoCH_DOWN",
+          "level": 1.16441,
+          "break_index": 431,
+          "swing_index": 425,
+          "time": "2026-06-27 07:39:08"
+        },
+        {
+          "type": "CHoCH_DOWN",
+          "level": 1.16357,
+          "break_index": 461,
+          "swing_index": 443,
+          "time": "2026-06-28 13:39:08"
         }
       ],
       "sweeps": [
         {
+          "type": "Buy-side Sweep",
+          "time": "2026-06-27 02:39:08",
+          "level": 1.1687,
+          "index": 6,
+          "confirmed": false
+        },
+        {
           "type": "Sell-side Sweep",
-          "time": "2026-06-28 22:38:02",
-          "level": 1.17282,
-          "index": 50,
+          "time": "2026-06-27 08:39:08",
+          "level": 1.16441,
+          "index": 12,
           "confirmed": false
         },
         {
           "type": "Buy-side Sweep",
-          "time": "2026-06-29 10:38:02",
-          "level": 1.17146,
-          "index": 62,
+          "time": "2026-06-27 19:39:08",
+          "level": 1.16696,
+          "index": 23,
           "confirmed": false
         },
         {
           "type": "Sell-side Sweep",
-          "time": "2026-06-29 14:38:02",
-          "level": 1.16926,
-          "index": 66,
+          "time": "2026-06-28 06:39:08",
+          "level": 1.16357,
+          "index": 34,
+          "confirmed": false
+        },
+        {
+          "type": "Sell-side Sweep",
+          "time": "2026-06-29 12:39:08",
+          "level": 1.15909,
+          "index": 64,
+          "confirmed": true
+        },
+        {
+          "type": "Buy-side Sweep",
+          "time": "2026-06-30 03:39:08",
+          "level": 1.16203,
+          "index": 79,
+          "confirmed": false
+        },
+        {
+          "type": "Buy-side Sweep",
+          "time": "2026-06-30 01:39:08",
+          "level": 1.16158,
+          "index": 77,
           "confirmed": false
         }
       ],
@@ -80813,122 +80804,58 @@
           "direction": "descending",
           "trade_bias": "short",
           "state": "broken",
-          "touch_count": 6,
-          "touches": [
-            {
-              "type": "SH",
-              "price": 1.19657,
-              "index": 61,
-              "time": "2026-06-11 21:38:02"
-            },
-            {
-              "type": "SH",
-              "price": 1.19583,
-              "index": 73,
-              "time": "2026-06-12 09:38:02"
-            },
-            {
-              "type": "SH",
-              "price": 1.19477,
-              "index": 84,
-              "time": "2026-06-12 20:38:02"
-            },
-            {
-              "type": "SH",
-              "price": 1.19467,
-              "index": 87,
-              "time": "2026-06-12 23:38:02"
-            },
-            {
-              "type": "SH",
-              "price": 1.19251,
-              "index": 128,
-              "time": "2026-06-14 16:38:02"
-            },
-            {
-              "type": "SH",
-              "price": 1.17146,
-              "index": 465,
-              "time": "2026-06-28 17:38:02"
-            }
-          ],
-          "anchor_1": {
-            "type": "SH",
-            "price": 1.19657,
-            "index": 61,
-            "time": "2026-06-11 21:38:02"
-          },
-          "anchor_2": {
-            "type": "SH",
-            "price": 1.19583,
-            "index": 73,
-            "time": "2026-06-12 09:38:02"
-          },
-          "slope": -6.166666666666358e-05,
-          "projected_y": 1.1695600000000013,
-          "last_touch_index": 465,
-          "last_touch_time": "2026-06-28 17:38:02",
-          "broken": true,
-          "broken_index": 470,
-          "time": "2026-06-12 09:38:02"
-        },
-        {
-          "type": "Trendline",
-          "direction": "descending",
-          "trade_bias": "short",
-          "state": "broken",
           "touch_count": 5,
           "touches": [
             {
               "type": "SH",
-              "price": 1.19583,
-              "index": 73,
-              "time": "2026-06-12 09:38:02"
+              "price": 1.19601,
+              "index": 38,
+              "time": "2026-06-10 22:39:08"
             },
             {
               "type": "SH",
-              "price": 1.19477,
-              "index": 84,
-              "time": "2026-06-12 20:38:02"
+              "price": 1.19448,
+              "index": 53,
+              "time": "2026-06-11 13:39:08"
             },
             {
               "type": "SH",
-              "price": 1.19467,
-              "index": 87,
-              "time": "2026-06-12 23:38:02"
+              "price": 1.17859,
+              "index": 211,
+              "time": "2026-06-18 03:39:08"
             },
             {
               "type": "SH",
-              "price": 1.19219,
-              "index": 108,
-              "time": "2026-06-13 20:38:02"
+              "price": 1.17582,
+              "index": 238,
+              "time": "2026-06-19 06:39:08"
             },
             {
               "type": "SH",
-              "price": 1.18284,
-              "index": 212,
-              "time": "2026-06-18 04:38:02"
+              "price": 1.17208,
+              "index": 277,
+              "time": "2026-06-20 21:39:08"
             }
           ],
           "anchor_1": {
             "type": "SH",
-            "price": 1.19583,
-            "index": 73,
-            "time": "2026-06-12 09:38:02"
+            "price": 1.19601,
+            "index": 38,
+            "time": "2026-06-10 22:39:08"
           },
           "anchor_2": {
             "type": "SH",
-            "price": 1.19477,
-            "index": 84,
-            "time": "2026-06-12 20:38:02"
+            "price": 1.19448,
+            "index": 53,
+            "time": "2026-06-11 13:39:08"
           },
-          "slope": -9.636363636362171e-05,
-          "projected_y": 1.1547790909090971,
-          "last_touch_index": 212,
-          "last_touch_time": "2026-06-18 04:38:02",
+          "slope": -0.00010200000000000209,
+          "projected_y": 1.148987999999999,
+          "last_touch_index": 277,
+          "last_touch_time": "2026-06-20 21:39:08",
           "broken": true,
-          "broken_index": 217,
-          "time": "2026-06-12 20:38:02"
+          "broken_index": 292,
+          "time": "2026-06-11 13:39:08"
         },
         {
           "type": "Trendline",
@@ -80939,42 +80866,42 @@
           "touches": [
             {
               "type": "SL",
-              "price": 1.18203,
-              "index": 232,
-              "time": "2026-06-19 00:38:02"
+              "price": 1.16793,
+              "index": 223,
+              "time": "2026-06-18 15:39:08"
             },
             {
               "type": "SL",
-              "price": 1.18251,
-              "index": 239,
-              "time": "2026-06-19 07:38:02"
+              "price": 1.16927,
+              "index": 229,
+              "time": "2026-06-18 21:39:08"
             },
             {
               "type": "SL",
-              "price": 1.18242,
-              "index": 243,
-              "time": "2026-06-19 11:38:02"
+              "price": 1.17218,
+              "index": 241,
+              "time": "2026-06-19 09:39:08"
             }
           ],
           "anchor_1": {
             "type": "SL",
-            "price": 1.18203,
-            "index": 232,
-            "time": "2026-06-19 00:38:02"
+            "price": 1.16793,
+            "index": 223,
+            "time": "2026-06-18 15:39:08"
           },
           "anchor_2": {
             "type": "SL",
-            "price": 1.18251,
-            "index": 239,
-            "time": "2026-06-19 07:38:02"
+            "price": 1.16927,
+            "index": 229,
+            "time": "2026-06-18 21:39:08"
           },
-          "slope": 6.85714285714337e-05,
-          "projected_y": 1.2003385714285728,
-          "last_touch_index": 243,
-          "last_touch_time": "2026-06-19 11:38:02",
+          "slope": 0.00022333333333335315,
+          "projected_y": 1.2295700000000054,
+          "last_touch_index": 241,
+          "last_touch_time": "2026-06-19 09:39:08",
           "broken": true,
-          "broken_index": 281,
-          "time": "2026-06-19 07:38:02"
+          "broken_index": 254,
+          "time": "2026-06-18 21:39:08"
         },
         {
           "type": "Trendline",
@@ -80985,42 +80912,42 @@
           "touches": [
             {
               "type": "SL",
-              "price": 1.17955,
-              "index": 392,
-              "time": "2026-06-25 16:38:02"
+              "price": 1.16679,
+              "index": 282,
+              "time": "2026-06-21 02:39:08"
             },
             {
               "type": "SL",
-              "price": 1.18152,
-              "index": 411,
-              "time": "2026-06-26 11:38:02"
+              "price": 1.16878,
+              "index": 292,
+              "time": "2026-06-21 12:39:08"
             },
             {
               "type": "SL",
-              "price": 1.18335,
-              "index": 429,
-              "time": "2026-06-27 05:38:02"
+              "price": 1.17196,
+              "index": 307,
+              "time": "2026-06-22 03:39:08"
             }
           ],
           "anchor_1": {
             "type": "SL",
-            "price": 1.17955,
-            "index": 392,
-            "time": "2026-06-25 16:38:02"
+            "price": 1.16679,
+            "index": 282,
+            "time": "2026-06-21 02:39:08"
           },
           "anchor_2": {
             "type": "SL",
-            "price": 1.18152,
-            "index": 411,
-            "time": "2026-06-26 11:38:02"
+            "price": 1.16878,
+            "index": 292,
+            "time": "2026-06-21 12:39:08"
           },
-          "slope": 0.00010368421052630554,
-          "projected_y": 1.1906442105263149,
-          "last_touch_index": 429,
-          "last_touch_time": "2026-06-27 05:38:02",
+          "slope": 0.00019899999999999362,
+          "projected_y": 1.2099729999999986,
+          "last_touch_index": 307,
+          "last_touch_time": "2026-06-22 03:39:08",
           "broken": true,
-          "broken_index": 435,
-          "time": "2026-06-26 11:38:02"
+          "broken_index": 324,
+          "time": "2026-06-21 12:39:08"
         },
         {
           "type": "Trendline",
@@ -81031,42 +80958,42 @@
           "touches": [
             {
               "type": "SH",
-              "price": 1.20969,
-              "index": 18,
-              "time": "2026-06-10 02:38:02"
+              "price": 1.18616,
+              "index": 88,
+              "time": "2026-06-13 00:39:08"
             },
             {
               "type": "SH",
-              "price": 1.20356,
-              "index": 45,
-              "time": "2026-06-11 05:38:02"
+              "price": 1.18385,
+              "index": 100,
+              "time": "2026-06-13 12:39:08"
             },
             {
               "type": "SH",
-              "price": 1.19477,
-              "index": 84,
-              "time": "2026-06-12 20:38:02"
+              "price": 1.18239,
+              "index": 110,
+              "time": "2026-06-13 22:39:08"
             }
           ],
           "anchor_1": {
             "type": "SH",
-            "price": 1.20969,
-            "index": 18,
-            "time": "2026-06-10 02:38:02"
+            "price": 1.18616,
+            "index": 88,
+            "time": "2026-06-13 00:39:08"
           },
           "anchor_2": {
             "type": "SH",
-            "price": 1.20356,
-            "index": 45,
-            "time": "2026-06-11 05:38:02"
+            "price": 1.18385,
+            "index": 100,
+            "time": "2026-06-13 12:39:08"
           },
-          "slope": -0.00022703703703703587,
-          "projected_y": 1.1004851851851858,
-          "last_touch_index": 84,
-          "last_touch_time": "2026-06-12 20:38:02",
+          "slope": -0.00019250000000000286,
+          "projected_y": 1.107042499999999,
+          "last_touch_index": 110,
+          "last_touch_time": "2026-06-13 22:39:08",
           "broken": true,
-          "broken_index": 106,
-          "time": "2026-06-11 05:38:02"
+          "broken_index": 115,
+          "time": "2026-06-13 12:39:08"
         },
         {
           "type": "Trendline",
@@ -81077,88 +81004,42 @@
           "touches": [
             {
               "type": "SH",
-              "price": 1.19467,
-              "index": 87,
-              "time": "2026-06-12 23:38:02"
+              "price": 1.17706,
+              "index": 252,
+              "time": "2026-06-19 20:39:08"
             },
             {
               "type": "SH",
-              "price": 1.19219,
-              "index": 108,
-              "time": "2026-06-13 20:38:02"
+              "price": 1.17394,
+              "index": 271,
+              "time": "2026-06-20 15:39:08"
             },
             {
               "type": "SH",
-              "price": 1.18589,
-              "index": 161,
-              "time": "2026-06-16 01:38:02"
+              "price": 1.17148,
+              "index": 286,
+              "time": "2026-06-21 06:39:08"
             }
           ],
           "anchor_1": {
             "type": "SH",
-            "price": 1.19467,
-            "index": 87,
-            "time": "2026-06-12 23:38:02"
+            "price": 1.17706,
+            "index": 252,
+            "time": "2026-06-19 20:39:08"
           },
           "anchor_2": {
             "type": "SH",
-            "price": 1.19219,
-            "index": 108,
-            "time": "2026-06-13 20:38:02"
+            "price": 1.17394,
+            "index": 271,
+            "time": "2026-06-20 15:39:08"
           },
-          "slope": -0.00011809523809522932,
-          "projected_y": 1.1460147619047654,
-          "last_touch_index": 161,
-          "last_touch_time": "2026-06-16 01:38:02",
+          "slope": -0.00016421052631579008,
+          "projected_y": 1.1364999999999998,
+          "last_touch_index": 286,
+          "last_touch_time": "2026-06-21 06:39:08",
           "broken": true,
-          "broken_index": 169,
-          "time": "2026-06-13 20:38:02"
-        },
-        {
-          "type": "Trendline",
-          "direction": "descending",
-          "trade_bias": "short",
-          "state": "broken",
-          "touch_count": 3,
-          "touches": [
-            {
-              "type": "SH",
-              "price": 1.19587,
-              "index": 350,
-              "time": "2026-06-23 22:38:02"
-            },
-            {
-              "type": "SH",
-              "price": 1.18928,
-              "index": 373,
-              "time": "2026-06-24 21:38:02"
-            },
-            {
-              "type": "SH",
-              "price": 1.18614,
-              "index": 384,
-              "time": "2026-06-25 08:38:02"
-            }
-          ],
-          "anchor_1": {
-            "type": "SH",
-            "price": 1.19587,
-            "index": 350,
-            "time": "2026-06-23 22:38:02"
-          },
-          "anchor_2": {
-            "type": "SH",
-            "price": 1.18928,
-            "index": 373,
-            "time": "2026-06-24 21:38:02"
-          },
-          "slope": -0.00028652173913043896,
-          "projected_y": 1.1531782608695647,
-          "last_touch_index": 384,
-          "last_touch_time": "2026-06-25 08:38:02",
-          "broken": true,
-          "broken_index": 396,
-          "time": "2026-06-24 21:38:02"
+          "broken_index": 292,
+          "time": "2026-06-20 15:39:08"
         },
         {
           "type": "Trendline",
@@ -81169,42 +81050,42 @@
           "touches": [
             {
               "type": "SH",
-              "price": 1.19045,
-              "index": 399,
-              "time": "2026-06-25 23:38:02"
+              "price": 1.16396,
+              "index": 472,
+              "time": "2026-06-29 00:39:08"
             },
             {
               "type": "SH",
-              "price": 1.18763,
-              "index": 425,
-              "time": "2026-06-27 01:38:02"
+              "price": 1.16203,
+              "index": 489,
+              "time": "2026-06-29 17:39:08"
             },
             {
               "type": "SH",
-              "price": 1.18751,
-              "index": 430,
-              "time": "2026-06-27 06:38:02"
+              "price": 1.16158,
+              "index": 494,
+              "time": "2026-06-29 22:39:08"
             }
           ],
           "anchor_1": {
             "type": "SH",
-            "price": 1.19045,
-            "index": 399,
-            "time": "2026-06-25 23:38:02"
+            "price": 1.16396,
+            "index": 472,
+            "time": "2026-06-29 00:39:08"
           },
           "anchor_2": {
             "type": "SH",
-            "price": 1.18763,
-            "index": 425,
-            "time": "2026-06-27 01:38:02"
+            "price": 1.16203,
+            "index": 489,
+            "time": "2026-06-29 17:39:08"
           },
-          "slope": -0.00010846153846154018,
-          "projected_y": 1.179603846153846,
-          "last_touch_index": 430,
-          "last_touch_time": "2026-06-27 06:38:02",
+          "slope": -0.00011352941176471819,
+          "projected_y": 1.1608947058823527,
+          "last_touch_index": 494,
+          "last_touch_time": "2026-06-29 22:39:08",
           "broken": false,
           "broken_index": null,
-          "time": "2026-06-27 01:38:02"
+          "time": "2026-06-29 17:39:08"
         },
         {
           "type": "Trendline",
@@ -81215,36 +81096,36 @@
           "touches": [
             {
               "type": "SL",
-              "price": 1.20085,
-              "index": 4,
-              "time": "2026-06-09 12:38:02"
+              "price": 1.18683,
+              "index": 62,
+              "time": "2026-06-11 22:39:08"
             },
             {
               "type": "SL",
-              "price": 1.20327,
-              "index": 14,
-              "time": "2026-06-09 22:38:02"
+              "price": 1.18822,
+              "index": 68,
+              "time": "2026-06-12 04:39:08"
             }
           ],
           "anchor_1": {
             "type": "SL",
-            "price": 1.20085,
-            "index": 4,
-            "time": "2026-06-09 12:38:02"
+            "price": 1.18683,
+            "index": 62,
+            "time": "2026-06-11 22:39:08"
           },
           "anchor_2": {
             "type": "SL",
-            "price": 1.20327,
-            "index": 14,
-            "time": "2026-06-09 22:38:02"
+            "price": 1.18822,
+            "index": 68,
+            "time": "2026-06-12 04:39:08"
           },
-          "slope": 0.00024200000000000886,
-          "projected_y": 1.3206400000000045,
-          "last_touch_index": 14,
-          "last_touch_time": "2026-06-09 22:38:02",
+          "slope": 0.00023166666666666705,
+          "projected_y": 1.2880683333333336,
+          "last_touch_index": 68,
+          "last_touch_time": "2026-06-12 04:39:08",
           "broken": true,
-          "broken_index": 29,
-          "time": "2026-06-09 22:38:02"
+          "broken_index": 76,
+          "time": "2026-06-12 04:39:08"
         },
         {
           "type": "Trendline",
@@ -81255,116 +81136,36 @@
           "touches": [
             {
               "type": "SL",
-              "price": 1.1967,
-              "index": 37,
-              "time": "2026-06-10 21:38:02"
+              "price": 1.17711,
+              "index": 102,
+              "time": "2026-06-13 14:39:08"
             },
             {
               "type": "SL",
-              "price": 1.19839,
-              "index": 48,
-              "time": "2026-06-11 08:38:02"
-            }
-          ],
-          "anchor_1": {
-            "type": "SL",
-            "price": 1.1967,
-            "index": 37,
-            "time": "2026-06-10 21:38:02"
-          },
-          "anchor_2": {
-            "type": "SL",
-            "price": 1.19839,
-            "index": 48,
-            "time": "2026-06-11 08:38:02"
-          },
-          "slope": 0.00015363636363636084,
-          "projected_y": 1.2676799999999988,
-          "last_touch_index": 48,
-          "last_touch_time": "2026-06-11 08:38:02",
-          "broken": true,
-          "broken_index": 52,
-          "time": "2026-06-11 08:38:02"
-        },
-        {
-          "type": "Trendline",
-          "direction": "ascending",
-          "trade_bias": "long",
-          "state": "broken",
-          "touch_count": 2,
-          "touches": [
-            {
-              "type": "SL",
-              "price": 1.1889,
-              "index": 78,
-              "time": "2026-06-12 14:38:02"
-            },
-            {
-              "type": "SL",
-              "price": 1.1907,
-              "index": 85,
-              "time": "2026-06-12 21:38:02"
-            }
-          ],
-          "anchor_1": {
-            "type": "SL",
-            "price": 1.1889,
-            "index": 78,
-            "time": "2026-06-12 14:38:02"
-          },
-          "anchor_2": {
-            "type": "SL",
-            "price": 1.1907,
-            "index": 85,
-            "time": "2026-06-12 21:38:02"
-          },
-          "slope": 0.00025714285714286057,
-          "projected_y": 1.2971571428571445,
-          "last_touch_index": 85,
-          "last_touch_time": "2026-06-12 21:38:02",
-          "broken": true,
-          "broken_index": 90,
-          "time": "2026-06-12 21:38:02"
-        },
-        {
-          "type": "Trendline",
-          "direction": "ascending",
-          "trade_bias": "long",
-          "state": "broken",
-          "touch_count": 2,
-          "touches": [
-            {
-              "type": "SL",
-              "price": 1.18539,
-              "index": 106,
-              "time": "2026-06-13 18:38:02"
-            },
-            {
-              "type": "SL",
-              "price": 1.18637,
+              "price": 1.17906,
               "index": 115,
-              "time": "2026-06-14 03:38:02"
+              "time": "2026-06-14 03:39:08"
             }
           ],
           "anchor_1": {
             "type": "SL",
-            "price": 1.18539,
-            "index": 106,
-            "time": "2026-06-13 18:38:02"
+            "price": 1.17711,
+            "index": 102,
+            "time": "2026-06-13 14:39:08"
           },
           "anchor_2": {
             "type": "SL",
-            "price": 1.18637,
+            "price": 1.17906,
             "index": 115,
-            "time": "2026-06-14 03:38:02"
+            "time": "2026-06-14 03:39:08"
           },
-          "slope": 0.00010888888888888676,
-          "projected_y": 1.2281833333333325,
+          "slope": 0.00014999999999999202,
+          "projected_y": 1.236659999999997,
           "last_touch_index": 115,
-          "last_touch_time": "2026-06-14 03:38:02",
+          "last_touch_time": "2026-06-14 03:39:08",
           "broken": true,
-          "broken_index": 149,
-          "time": "2026-06-14 03:38:02"
+          "broken_index": 147,
+          "time": "2026-06-14 03:39:08"
         },
         {
           "type": "Trendline",
@@ -81375,36 +81176,36 @@
           "touches": [
             {
               "type": "SL",
-              "price": 1.18637,
-              "index": 115,
-              "time": "2026-06-14 03:38:02"
+              "price": 1.17827,
+              "index": 121,
+              "time": "2026-06-14 09:39:08"
             },
             {
               "type": "SL",
-              "price": 1.18909,
-              "index": 129,
-              "time": "2026-06-14 17:38:02"
+              "price": 1.18213,
+              "index": 130,
+              "time": "2026-06-14 18:39:08"
             }
           ],
           "anchor_1": {
             "type": "SL",
-            "price": 1.18637,
-            "index": 115,
-            "time": "2026-06-14 03:38:02"
+            "price": 1.17827,
+            "index": 121,
+            "time": "2026-06-14 09:39:08"
           },
           "anchor_2": {
             "type": "SL",
-            "price": 1.18909,
-            "index": 129,
-            "time": "2026-06-14 17:38:02"
+            "price": 1.18213,
+            "index": 130,
+            "time": "2026-06-14 18:39:08"
           },
-          "slope": 0.00019428571428571826,
-          "projected_y": 1.2609757142857156,
-          "last_touch_index": 129,
-          "last_touch_time": "2026-06-14 17:38:02",
+          "slope": 0.00042888888888888604,
+          "projected_y": 1.3403899999999989,
+          "last_touch_index": 130,
+          "last_touch_time": "2026-06-14 18:39:08",
           "broken": true,
-          "broken_index": 137,
-          "time": "2026-06-14 17:38:02"
+          "broken_index": 141,
+          "time": "2026-06-14 18:39:08"
         },
         {
           "type": "Trendline",
@@ -81415,36 +81216,36 @@
           "touches": [
             {
               "type": "SL",
-              "price": 1.18092,
-              "index": 157,
-              "time": "2026-06-15 21:38:02"
+              "price": 1.17118,
+              "index": 196,
+              "time": "2026-06-17 12:39:08"
             },
             {
               "type": "SL",
-              "price": 1.18225,
-              "index": 162,
-              "time": "2026-06-16 02:38:02"
+              "price": 1.17183,
+              "index": 199,
+              "time": "2026-06-17 15:39:08"
             }
           ],
           "anchor_1": {
             "type": "SL",
-            "price": 1.18092,
-            "index": 157,
-            "time": "2026-06-15 21:38:02"
+            "price": 1.17118,
+            "index": 196,
+            "time": "2026-06-17 12:39:08"
           },
           "anchor_2": {
             "type": "SL",
-            "price": 1.18225,
-            "index": 162,
-            "time": "2026-06-16 02:38:02"
+            "price": 1.17183,
+            "index": 199,
+            "time": "2026-06-17 15:39:08"
           },
-          "slope": 0.0002660000000000107,
-          "projected_y": 1.2718920000000036,
-          "last_touch_index": 162,
-          "last_touch_time": "2026-06-16 02:38:02",
+          "slope": 0.0002166666666666058,
+          "projected_y": 1.2368299999999817,
+          "last_touch_index": 199,
+          "last_touch_time": "2026-06-17 15:39:08",
           "broken": true,
-          "broken_index": 179,
-          "time": "2026-06-16 02:38:02"
+          "broken_index": 217,
+          "time": "2026-06-17 15:39:08"
         },
         {
           "type": "Trendline",
@@ -81455,36 +81256,36 @@
           "touches": [
             {
               "type": "SL",
-              "price": 1.17187,
-              "index": 202,
-              "time": "2026-06-17 18:38:02"
+              "price": 1.16927,
+              "index": 229,
+              "time": "2026-06-18 21:39:08"
             },
             {
               "type": "SL",
-              "price": 1.17915,
-              "index": 215,
-              "time": "2026-06-18 07:38:02"
+              "price": 1.17218,
+              "index": 241,
+              "time": "2026-06-19 09:39:08"
             }
           ],
           "anchor_1": {
             "type": "SL",
-            "price": 1.17187,
-            "index": 202,
-            "time": "2026-06-17 18:38:02"
+            "price": 1.16927,
+            "index": 229,
+            "time": "2026-06-18 21:39:08"
           },
           "anchor_2": {
             "type": "SL",
-            "price": 1.17915,
-            "index": 215,
-            "time": "2026-06-18 07:38:02"
+            "price": 1.17218,
+            "index": 241,
+            "time": "2026-06-19 09:39:08"
           },
-          "slope": 0.0005599999999999964,
-          "projected_y": 1.3381899999999989,
-          "last_touch_index": 215,
-          "last_touch_time": "2026-06-18 07:38:02",
+          "slope": 0.00024249999999999736,
+          "projected_y": 1.2347449999999993,
+          "last_touch_index": 241,
+          "last_touch_time": "2026-06-19 09:39:08",
           "broken": true,
-          "broken_index": 224,
-          "time": "2026-06-18 07:38:02"
+          "broken_index": 254,
+          "time": "2026-06-19 09:39:08"
         },
         {
           "type": "Trendline",
@@ -81495,36 +81296,36 @@
           "touches": [
             {
               "type": "SL",
-              "price": 1.17915,
-              "index": 215,
-              "time": "2026-06-18 07:38:02"
+              "price": 1.16946,
+              "index": 269,
+              "time": "2026-06-20 13:39:08"
             },
             {
               "type": "SL",
-              "price": 1.18037,
-              "index": 220,
-              "time": "2026-06-18 12:38:02"
+              "price": 1.16977,
+              "index": 272,
+              "time": "2026-06-20 16:39:08"
             }
           ],
           "anchor_1": {
             "type": "SL",
-            "price": 1.17915,
-            "index": 215,
-            "time": "2026-06-18 07:38:02"
+            "price": 1.16946,
+            "index": 269,
+            "time": "2026-06-20 13:39:08"
           },
           "anchor_2": {
             "type": "SL",
-            "price": 1.18037,
-            "index": 220,
-            "time": "2026-06-18 12:38:02"
+            "price": 1.16977,
+            "index": 272,
+            "time": "2026-06-20 16:39:08"
           },
-          "slope": 0.00024399999999999978,
-          "projected_y": 1.248446,
-          "last_touch_index": 220,
-          "last_touch_time": "2026-06-18 12:38:02",
+          "slope": 0.00010333333333334416,
+          "projected_y": 1.193226666666669,
+          "last_touch_index": 272,
+          "last_touch_time": "2026-06-20 16:39:08",
           "broken": true,
-          "broken_index": 242,
-          "time": "2026-06-18 12:38:02"
+          "broken_index": 278,
+          "time": "2026-06-20 16:39:08"
         },
         {
           "type": "Trendline",
@@ -81535,36 +81336,36 @@
           "touches": [
             {
               "type": "SL",
-              "price": 1.18004,
-              "index": 225,
-              "time": "2026-06-18 17:38:02"
+              "price": 1.16878,
+              "index": 292,
+              "time": "2026-06-21 12:39:08"
             },
             {
               "type": "SL",
-              "price": 1.18203,
-              "index": 232,
-              "time": "2026-06-19 00:38:02"
+              "price": 1.17335,
+              "index": 297,
+              "time": "2026-06-21 17:39:08"
             }
           ],
           "anchor_1": {
             "type": "SL",
-            "price": 1.18004,
-            "index": 225,
-            "time": "2026-06-18 17:38:02"
+            "price": 1.16878,
+            "index": 292,
+            "time": "2026-06-21 12:39:08"
           },
           "anchor_2": {
             "type": "SL",
-            "price": 1.18203,
-            "index": 232,
-            "time": "2026-06-19 00:38:02"
+            "price": 1.17335,
+            "index": 297,
+            "time": "2026-06-21 17:39:08"
           },
-          "slope": 0.0002842857142857052,
-          "projected_y": 1.2579342857142832,
-          "last_touch_index": 232,
-          "last_touch_time": "2026-06-19 00:38:02",
+          "slope": 0.0009139999999999926,
+          "projected_y": 1.3579779999999984,
+          "last_touch_index": 297,
+          "last_touch_time": "2026-06-21 17:39:08",
           "broken": true,
-          "broken_index": 242,
-          "time": "2026-06-19 00:38:02"
+          "broken_index": 303,
+          "time": "2026-06-21 17:39:08"
         },
         {
           "type": "Trendline",
@@ -81575,36 +81376,36 @@
           "touches": [
             {
               "type": "SL",
-              "price": 1.18072,
-              "index": 255,
-              "time": "2026-06-19 23:38:02"
+              "price": 1.17064,
+              "index": 304,
+              "time": "2026-06-22 00:39:08"
             },
             {
               "type": "SL",
-              "price": 1.18357,
-              "index": 282,
-              "time": "2026-06-21 02:38:02"
+              "price": 1.17196,
+              "index": 307,
+              "time": "2026-06-22 03:39:08"
             }
           ],
           "anchor_1": {
             "type": "SL",
-            "price": 1.18072,
-            "index": 255,
-            "time": "2026-06-19 23:38:02"
+            "price": 1.17064,
+            "index": 304,
+            "time": "2026-06-22 00:39:08"
           },
           "anchor_2": {
             "type": "SL",
-            "price": 1.18357,
-            "index": 282,
-            "time": "2026-06-21 02:38:02"
+            "price": 1.17196,
+            "index": 307,
+            "time": "2026-06-22 03:39:08"
           },
-          "slope": 0.00010555555555555627,
-          "projected_y": 1.2064755555555557,
-          "last_touch_index": 282,
-          "last_touch_time": "2026-06-21 02:38:02",
+          "slope": 0.00043999999999999595,
+          "projected_y": 1.2564399999999991,
+          "last_touch_index": 307,
+          "last_touch_time": "2026-06-22 03:39:08",
           "broken": true,
-          "broken_index": 295,
-          "time": "2026-06-21 02:38:02"
+          "broken_index": 316,
+          "time": "2026-06-22 03:39:08"
         },
         {
           "type": "Trendline",
@@ -81615,36 +81416,36 @@
           "touches": [
             {
               "type": "SL",
-              "price": 1.18217,
-              "index": 301,
-              "time": "2026-06-21 21:38:02"
+              "price": 1.17196,
+              "index": 307,
+              "time": "2026-06-22 03:39:08"
             },
             {
               "type": "SL",
-              "price": 1.18273,
-              "index": 310,
-              "time": "2026-06-22 06:38:02"
+              "price": 1.17308,
+              "index": 317,
+              "time": "2026-06-22 13:39:08"
             }
           ],
           "anchor_1": {
             "type": "SL",
-            "price": 1.18217,
-            "index": 301,
-            "time": "2026-06-21 21:38:02"
+            "price": 1.17196,
+            "index": 307,
+            "time": "2026-06-22 03:39:08"
           },
           "anchor_2": {
             "type": "SL",
-            "price": 1.18273,
-            "index": 310,
-            "time": "2026-06-22 06:38:02"
+            "price": 1.17308,
+            "index": 317,
+            "time": "2026-06-22 13:39:08"
           },
-          "slope": 6.222222222223511e-05,
-          "projected_y": 1.1944900000000025,
-          "last_touch_index": 310,
-          "last_touch_time": "2026-06-22 06:38:02",
+          "slope": 0.00011200000000000099,
+          "projected_y": 1.193464,
+          "last_touch_index": 317,
+          "last_touch_time": "2026-06-22 13:39:08",
           "broken": true,
-          "broken_index": 373,
-          "time": "2026-06-22 06:38:02"
+          "broken_index": 324,
+          "time": "2026-06-22 13:39:08"
         },
         {
           "type": "Trendline",
@@ -81655,36 +81456,36 @@
           "touches": [
             {
               "type": "SL",
-              "price": 1.18273,
-              "index": 310,
-              "time": "2026-06-22 06:38:02"
+              "price": 1.17052,
+              "index": 325,
+              "time": "2026-06-22 21:39:08"
             },
             {
               "type": "SL",
-              "price": 1.19163,
-              "index": 322,
-              "time": "2026-06-22 18:38:02"
+              "price": 1.17339,
+              "index": 342,
+              "time": "2026-06-23 14:39:08"
             }
           ],
           "anchor_1": {
             "type": "SL",
-            "price": 1.18273,
-            "index": 310,
-            "time": "2026-06-22 06:38:02"
+            "price": 1.17052,
+            "index": 325,
+            "time": "2026-06-22 21:39:08"
           },
           "anchor_2": {
             "type": "SL",
-            "price": 1.19163,
-            "index": 322,
-            "time": "2026-06-22 18:38:02"
+            "price": 1.17339,
+            "index": 342,
+            "time": "2026-06-23 14:39:08"
           },
-          "slope": 0.000741666666666659,
-          "projected_y": 1.3229049999999987,
-          "last_touch_index": 322,
-          "last_touch_time": "2026-06-22 18:38:02",
+          "slope": 0.0001688235294117605,
+          "projected_y": 1.1998952941176464,
+          "last_touch_index": 342,
+          "last_touch_time": "2026-06-23 14:39:08",
           "broken": true,
-          "broken_index": 331,
-          "time": "2026-06-22 18:38:02"
+          "broken_index": 364,
+          "time": "2026-06-23 14:39:08"
         },
         {
           "type": "Trendline",
@@ -81695,36 +81496,36 @@
           "touches": [
             {
               "type": "SL",
-              "price": 1.19163,
-              "index": 322,
-              "time": "2026-06-22 18:38:02"
+              "price": 1.17339,
+              "index": 342,
+              "time": "2026-06-23 14:39:08"
             },
             {
               "type": "SL",
-              "price": 1.19275,
-              "index": 326,
-              "time": "2026-06-22 22:38:02"
+              "price": 1.17558,
+              "index": 361,
+              "time": "2026-06-24 09:39:08"
             }
           ],
           "anchor_1": {
             "type": "SL",
-            "price": 1.19163,
-            "index": 322,
-            "time": "2026-06-22 18:38:02"
+            "price": 1.17339,
+            "index": 342,
+            "time": "2026-06-23 14:39:08"
           },
           "anchor_2": {
             "type": "SL",
-            "price": 1.19275,
-            "index": 326,
-            "time": "2026-06-22 22:38:02"
+            "price": 1.17558,
+            "index": 361,
+            "time": "2026-06-24 09:39:08"
           },
-          "slope": 0.00028000000000000247,
-          "projected_y": 1.2411900000000005,
-          "last_touch_index": 326,
-          "last_touch_time": "2026-06-22 22:38:02",
+          "slope": 0.00011526315789474402,
+          "projected_y": 1.1914863157894748,
+          "last_touch_index": 361,
+          "last_touch_time": "2026-06-24 09:39:08",
           "broken": true,
-          "broken_index": 337,
-          "time": "2026-06-22 22:38:02"
+          "broken_index": 366,
+          "time": "2026-06-24 09:39:08"
         },
         {
           "type": "Trendline",
@@ -81735,36 +81536,36 @@
           "touches": [
             {
               "type": "SL",
-              "price": 1.18915,
-              "index": 344,
-              "time": "2026-06-23 16:38:02"
+              "price": 1.16733,
+              "index": 388,
+              "time": "2026-06-25 12:39:08"
             },
             {
               "type": "SL",
-              "price": 1.19098,
-              "index": 347,
-              "time": "2026-06-23 19:38:02"
+              "price": 1.16785,
+              "index": 393,
+              "time": "2026-06-25 17:39:08"
             }
           ],
           "anchor_1": {
             "type": "SL",
-            "price": 1.18915,
-            "index": 344,
-            "time": "2026-06-23 16:38:02"
+            "price": 1.16733,
+            "index": 388,
+            "time": "2026-06-25 12:39:08"
           },
           "anchor_2": {
             "type": "SL",
-            "price": 1.19098,
-            "index": 347,
-            "time": "2026-06-23 19:38:02"
+            "price": 1.16785,
+            "index": 393,
+            "time": "2026-06-25 17:39:08"
           },
-          "slope": 0.0006099999999999994,
-          "projected_y": 1.2836999999999998,
-          "last_touch_index": 347,
-          "last_touch_time": "2026-06-23 19:38:02",
+          "slope": 0.00010400000000001519,
+          "projected_y": 1.1788740000000018,
+          "last_touch_index": 393,
+          "last_touch_time": "2026-06-25 17:39:08",
           "broken": true,
-          "broken_index": 354,
-          "time": "2026-06-23 19:38:02"
+          "broken_index": 399,
+          "time": "2026-06-25 17:39:08"
         },
         {
           "type": "Trendline",
@@ -81775,36 +81576,116 @@
           "touches": [
             {
               "type": "SL",
-              "price": 1.18152,
-              "index": 411,
-              "time": "2026-06-26 11:38:02"
+              "price": 1.1631,
+              "index": 403,
+              "time": "2026-06-26 03:39:08"
             },
             {
               "type": "SL",
-              "price": 1.18335,
-              "index": 429,
-              "time": "2026-06-27 05:38:02"
+              "price": 1.16472,
+              "index": 410,
+              "time": "2026-06-26 10:39:08"
             }
           ],
           "anchor_1": {
             "type": "SL",
-            "price": 1.18152,
-            "index": 411,
-            "time": "2026-06-26 11:38:02"
+            "price": 1.1631,
+            "index": 403,
+            "time": "2026-06-26 03:39:08"
           },
           "anchor_2": {
             "type": "SL",
-            "price": 1.18335,
-            "index": 429,
-            "time": "2026-06-27 05:38:02"
+            "price": 1.16472,
+            "index": 410,
+            "time": "2026-06-26 10:39:08"
           },
-          "slope": 0.00010166666666666657,
-          "projected_y": 1.1904666666666666,
-          "last_touch_index": 429,
-          "last_touch_time": "2026-06-27 05:38:02",
+          "slope": 0.00023142857142856497,
+          "projected_y": 1.1853171428571423,
+          "last_touch_index": 410,
+          "last_touch_time": "2026-06-26 10:39:08",
           "broken": true,
-          "broken_index": 435,
-          "time": "2026-06-27 05:38:02"
+          "broken_index": 424,
+          "time": "2026-06-26 10:39:08"
+        },
+        {
+          "type": "Trendline",
+          "direction": "ascending",
+          "trade_bias": "long",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SL",
+              "price": 1.16244,
+              "index": 416,
+              "time": "2026-06-26 16:39:08"
+            },
+            {
+              "type": "SL",
+              "price": 1.16441,
+              "index": 425,
+              "time": "2026-06-27 01:39:08"
+            }
+          ],
+          "anchor_1": {
+            "type": "SL",
+            "price": 1.16244,
+            "index": 416,
+            "time": "2026-06-26 16:39:08"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.16441,
+            "index": 425,
+            "time": "2026-06-27 01:39:08"
+          },
+          "slope": 0.00021888888888889192,
+          "projected_y": 1.180607777777778,
+          "last_touch_index": 425,
+          "last_touch_time": "2026-06-27 01:39:08",
+          "broken": true,
+          "broken_index": 431,
+          "time": "2026-06-27 01:39:08"
+        },
+        {
+          "type": "Trendline",
+          "direction": "ascending",
+          "trade_bias": "long",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SL",
+              "price": 1.16255,
+              "index": 432,
+              "time": "2026-06-27 08:39:08"
+            },
+            {
+              "type": "SL",
+              "price": 1.16357,
+              "index": 443,
+              "time": "2026-06-27 19:39:08"
+            }
+          ],
+          "anchor_1": {
+            "type": "SL",
+            "price": 1.16255,
+            "index": 432,
+            "time": "2026-06-27 08:39:08"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.16357,
+            "index": 443,
+            "time": "2026-06-27 19:39:08"
+          },
+          "slope": 9.272727272727462e-05,
+          "projected_y": 1.1687627272727275,
+          "last_touch_index": 443,
+          "last_touch_time": "2026-06-27 19:39:08",
+          "broken": true,
+          "broken_index": 456,
+          "time": "2026-06-27 19:39:08"
         },
         {
           "type": "Trendline",
@@ -81815,36 +81696,36 @@
           "touches": [
             {
               "type": "SL",
-              "price": 1.16884,
-              "index": 486,
-              "time": "2026-06-29 14:38:02"
+              "price": 1.15732,
+              "index": 480,
+              "time": "2026-06-29 08:39:08"
             },
             {
               "type": "SL",
-              "price": 1.1692,
-              "index": 490,
-              "time": "2026-06-29 18:38:02"
+              "price": 1.15816,
+              "index": 491,
+              "time": "2026-06-29 19:39:08"
             }
           ],
           "anchor_1": {
             "type": "SL",
-            "price": 1.16884,
-            "index": 486,
-            "time": "2026-06-29 14:38:02"
+            "price": 1.15732,
+            "index": 480,
+            "time": "2026-06-29 08:39:08"
           },
           "anchor_2": {
             "type": "SL",
-            "price": 1.1692,
-            "index": 490,
-            "time": "2026-06-29 18:38:02"
+            "price": 1.15816,
+            "index": 491,
+            "time": "2026-06-29 19:39:08"
           },
-          "slope": 8.999999999997899e-05,
-          "projected_y": 1.1700099999999998,
-          "last_touch_index": 490,
-          "last_touch_time": "2026-06-29 18:38:02",
+          "slope": 7.636363636365218e-05,
+          "projected_y": 1.1587709090909093,
+          "last_touch_index": 491,
+          "last_touch_time": "2026-06-29 19:39:08",
           "broken": false,
           "broken_index": null,
-          "time": "2026-06-29 18:38:02"
+          "time": "2026-06-29 19:39:08"
         },
         {
           "type": "Trendline",
@@ -81855,36 +81736,36 @@
           "touches": [
             {
               "type": "SH",
-              "price": 1.20356,
-              "index": 45,
-              "time": "2026-06-11 05:38:02"
+              "price": 1.20274,
+              "index": 22,
+              "time": "2026-06-10 06:39:08"
             },
             {
               "type": "SH",
-              "price": 1.20113,
-              "index": 52,
-              "time": "2026-06-11 12:38:02"
+              "price": 1.19601,
+              "index": 38,
+              "time": "2026-06-10 22:39:08"
             }
           ],
           "anchor_1": {
             "type": "SH",
-            "price": 1.20356,
-            "index": 45,
-            "time": "2026-06-11 05:38:02"
+            "price": 1.20274,
+            "index": 22,
+            "time": "2026-06-10 06:39:08"
           },
           "anchor_2": {
             "type": "SH",
-            "price": 1.20113,
-            "index": 52,
-            "time": "2026-06-11 12:38:02"
+            "price": 1.19601,
+            "index": 38,
+            "time": "2026-06-10 22:39:08"
           },
-          "slope": -0.00034714285714284747,
-          "projected_y": 1.0459571428571472,
-          "last_touch_index": 52,
-          "last_touch_time": "2026-06-11 12:38:02",
+          "slope": -0.0004206249999999939,
+          "projected_y": 1.0021018750000028,
+          "last_touch_index": 38,
+          "last_touch_time": "2026-06-10 22:39:08",
           "broken": true,
-          "broken_index": 81,
-          "time": "2026-06-11 12:38:02"
+          "broken_index": 50,
+          "time": "2026-06-10 22:39:08"
         },
         {
           "type": "Trendline",
@@ -81895,36 +81776,36 @@
           "touches": [
             {
               "type": "SH",
-              "price": 1.20113,
-              "index": 52,
-              "time": "2026-06-11 12:38:02"
+              "price": 1.19448,
+              "index": 53,
+              "time": "2026-06-11 13:39:08"
             },
             {
               "type": "SH",
-              "price": 1.19756,
-              "index": 57,
-              "time": "2026-06-11 17:38:02"
+              "price": 1.19119,
+              "index": 64,
+              "time": "2026-06-12 00:39:08"
             }
           ],
           "anchor_1": {
             "type": "SH",
-            "price": 1.20113,
-            "index": 52,
-            "time": "2026-06-11 12:38:02"
+            "price": 1.19448,
+            "index": 53,
+            "time": "2026-06-11 13:39:08"
           },
           "anchor_2": {
             "type": "SH",
-            "price": 1.19756,
-            "index": 57,
-            "time": "2026-06-11 17:38:02"
+            "price": 1.19119,
+            "index": 64,
+            "time": "2026-06-12 00:39:08"
           },
-          "slope": -0.0007140000000000146,
-          "projected_y": 0.8819719999999935,
-          "last_touch_index": 57,
-          "last_touch_time": "2026-06-11 17:38:02",
+          "slope": -0.00029909090909091047,
+          "projected_y": 1.061085454545454,
+          "last_touch_index": 64,
+          "last_touch_time": "2026-06-12 00:39:08",
           "broken": true,
-          "broken_index": 63,
-          "time": "2026-06-11 17:38:02"
+          "broken_index": 70,
+          "time": "2026-06-12 00:39:08"
         },
         {
           "type": "Trendline",
@@ -81935,36 +81816,36 @@
           "touches": [
             {
               "type": "SH",
-              "price": 1.19756,
-              "index": 57,
-              "time": "2026-06-11 17:38:02"
+              "price": 1.19441,
+              "index": 71,
+              "time": "2026-06-12 07:39:08"
             },
             {
               "type": "SH",
-              "price": 1.19657,
-              "index": 61,
-              "time": "2026-06-11 21:38:02"
+              "price": 1.18964,
+              "index": 82,
+              "time": "2026-06-12 18:39:08"
             }
           ],
           "anchor_1": {
             "type": "SH",
-            "price": 1.19756,
-            "index": 57,
-            "time": "2026-06-11 17:38:02"
+            "price": 1.19441,
+            "index": 71,
+            "time": "2026-06-12 07:39:08"
           },
           "anchor_2": {
             "type": "SH",
-            "price": 1.19657,
-            "index": 61,
-            "time": "2026-06-11 21:38:02"
+            "price": 1.18964,
+            "index": 82,
+            "time": "2026-06-12 18:39:08"
           },
-          "slope": -0.0002475000000000116,
-          "projected_y": 1.0881649999999947,
-          "last_touch_index": 61,
-          "last_touch_time": "2026-06-11 21:38:02",
+          "slope": -0.00043363636363635827,
+          "projected_y": 1.0088136363636386,
+          "last_touch_index": 82,
+          "last_touch_time": "2026-06-12 18:39:08",
           "broken": true,
-          "broken_index": 81,
-          "time": "2026-06-11 21:38:02"
+          "broken_index": 109,
+          "time": "2026-06-12 18:39:08"
         },
         {
           "type": "Trendline",
@@ -81975,36 +81856,276 @@
           "touches": [
             {
               "type": "SH",
-              "price": 1.19326,
-              "index": 131,
-              "time": "2026-06-14 19:38:02"
+              "price": 1.18964,
+              "index": 82,
+              "time": "2026-06-12 18:39:08"
             },
             {
               "type": "SH",
-              "price": 1.1926,
-              "index": 139,
-              "time": "2026-06-15 03:38:02"
+              "price": 1.18616,
+              "index": 88,
+              "time": "2026-06-13 00:39:08"
             }
           ],
           "anchor_1": {
             "type": "SH",
-            "price": 1.19326,
-            "index": 131,
-            "time": "2026-06-14 19:38:02"
+            "price": 1.18964,
+            "index": 82,
+            "time": "2026-06-12 18:39:08"
           },
           "anchor_2": {
             "type": "SH",
-            "price": 1.1926,
-            "index": 139,
-            "time": "2026-06-15 03:38:02"
+            "price": 1.18616,
+            "index": 88,
+            "time": "2026-06-13 00:39:08"
           },
-          "slope": -8.249999999998536e-05,
-          "projected_y": 1.1629000000000054,
-          "last_touch_index": 139,
-          "last_touch_time": "2026-06-15 03:38:02",
+          "slope": -0.000579999999999988,
+          "projected_y": 0.9477800000000051,
+          "last_touch_index": 88,
+          "last_touch_time": "2026-06-13 00:39:08",
+          "broken": true,
+          "broken_index": 109,
+          "time": "2026-06-13 00:39:08"
+        },
+        {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SH",
+              "price": 1.18385,
+              "index": 100,
+              "time": "2026-06-13 12:39:08"
+            },
+            {
+              "type": "SH",
+              "price": 1.18239,
+              "index": 110,
+              "time": "2026-06-13 22:39:08"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 1.18385,
+            "index": 100,
+            "time": "2026-06-13 12:39:08"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.18239,
+            "index": 110,
+            "time": "2026-06-13 22:39:08"
+          },
+          "slope": -0.00014600000000000168,
+          "projected_y": 1.1255959999999994,
+          "last_touch_index": 110,
+          "last_touch_time": "2026-06-13 22:39:08",
+          "broken": true,
+          "broken_index": 115,
+          "time": "2026-06-13 22:39:08"
+        },
+        {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SH",
+              "price": 1.1865,
+              "index": 141,
+              "time": "2026-06-15 05:39:08"
+            },
+            {
+              "type": "SH",
+              "price": 1.18225,
+              "index": 149,
+              "time": "2026-06-15 13:39:08"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 1.1865,
+            "index": 141,
+            "time": "2026-06-15 05:39:08"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.18225,
+            "index": 149,
+            "time": "2026-06-15 13:39:08"
+          },
+          "slope": -0.0005312500000000109,
+          "projected_y": 0.9963124999999962,
+          "last_touch_index": 149,
+          "last_touch_time": "2026-06-15 13:39:08",
+          "broken": true,
+          "broken_index": 164,
+          "time": "2026-06-15 13:39:08"
+        },
+        {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SH",
+              "price": 1.18225,
+              "index": 149,
+              "time": "2026-06-15 13:39:08"
+            },
+            {
+              "type": "SH",
+              "price": 1.17959,
+              "index": 155,
+              "time": "2026-06-15 19:39:08"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 1.18225,
+            "index": 149,
+            "time": "2026-06-15 13:39:08"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.17959,
+            "index": 155,
+            "time": "2026-06-15 19:39:08"
+          },
+          "slope": -0.0004433333333333511,
+          "projected_y": 1.0270833333333271,
+          "last_touch_index": 155,
+          "last_touch_time": "2026-06-15 19:39:08",
+          "broken": true,
+          "broken_index": 164,
+          "time": "2026-06-15 19:39:08"
+        },
+        {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SH",
+              "price": 1.18054,
+              "index": 164,
+              "time": "2026-06-16 04:39:08"
+            },
+            {
+              "type": "SH",
+              "price": 1.17912,
+              "index": 172,
+              "time": "2026-06-16 12:39:08"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 1.18054,
+            "index": 164,
+            "time": "2026-06-16 04:39:08"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.17912,
+            "index": 172,
+            "time": "2026-06-16 12:39:08"
+          },
+          "slope": -0.0001774999999999971,
+          "projected_y": 1.1210775000000008,
+          "last_touch_index": 172,
+          "last_touch_time": "2026-06-16 12:39:08",
+          "broken": true,
+          "broken_index": 205,
+          "time": "2026-06-16 12:39:08"
+        },
+        {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SH",
+              "price": 1.17897,
+              "index": 186,
+              "time": "2026-06-17 02:39:08"
+            },
+            {
+              "type": "SH",
+              "price": 1.17543,
+              "index": 198,
+              "time": "2026-06-17 14:39:08"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 1.17897,
+            "index": 186,
+            "time": "2026-06-17 02:39:08"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.17543,
+            "index": 198,
+            "time": "2026-06-17 14:39:08"
+          },
+          "slope": -0.0002950000000000082,
+          "projected_y": 1.0866349999999976,
+          "last_touch_index": 198,
+          "last_touch_time": "2026-06-17 14:39:08",
+          "broken": true,
+          "broken_index": 205,
+          "time": "2026-06-17 14:39:08"
+        },
+        {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SH",
+              "price": 1.17859,
+              "index": 211,
+              "time": "2026-06-18 03:39:08"
+            },
+            {
+              "type": "SH",
+              "price": 1.17375,
+              "index": 228,
+              "time": "2026-06-18 20:39:08"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 1.17859,
+            "index": 211,
+            "time": "2026-06-18 03:39:08"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.17375,
+            "index": 228,
+            "time": "2026-06-18 20:39:08"
+          },
+          "slope": -0.00028470588235293855,
+          "projected_y": 1.0965947058823537,
+          "last_touch_index": 228,
+          "last_touch_time": "2026-06-18 20:39:08",
           "broken": true,
           "broken_index": 233,
-          "time": "2026-06-15 03:38:02"
+          "time": "2026-06-18 20:39:08"
         },
         {
           "type": "Trendline",
@@ -82015,196 +82136,36 @@
           "touches": [
             {
               "type": "SH",
-              "price": 1.1926,
-              "index": 139,
-              "time": "2026-06-15 03:38:02"
-            },
-            {
-              "type": "SH",
-              "price": 1.18589,
-              "index": 161,
-              "time": "2026-06-16 01:38:02"
-            }
-          ],
-          "anchor_1": {
-            "type": "SH",
-            "price": 1.1926,
-            "index": 139,
-            "time": "2026-06-15 03:38:02"
-          },
-          "anchor_2": {
-            "type": "SH",
-            "price": 1.18589,
-            "index": 161,
-            "time": "2026-06-16 01:38:02"
-          },
-          "slope": -0.0003049999999999997,
-          "projected_y": 1.0828000000000002,
-          "last_touch_index": 161,
-          "last_touch_time": "2026-06-16 01:38:02",
-          "broken": true,
-          "broken_index": 169,
-          "time": "2026-06-16 01:38:02"
-        },
-        {
-          "type": "Trendline",
-          "direction": "descending",
-          "trade_bias": "short",
-          "state": "broken",
-          "touch_count": 2,
-          "touches": [
-            {
-              "type": "SH",
-              "price": 1.18931,
-              "index": 170,
-              "time": "2026-06-16 10:38:02"
-            },
-            {
-              "type": "SH",
-              "price": 1.18284,
-              "index": 212,
-              "time": "2026-06-18 04:38:02"
-            }
-          ],
-          "anchor_1": {
-            "type": "SH",
-            "price": 1.18931,
-            "index": 170,
-            "time": "2026-06-16 10:38:02"
-          },
-          "anchor_2": {
-            "type": "SH",
-            "price": 1.18284,
-            "index": 212,
-            "time": "2026-06-18 04:38:02"
-          },
-          "slope": -0.00015404761904762375,
-          "projected_y": 1.1386283333333318,
-          "last_touch_index": 212,
-          "last_touch_time": "2026-06-18 04:38:02",
-          "broken": true,
-          "broken_index": 217,
-          "time": "2026-06-18 04:38:02"
-        },
-        {
-          "type": "Trendline",
-          "direction": "descending",
-          "trade_bias": "short",
-          "state": "broken",
-          "touch_count": 2,
-          "touches": [
-            {
-              "type": "SH",
-              "price": 1.18509,
-              "index": 218,
-              "time": "2026-06-18 10:38:02"
-            },
-            {
-              "type": "SH",
-              "price": 1.18387,
-              "index": 223,
-              "time": "2026-06-18 15:38:02"
-            }
-          ],
-          "anchor_1": {
-            "type": "SH",
-            "price": 1.18509,
-            "index": 218,
-            "time": "2026-06-18 10:38:02"
-          },
-          "anchor_2": {
-            "type": "SH",
-            "price": 1.18387,
-            "index": 223,
-            "time": "2026-06-18 15:38:02"
-          },
-          "slope": -0.00024399999999999978,
-          "projected_y": 1.1165260000000001,
-          "last_touch_index": 223,
-          "last_touch_time": "2026-06-18 15:38:02",
-          "broken": true,
-          "broken_index": 233,
-          "time": "2026-06-18 15:38:02"
-        },
-        {
-          "type": "Trendline",
-          "direction": "descending",
-          "trade_bias": "short",
-          "state": "broken",
-          "touch_count": 2,
-          "touches": [
-            {
-              "type": "SH",
-              "price": 1.18769,
-              "index": 241,
-              "time": "2026-06-19 09:38:02"
-            },
-            {
-              "type": "SH",
-              "price": 1.18639,
-              "index": 251,
-              "time": "2026-06-19 19:38:02"
-            }
-          ],
-          "anchor_1": {
-            "type": "SH",
-            "price": 1.18769,
-            "index": 241,
-            "time": "2026-06-19 09:38:02"
-          },
-          "anchor_2": {
-            "type": "SH",
-            "price": 1.18639,
-            "index": 251,
-            "time": "2026-06-19 19:38:02"
-          },
-          "slope": -0.00012999999999998568,
-          "projected_y": 1.1541500000000036,
-          "last_touch_index": 251,
-          "last_touch_time": "2026-06-19 19:38:02",
-          "broken": true,
-          "broken_index": 262,
-          "time": "2026-06-19 19:38:02"
-        },
-        {
-          "type": "Trendline",
-          "direction": "descending",
-          "trade_bias": "short",
-          "state": "broken",
-          "touch_count": 2,
-          "touches": [
-            {
-              "type": "SH",
-              "price": 1.19284,
+              "price": 1.17394,
               "index": 271,
-              "time": "2026-06-20 15:38:02"
+              "time": "2026-06-20 15:39:08"
             },
             {
               "type": "SH",
-              "price": 1.18777,
-              "index": 284,
-              "time": "2026-06-21 04:38:02"
+              "price": 1.17208,
+              "index": 277,
+              "time": "2026-06-20 21:39:08"
             }
           ],
           "anchor_1": {
             "type": "SH",
-            "price": 1.19284,
+            "price": 1.17394,
             "index": 271,
-            "time": "2026-06-20 15:38:02"
+            "time": "2026-06-20 15:39:08"
           },
           "anchor_2": {
             "type": "SH",
-            "price": 1.18777,
-            "index": 284,
-            "time": "2026-06-21 04:38:02"
+            "price": 1.17208,
+            "index": 277,
+            "time": "2026-06-20 21:39:08"
           },
-          "slope": -0.0003899999999999929,
-          "projected_y": 1.1039200000000016,
-          "last_touch_index": 284,
-          "last_touch_time": "2026-06-21 04:38:02",
+          "slope": -0.00030999999999999545,
+          "projected_y": 1.103260000000001,
+          "last_touch_index": 277,
+          "last_touch_time": "2026-06-20 21:39:08",
           "broken": true,
-          "broken_index": 295,
-          "time": "2026-06-21 04:38:02"
+          "broken_index": 292,
+          "time": "2026-06-20 21:39:08"
         },
         {
           "type": "Trendline",
@@ -82215,36 +82176,36 @@
           "touches": [
             {
               "type": "SH",
-              "price": 1.18777,
-              "index": 284,
-              "time": "2026-06-21 04:38:02"
+              "price": 1.17208,
+              "index": 277,
+              "time": "2026-06-20 21:39:08"
             },
             {
               "type": "SH",
-              "price": 1.18619,
-              "index": 294,
-              "time": "2026-06-21 14:38:02"
+              "price": 1.17148,
+              "index": 286,
+              "time": "2026-06-21 06:39:08"
             }
           ],
           "anchor_1": {
             "type": "SH",
-            "price": 1.18777,
-            "index": 284,
-            "time": "2026-06-21 04:38:02"
+            "price": 1.17208,
+            "index": 277,
+            "time": "2026-06-20 21:39:08"
           },
           "anchor_2": {
             "type": "SH",
-            "price": 1.18619,
-            "index": 294,
-            "time": "2026-06-21 14:38:02"
+            "price": 1.17148,
+            "index": 286,
+            "time": "2026-06-21 06:39:08"
           },
-          "slope": -0.00015799999999999148,
-          "projected_y": 1.1538000000000017,
-          "last_touch_index": 294,
-          "last_touch_time": "2026-06-21 14:38:02",
+          "slope": -6.666666666665932e-05,
+          "projected_y": 1.1572800000000016,
+          "last_touch_index": 286,
+          "last_touch_time": "2026-06-21 06:39:08",
           "broken": true,
-          "broken_index": 310,
-          "time": "2026-06-21 14:38:02"
+          "broken_index": 292,
+          "time": "2026-06-21 06:39:08"
         },
         {
           "type": "Trendline",
@@ -82255,36 +82216,36 @@
           "touches": [
             {
               "type": "SH",
-              "price": 1.19867,
-              "index": 328,
-              "time": "2026-06-23 00:38:02"
+              "price": 1.17643,
+              "index": 299,
+              "time": "2026-06-21 19:39:08"
             },
             {
               "type": "SH",
-              "price": 1.19443,
-              "index": 345,
-              "time": "2026-06-23 17:38:02"
+              "price": 1.17579,
+              "index": 306,
+              "time": "2026-06-22 02:39:08"
             }
           ],
           "anchor_1": {
             "type": "SH",
-            "price": 1.19867,
-            "index": 328,
-            "time": "2026-06-23 00:38:02"
+            "price": 1.17643,
+            "index": 299,
+            "time": "2026-06-21 19:39:08"
           },
           "anchor_2": {
             "type": "SH",
-            "price": 1.19443,
-            "index": 345,
-            "time": "2026-06-23 17:38:02"
+            "price": 1.17579,
+            "index": 306,
+            "time": "2026-06-22 02:39:08"
           },
-          "slope": -0.00024941176470587057,
-          "projected_y": 1.156020588235296,
-          "last_touch_index": 345,
-          "last_touch_time": "2026-06-23 17:38:02",
+          "slope": -9.142857142859942e-05,
+          "projected_y": 1.1581442857142803,
+          "last_touch_index": 306,
+          "last_touch_time": "2026-06-22 02:39:08",
           "broken": true,
-          "broken_index": 349,
-          "time": "2026-06-23 17:38:02"
+          "broken_index": 312,
+          "time": "2026-06-22 02:39:08"
         },
         {
           "type": "Trendline",
@@ -82295,36 +82256,76 @@
           "touches": [
             {
               "type": "SH",
-              "price": 1.18928,
+              "price": 1.17923,
+              "index": 312,
+              "time": "2026-06-22 08:39:08"
+            },
+            {
+              "type": "SH",
+              "price": 1.17712,
+              "index": 324,
+              "time": "2026-06-22 20:39:08"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 1.17923,
+            "index": 312,
+            "time": "2026-06-22 08:39:08"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.17712,
+            "index": 324,
+            "time": "2026-06-22 20:39:08"
+          },
+          "slope": -0.00017583333333333803,
+          "projected_y": 1.1463491666666659,
+          "last_touch_index": 324,
+          "last_touch_time": "2026-06-22 20:39:08",
+          "broken": true,
+          "broken_index": 342,
+          "time": "2026-06-22 20:39:08"
+        },
+        {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "watching",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SH",
+              "price": 1.18099,
+              "index": 356,
+              "time": "2026-06-24 04:39:08"
+            },
+            {
+              "type": "SH",
+              "price": 1.17936,
               "index": 373,
-              "time": "2026-06-24 21:38:02"
-            },
-            {
-              "type": "SH",
-              "price": 1.18614,
-              "index": 384,
-              "time": "2026-06-25 08:38:02"
+              "time": "2026-06-24 21:39:08"
             }
           ],
           "anchor_1": {
             "type": "SH",
-            "price": 1.18928,
+            "price": 1.18099,
+            "index": 356,
+            "time": "2026-06-24 04:39:08"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.17936,
             "index": 373,
-            "time": "2026-06-24 21:38:02"
+            "time": "2026-06-24 21:39:08"
           },
-          "anchor_2": {
-            "type": "SH",
-            "price": 1.18614,
-            "index": 384,
-            "time": "2026-06-25 08:38:02"
-          },
-          "slope": -0.00028545454545453823,
-          "projected_y": 1.1533127272727282,
-          "last_touch_index": 384,
-          "last_touch_time": "2026-06-25 08:38:02",
-          "broken": true,
-          "broken_index": 396,
-          "time": "2026-06-25 08:38:02"
+          "slope": -9.588235294117767e-05,
+          "projected_y": 1.1672788235294116,
+          "last_touch_index": 373,
+          "last_touch_time": "2026-06-24 21:39:08",
+          "broken": false,
+          "broken_index": null,
+          "time": "2026-06-24 21:39:08"
         },
         {
           "type": "Trendline",
@@ -82335,36 +82336,36 @@
           "touches": [
             {
               "type": "SH",
-              "price": 1.18751,
-              "index": 430,
-              "time": "2026-06-27 06:38:02"
+              "price": 1.17936,
+              "index": 373,
+              "time": "2026-06-24 21:39:08"
             },
             {
               "type": "SH",
-              "price": 1.18354,
-              "index": 441,
-              "time": "2026-06-27 17:38:02"
+              "price": 1.17363,
+              "index": 386,
+              "time": "2026-06-25 10:39:08"
             }
           ],
           "anchor_1": {
             "type": "SH",
-            "price": 1.18751,
-            "index": 430,
-            "time": "2026-06-27 06:38:02"
+            "price": 1.17936,
+            "index": 373,
+            "time": "2026-06-24 21:39:08"
           },
           "anchor_2": {
             "type": "SH",
-            "price": 1.18354,
-            "index": 441,
-            "time": "2026-06-27 17:38:02"
+            "price": 1.17363,
+            "index": 386,
+            "time": "2026-06-25 10:39:08"
           },
-          "slope": -0.00036090909090909354,
-          "projected_y": 1.1626072727272727,
-          "last_touch_index": 441,
-          "last_touch_time": "2026-06-27 17:38:02",
+          "slope": -0.0004407692307692318,
+          "projected_y": 1.1238230769230768,
+          "last_touch_index": 386,
+          "last_touch_time": "2026-06-25 10:39:08",
           "broken": true,
-          "broken_index": 470,
-          "time": "2026-06-27 17:38:02"
+          "broken_index": 406,
+          "time": "2026-06-25 10:39:08"
         },
         {
           "type": "Trendline",
@@ -82375,36 +82376,36 @@
           "touches": [
             {
               "type": "SH",
-              "price": 1.18354,
-              "index": 441,
-              "time": "2026-06-27 17:38:02"
+              "price": 1.17363,
+              "index": 386,
+              "time": "2026-06-25 10:39:08"
             },
             {
               "type": "SH",
-              "price": 1.17146,
-              "index": 465,
-              "time": "2026-06-28 17:38:02"
+              "price": 1.17106,
+              "index": 389,
+              "time": "2026-06-25 13:39:08"
             }
           ],
           "anchor_1": {
             "type": "SH",
-            "price": 1.18354,
-            "index": 441,
-            "time": "2026-06-27 17:38:02"
+            "price": 1.17363,
+            "index": 386,
+            "time": "2026-06-25 10:39:08"
           },
           "anchor_2": {
             "type": "SH",
-            "price": 1.17146,
-            "index": 465,
-            "time": "2026-06-28 17:38:02"
+            "price": 1.17106,
+            "index": 389,
+            "time": "2026-06-25 13:39:08"
           },
-          "slope": -0.0005033333333333371,
-          "projected_y": 1.1543466666666664,
-          "last_touch_index": 465,
-          "last_touch_time": "2026-06-28 17:38:02",
+          "slope": -0.0008566666666666537,
+          "projected_y": 1.0768266666666682,
+          "last_touch_index": 389,
+          "last_touch_time": "2026-06-25 13:39:08",
           "broken": true,
-          "broken_index": 470,
-          "time": "2026-06-28 17:38:02"
+          "broken_index": 393,
+          "time": "2026-06-25 13:39:08"
         },
         {
           "type": "Trendline",
@@ -82415,72 +82416,218 @@
           "touches": [
             {
               "type": "SH",
-              "price": 1.17762,
-              "index": 475,
-              "time": "2026-06-29 03:38:02"
+              "price": 1.17232,
+              "index": 394,
+              "time": "2026-06-25 18:39:08"
             },
             {
               "type": "SH",
-              "price": 1.17329,
-              "index": 487,
-              "time": "2026-06-29 15:38:02"
+              "price": 1.16846,
+              "index": 407,
+              "time": "2026-06-26 07:39:08"
             }
           ],
           "anchor_1": {
             "type": "SH",
-            "price": 1.17762,
-            "index": 475,
-            "time": "2026-06-29 03:38:02"
+            "price": 1.17232,
+            "index": 394,
+            "time": "2026-06-25 18:39:08"
           },
           "anchor_2": {
             "type": "SH",
-            "price": 1.17329,
-            "index": 487,
-            "time": "2026-06-29 15:38:02"
+            "price": 1.16846,
+            "index": 407,
+            "time": "2026-06-26 07:39:08"
           },
-          "slope": -0.00036083333333332873,
-          "projected_y": 1.16896,
-          "last_touch_index": 487,
-          "last_touch_time": "2026-06-29 15:38:02",
+          "slope": -0.00029692307692307494,
+          "projected_y": 1.1411430769230773,
+          "last_touch_index": 407,
+          "last_touch_time": "2026-06-26 07:39:08",
           "broken": true,
-          "broken_index": 496,
-          "time": "2026-06-29 15:38:02"
+          "broken_index": 419,
+          "time": "2026-06-26 07:39:08"
+        },
+        {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SH",
+              "price": 1.16937,
+              "index": 428,
+              "time": "2026-06-27 04:39:08"
+            },
+            {
+              "type": "SH",
+              "price": 1.16696,
+              "index": 438,
+              "time": "2026-06-27 14:39:08"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 1.16937,
+            "index": 428,
+            "time": "2026-06-27 04:39:08"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.16696,
+            "index": 438,
+            "time": "2026-06-27 14:39:08"
+          },
+          "slope": -0.00024100000000000233,
+          "projected_y": 1.152259,
+          "last_touch_index": 438,
+          "last_touch_time": "2026-06-27 14:39:08",
+          "broken": true,
+          "broken_index": 443,
+          "time": "2026-06-27 14:39:08"
+        },
+        {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SH",
+              "price": 1.16912,
+              "index": 445,
+              "time": "2026-06-27 21:39:08"
+            },
+            {
+              "type": "SH",
+              "price": 1.16675,
+              "index": 455,
+              "time": "2026-06-28 07:39:08"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 1.16912,
+            "index": 445,
+            "time": "2026-06-27 21:39:08"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.16675,
+            "index": 455,
+            "time": "2026-06-28 07:39:08"
+          },
+          "slope": -0.00023699999999999833,
+          "projected_y": 1.156322,
+          "last_touch_index": 455,
+          "last_touch_time": "2026-06-28 07:39:08",
+          "broken": true,
+          "broken_index": 493,
+          "time": "2026-06-28 07:39:08"
+        },
+        {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "watching",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SH",
+              "price": 1.16675,
+              "index": 455,
+              "time": "2026-06-28 07:39:08"
+            },
+            {
+              "type": "SH",
+              "price": 1.16396,
+              "index": 472,
+              "time": "2026-06-29 00:39:08"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 1.16675,
+            "index": 455,
+            "time": "2026-06-28 07:39:08"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.16396,
+            "index": 472,
+            "time": "2026-06-29 00:39:08"
+          },
+          "slope": -0.0001641176470588146,
+          "projected_y": 1.1595288235294121,
+          "last_touch_index": 472,
+          "last_touch_time": "2026-06-29 00:39:08",
+          "broken": false,
+          "broken_index": null,
+          "time": "2026-06-29 00:39:08"
+        },
+        {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "watching",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SH",
+              "price": 1.16203,
+              "index": 489,
+              "time": "2026-06-29 17:39:08"
+            },
+            {
+              "type": "SH",
+              "price": 1.16158,
+              "index": 494,
+              "time": "2026-06-29 22:39:08"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 1.16203,
+            "index": 489,
+            "time": "2026-06-29 17:39:08"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.16158,
+            "index": 494,
+            "time": "2026-06-29 22:39:08"
+          },
+          "slope": -8.999999999996789e-05,
+          "projected_y": 1.1611300000000002,
+          "last_touch_index": 494,
+          "last_touch_time": "2026-06-29 22:39:08",
+          "broken": false,
+          "broken_index": null,
+          "time": "2026-06-29 22:39:08"
         }
       ],
       "double_tops": [],
       "double_bottoms": [],
-      "pois": [
-        {
-          "type": "Bearish POI",
-          "tier": 2,
-          "top": 1.17693,
-          "bottom": 1.1759,
-          "time": "2026-06-29 02:38:02",
-          "origin_index": 54,
-          "has_fvg": false,
-          "has_breaker": false,
-          "has_structure": true,
-          "pd_zone": "premium",
-          "status": "active"
-        }
-      ],
+      "pois": [],
       "pd_arrays": {
         "trend": "bearish",
-        "range_high": 1.17329,
-        "range_low": 1.16884,
+        "range_high": 1.16158,
+        "range_low": 1.15732,
         "premium": {
-          "bottom": 1.1718066666666667,
-          "top": 1.17329
+          "bottom": 1.16016,
+          "top": 1.16158
         },
         "equilibrium": {
-          "bottom": 1.1703233333333334,
-          "top": 1.1718066666666667
+          "bottom": 1.1587399999999999,
+          "top": 1.16016
         },
         "discount": {
-          "bottom": 1.16884,
-          "top": 1.1703233333333334
+          "bottom": 1.15732,
+          "top": 1.1587399999999999
         },
-        "current_price": 1.17564,
+        "current_price": 1.16106,
         "current_zone": "premium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -82489,1542 +82636,1674 @@
       "structure": [
         {
           "label": "HH",
-          "price": 1.206,
-          "time": "2026-06-09 17:38:02",
-          "index": 9
-        },
-        {
-          "label": "HL",
-          "price": 1.20327,
-          "time": "2026-06-09 22:38:02",
-          "index": 14
-        },
-        {
-          "label": "HH",
-          "price": 1.20969,
-          "time": "2026-06-10 02:38:02",
-          "index": 18
+          "price": 1.20274,
+          "time": "2026-06-10 06:39:08",
+          "index": 22
         },
         {
           "label": "LL",
-          "price": 1.1967,
-          "time": "2026-06-10 21:38:02",
-          "index": 37
+          "price": 1.19259,
+          "time": "2026-06-10 15:39:08",
+          "index": 31
         },
         {
           "label": "LH",
-          "price": 1.20356,
-          "time": "2026-06-11 05:38:02",
-          "index": 45
-        },
-        {
-          "label": "HL",
-          "price": 1.19839,
-          "time": "2026-06-11 08:38:02",
-          "index": 48
-        },
-        {
-          "label": "LH",
-          "price": 1.20113,
-          "time": "2026-06-11 12:38:02",
-          "index": 52
+          "price": 1.19601,
+          "time": "2026-06-10 22:39:08",
+          "index": 38
         },
         {
           "label": "LL",
-          "price": 1.19501,
-          "time": "2026-06-11 13:38:02",
+          "price": 1.18954,
+          "time": "2026-06-11 07:39:08",
+          "index": 47
+        },
+        {
+          "label": "LH",
+          "price": 1.19448,
+          "time": "2026-06-11 13:39:08",
           "index": 53
         },
         {
-          "label": "LH",
-          "price": 1.19756,
-          "time": "2026-06-11 17:38:02",
-          "index": 57
-        },
-        {
           "label": "LL",
-          "price": 1.19219,
-          "time": "2026-06-11 20:38:02",
-          "index": 60
+          "price": 1.18683,
+          "time": "2026-06-11 22:39:08",
+          "index": 62
         },
         {
           "label": "LH",
-          "price": 1.19657,
-          "time": "2026-06-11 21:38:02",
-          "index": 61
-        },
-        {
-          "label": "HL",
-          "price": 1.19238,
-          "time": "2026-06-12 00:38:02",
+          "price": 1.19119,
+          "time": "2026-06-12 00:39:08",
           "index": 64
         },
         {
-          "label": "LH",
-          "price": 1.19583,
-          "time": "2026-06-12 09:38:02",
-          "index": 73
+          "label": "HL",
+          "price": 1.18822,
+          "time": "2026-06-12 04:39:08",
+          "index": 68
+        },
+        {
+          "label": "HH",
+          "price": 1.19441,
+          "time": "2026-06-12 07:39:08",
+          "index": 71
         },
         {
           "label": "LL",
-          "price": 1.1889,
-          "time": "2026-06-12 14:38:02",
-          "index": 78
+          "price": 1.18703,
+          "time": "2026-06-12 13:39:08",
+          "index": 77
         },
         {
           "label": "LH",
-          "price": 1.19477,
-          "time": "2026-06-12 20:38:02",
-          "index": 84
+          "price": 1.18964,
+          "time": "2026-06-12 18:39:08",
+          "index": 82
         },
         {
-          "label": "HL",
-          "price": 1.1907,
-          "time": "2026-06-12 21:38:02",
-          "index": 85
-        },
-        {
-          "label": "LH",
-          "price": 1.19467,
-          "time": "2026-06-12 23:38:02",
+          "label": "LL",
+          "price": 1.18148,
+          "time": "2026-06-12 23:39:08",
           "index": 87
         },
         {
+          "label": "LH",
+          "price": 1.18616,
+          "time": "2026-06-13 00:39:08",
+          "index": 88
+        },
+        {
           "label": "LL",
-          "price": 1.18539,
-          "time": "2026-06-13 18:38:02",
-          "index": 106
+          "price": 1.18114,
+          "time": "2026-06-13 06:39:08",
+          "index": 94
         },
         {
           "label": "LH",
-          "price": 1.19219,
-          "time": "2026-06-13 20:38:02",
-          "index": 108
+          "price": 1.18385,
+          "time": "2026-06-13 12:39:08",
+          "index": 100
+        },
+        {
+          "label": "LL",
+          "price": 1.17711,
+          "time": "2026-06-13 14:39:08",
+          "index": 102
+        },
+        {
+          "label": "LH",
+          "price": 1.18239,
+          "time": "2026-06-13 22:39:08",
+          "index": 110
         },
         {
           "label": "HL",
-          "price": 1.18637,
-          "time": "2026-06-14 03:38:02",
+          "price": 1.17906,
+          "time": "2026-06-14 03:39:08",
           "index": 115
         },
         {
           "label": "HH",
-          "price": 1.19251,
-          "time": "2026-06-14 16:38:02",
+          "price": 1.18412,
+          "time": "2026-06-14 04:39:08",
+          "index": 116
+        },
+        {
+          "label": "LL",
+          "price": 1.17827,
+          "time": "2026-06-14 09:39:08",
+          "index": 121
+        },
+        {
+          "label": "HH",
+          "price": 1.18568,
+          "time": "2026-06-14 16:39:08",
           "index": 128
         },
         {
           "label": "HL",
-          "price": 1.18909,
-          "time": "2026-06-14 17:38:02",
-          "index": 129
+          "price": 1.18213,
+          "time": "2026-06-14 18:39:08",
+          "index": 130
         },
         {
           "label": "HH",
-          "price": 1.19326,
-          "time": "2026-06-14 19:38:02",
-          "index": 131
+          "price": 1.1865,
+          "time": "2026-06-15 05:39:08",
+          "index": 141
         },
         {
           "label": "LL",
-          "price": 1.18824,
-          "time": "2026-06-15 02:38:02",
-          "index": 138
+          "price": 1.17788,
+          "time": "2026-06-15 12:39:08",
+          "index": 148
         },
         {
           "label": "LH",
-          "price": 1.1926,
-          "time": "2026-06-15 03:38:02",
-          "index": 139
-        },
-        {
-          "label": "LL",
-          "price": 1.18092,
-          "time": "2026-06-15 21:38:02",
-          "index": 157
-        },
-        {
-          "label": "LH",
-          "price": 1.18589,
-          "time": "2026-06-16 01:38:02",
-          "index": 161
-        },
-        {
-          "label": "HL",
           "price": 1.18225,
-          "time": "2026-06-16 02:38:02",
-          "index": 162
-        },
-        {
-          "label": "HH",
-          "price": 1.18931,
-          "time": "2026-06-16 10:38:02",
-          "index": 170
+          "time": "2026-06-15 13:39:08",
+          "index": 149
         },
         {
           "label": "LL",
-          "price": 1.17187,
-          "time": "2026-06-17 18:38:02",
-          "index": 202
+          "price": 1.17519,
+          "time": "2026-06-15 16:39:08",
+          "index": 152
         },
         {
           "label": "LH",
-          "price": 1.18284,
-          "time": "2026-06-18 04:38:02",
-          "index": 212
+          "price": 1.17959,
+          "time": "2026-06-15 19:39:08",
+          "index": 155
         },
         {
-          "label": "HL",
-          "price": 1.17915,
-          "time": "2026-06-18 07:38:02",
-          "index": 215
+          "label": "LL",
+          "price": 1.17514,
+          "time": "2026-06-15 22:39:08",
+          "index": 158
         },
         {
           "label": "HH",
-          "price": 1.18509,
-          "time": "2026-06-18 10:38:02",
-          "index": 218
+          "price": 1.18054,
+          "time": "2026-06-16 04:39:08",
+          "index": 164
         },
         {
-          "label": "HL",
-          "price": 1.18037,
-          "time": "2026-06-18 12:38:02",
-          "index": 220
+          "label": "LL",
+          "price": 1.17451,
+          "time": "2026-06-16 11:39:08",
+          "index": 171
         },
         {
           "label": "LH",
-          "price": 1.18387,
-          "time": "2026-06-18 15:38:02",
+          "price": 1.17912,
+          "time": "2026-06-16 12:39:08",
+          "index": 172
+        },
+        {
+          "label": "LL",
+          "price": 1.1738,
+          "time": "2026-06-16 18:39:08",
+          "index": 178
+        },
+        {
+          "label": "LH",
+          "price": 1.17897,
+          "time": "2026-06-17 02:39:08",
+          "index": 186
+        },
+        {
+          "label": "LL",
+          "price": 1.17118,
+          "time": "2026-06-17 12:39:08",
+          "index": 196
+        },
+        {
+          "label": "LH",
+          "price": 1.17543,
+          "time": "2026-06-17 14:39:08",
+          "index": 198
+        },
+        {
+          "label": "HL",
+          "price": 1.17183,
+          "time": "2026-06-17 15:39:08",
+          "index": 199
+        },
+        {
+          "label": "HH",
+          "price": 1.17859,
+          "time": "2026-06-18 03:39:08",
+          "index": 211
+        },
+        {
+          "label": "LL",
+          "price": 1.16793,
+          "time": "2026-06-18 15:39:08",
           "index": 223
         },
         {
-          "label": "LL",
-          "price": 1.18004,
-          "time": "2026-06-18 17:38:02",
-          "index": 225
-        },
-        {
-          "label": "HH",
-          "price": 1.18421,
-          "time": "2026-06-18 18:38:02",
-          "index": 226
+          "label": "LH",
+          "price": 1.17375,
+          "time": "2026-06-18 20:39:08",
+          "index": 228
         },
         {
           "label": "HL",
-          "price": 1.18203,
-          "time": "2026-06-19 00:38:02",
-          "index": 232
+          "price": 1.16927,
+          "time": "2026-06-18 21:39:08",
+          "index": 229
         },
         {
           "label": "HH",
-          "price": 1.18717,
-          "time": "2026-06-19 01:38:02",
-          "index": 233
+          "price": 1.17582,
+          "time": "2026-06-19 06:39:08",
+          "index": 238
         },
         {
           "label": "HL",
-          "price": 1.18251,
-          "time": "2026-06-19 07:38:02",
-          "index": 239
-        },
-        {
-          "label": "HH",
-          "price": 1.18769,
-          "time": "2026-06-19 09:38:02",
+          "price": 1.17218,
+          "time": "2026-06-19 09:39:08",
           "index": 241
         },
         {
+          "label": "HH",
+          "price": 1.17706,
+          "time": "2026-06-19 20:39:08",
+          "index": 252
+        },
+        {
           "label": "LL",
-          "price": 1.18242,
-          "time": "2026-06-19 11:38:02",
-          "index": 243
+          "price": 1.16946,
+          "time": "2026-06-20 13:39:08",
+          "index": 269
         },
         {
           "label": "LH",
-          "price": 1.18639,
-          "time": "2026-06-19 19:38:02",
-          "index": 251
-        },
-        {
-          "label": "LL",
-          "price": 1.18072,
-          "time": "2026-06-19 23:38:02",
-          "index": 255
-        },
-        {
-          "label": "HH",
-          "price": 1.19284,
-          "time": "2026-06-20 15:38:02",
+          "price": 1.17394,
+          "time": "2026-06-20 15:39:08",
           "index": 271
         },
         {
           "label": "HL",
-          "price": 1.18357,
-          "time": "2026-06-21 02:38:02",
+          "price": 1.16977,
+          "time": "2026-06-20 16:39:08",
+          "index": 272
+        },
+        {
+          "label": "LH",
+          "price": 1.17208,
+          "time": "2026-06-20 21:39:08",
+          "index": 277
+        },
+        {
+          "label": "LL",
+          "price": 1.16679,
+          "time": "2026-06-21 02:39:08",
           "index": 282
         },
         {
           "label": "LH",
-          "price": 1.18777,
-          "time": "2026-06-21 04:38:02",
-          "index": 284
+          "price": 1.17148,
+          "time": "2026-06-21 06:39:08",
+          "index": 286
+        },
+        {
+          "label": "HL",
+          "price": 1.16878,
+          "time": "2026-06-21 12:39:08",
+          "index": 292
+        },
+        {
+          "label": "HH",
+          "price": 1.17637,
+          "time": "2026-06-21 15:39:08",
+          "index": 295
+        },
+        {
+          "label": "HL",
+          "price": 1.17335,
+          "time": "2026-06-21 17:39:08",
+          "index": 297
+        },
+        {
+          "label": "HH",
+          "price": 1.17643,
+          "time": "2026-06-21 19:39:08",
+          "index": 299
         },
         {
           "label": "LL",
-          "price": 1.18286,
-          "time": "2026-06-21 11:38:02",
-          "index": 291
+          "price": 1.17064,
+          "time": "2026-06-22 00:39:08",
+          "index": 304
         },
         {
           "label": "LH",
-          "price": 1.18619,
-          "time": "2026-06-21 14:38:02",
-          "index": 294
-        },
-        {
-          "label": "LL",
-          "price": 1.18217,
-          "time": "2026-06-21 21:38:02",
-          "index": 301
-        },
-        {
-          "label": "HH",
-          "price": 1.18702,
-          "time": "2026-06-21 23:38:02",
-          "index": 303
+          "price": 1.17579,
+          "time": "2026-06-22 02:39:08",
+          "index": 306
         },
         {
           "label": "HL",
-          "price": 1.18273,
-          "time": "2026-06-22 06:38:02",
-          "index": 310
+          "price": 1.17196,
+          "time": "2026-06-22 03:39:08",
+          "index": 307
         },
         {
           "label": "HH",
-          "price": 1.19456,
-          "time": "2026-06-22 12:38:02",
-          "index": 316
+          "price": 1.17923,
+          "time": "2026-06-22 08:39:08",
+          "index": 312
         },
         {
           "label": "HL",
-          "price": 1.19163,
-          "time": "2026-06-22 18:38:02",
-          "index": 322
-        },
-        {
-          "label": "HH",
-          "price": 1.19725,
-          "time": "2026-06-22 19:38:02",
-          "index": 323
-        },
-        {
-          "label": "HL",
-          "price": 1.19275,
-          "time": "2026-06-22 22:38:02",
-          "index": 326
-        },
-        {
-          "label": "HH",
-          "price": 1.19867,
-          "time": "2026-06-23 00:38:02",
-          "index": 328
-        },
-        {
-          "label": "LL",
-          "price": 1.18915,
-          "time": "2026-06-23 16:38:02",
-          "index": 344
+          "price": 1.17308,
+          "time": "2026-06-22 13:39:08",
+          "index": 317
         },
         {
           "label": "LH",
-          "price": 1.19443,
-          "time": "2026-06-23 17:38:02",
-          "index": 345
-        },
-        {
-          "label": "HL",
-          "price": 1.19098,
-          "time": "2026-06-23 19:38:02",
-          "index": 347
-        },
-        {
-          "label": "HH",
-          "price": 1.19587,
-          "time": "2026-06-23 22:38:02",
-          "index": 350
+          "price": 1.17712,
+          "time": "2026-06-22 20:39:08",
+          "index": 324
         },
         {
           "label": "LL",
-          "price": 1.18698,
-          "time": "2026-06-24 17:38:02",
-          "index": 369
+          "price": 1.17052,
+          "time": "2026-06-22 21:39:08",
+          "index": 325
+        },
+        {
+          "label": "HH",
+          "price": 1.17776,
+          "time": "2026-06-23 04:39:08",
+          "index": 332
+        },
+        {
+          "label": "HL",
+          "price": 1.17339,
+          "time": "2026-06-23 14:39:08",
+          "index": 342
+        },
+        {
+          "label": "HH",
+          "price": 1.18099,
+          "time": "2026-06-24 04:39:08",
+          "index": 356
+        },
+        {
+          "label": "HL",
+          "price": 1.17558,
+          "time": "2026-06-24 09:39:08",
+          "index": 361
         },
         {
           "label": "LH",
-          "price": 1.18928,
-          "time": "2026-06-24 21:38:02",
+          "price": 1.17936,
+          "time": "2026-06-24 21:39:08",
           "index": 373
         },
         {
           "label": "LL",
-          "price": 1.18184,
-          "time": "2026-06-25 04:38:02",
-          "index": 380
+          "price": 1.17158,
+          "time": "2026-06-25 07:39:08",
+          "index": 383
         },
         {
           "label": "LH",
-          "price": 1.18614,
-          "time": "2026-06-25 08:38:02",
-          "index": 384
+          "price": 1.17363,
+          "time": "2026-06-25 10:39:08",
+          "index": 386
         },
         {
           "label": "LL",
-          "price": 1.17955,
-          "time": "2026-06-25 16:38:02",
-          "index": 392
-        },
-        {
-          "label": "HH",
-          "price": 1.19045,
-          "time": "2026-06-25 23:38:02",
-          "index": 399
-        },
-        {
-          "label": "HL",
-          "price": 1.18152,
-          "time": "2026-06-26 11:38:02",
-          "index": 411
+          "price": 1.16733,
+          "time": "2026-06-25 12:39:08",
+          "index": 388
         },
         {
           "label": "LH",
-          "price": 1.18763,
-          "time": "2026-06-27 01:38:02",
+          "price": 1.17106,
+          "time": "2026-06-25 13:39:08",
+          "index": 389
+        },
+        {
+          "label": "HL",
+          "price": 1.16785,
+          "time": "2026-06-25 17:39:08",
+          "index": 393
+        },
+        {
+          "label": "HH",
+          "price": 1.17232,
+          "time": "2026-06-25 18:39:08",
+          "index": 394
+        },
+        {
+          "label": "LL",
+          "price": 1.1631,
+          "time": "2026-06-26 03:39:08",
+          "index": 403
+        },
+        {
+          "label": "LH",
+          "price": 1.16846,
+          "time": "2026-06-26 07:39:08",
+          "index": 407
+        },
+        {
+          "label": "HL",
+          "price": 1.16472,
+          "time": "2026-06-26 10:39:08",
+          "index": 410
+        },
+        {
+          "label": "HH",
+          "price": 1.1686,
+          "time": "2026-06-26 13:39:08",
+          "index": 413
+        },
+        {
+          "label": "LL",
+          "price": 1.16244,
+          "time": "2026-06-26 16:39:08",
+          "index": 416
+        },
+        {
+          "label": "HH",
+          "price": 1.1687,
+          "time": "2026-06-26 22:39:08",
+          "index": 422
+        },
+        {
+          "label": "HL",
+          "price": 1.16441,
+          "time": "2026-06-27 01:39:08",
           "index": 425
         },
         {
+          "label": "HH",
+          "price": 1.16937,
+          "time": "2026-06-27 04:39:08",
+          "index": 428
+        },
+        {
+          "label": "LL",
+          "price": 1.16255,
+          "time": "2026-06-27 08:39:08",
+          "index": 432
+        },
+        {
+          "label": "LH",
+          "price": 1.16696,
+          "time": "2026-06-27 14:39:08",
+          "index": 438
+        },
+        {
           "label": "HL",
-          "price": 1.18335,
-          "time": "2026-06-27 05:38:02",
-          "index": 429
-        },
-        {
-          "label": "LH",
-          "price": 1.18751,
-          "time": "2026-06-27 06:38:02",
-          "index": 430
-        },
-        {
-          "label": "LL",
-          "price": 1.17954,
-          "time": "2026-06-27 12:38:02",
-          "index": 436
-        },
-        {
-          "label": "LH",
-          "price": 1.18354,
-          "time": "2026-06-27 17:38:02",
-          "index": 441
-        },
-        {
-          "label": "LL",
-          "price": 1.17282,
-          "time": "2026-06-28 03:38:02",
-          "index": 451
-        },
-        {
-          "label": "LH",
-          "price": 1.17146,
-          "time": "2026-06-28 17:38:02",
-          "index": 465
-        },
-        {
-          "label": "LL",
-          "price": 1.16926,
-          "time": "2026-06-28 21:38:02",
-          "index": 469
+          "price": 1.16357,
+          "time": "2026-06-27 19:39:08",
+          "index": 443
         },
         {
           "label": "HH",
-          "price": 1.17762,
-          "time": "2026-06-29 03:38:02",
-          "index": 475
+          "price": 1.16912,
+          "time": "2026-06-27 21:39:08",
+          "index": 445
         },
         {
           "label": "LL",
-          "price": 1.16884,
-          "time": "2026-06-29 14:38:02",
-          "index": 486
+          "price": 1.1626,
+          "time": "2026-06-28 06:39:08",
+          "index": 454
         },
         {
           "label": "LH",
-          "price": 1.17329,
-          "time": "2026-06-29 15:38:02",
-          "index": 487
+          "price": 1.16675,
+          "time": "2026-06-28 07:39:08",
+          "index": 455
+        },
+        {
+          "label": "LL",
+          "price": 1.15909,
+          "time": "2026-06-28 17:39:08",
+          "index": 465
+        },
+        {
+          "label": "LH",
+          "price": 1.16396,
+          "time": "2026-06-29 00:39:08",
+          "index": 472
+        },
+        {
+          "label": "LL",
+          "price": 1.15732,
+          "time": "2026-06-29 08:39:08",
+          "index": 480
+        },
+        {
+          "label": "LH",
+          "price": 1.16203,
+          "time": "2026-06-29 17:39:08",
+          "index": 489
         },
         {
           "label": "HL",
-          "price": 1.1692,
-          "time": "2026-06-29 18:38:02",
-          "index": 490
+          "price": 1.15816,
+          "time": "2026-06-29 19:39:08",
+          "index": 491
+        },
+        {
+          "label": "LH",
+          "price": 1.16158,
+          "time": "2026-06-29 22:39:08",
+          "index": 494
         }
       ],
       "swings": [
         {
           "type": "SH",
-          "price": 1.20534,
-          "index": 2,
-          "time": "2026-06-09 10:38:02"
+          "price": 1.20255,
+          "index": 8,
+          "time": "2026-06-09 16:39:08"
         },
         {
           "type": "SL",
-          "price": 1.20085,
-          "index": 4,
-          "time": "2026-06-09 12:38:02"
-        },
-        {
-          "type": "SH",
-          "price": 1.206,
+          "price": 1.1979,
           "index": 9,
-          "time": "2026-06-09 17:38:02"
-        },
-        {
-          "type": "SL",
-          "price": 1.20327,
-          "index": 14,
-          "time": "2026-06-09 22:38:02"
+          "time": "2026-06-09 17:39:08"
         },
         {
           "type": "SH",
-          "price": 1.20969,
-          "index": 18,
-          "time": "2026-06-10 02:38:02"
+          "price": 1.20274,
+          "index": 22,
+          "time": "2026-06-10 06:39:08"
         },
         {
           "type": "SL",
-          "price": 1.1967,
-          "index": 37,
-          "time": "2026-06-10 21:38:02"
+          "price": 1.19259,
+          "index": 31,
+          "time": "2026-06-10 15:39:08"
         },
         {
           "type": "SH",
-          "price": 1.20356,
-          "index": 45,
-          "time": "2026-06-11 05:38:02"
+          "price": 1.19601,
+          "index": 38,
+          "time": "2026-06-10 22:39:08"
         },
         {
           "type": "SL",
-          "price": 1.19839,
-          "index": 48,
-          "time": "2026-06-11 08:38:02"
+          "price": 1.18954,
+          "index": 47,
+          "time": "2026-06-11 07:39:08"
         },
         {
           "type": "SH",
-          "price": 1.20113,
-          "index": 52,
-          "time": "2026-06-11 12:38:02"
-        },
-        {
-          "type": "SL",
-          "price": 1.19501,
+          "price": 1.19448,
           "index": 53,
-          "time": "2026-06-11 13:38:02"
-        },
-        {
-          "type": "SH",
-          "price": 1.19756,
-          "index": 57,
-          "time": "2026-06-11 17:38:02"
+          "time": "2026-06-11 13:39:08"
         },
         {
           "type": "SL",
-          "price": 1.19219,
-          "index": 60,
-          "time": "2026-06-11 20:38:02"
+          "price": 1.18683,
+          "index": 62,
+          "time": "2026-06-11 22:39:08"
         },
         {
           "type": "SH",
-          "price": 1.19657,
-          "index": 61,
-          "time": "2026-06-11 21:38:02"
-        },
-        {
-          "type": "SL",
-          "price": 1.19238,
+          "price": 1.19119,
           "index": 64,
-          "time": "2026-06-12 00:38:02"
-        },
-        {
-          "type": "SH",
-          "price": 1.19583,
-          "index": 73,
-          "time": "2026-06-12 09:38:02"
+          "time": "2026-06-12 00:39:08"
         },
         {
           "type": "SL",
-          "price": 1.1889,
-          "index": 78,
-          "time": "2026-06-12 14:38:02"
+          "price": 1.18822,
+          "index": 68,
+          "time": "2026-06-12 04:39:08"
         },
         {
           "type": "SH",
-          "price": 1.19477,
-          "index": 84,
-          "time": "2026-06-12 20:38:02"
+          "price": 1.19441,
+          "index": 71,
+          "time": "2026-06-12 07:39:08"
         },
         {
           "type": "SL",
-          "price": 1.1907,
-          "index": 85,
-          "time": "2026-06-12 21:38:02"
+          "price": 1.18703,
+          "index": 77,
+          "time": "2026-06-12 13:39:08"
         },
         {
           "type": "SH",
-          "price": 1.19467,
+          "price": 1.18964,
+          "index": 82,
+          "time": "2026-06-12 18:39:08"
+        },
+        {
+          "type": "SL",
+          "price": 1.18148,
           "index": 87,
-          "time": "2026-06-12 23:38:02"
-        },
-        {
-          "type": "SL",
-          "price": 1.18539,
-          "index": 106,
-          "time": "2026-06-13 18:38:02"
+          "time": "2026-06-12 23:39:08"
         },
         {
           "type": "SH",
-          "price": 1.19219,
-          "index": 108,
-          "time": "2026-06-13 20:38:02"
+          "price": 1.18616,
+          "index": 88,
+          "time": "2026-06-13 00:39:08"
         },
         {
           "type": "SL",
-          "price": 1.18637,
+          "price": 1.18114,
+          "index": 94,
+          "time": "2026-06-13 06:39:08"
+        },
+        {
+          "type": "SH",
+          "price": 1.18385,
+          "index": 100,
+          "time": "2026-06-13 12:39:08"
+        },
+        {
+          "type": "SL",
+          "price": 1.17711,
+          "index": 102,
+          "time": "2026-06-13 14:39:08"
+        },
+        {
+          "type": "SH",
+          "price": 1.18239,
+          "index": 110,
+          "time": "2026-06-13 22:39:08"
+        },
+        {
+          "type": "SL",
+          "price": 1.17906,
           "index": 115,
-          "time": "2026-06-14 03:38:02"
+          "time": "2026-06-14 03:39:08"
         },
         {
           "type": "SH",
-          "price": 1.19251,
+          "price": 1.18412,
+          "index": 116,
+          "time": "2026-06-14 04:39:08"
+        },
+        {
+          "type": "SL",
+          "price": 1.17827,
+          "index": 121,
+          "time": "2026-06-14 09:39:08"
+        },
+        {
+          "type": "SH",
+          "price": 1.18568,
           "index": 128,
-          "time": "2026-06-14 16:38:02"
+          "time": "2026-06-14 16:39:08"
         },
         {
           "type": "SL",
-          "price": 1.18909,
-          "index": 129,
-          "time": "2026-06-14 17:38:02"
+          "price": 1.18213,
+          "index": 130,
+          "time": "2026-06-14 18:39:08"
         },
         {
           "type": "SH",
-          "price": 1.19326,
-          "index": 131,
-          "time": "2026-06-14 19:38:02"
+          "price": 1.1865,
+          "index": 141,
+          "time": "2026-06-15 05:39:08"
         },
         {
           "type": "SL",
-          "price": 1.18824,
-          "index": 138,
-          "time": "2026-06-15 02:38:02"
+          "price": 1.17788,
+          "index": 148,
+          "time": "2026-06-15 12:39:08"
         },
         {
           "type": "SH",
-          "price": 1.1926,
-          "index": 139,
-          "time": "2026-06-15 03:38:02"
-        },
-        {
-          "type": "SL",
-          "price": 1.18092,
-          "index": 157,
-          "time": "2026-06-15 21:38:02"
-        },
-        {
-          "type": "SH",
-          "price": 1.18589,
-          "index": 161,
-          "time": "2026-06-16 01:38:02"
-        },
-        {
-          "type": "SL",
           "price": 1.18225,
-          "index": 162,
-          "time": "2026-06-16 02:38:02"
-        },
-        {
-          "type": "SH",
-          "price": 1.18931,
-          "index": 170,
-          "time": "2026-06-16 10:38:02"
+          "index": 149,
+          "time": "2026-06-15 13:39:08"
         },
         {
           "type": "SL",
-          "price": 1.17187,
-          "index": 202,
-          "time": "2026-06-17 18:38:02"
+          "price": 1.17519,
+          "index": 152,
+          "time": "2026-06-15 16:39:08"
         },
         {
           "type": "SH",
-          "price": 1.18284,
-          "index": 212,
-          "time": "2026-06-18 04:38:02"
+          "price": 1.17959,
+          "index": 155,
+          "time": "2026-06-15 19:39:08"
         },
         {
           "type": "SL",
-          "price": 1.17915,
-          "index": 215,
-          "time": "2026-06-18 07:38:02"
+          "price": 1.17514,
+          "index": 158,
+          "time": "2026-06-15 22:39:08"
         },
         {
           "type": "SH",
-          "price": 1.18509,
-          "index": 218,
-          "time": "2026-06-18 10:38:02"
+          "price": 1.18054,
+          "index": 164,
+          "time": "2026-06-16 04:39:08"
         },
         {
           "type": "SL",
-          "price": 1.18037,
-          "index": 220,
-          "time": "2026-06-18 12:38:02"
+          "price": 1.17451,
+          "index": 171,
+          "time": "2026-06-16 11:39:08"
         },
         {
           "type": "SH",
-          "price": 1.18387,
+          "price": 1.17912,
+          "index": 172,
+          "time": "2026-06-16 12:39:08"
+        },
+        {
+          "type": "SL",
+          "price": 1.1738,
+          "index": 178,
+          "time": "2026-06-16 18:39:08"
+        },
+        {
+          "type": "SH",
+          "price": 1.17897,
+          "index": 186,
+          "time": "2026-06-17 02:39:08"
+        },
+        {
+          "type": "SL",
+          "price": 1.17118,
+          "index": 196,
+          "time": "2026-06-17 12:39:08"
+        },
+        {
+          "type": "SH",
+          "price": 1.17543,
+          "index": 198,
+          "time": "2026-06-17 14:39:08"
+        },
+        {
+          "type": "SL",
+          "price": 1.17183,
+          "index": 199,
+          "time": "2026-06-17 15:39:08"
+        },
+        {
+          "type": "SH",
+          "price": 1.17859,
+          "index": 211,
+          "time": "2026-06-18 03:39:08"
+        },
+        {
+          "type": "SL",
+          "price": 1.16793,
           "index": 223,
-          "time": "2026-06-18 15:38:02"
-        },
-        {
-          "type": "SL",
-          "price": 1.18004,
-          "index": 225,
-          "time": "2026-06-18 17:38:02"
+          "time": "2026-06-18 15:39:08"
         },
         {
           "type": "SH",
-          "price": 1.18421,
-          "index": 226,
-          "time": "2026-06-18 18:38:02"
+          "price": 1.17375,
+          "index": 228,
+          "time": "2026-06-18 20:39:08"
         },
         {
           "type": "SL",
-          "price": 1.18203,
-          "index": 232,
-          "time": "2026-06-19 00:38:02"
+          "price": 1.16927,
+          "index": 229,
+          "time": "2026-06-18 21:39:08"
         },
         {
           "type": "SH",
-          "price": 1.18717,
-          "index": 233,
-          "time": "2026-06-19 01:38:02"
+          "price": 1.17582,
+          "index": 238,
+          "time": "2026-06-19 06:39:08"
         },
         {
           "type": "SL",
-          "price": 1.18251,
-          "index": 239,
-          "time": "2026-06-19 07:38:02"
-        },
-        {
-          "type": "SH",
-          "price": 1.18769,
+          "price": 1.17218,
           "index": 241,
-          "time": "2026-06-19 09:38:02"
-        },
-        {
-          "type": "SL",
-          "price": 1.18242,
-          "index": 243,
-          "time": "2026-06-19 11:38:02"
+          "time": "2026-06-19 09:39:08"
         },
         {
           "type": "SH",
-          "price": 1.18639,
-          "index": 251,
-          "time": "2026-06-19 19:38:02"
+          "price": 1.17706,
+          "index": 252,
+          "time": "2026-06-19 20:39:08"
         },
         {
           "type": "SL",
-          "price": 1.18072,
-          "index": 255,
-          "time": "2026-06-19 23:38:02"
+          "price": 1.16946,
+          "index": 269,
+          "time": "2026-06-20 13:39:08"
         },
         {
           "type": "SH",
-          "price": 1.19284,
+          "price": 1.17394,
           "index": 271,
-          "time": "2026-06-20 15:38:02"
+          "time": "2026-06-20 15:39:08"
         },
         {
           "type": "SL",
-          "price": 1.18357,
+          "price": 1.16977,
+          "index": 272,
+          "time": "2026-06-20 16:39:08"
+        },
+        {
+          "type": "SH",
+          "price": 1.17208,
+          "index": 277,
+          "time": "2026-06-20 21:39:08"
+        },
+        {
+          "type": "SL",
+          "price": 1.16679,
           "index": 282,
-          "time": "2026-06-21 02:38:02"
+          "time": "2026-06-21 02:39:08"
         },
         {
           "type": "SH",
-          "price": 1.18777,
-          "index": 284,
-          "time": "2026-06-21 04:38:02"
+          "price": 1.17148,
+          "index": 286,
+          "time": "2026-06-21 06:39:08"
         },
         {
           "type": "SL",
-          "price": 1.18286,
-          "index": 291,
-          "time": "2026-06-21 11:38:02"
+          "price": 1.16878,
+          "index": 292,
+          "time": "2026-06-21 12:39:08"
         },
         {
           "type": "SH",
-          "price": 1.18619,
-          "index": 294,
-          "time": "2026-06-21 14:38:02"
+          "price": 1.17637,
+          "index": 295,
+          "time": "2026-06-21 15:39:08"
         },
         {
           "type": "SL",
-          "price": 1.18217,
-          "index": 301,
-          "time": "2026-06-21 21:38:02"
+          "price": 1.17335,
+          "index": 297,
+          "time": "2026-06-21 17:39:08"
         },
         {
           "type": "SH",
-          "price": 1.18702,
-          "index": 303,
-          "time": "2026-06-21 23:38:02"
+          "price": 1.17643,
+          "index": 299,
+          "time": "2026-06-21 19:39:08"
         },
         {
           "type": "SL",
-          "price": 1.18273,
-          "index": 310,
-          "time": "2026-06-22 06:38:02"
+          "price": 1.17064,
+          "index": 304,
+          "time": "2026-06-22 00:39:08"
         },
         {
           "type": "SH",
-          "price": 1.19456,
-          "index": 316,
-          "time": "2026-06-22 12:38:02"
+          "price": 1.17579,
+          "index": 306,
+          "time": "2026-06-22 02:39:08"
         },
         {
           "type": "SL",
-          "price": 1.19163,
-          "index": 322,
-          "time": "2026-06-22 18:38:02"
+          "price": 1.17196,
+          "index": 307,
+          "time": "2026-06-22 03:39:08"
         },
         {
           "type": "SH",
-          "price": 1.19725,
-          "index": 323,
-          "time": "2026-06-22 19:38:02"
+          "price": 1.17923,
+          "index": 312,
+          "time": "2026-06-22 08:39:08"
         },
         {
           "type": "SL",
-          "price": 1.19275,
-          "index": 326,
-          "time": "2026-06-22 22:38:02"
+          "price": 1.17308,
+          "index": 317,
+          "time": "2026-06-22 13:39:08"
         },
         {
           "type": "SH",
-          "price": 1.19867,
-          "index": 328,
-          "time": "2026-06-23 00:38:02"
+          "price": 1.17712,
+          "index": 324,
+          "time": "2026-06-22 20:39:08"
         },
         {
           "type": "SL",
-          "price": 1.18915,
-          "index": 344,
-          "time": "2026-06-23 16:38:02"
+          "price": 1.17052,
+          "index": 325,
+          "time": "2026-06-22 21:39:08"
         },
         {
           "type": "SH",
-          "price": 1.19443,
-          "index": 345,
-          "time": "2026-06-23 17:38:02"
+          "price": 1.17776,
+          "index": 332,
+          "time": "2026-06-23 04:39:08"
         },
         {
           "type": "SL",
-          "price": 1.19098,
-          "index": 347,
-          "time": "2026-06-23 19:38:02"
+          "price": 1.17339,
+          "index": 342,
+          "time": "2026-06-23 14:39:08"
         },
         {
           "type": "SH",
-          "price": 1.19587,
-          "index": 350,
-          "time": "2026-06-23 22:38:02"
+          "price": 1.18099,
+          "index": 356,
+          "time": "2026-06-24 04:39:08"
         },
         {
           "type": "SL",
-          "price": 1.18698,
-          "index": 369,
-          "time": "2026-06-24 17:38:02"
+          "price": 1.17558,
+          "index": 361,
+          "time": "2026-06-24 09:39:08"
         },
         {
           "type": "SH",
-          "price": 1.18928,
+          "price": 1.17936,
           "index": 373,
-          "time": "2026-06-24 21:38:02"
+          "time": "2026-06-24 21:39:08"
         },
         {
           "type": "SL",
-          "price": 1.18184,
-          "index": 380,
-          "time": "2026-06-25 04:38:02"
+          "price": 1.17158,
+          "index": 383,
+          "time": "2026-06-25 07:39:08"
         },
         {
           "type": "SH",
-          "price": 1.18614,
-          "index": 384,
-          "time": "2026-06-25 08:38:02"
+          "price": 1.17363,
+          "index": 386,
+          "time": "2026-06-25 10:39:08"
         },
         {
           "type": "SL",
-          "price": 1.17955,
-          "index": 392,
-          "time": "2026-06-25 16:38:02"
+          "price": 1.16733,
+          "index": 388,
+          "time": "2026-06-25 12:39:08"
         },
         {
           "type": "SH",
-          "price": 1.19045,
-          "index": 399,
-          "time": "2026-06-25 23:38:02"
+          "price": 1.17106,
+          "index": 389,
+          "time": "2026-06-25 13:39:08"
         },
         {
           "type": "SL",
-          "price": 1.18152,
-          "index": 411,
-          "time": "2026-06-26 11:38:02"
+          "price": 1.16785,
+          "index": 393,
+          "time": "2026-06-25 17:39:08"
         },
         {
           "type": "SH",
-          "price": 1.18763,
+          "price": 1.17232,
+          "index": 394,
+          "time": "2026-06-25 18:39:08"
+        },
+        {
+          "type": "SL",
+          "price": 1.1631,
+          "index": 403,
+          "time": "2026-06-26 03:39:08"
+        },
+        {
+          "type": "SH",
+          "price": 1.16846,
+          "index": 407,
+          "time": "2026-06-26 07:39:08"
+        },
+        {
+          "type": "SL",
+          "price": 1.16472,
+          "index": 410,
+          "time": "2026-06-26 10:39:08"
+        },
+        {
+          "type": "SH",
+          "price": 1.1686,
+          "index": 413,
+          "time": "2026-06-26 13:39:08"
+        },
+        {
+          "type": "SL",
+          "price": 1.16244,
+          "index": 416,
+          "time": "2026-06-26 16:39:08"
+        },
+        {
+          "type": "SH",
+          "price": 1.1687,
+          "index": 422,
+          "time": "2026-06-26 22:39:08"
+        },
+        {
+          "type": "SL",
+          "price": 1.16441,
           "index": 425,
-          "time": "2026-06-27 01:38:02"
-        },
-        {
-          "type": "SL",
-          "price": 1.18335,
-          "index": 429,
-          "time": "2026-06-27 05:38:02"
+          "time": "2026-06-27 01:39:08"
         },
         {
           "type": "SH",
-          "price": 1.18751,
-          "index": 430,
-          "time": "2026-06-27 06:38:02"
+          "price": 1.16937,
+          "index": 428,
+          "time": "2026-06-27 04:39:08"
         },
         {
           "type": "SL",
-          "price": 1.17954,
-          "index": 436,
-          "time": "2026-06-27 12:38:02"
+          "price": 1.16255,
+          "index": 432,
+          "time": "2026-06-27 08:39:08"
         },
         {
           "type": "SH",
-          "price": 1.18354,
-          "index": 441,
-          "time": "2026-06-27 17:38:02"
+          "price": 1.16696,
+          "index": 438,
+          "time": "2026-06-27 14:39:08"
         },
         {
           "type": "SL",
-          "price": 1.17282,
-          "index": 451,
-          "time": "2026-06-28 03:38:02"
+          "price": 1.16357,
+          "index": 443,
+          "time": "2026-06-27 19:39:08"
         },
         {
           "type": "SH",
-          "price": 1.17146,
+          "price": 1.16912,
+          "index": 445,
+          "time": "2026-06-27 21:39:08"
+        },
+        {
+          "type": "SL",
+          "price": 1.1626,
+          "index": 454,
+          "time": "2026-06-28 06:39:08"
+        },
+        {
+          "type": "SH",
+          "price": 1.16675,
+          "index": 455,
+          "time": "2026-06-28 07:39:08"
+        },
+        {
+          "type": "SL",
+          "price": 1.15909,
           "index": 465,
-          "time": "2026-06-28 17:38:02"
-        },
-        {
-          "type": "SL",
-          "price": 1.16926,
-          "index": 469,
-          "time": "2026-06-28 21:38:02"
+          "time": "2026-06-28 17:39:08"
         },
         {
           "type": "SH",
-          "price": 1.17762,
-          "index": 475,
-          "time": "2026-06-29 03:38:02"
+          "price": 1.16396,
+          "index": 472,
+          "time": "2026-06-29 00:39:08"
         },
         {
           "type": "SL",
-          "price": 1.16884,
-          "index": 486,
-          "time": "2026-06-29 14:38:02"
+          "price": 1.15732,
+          "index": 480,
+          "time": "2026-06-29 08:39:08"
         },
         {
           "type": "SH",
-          "price": 1.17329,
-          "index": 487,
-          "time": "2026-06-29 15:38:02"
+          "price": 1.16203,
+          "index": 489,
+          "time": "2026-06-29 17:39:08"
         },
         {
           "type": "SL",
-          "price": 1.1692,
-          "index": 490,
-          "time": "2026-06-29 18:38:02"
+          "price": 1.15816,
+          "index": 491,
+          "time": "2026-06-29 19:39:08"
+        },
+        {
+          "type": "SH",
+          "price": 1.16158,
+          "index": 494,
+          "time": "2026-06-29 22:39:08"
         }
       ],
       "ohlc": [
         {
-          "time": "2026-06-26 20:38:02",
-          "O": 1.18227,
-          "H": 1.18339,
-          "L": 1.18065,
-          "C": 1.18245
+          "time": "2026-06-26 20:39:08",
+          "O": 1.16658,
+          "H": 1.16809,
+          "L": 1.1659,
+          "C": 1.16686
         },
         {
-          "time": "2026-06-26 21:38:02",
-          "O": 1.18245,
-          "H": 1.18306,
-          "L": 1.1818,
-          "C": 1.18209
+          "time": "2026-06-26 21:39:08",
+          "O": 1.16686,
+          "H": 1.16766,
+          "L": 1.1655,
+          "C": 1.16671
         },
         {
-          "time": "2026-06-26 22:38:02",
-          "O": 1.18209,
-          "H": 1.18269,
-          "L": 1.18118,
-          "C": 1.1819
+          "time": "2026-06-26 22:39:08",
+          "O": 1.16671,
+          "H": 1.1687,
+          "L": 1.16473,
+          "C": 1.16701
         },
         {
-          "time": "2026-06-26 23:38:02",
-          "O": 1.1819,
-          "H": 1.18242,
-          "L": 1.18118,
-          "C": 1.18155
+          "time": "2026-06-26 23:39:08",
+          "O": 1.16701,
+          "H": 1.16865,
+          "L": 1.16573,
+          "C": 1.16717
         },
         {
-          "time": "2026-06-27 00:38:02",
-          "O": 1.18155,
-          "H": 1.18621,
-          "L": 1.18123,
-          "C": 1.1861
+          "time": "2026-06-27 00:39:08",
+          "O": 1.16717,
+          "H": 1.16844,
+          "L": 1.166,
+          "C": 1.16615
         },
         {
-          "time": "2026-06-27 01:38:02",
-          "O": 1.1861,
-          "H": 1.18763,
-          "L": 1.18536,
-          "C": 1.18649
+          "time": "2026-06-27 01:39:08",
+          "O": 1.16615,
+          "H": 1.16752,
+          "L": 1.16441,
+          "C": 1.16719
         },
         {
-          "time": "2026-06-27 02:38:02",
-          "O": 1.18649,
-          "H": 1.18733,
-          "L": 1.18521,
-          "C": 1.18589
+          "time": "2026-06-27 02:39:08",
+          "O": 1.16719,
+          "H": 1.16884,
+          "L": 1.16572,
+          "C": 1.16735
         },
         {
-          "time": "2026-06-27 03:38:02",
-          "O": 1.18589,
-          "H": 1.1865,
-          "L": 1.18502,
-          "C": 1.1853
+          "time": "2026-06-27 03:39:08",
+          "O": 1.16735,
+          "H": 1.16817,
+          "L": 1.16671,
+          "C": 1.16794
         },
         {
-          "time": "2026-06-27 04:38:02",
-          "O": 1.1853,
-          "H": 1.18636,
-          "L": 1.18449,
-          "C": 1.1849
+          "time": "2026-06-27 04:39:08",
+          "O": 1.16794,
+          "H": 1.16937,
+          "L": 1.16711,
+          "C": 1.168
         },
         {
-          "time": "2026-06-27 05:38:02",
-          "O": 1.1849,
-          "H": 1.18685,
-          "L": 1.18335,
-          "C": 1.18554
+          "time": "2026-06-27 05:39:08",
+          "O": 1.168,
+          "H": 1.16887,
+          "L": 1.16742,
+          "C": 1.16841
         },
         {
-          "time": "2026-06-27 06:38:02",
-          "O": 1.18554,
-          "H": 1.18751,
-          "L": 1.18408,
-          "C": 1.18441
+          "time": "2026-06-27 06:39:08",
+          "O": 1.16841,
+          "H": 1.16912,
+          "L": 1.16769,
+          "C": 1.16877
         },
         {
-          "time": "2026-06-27 07:38:02",
-          "O": 1.18441,
-          "H": 1.18626,
-          "L": 1.1839,
-          "C": 1.18525
+          "time": "2026-06-27 07:39:08",
+          "O": 1.16877,
+          "H": 1.16898,
+          "L": 1.16343,
+          "C": 1.16367
         },
         {
-          "time": "2026-06-27 08:38:02",
-          "O": 1.18525,
-          "H": 1.18594,
-          "L": 1.18458,
-          "C": 1.18581
+          "time": "2026-06-27 08:39:08",
+          "O": 1.16367,
+          "H": 1.16561,
+          "L": 1.16255,
+          "C": 1.16507
         },
         {
-          "time": "2026-06-27 09:38:02",
-          "O": 1.18581,
-          "H": 1.18626,
-          "L": 1.18511,
-          "C": 1.1858
+          "time": "2026-06-27 09:39:08",
+          "O": 1.16507,
+          "H": 1.16669,
+          "L": 1.1645,
+          "C": 1.16538
         },
         {
-          "time": "2026-06-27 10:38:02",
-          "O": 1.1858,
-          "H": 1.18626,
-          "L": 1.18505,
-          "C": 1.18622
+          "time": "2026-06-27 10:39:08",
+          "O": 1.16538,
+          "H": 1.16689,
+          "L": 1.16365,
+          "C": 1.1652
         },
         {
-          "time": "2026-06-27 11:38:02",
-          "O": 1.18622,
-          "H": 1.18658,
-          "L": 1.18147,
-          "C": 1.18152
+          "time": "2026-06-27 11:39:08",
+          "O": 1.1652,
+          "H": 1.16595,
+          "L": 1.16425,
+          "C": 1.16522
         },
         {
-          "time": "2026-06-27 12:38:02",
-          "O": 1.18152,
-          "H": 1.18292,
-          "L": 1.17954,
-          "C": 1.18147
+          "time": "2026-06-27 12:39:08",
+          "O": 1.16522,
+          "H": 1.16664,
+          "L": 1.16388,
+          "C": 1.1653
         },
         {
-          "time": "2026-06-27 13:38:02",
-          "O": 1.18147,
-          "H": 1.18322,
-          "L": 1.18048,
-          "C": 1.18295
+          "time": "2026-06-27 13:39:08",
+          "O": 1.1653,
+          "H": 1.16614,
+          "L": 1.16451,
+          "C": 1.16536
         },
         {
-          "time": "2026-06-27 14:38:02",
-          "O": 1.18295,
-          "H": 1.18322,
-          "L": 1.18242,
-          "C": 1.18311
+          "time": "2026-06-27 14:39:08",
+          "O": 1.16536,
+          "H": 1.16696,
+          "L": 1.16379,
+          "C": 1.16537
         },
         {
-          "time": "2026-06-27 15:38:02",
-          "O": 1.18311,
-          "H": 1.18322,
-          "L": 1.1826,
-          "C": 1.18297
+          "time": "2026-06-27 15:39:08",
+          "O": 1.16537,
+          "H": 1.16592,
+          "L": 1.16369,
+          "C": 1.16467
         },
         {
-          "time": "2026-06-27 16:38:02",
-          "O": 1.18297,
-          "H": 1.18322,
-          "L": 1.18221,
-          "C": 1.18312
+          "time": "2026-06-27 16:39:08",
+          "O": 1.16467,
+          "H": 1.16555,
+          "L": 1.16411,
+          "C": 1.16426
         },
         {
-          "time": "2026-06-27 17:38:02",
-          "O": 1.18312,
-          "H": 1.18354,
-          "L": 1.1776,
-          "C": 1.17934
+          "time": "2026-06-27 17:39:08",
+          "O": 1.16426,
+          "H": 1.1652,
+          "L": 1.16369,
+          "C": 1.16393
         },
         {
-          "time": "2026-06-27 18:38:02",
-          "O": 1.17934,
-          "H": 1.18098,
-          "L": 1.17763,
-          "C": 1.17828
+          "time": "2026-06-27 18:39:08",
+          "O": 1.16393,
+          "H": 1.16468,
+          "L": 1.16369,
+          "C": 1.16396
         },
         {
-          "time": "2026-06-27 19:38:02",
-          "O": 1.17828,
-          "H": 1.1793,
-          "L": 1.1777,
-          "C": 1.17807
+          "time": "2026-06-27 19:39:08",
+          "O": 1.16396,
+          "H": 1.16721,
+          "L": 1.16357,
+          "C": 1.16661
         },
         {
-          "time": "2026-06-27 20:38:02",
-          "O": 1.17807,
-          "H": 1.17863,
-          "L": 1.17717,
-          "C": 1.17734
+          "time": "2026-06-27 20:39:08",
+          "O": 1.16661,
+          "H": 1.16763,
+          "L": 1.16559,
+          "C": 1.16718
         },
         {
-          "time": "2026-06-27 21:38:02",
-          "O": 1.17734,
-          "H": 1.17889,
-          "L": 1.17636,
-          "C": 1.17723
+          "time": "2026-06-27 21:39:08",
+          "O": 1.16718,
+          "H": 1.16912,
+          "L": 1.16575,
+          "C": 1.16664
         },
         {
-          "time": "2026-06-27 22:38:02",
-          "O": 1.17723,
-          "H": 1.17866,
-          "L": 1.17654,
-          "C": 1.17715
+          "time": "2026-06-27 22:39:08",
+          "O": 1.16664,
+          "H": 1.16764,
+          "L": 1.16563,
+          "C": 1.16653
         },
         {
-          "time": "2026-06-27 23:38:02",
-          "O": 1.17715,
-          "H": 1.1777,
-          "L": 1.17555,
-          "C": 1.1765
+          "time": "2026-06-27 23:39:08",
+          "O": 1.16653,
+          "H": 1.1676,
+          "L": 1.16569,
+          "C": 1.16717
         },
         {
-          "time": "2026-06-28 00:38:02",
-          "O": 1.1765,
-          "H": 1.17781,
-          "L": 1.17512,
-          "C": 1.17583
+          "time": "2026-06-28 00:39:08",
+          "O": 1.16717,
+          "H": 1.16786,
+          "L": 1.166,
+          "C": 1.16611
         },
         {
-          "time": "2026-06-28 01:38:02",
-          "O": 1.17583,
-          "H": 1.17754,
-          "L": 1.17389,
-          "C": 1.17431
+          "time": "2026-06-28 01:39:08",
+          "O": 1.16611,
+          "H": 1.1671,
+          "L": 1.16428,
+          "C": 1.16509
         },
         {
-          "time": "2026-06-28 02:38:02",
-          "O": 1.17431,
-          "H": 1.17521,
-          "L": 1.1729,
-          "C": 1.17389
+          "time": "2026-06-28 02:39:08",
+          "O": 1.16509,
+          "H": 1.16581,
+          "L": 1.1639,
+          "C": 1.1653
         },
         {
-          "time": "2026-06-28 03:38:02",
-          "O": 1.17389,
-          "H": 1.17572,
-          "L": 1.17282,
-          "C": 1.1745
+          "time": "2026-06-28 03:39:08",
+          "O": 1.1653,
+          "H": 1.166,
+          "L": 1.16364,
+          "C": 1.16511
         },
         {
-          "time": "2026-06-28 04:38:02",
-          "O": 1.1745,
-          "H": 1.17508,
-          "L": 1.17356,
-          "C": 1.1746
+          "time": "2026-06-28 04:39:08",
+          "O": 1.16511,
+          "H": 1.166,
+          "L": 1.16417,
+          "C": 1.16536
         },
         {
-          "time": "2026-06-28 05:38:02",
-          "O": 1.1746,
-          "H": 1.1754,
-          "L": 1.1741,
-          "C": 1.1748
+          "time": "2026-06-28 05:39:08",
+          "O": 1.16536,
+          "H": 1.16618,
+          "L": 1.16429,
+          "C": 1.16429
         },
         {
-          "time": "2026-06-28 06:38:02",
-          "O": 1.1748,
-          "H": 1.17531,
-          "L": 1.17396,
-          "C": 1.17464
+          "time": "2026-06-28 06:39:08",
+          "O": 1.16429,
+          "H": 1.16621,
+          "L": 1.1626,
+          "C": 1.16523
         },
         {
-          "time": "2026-06-28 07:38:02",
-          "O": 1.17464,
-          "H": 1.17532,
-          "L": 1.17364,
-          "C": 1.1747
+          "time": "2026-06-28 07:39:08",
+          "O": 1.16523,
+          "H": 1.16675,
+          "L": 1.16398,
+          "C": 1.16453
         },
         {
-          "time": "2026-06-28 08:38:02",
-          "O": 1.1747,
-          "H": 1.17511,
-          "L": 1.16984,
-          "C": 1.16988
+          "time": "2026-06-28 08:39:08",
+          "O": 1.16453,
+          "H": 1.1658,
+          "L": 1.16348,
+          "C": 1.16357
         },
         {
-          "time": "2026-06-28 09:38:02",
-          "O": 1.16988,
-          "H": 1.17093,
-          "L": 1.16791,
-          "C": 1.16868
+          "time": "2026-06-28 09:39:08",
+          "O": 1.16357,
+          "H": 1.16519,
+          "L": 1.16277,
+          "C": 1.16356
         },
         {
-          "time": "2026-06-28 10:38:02",
-          "O": 1.16868,
-          "H": 1.17036,
-          "L": 1.16672,
-          "C": 1.16822
+          "time": "2026-06-28 10:39:08",
+          "O": 1.16356,
+          "H": 1.16511,
+          "L": 1.1623,
+          "C": 1.16278
         },
         {
-          "time": "2026-06-28 11:38:02",
-          "O": 1.16822,
-          "H": 1.16949,
-          "L": 1.1667,
-          "C": 1.16721
+          "time": "2026-06-28 11:39:08",
+          "O": 1.16278,
+          "H": 1.16462,
+          "L": 1.16125,
+          "C": 1.16268
         },
         {
-          "time": "2026-06-28 12:38:02",
-          "O": 1.16721,
-          "H": 1.1679,
-          "L": 1.1667,
-          "C": 1.16724
+          "time": "2026-06-28 12:39:08",
+          "O": 1.16268,
+          "H": 1.16398,
+          "L": 1.16195,
+          "C": 1.16271
         },
         {
-          "time": "2026-06-28 13:38:02",
-          "O": 1.16724,
-          "H": 1.16807,
-          "L": 1.1667,
-          "C": 1.16736
+          "time": "2026-06-28 13:39:08",
+          "O": 1.16271,
+          "H": 1.16399,
+          "L": 1.16086,
+          "C": 1.16151
         },
         {
-          "time": "2026-06-28 14:38:02",
-          "O": 1.16736,
-          "H": 1.16793,
-          "L": 1.1667,
-          "C": 1.16684
+          "time": "2026-06-28 14:39:08",
+          "O": 1.16151,
+          "H": 1.1625,
+          "L": 1.16004,
+          "C": 1.16158
         },
         {
-          "time": "2026-06-28 15:38:02",
-          "O": 1.16684,
-          "H": 1.16771,
-          "L": 1.1667,
-          "C": 1.16706
+          "time": "2026-06-28 15:39:08",
+          "O": 1.16158,
+          "H": 1.16354,
+          "L": 1.16051,
+          "C": 1.16155
         },
         {
-          "time": "2026-06-28 16:38:02",
-          "O": 1.16706,
-          "H": 1.1704,
-          "L": 1.16672,
-          "C": 1.1699
+          "time": "2026-06-28 16:39:08",
+          "O": 1.16155,
+          "H": 1.16305,
+          "L": 1.16,
+          "C": 1.16088
         },
         {
-          "time": "2026-06-28 17:38:02",
-          "O": 1.1699,
-          "H": 1.17146,
-          "L": 1.16939,
-          "C": 1.1698
+          "time": "2026-06-28 17:39:08",
+          "O": 1.16088,
+          "H": 1.16259,
+          "L": 1.15909,
+          "C": 1.16095
         },
         {
-          "time": "2026-06-28 18:38:02",
-          "O": 1.1698,
-          "H": 1.17131,
-          "L": 1.16926,
-          "C": 1.17078
+          "time": "2026-06-28 18:39:08",
+          "O": 1.16095,
+          "H": 1.16152,
+          "L": 1.15955,
+          "C": 1.16092
         },
         {
-          "time": "2026-06-28 19:38:02",
-          "O": 1.17078,
-          "H": 1.17131,
-          "L": 1.1702,
-          "C": 1.17071
+          "time": "2026-06-28 19:39:08",
+          "O": 1.16092,
+          "H": 1.16235,
+          "L": 1.15964,
+          "C": 1.16038
         },
         {
-          "time": "2026-06-28 20:38:02",
-          "O": 1.17071,
-          "H": 1.17131,
-          "L": 1.16973,
-          "C": 1.16975
+          "time": "2026-06-28 20:39:08",
+          "O": 1.16038,
+          "H": 1.1611,
+          "L": 1.15964,
+          "C": 1.15989
         },
         {
-          "time": "2026-06-28 21:38:02",
-          "O": 1.16975,
-          "H": 1.17069,
-          "L": 1.16926,
-          "C": 1.16993
+          "time": "2026-06-28 21:39:08",
+          "O": 1.15989,
+          "H": 1.1604,
+          "L": 1.15964,
+          "C": 1.16
         },
         {
-          "time": "2026-06-28 22:38:02",
-          "O": 1.16993,
-          "H": 1.17559,
-          "L": 1.16949,
-          "C": 1.17483
+          "time": "2026-06-28 22:39:08",
+          "O": 1.16,
+          "H": 1.16077,
+          "L": 1.15964,
+          "C": 1.15981
         },
         {
-          "time": "2026-06-28 23:38:02",
-          "O": 1.17483,
-          "H": 1.17616,
-          "L": 1.17338,
-          "C": 1.17422
+          "time": "2026-06-28 23:39:08",
+          "O": 1.15981,
+          "H": 1.16075,
+          "L": 1.15964,
+          "C": 1.16001
         },
         {
-          "time": "2026-06-29 00:38:02",
-          "O": 1.17422,
-          "H": 1.17567,
-          "L": 1.17294,
-          "C": 1.17497
+          "time": "2026-06-29 00:39:08",
+          "O": 1.16001,
+          "H": 1.16396,
+          "L": 1.15969,
+          "C": 1.16245
         },
         {
-          "time": "2026-06-29 01:38:02",
-          "O": 1.17497,
-          "H": 1.17618,
-          "L": 1.17422,
-          "C": 1.1759
+          "time": "2026-06-29 01:39:08",
+          "O": 1.16245,
+          "H": 1.16345,
+          "L": 1.16048,
+          "C": 1.16058
         },
         {
-          "time": "2026-06-29 02:38:02",
-          "O": 1.1759,
-          "H": 1.1773,
-          "L": 1.17511,
-          "C": 1.17693
+          "time": "2026-06-29 02:39:08",
+          "O": 1.16058,
+          "H": 1.16173,
+          "L": 1.1596,
+          "C": 1.16153
         },
         {
-          "time": "2026-06-29 03:38:02",
-          "O": 1.17693,
-          "H": 1.17762,
-          "L": 1.17506,
-          "C": 1.17545
+          "time": "2026-06-29 03:39:08",
+          "O": 1.16153,
+          "H": 1.16173,
+          "L": 1.16094,
+          "C": 1.1615
         },
         {
-          "time": "2026-06-29 04:38:02",
-          "O": 1.17545,
-          "H": 1.17728,
-          "L": 1.17442,
-          "C": 1.1749
+          "time": "2026-06-29 04:39:08",
+          "O": 1.1615,
+          "H": 1.16173,
+          "L": 1.16065,
+          "C": 1.1613
         },
         {
-          "time": "2026-06-29 05:38:02",
-          "O": 1.1749,
-          "H": 1.17683,
-          "L": 1.17383,
-          "C": 1.17422
+          "time": "2026-06-29 05:39:08",
+          "O": 1.1613,
+          "H": 1.16173,
+          "L": 1.16064,
+          "C": 1.16152
         },
         {
-          "time": "2026-06-29 06:38:02",
-          "O": 1.17422,
-          "H": 1.17474,
-          "L": 1.17383,
-          "C": 1.1743
+          "time": "2026-06-29 06:39:08",
+          "O": 1.16152,
+          "H": 1.16173,
+          "L": 1.16099,
+          "C": 1.1615
         },
         {
-          "time": "2026-06-29 07:38:02",
-          "O": 1.1743,
-          "H": 1.17507,
-          "L": 1.17383,
-          "C": 1.17483
+          "time": "2026-06-29 07:39:08",
+          "O": 1.1615,
+          "H": 1.16173,
+          "L": 1.1606,
+          "C": 1.16137
         },
         {
-          "time": "2026-06-29 08:38:02",
-          "O": 1.17483,
-          "H": 1.1755,
-          "L": 1.17416,
-          "C": 1.17512
+          "time": "2026-06-29 08:39:08",
+          "O": 1.16137,
+          "H": 1.16171,
+          "L": 1.15732,
+          "C": 1.15889
         },
         {
-          "time": "2026-06-29 09:38:02",
-          "O": 1.17512,
-          "H": 1.17536,
-          "L": 1.17017,
-          "C": 1.17153
+          "time": "2026-06-29 09:39:08",
+          "O": 1.15889,
+          "H": 1.15993,
+          "L": 1.15816,
+          "C": 1.15868
         },
         {
-          "time": "2026-06-29 10:38:02",
-          "O": 1.17153,
-          "H": 1.17216,
-          "L": 1.17004,
-          "C": 1.17049
+          "time": "2026-06-29 10:39:08",
+          "O": 1.15868,
+          "H": 1.16026,
+          "L": 1.15811,
+          "C": 1.15877
         },
         {
-          "time": "2026-06-29 11:38:02",
-          "O": 1.17049,
-          "H": 1.17199,
-          "L": 1.16921,
-          "C": 1.17108
+          "time": "2026-06-29 11:39:08",
+          "O": 1.15877,
+          "H": 1.1593,
+          "L": 1.15751,
+          "C": 1.15926
         },
         {
-          "time": "2026-06-29 12:38:02",
-          "O": 1.17108,
-          "H": 1.17173,
-          "L": 1.16999,
-          "C": 1.17079
+          "time": "2026-06-29 12:39:08",
+          "O": 1.15926,
+          "H": 1.16014,
+          "L": 1.15823,
+          "C": 1.15987
         },
         {
-          "time": "2026-06-29 13:38:02",
-          "O": 1.17079,
-          "H": 1.17212,
-          "L": 1.16974,
-          "C": 1.17055
+          "time": "2026-06-29 13:39:08",
+          "O": 1.15987,
+          "H": 1.16169,
+          "L": 1.1588,
+          "C": 1.15972
         },
         {
-          "time": "2026-06-29 14:38:02",
-          "O": 1.17055,
-          "H": 1.17234,
-          "L": 1.16884,
-          "C": 1.17158
+          "time": "2026-06-29 14:39:08",
+          "O": 1.15972,
+          "H": 1.16043,
+          "L": 1.15856,
+          "C": 1.16005
         },
         {
-          "time": "2026-06-29 15:38:02",
-          "O": 1.17158,
-          "H": 1.17329,
-          "L": 1.1703,
-          "C": 1.17099
+          "time": "2026-06-29 15:39:08",
+          "O": 1.16005,
+          "H": 1.16145,
+          "L": 1.15896,
+          "C": 1.15976
         },
         {
-          "time": "2026-06-29 16:38:02",
-          "O": 1.17099,
-          "H": 1.17195,
-          "L": 1.17033,
-          "C": 1.17082
+          "time": "2026-06-29 16:39:08",
+          "O": 1.15976,
+          "H": 1.16059,
+          "L": 1.15905,
+          "C": 1.1604
         },
         {
-          "time": "2026-06-29 17:38:02",
-          "O": 1.17082,
-          "H": 1.17199,
-          "L": 1.17007,
-          "C": 1.1702
+          "time": "2026-06-29 17:39:08",
+          "O": 1.1604,
+          "H": 1.16203,
+          "L": 1.15884,
+          "C": 1.16009
         },
         {
-          "time": "2026-06-29 18:38:02",
-          "O": 1.1702,
-          "H": 1.17209,
-          "L": 1.1692,
-          "C": 1.17137
+          "time": "2026-06-29 18:39:08",
+          "O": 1.16009,
+          "H": 1.16136,
+          "L": 1.15926,
+          "C": 1.15949
         },
         {
-          "time": "2026-06-29 19:38:02",
-          "O": 1.17137,
-          "H": 1.17209,
-          "L": 1.17081,
-          "C": 1.17108
+          "time": "2026-06-29 19:39:08",
+          "O": 1.15949,
+          "H": 1.16027,
+          "L": 1.15816,
+          "C": 1.15956
         },
         {
-          "time": "2026-06-29 20:38:02",
-          "O": 1.17108,
-          "H": 1.17159,
-          "L": 1.17012,
-          "C": 1.17033
+          "time": "2026-06-29 20:39:08",
+          "O": 1.15956,
+          "H": 1.1609,
+          "L": 1.15883,
+          "C": 1.15938
         },
         {
-          "time": "2026-06-29 21:38:02",
-          "O": 1.17033,
-          "H": 1.17086,
-          "L": 1.16933,
-          "C": 1.16971
+          "time": "2026-06-29 21:39:08",
+          "O": 1.15938,
+          "H": 1.16108,
+          "L": 1.1585,
+          "C": 1.16046
         },
         {
-          "time": "2026-06-29 22:38:02",
-          "O": 1.16971,
-          "H": 1.17031,
-          "L": 1.1692,
-          "C": 1.16928
+          "time": "2026-06-29 22:39:08",
+          "O": 1.16046,
+          "H": 1.16158,
+          "L": 1.15922,
+          "C": 1.16036
         },
         {
-          "time": "2026-06-29 23:38:02",
-          "O": 1.16928,
-          "H": 1.17024,
-          "L": 1.1692,
-          "C": 1.16972
+          "time": "2026-06-29 23:39:08",
+          "O": 1.16036,
+          "H": 1.16111,
+          "L": 1.15877,
+          "C": 1.15992
         },
         {
-          "time": "2026-06-30 00:38:02",
-          "O": 1.16972,
-          "H": 1.1754,
-          "L": 1.16951,
-          "C": 1.17477
+          "time": "2026-06-30 00:39:08",
+          "O": 1.15992,
+          "H": 1.16063,
+          "L": 1.15888,
+          "C": 1.16024
         },
         {
-          "time": "2026-06-30 01:38:02",
-          "O": 1.17477,
-          "H": 1.17617,
-          "L": 1.17402,
-          "C": 1.1759
+          "time": "2026-06-30 01:39:08",
+          "O": 1.16024,
+          "H": 1.16179,
+          "L": 1.15903,
+          "C": 1.16055
         },
         {
-          "time": "2026-06-30 02:38:02",
-          "O": 1.1759,
-          "H": 1.17758,
-          "L": 1.17451,
-          "C": 1.1747
+          "time": "2026-06-30 02:39:08",
+          "O": 1.16055,
+          "H": 1.16148,
+          "L": 1.16001,
+          "C": 1.16137
         },
         {
-          "time": "2026-06-30 03:38:02",
-          "O": 1.1747,
-          "H": 1.17632,
-          "L": 1.17284,
-          "C": 1.17564
+          "time": "2026-06-30 03:39:08",
+          "O": 1.16137,
+          "H": 1.16247,
+          "L": 1.16031,
+          "C": 1.16106
         }
       ],
-      "updated_at": "2026-06-09T08:38:03.146882"
+      "updated_at": "2026-06-09T08:39:08.798389"
     }
   }
 }

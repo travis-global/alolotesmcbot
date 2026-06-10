@@ -75,13 +75,14 @@
       "symbol": "Volatility 25 Index",
       "staged_at": "2026-06-10T02:35:05.897008",
       "confirmed": false,
-      "id": "Volatility 25 Index_Trendline_long_1.18952"
+      "id": "Volatility 25 Index_Trendline_long_1.18952",
+      "last_filtered_at": "2026-06-10T02:38:10.784876"
     }
   ],
   "open_trades": [],
   "closed_trades": [],
   "last_h1_run": "2026-06-10T02:37:43.922473",
-  "last_m5_run": null,
+  "last_m5_run": "2026-06-10T02:38:13.753386",
   "symbols": [
     "EURUSD",
     "GBPUSD",

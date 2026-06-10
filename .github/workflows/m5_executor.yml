@@ -27,7 +27,6 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run M5 executor
-        timeout-minutes: 4
         env:
           DERIV_TOKEN:      ${{ secrets.DERIV_TOKEN }}
           DERIV_APP_ID:     ${{ secrets.DERIV_APP_ID }}

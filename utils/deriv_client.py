@@ -29,7 +29,7 @@ DERIV_APP_ID     = os.getenv("DERIV_APP_ID",  "")
 DERIV_ACCOUNT_ID = os.getenv("DERIV_ACCOUNT", "")
 
 # Public WebSocket — auth needed
-PUBLIC_WS_URL = f"wss://ws.binaryws.com/websockets/v3?app_id={DERIV_APP_ID}"
+PUBLIC_WS_URL = "wss://ws.binaryws.com/websockets/v3?app_id=36238"
 REST_BASE_URL = "https://api.derivws.com"
 
 SYMBOL_MAP = {

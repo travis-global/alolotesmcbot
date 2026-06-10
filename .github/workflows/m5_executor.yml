@@ -27,14 +27,14 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run M5 executor
+        timeout-minutes: 4
         env:
-          DERIV_TOKEN:     ${{ secrets.DERIV_TOKEN }}
-          DERIV_APP_ID:    ${{ secrets.DERIV_APP_ID }}
-          DERIV_ACCOUNT:   ${{ secrets.DERIV_ACCOUNT }}
+          DERIV_TOKEN:      ${{ secrets.DERIV_TOKEN }}
+          DERIV_APP_ID:     ${{ secrets.DERIV_APP_ID }}
+          DERIV_ACCOUNT:    ${{ secrets.DERIV_ACCOUNT }}
           TELEGRAM_TOKEN:   ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python bot.py --mode m5
-
       - name: Commit updated state
         run: |
           git config user.name "github-actions[bot]"

@@ -76,6 +76,7 @@
       "staged_at": "2026-06-10T02:35:05.897008",
       "confirmed": false,
       "id": "Volatility 25 Index_Trendline_long_1.18952",
+<<<<<<< Updated upstream
       "last_filtered_at": "2026-06-10T02:43:09.612463"
     },
     {
@@ -171,12 +172,20 @@
       "staged_at": "2026-06-10T02:47:59.219331",
       "confirmed": false,
       "id": "Step Index_Trendline_short_1.20962"
+=======
+      "last_filtered_at": "2026-06-10T02:48:08.317528"
+>>>>>>> Stashed changes
     }
   ],
   "open_trades": [],
   "closed_trades": [],
+<<<<<<< Updated upstream
   "last_h1_run": "2026-06-10T02:47:59.830177",
   "last_m5_run": "2026-06-10T02:43:15.277654",
+=======
+  "last_h1_run": "2026-06-10T02:37:43.922473",
+  "last_m5_run": "2026-06-10T02:48:13.299755",
+>>>>>>> Stashed changes
   "symbols": [
     "EURUSD",
     "GBPUSD",

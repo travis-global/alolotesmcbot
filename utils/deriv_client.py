@@ -24,8 +24,8 @@ import urllib.request
 import urllib.error
 from datetime import datetime
 
-DERIV_TOKEN      = os.getenv("DERIV_TOKEN",   "YOUR_DERIV_TOKEN_HERE")
-DERIV_APP_ID     = os.getenv("DERIV_APP_ID",  "YOUR_APP_ID_HERE")
+DERIV_TOKEN      = os.getenv("DERIV_TOKEN",   "pat_17bc25ac481ee5bc193fcbd77a1378027166bba8bb3786f05af0e125fc9a0a3d")
+DERIV_APP_ID     = os.getenv("DERIV_APP_ID",  "33pzIhwaL32uTW9hcsXr4")
 DERIV_ACCOUNT_ID = os.getenv("DERIV_ACCOUNT", "YOUR_ACCOUNT_ID_HERE")
 
 # Public WebSocket — no auth needed

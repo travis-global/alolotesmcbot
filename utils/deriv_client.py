@@ -28,8 +28,8 @@ DERIV_TOKEN      = os.getenv("DERIV_TOKEN",   "")
 DERIV_APP_ID     = os.getenv("DERIV_APP_ID",  "")
 DERIV_ACCOUNT_ID = os.getenv("DERIV_ACCOUNT", "")
 
-# Public WebSocket — no auth needed
-PUBLIC_WS_URL = "wss://api.derivws.com/trading/v1/options/ws/public"
+# Public WebSocket — auth needed
+PUBLIC_WS_URL = f"wss://ws.binaryws.com/websockets/v3?app_id={DERIV_APP_ID}"
 REST_BASE_URL = "https://api.derivws.com"
 
 SYMBOL_MAP = {

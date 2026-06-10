@@ -26,7 +26,7 @@ from datetime import datetime
 
 DERIV_TOKEN      = os.getenv("DERIV_TOKEN",   "pat_17bc25ac481ee5bc193fcbd77a1378027166bba8bb3786f05af0e125fc9a0a3d")
 DERIV_APP_ID     = os.getenv("DERIV_APP_ID",  "33pzIhwaL32uTW9hcsXr4")
-DERIV_ACCOUNT_ID = os.getenv("DERIV_ACCOUNT", "019e774c-e299-735f-957c-ac6924bd3171")
+DERIV_ACCOUNT_ID = os.getenv("DERIV_ACCOUNT", "DOT92705114")
 
 # Public WebSocket — no auth needed
 PUBLIC_WS_URL = "wss://api.derivws.com/trading/v1/options/ws/public"

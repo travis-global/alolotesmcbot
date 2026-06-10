@@ -46,13 +46,13 @@
       "staged_at": "2026-06-10T03:37:42.939417",
       "confirmed": false,
       "id": "XAUUSD_OB_short_1.20713",
-      "last_filtered_at": "2026-06-10T04:03:05.944586"
+      "last_filtered_at": "2026-06-10T04:08:06.157913"
     }
   ],
   "open_trades": [],
   "closed_trades": [],
   "last_h1_run": "2026-06-10T03:37:46.238331",
-  "last_m5_run": "2026-06-10T04:03:08.754109",
+  "last_m5_run": "2026-06-10T04:08:09.240170",
   "symbols": [
     "EURUSD",
     "GBPUSD",

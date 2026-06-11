@@ -396,6 +396,165 @@
         "staged_at": "2026-06-11T14:23:46.473193",
         "confirmed": false
       }
+    },
+    {
+      "id": "V1_Trendline_short_20260611142811",
+      "symbol": "USDCHF",
+      "source": "V1",
+      "pattern": "Trendline",
+      "direction": "short",
+      "entry": 0.79997,
+      "sl": 0.80074,
+      "tp": 0.79808,
+      "rr": 2.45,
+      "zone_top": 0.8004399999999999,
+      "zone_bottom": 0.79984,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 1904203659,
+        "buy_price": 1,
+        "balance_after": 9990.19,
+        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in USD/CHF, multiplied by 100, minus commissions."
+      },
+      "confluence": [
+        "Descending trendline",
+        "Touch count: 2",
+        "5M close below trendline"
+      ],
+      "signal_time": "2026-06-11 14:05:00",
+      "placed_time": "2026-06-11 14:28:11",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "Trendline",
+        "direction": "short",
+        "trigger_price": 0.79997,
+        "zone_top": 0.8004399999999999,
+        "zone_bottom": 0.79984,
+        "time": "2026-06-11 14:05:00",
+        "confluence": [
+          "Descending trendline",
+          "Touch count: 2",
+          "5M close below trendline"
+        ],
+        "source_detail": {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "watching",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SH",
+              "price": 0.80063,
+              "index": 333,
+              "time": "2026-06-10 23:00:00"
+            },
+            {
+              "type": "SH",
+              "price": 0.80028,
+              "index": 343,
+              "time": "2026-06-11 09:00:00"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 0.80063,
+            "index": 333,
+            "time": "2026-06-10 23:00:00"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 0.80028,
+            "index": 343,
+            "time": "2026-06-11 09:00:00"
+          },
+          "slope": -3.499999999999615e-05,
+          "projected_y": 0.80014,
+          "last_touch_index": 343,
+          "last_touch_time": "2026-06-11 09:00:00",
+          "broken": false,
+          "broken_index": null,
+          "time": "2026-06-11 09:00:00"
+        },
+        "status": "pending",
+        "id": "USDCHF_Trendline_short_0.79997",
+        "symbol": "USDCHF",
+        "staged_at": "2026-06-11T14:28:12.383738",
+        "confirmed": false
+      }
+    },
+    {
+      "id": "V1_POI_long_20260611142821",
+      "symbol": "Volatility 75 Index",
+      "source": "V1",
+      "pattern": "POI",
+      "direction": "long",
+      "entry": 34191.346,
+      "sl": 34032.6578,
+      "tp": 34535.6566,
+      "rr": 2.17,
+      "zone_top": 34312.2611,
+      "zone_bottom": 34033.0578,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 1904218779,
+        "buy_price": 1,
+        "balance_after": 9989.19,
+        "longcode": "If you select 'Up', your total profit/loss will be the percentage increase in Volatility 75 Index, multiplied by 50, minus commissions."
+      },
+      "confluence": [
+        "Bullish POI",
+        "Tier 2",
+        "5M close above POI bottom"
+      ],
+      "signal_time": "2026-06-11 14:25:00",
+      "placed_time": "2026-06-11 14:28:21",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "POI",
+        "direction": "long",
+        "trigger_price": 34191.346,
+        "zone_top": 34312.2611,
+        "zone_bottom": 34033.0578,
+        "time": "2026-06-11 14:25:00",
+        "confluence": [
+          "Bullish POI",
+          "Tier 2",
+          "5M close above POI bottom"
+        ],
+        "source_detail": {
+          "type": "Bullish POI",
+          "tier": 2,
+          "top": 34312.2611,
+          "bottom": 34033.0578,
+          "time": "2026-06-10 16:00:00",
+          "origin_index": 58,
+          "has_fvg": false,
+          "has_breaker": false,
+          "has_structure": true,
+          "pd_zone": "discount",
+          "status": "active"
+        },
+        "status": "pending",
+        "id": "Volatility 75 Index_POI_long_34191.346",
+        "symbol": "Volatility 75 Index",
+        "staged_at": "2026-06-11T14:28:22.436104",
+        "confirmed": false
+      }
     }
   ],
   "closed_trades": [
@@ -495,7 +654,7 @@
     }
   ],
   "last_h1_run": "2026-06-11T13:38:02.269303",
-  "last_m5_run": "2026-06-11T14:24:06.643229",
+  "last_m5_run": "2026-06-11T14:28:31.704767",
   "symbols": [
     "EURUSD",
     "GBPUSD",

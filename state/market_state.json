@@ -48,10 +48,333 @@
       "id": "AUDUSD_OB_short_0.69957"
     }
   ],
-  "open_trades": [],
+  "open_trades": [
+    {
+      "id": "V1_Trendline_short_20260611120538",
+      "symbol": "EURUSD",
+      "source": "V1",
+      "pattern": "Trendline",
+      "direction": "short",
+      "entry": 1.15396,
+      "sl": 1.15479,
+      "tp": 1.15002,
+      "rr": 4.75,
+      "zone_top": 1.1544933333333334,
+      "zone_bottom": 1.1538933333333334,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 1893066959,
+        "buy_price": 1,
+        "balance_after": 9998.66,
+        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in EUR/USD, multiplied by 100, minus commissions."
+      },
+      "confluence": [
+        "Descending trendline",
+        "Touch count: 2",
+        "5M close below trendline"
+      ],
+      "signal_time": "2026-06-11 12:05:00",
+      "placed_time": "2026-06-11 12:05:38",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "Trendline",
+        "direction": "short",
+        "trigger_price": 1.15396,
+        "zone_top": 1.1544933333333334,
+        "zone_bottom": 1.1538933333333334,
+        "time": "2026-06-11 12:05:00",
+        "confluence": [
+          "Descending trendline",
+          "Touch count: 2",
+          "5M close below trendline"
+        ],
+        "source_detail": {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "watching",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SH",
+              "price": 1.15731,
+              "index": 325,
+              "time": "2026-06-10 13:00:00"
+            },
+            {
+              "type": "SH",
+              "price": 1.15561,
+              "index": 337,
+              "time": "2026-06-11 01:00:00"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 1.15731,
+            "index": 325,
+            "time": "2026-06-10 13:00:00"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.15561,
+            "index": 337,
+            "time": "2026-06-11 01:00:00"
+          },
+          "slope": -0.00014166666666666958,
+          "projected_y": 1.1541933333333334,
+          "last_touch_index": 337,
+          "last_touch_time": "2026-06-11 01:00:00",
+          "broken": false,
+          "broken_index": null,
+          "time": "2026-06-11 01:00:00"
+        },
+        "status": "pending",
+        "id": "EURUSD_Trendline_short_1.15396",
+        "symbol": "EURUSD",
+        "staged_at": "2026-06-11T12:05:40.421881",
+        "confirmed": false
+      }
+    },
+    {
+      "id": "V1_Trendline_short_20260611120541",
+      "symbol": "GBPUSD",
+      "source": "V1",
+      "pattern": "Trendline",
+      "direction": "short",
+      "entry": 1.33624,
+      "sl": 1.33716,
+      "tp": 1.33355,
+      "rr": 2.92,
+      "zone_top": 1.3368550000000001,
+      "zone_bottom": 1.3362550000000002,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 1893069799,
+        "buy_price": 1,
+        "balance_after": 9997.66,
+        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in GBP/USD, multiplied by 100, minus commissions."
+      },
+      "confluence": [
+        "Descending trendline",
+        "Touch count: 2",
+        "5M close below trendline"
+      ],
+      "signal_time": "2026-06-11 11:45:00",
+      "placed_time": "2026-06-11 12:05:41",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "Trendline",
+        "direction": "short",
+        "trigger_price": 1.33624,
+        "zone_top": 1.3368550000000001,
+        "zone_bottom": 1.3362550000000002,
+        "time": "2026-06-11 11:45:00",
+        "confluence": [
+          "Descending trendline",
+          "Touch count: 2",
+          "5M close below trendline"
+        ],
+        "source_detail": {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "watching",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SH",
+              "price": 1.34233,
+              "index": 325,
+              "time": "2026-06-10 13:00:00"
+            },
+            {
+              "type": "SH",
+              "price": 1.33918,
+              "index": 337,
+              "time": "2026-06-11 01:00:00"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 1.34233,
+            "index": 325,
+            "time": "2026-06-10 13:00:00"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.33918,
+            "index": 337,
+            "time": "2026-06-11 01:00:00"
+          },
+          "slope": -0.00026249999999999885,
+          "projected_y": 1.3365550000000002,
+          "last_touch_index": 337,
+          "last_touch_time": "2026-06-11 01:00:00",
+          "broken": false,
+          "broken_index": null,
+          "time": "2026-06-11 01:00:00"
+        },
+        "status": "pending",
+        "id": "GBPUSD_Trendline_short_1.33624",
+        "symbol": "GBPUSD",
+        "staged_at": "2026-06-11T12:05:43.338360",
+        "confirmed": false
+      }
+    },
+    {
+      "id": "V1_OB_short_20260611120546",
+      "symbol": "AUDUSD",
+      "source": "V1",
+      "pattern": "OB",
+      "direction": "short",
+      "entry": 0.69962,
+      "sl": 0.70009,
+      "tp": 0.69845,
+      "rr": 2.49,
+      "zone_top": 0.69979,
+      "zone_bottom": 0.69939,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 1893076019,
+        "buy_price": 1,
+        "balance_after": 9996.66,
+        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in AUD/USD, multiplied by 100, minus commissions."
+      },
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "signal_time": "2026-06-11 11:45:00",
+      "placed_time": "2026-06-11 12:05:46",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "OB",
+        "direction": "short",
+        "trigger_price": 0.69962,
+        "zone_top": 0.69979,
+        "zone_bottom": 0.69939,
+        "time": "2026-06-11 11:45:00",
+        "confluence": [
+          "Bearish OB",
+          "5M close below OB top"
+        ],
+        "source_detail": {
+          "type": "Bearish OB",
+          "index": 68,
+          "time": "2026-06-11 00:00:00",
+          "top": 0.69979,
+          "bottom": 0.69939,
+          "mid": 0.6995899999999999,
+          "mitigated": false,
+          "mitigation_index": null,
+          "break_index": 79,
+          "impulse_start": 69,
+          "has_fvg": true,
+          "source": "CHoCH_DOWN",
+          "age": 11,
+          "touch_count": 0,
+          "expired_by": null
+        },
+        "status": "pending",
+        "id": "AUDUSD_OB_short_0.69962",
+        "symbol": "AUDUSD",
+        "staged_at": "2026-06-11T12:05:49.330429",
+        "confirmed": false
+      }
+    },
+    {
+      "id": "V1_OB_short_20260611120547",
+      "symbol": "AUDUSD",
+      "source": "V1",
+      "pattern": "OB",
+      "direction": "short",
+      "entry": 0.69957,
+      "sl": 0.70009,
+      "tp": 0.69827,
+      "rr": 2.5,
+      "zone_top": 0.69979,
+      "zone_bottom": 0.69939,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 1893076839,
+        "buy_price": 1,
+        "balance_after": 9995.66,
+        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in AUD/USD, multiplied by 100, minus commissions."
+      },
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "signal_time": "2026-06-11 11:35:00",
+      "placed_time": "2026-06-11 12:05:47",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "OB",
+        "direction": "short",
+        "trigger_price": 0.69957,
+        "zone_top": 0.69979,
+        "zone_bottom": 0.69939,
+        "time": "2026-06-11 11:35:00",
+        "confluence": [
+          "Bearish OB",
+          "5M close below OB top"
+        ],
+        "source_detail": {
+          "type": "Bearish OB",
+          "index": 68,
+          "time": "2026-06-11 00:00:00",
+          "top": 0.69979,
+          "bottom": 0.69939,
+          "mid": 0.6995899999999999,
+          "mitigated": false,
+          "mitigation_index": null,
+          "break_index": 79,
+          "impulse_start": 69,
+          "has_fvg": true,
+          "source": "CHoCH_DOWN",
+          "age": 11,
+          "touch_count": 0,
+          "expired_by": null
+        },
+        "status": "pending",
+        "symbol": "AUDUSD",
+        "staged_at": "2026-06-11T11:45:16.710919",
+        "confirmed": false,
+        "id": "AUDUSD_OB_short_0.69957"
+      }
+    }
+  ],
   "closed_trades": [],
   "last_h1_run": "2026-06-11T11:45:26.386215",
-  "last_m5_run": "2026-06-11T12:03:10.703690",
+  "last_m5_run": "2026-06-11T12:06:09.901840",
   "symbols": [
     "EURUSD",
     "GBPUSD",

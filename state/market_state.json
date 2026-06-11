@@ -163,6 +163,7 @@
       "symbol": "Range Break 100 Index",
       "staged_at": "2026-06-11T01:35:07.838431",
       "confirmed": false,
+<<<<<<< Updated upstream
       "id": "Range Break 100 Index_Trendline_short_1.19233"
     },
     {
@@ -199,12 +200,21 @@
       "staged_at": "2026-06-11T01:37:44.886084",
       "confirmed": false,
       "id": "GBPUSD_OB_short_1.33898"
+=======
+      "id": "Range Break 100 Index_Trendline_short_1.19233",
+      "last_filtered_at": "2026-06-11T01:38:49.012112"
+>>>>>>> Stashed changes
     }
   ],
   "open_trades": [],
   "closed_trades": [],
+<<<<<<< Updated upstream
   "last_h1_run": "2026-06-11T01:38:05.790494",
   "last_m5_run": "2026-06-11T01:33:49.476734",
+=======
+  "last_h1_run": "2026-06-11T01:35:07.838422",
+  "last_m5_run": "2026-06-11T01:38:50.102103",
+>>>>>>> Stashed changes
   "symbols": [
     "EURUSD",
     "GBPUSD",

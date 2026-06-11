@@ -70,13 +70,13 @@
       "staged_at": "2026-06-11T10:46:23.860619",
       "confirmed": false,
       "id": "Range Break 100 Index_Trendline_long_1.20572",
-      "last_filtered_at": "2026-06-11T10:48:42.953949"
+      "last_filtered_at": "2026-06-11T10:53:27.392203"
     }
   ],
   "open_trades": [],
   "closed_trades": [],
   "last_h1_run": "2026-06-11T10:46:23.860613",
-  "last_m5_run": "2026-06-11T10:48:43.488529",
+  "last_m5_run": "2026-06-11T10:53:27.482093",
   "symbols": [
     "EURUSD",
     "GBPUSD",

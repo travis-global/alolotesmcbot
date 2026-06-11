@@ -200,6 +200,74 @@
       }
     },
     {
+      "id": "V1_POI_long_20260611141840",
+      "symbol": "Volatility 75 Index",
+      "source": "V1",
+      "pattern": "POI",
+      "direction": "long",
+      "entry": 34204.9194,
+      "sl": 34032.6578,
+      "tp": 34890.1468,
+      "rr": 3.98,
+      "zone_top": 34312.2611,
+      "zone_bottom": 34033.0578,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 1903482139,
+        "buy_price": 1,
+        "balance_after": 9993.22,
+        "longcode": "If you select 'Up', your total profit/loss will be the percentage increase in Volatility 75 Index, multiplied by 50, minus commissions."
+      },
+      "confluence": [
+        "Bullish POI",
+        "Tier 2",
+        "5M close above POI bottom"
+      ],
+      "signal_time": "2026-06-11 14:15:00",
+      "placed_time": "2026-06-11 14:18:40",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "POI",
+        "direction": "long",
+        "trigger_price": 34204.9194,
+        "zone_top": 34312.2611,
+        "zone_bottom": 34033.0578,
+        "time": "2026-06-11 14:15:00",
+        "confluence": [
+          "Bullish POI",
+          "Tier 2",
+          "5M close above POI bottom"
+        ],
+        "source_detail": {
+          "type": "Bullish POI",
+          "tier": 2,
+          "top": 34312.2611,
+          "bottom": 34033.0578,
+          "time": "2026-06-10 16:00:00",
+          "origin_index": 58,
+          "has_fvg": false,
+          "has_breaker": false,
+          "has_structure": true,
+          "pd_zone": "discount",
+          "status": "active"
+        },
+        "status": "pending",
+        "id": "Volatility 75 Index_POI_long_34204.9194",
+        "symbol": "Volatility 75 Index",
+        "staged_at": "2026-06-11T14:18:42.527935",
+        "confirmed": false
+      }
+    }
+  ],
+  "closed_trades": [
+    {
       "id": "V1_Trendline_short_20260611141315",
       "symbol": "USDCHF",
       "source": "V1",
@@ -227,11 +295,11 @@
       ],
       "signal_time": "2026-06-11 14:05:00",
       "placed_time": "2026-06-11 14:13:15",
-      "status": "active",
-      "close_price": null,
-      "close_time": null,
-      "close_reason": null,
-      "pnl_pips": null,
+      "status": "closed",
+      "close_price": 0.95,
+      "close_time": "2026-06-11 14:18:22",
+      "close_reason": "Price closed above descending trendline \u2014 line broken",
+      "pnl_pips": -1500.3,
       "lgn_signal": {
         "source": "LGN",
         "pattern": "Trendline",
@@ -290,12 +358,12 @@
         "symbol": "USDCHF",
         "staged_at": "2026-06-11T14:13:17.277470",
         "confirmed": false
-      }
+      },
+      "exit_type": "condition"
     }
   ],
-  "closed_trades": [],
   "last_h1_run": "2026-06-11T13:38:02.269303",
-  "last_m5_run": "2026-06-11T14:13:35.525142",
+  "last_m5_run": "2026-06-11T14:19:09.413028",
   "symbols": [
     "EURUSD",
     "GBPUSD",

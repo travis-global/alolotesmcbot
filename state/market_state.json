@@ -71,7 +71,11 @@
       "confirmed": false,
       "id": "Range Break 100 Index_Trendline_long_1.20572",
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
       "last_filtered_at": "2026-06-11T11:37:29.081958"
+=======
+      "last_filtered_at": "2026-06-11T11:38:46.899283"
+>>>>>>> Stashed changes
     }
   ],
   "open_trades": [
@@ -142,6 +146,7 @@
         "staged_at": "2026-06-11T11:37:08.417916",
         "confirmed": false
       }
+<<<<<<< Updated upstream
 =======
       "last_filtered_at": "2026-06-11T11:33:27.429898"
     },
@@ -298,15 +303,89 @@
       "confirmed": false,
       "id": "AUDUSD_OB_short_0.69953"
 >>>>>>> Stashed changes
+=======
+    },
+    {
+      "id": "V1_OB_long_20260611113822",
+      "symbol": "Volatility 25 Index",
+      "source": "V1",
+      "pattern": "OB",
+      "direction": "long",
+      "entry": 2799.943,
+      "sl": 2798.242,
+      "tp": 2806.874,
+      "rr": 4.07,
+      "zone_top": 2802.263,
+      "zone_bottom": 2798.392,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 1891083499,
+        "buy_price": 1,
+        "balance_after": 9998,
+        "longcode": "If you select 'Up', your total profit/loss will be the percentage increase in Volatility 25 Index, multiplied by 160, minus commissions."
+      },
+      "confluence": [
+        "Bullish OB",
+        "5M close above OB bottom"
+      ],
+      "signal_time": "2026-06-11 11:35:00",
+      "placed_time": "2026-06-11 11:38:22",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "OB",
+        "direction": "long",
+        "trigger_price": 2799.943,
+        "zone_top": 2802.263,
+        "zone_bottom": 2798.392,
+        "time": "2026-06-11 11:35:00",
+        "confluence": [
+          "Bullish OB",
+          "5M close above OB bottom"
+        ],
+        "source_detail": {
+          "type": "Bullish OB",
+          "index": 53,
+          "time": "2026-06-10 08:00:00",
+          "top": 2802.263,
+          "bottom": 2798.392,
+          "mid": 2800.3275,
+          "mitigated": false,
+          "mitigation_index": null,
+          "break_index": 62,
+          "impulse_start": 57,
+          "has_fvg": false,
+          "source": "CHoCH_UP",
+          "age": 26,
+          "touch_count": 0,
+          "expired_by": null
+        },
+        "status": "pending",
+        "id": "Volatility 25 Index_OB_long_2799.943",
+        "symbol": "Volatility 25 Index",
+        "staged_at": "2026-06-11T11:38:26.466239",
+        "confirmed": false
+      }
+>>>>>>> Stashed changes
     }
   ],
   "closed_trades": [],
 <<<<<<< Updated upstream
   "last_h1_run": "2026-06-11T10:46:23.860613",
+<<<<<<< Updated upstream
   "last_m5_run": "2026-06-11T11:37:29.621177",
 =======
   "last_h1_run": "2026-06-11T11:38:02.471870",
   "last_m5_run": "2026-06-11T11:33:27.551356",
+>>>>>>> Stashed changes
+=======
+  "last_m5_run": "2026-06-11T11:38:47.397165",
 >>>>>>> Stashed changes
   "symbols": [
     "EURUSD",

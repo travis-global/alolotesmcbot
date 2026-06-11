@@ -264,6 +264,138 @@
         "staged_at": "2026-06-11T14:18:42.527935",
         "confirmed": false
       }
+    },
+    {
+      "id": "V1_POI_long_20260611142340",
+      "symbol": "Volatility 75 Index",
+      "source": "V1",
+      "pattern": "POI",
+      "direction": "long",
+      "entry": 34099.6331,
+      "sl": 33790.8735,
+      "tp": 34890.1468,
+      "rr": 2.56,
+      "zone_top": 34104.639,
+      "zone_bottom": 33791.2735,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 1903855679,
+        "buy_price": 1,
+        "balance_after": 9992.19,
+        "longcode": "If you select 'Up', your total profit/loss will be the percentage increase in Volatility 75 Index, multiplied by 50, minus commissions."
+      },
+      "confluence": [
+        "Bullish POI",
+        "Tier 2",
+        "5M close above POI bottom"
+      ],
+      "signal_time": "2026-06-11 14:20:00",
+      "placed_time": "2026-06-11 14:23:40",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "POI",
+        "direction": "long",
+        "trigger_price": 34099.6331,
+        "zone_top": 34104.639,
+        "zone_bottom": 33791.2735,
+        "time": "2026-06-11 14:20:00",
+        "confluence": [
+          "Bullish POI",
+          "Tier 2",
+          "5M close above POI bottom"
+        ],
+        "source_detail": {
+          "type": "Bullish POI",
+          "tier": 2,
+          "top": 34104.639,
+          "bottom": 33791.2735,
+          "time": "2026-06-09 19:00:00",
+          "origin_index": 37,
+          "has_fvg": false,
+          "has_breaker": false,
+          "has_structure": true,
+          "pd_zone": "discount",
+          "status": "active"
+        },
+        "status": "pending",
+        "id": "Volatility 75 Index_POI_long_34099.6331",
+        "symbol": "Volatility 75 Index",
+        "staged_at": "2026-06-11T14:23:46.473189",
+        "confirmed": false
+      }
+    },
+    {
+      "id": "V1_POI_long_20260611142342",
+      "symbol": "Volatility 75 Index",
+      "source": "V1",
+      "pattern": "POI",
+      "direction": "long",
+      "entry": 34099.6331,
+      "sl": 34032.6578,
+      "tp": 34410.867,
+      "rr": 4.65,
+      "zone_top": 34312.2611,
+      "zone_bottom": 34033.0578,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 1903858259,
+        "buy_price": 1,
+        "balance_after": 9991.19,
+        "longcode": "If you select 'Up', your total profit/loss will be the percentage increase in Volatility 75 Index, multiplied by 50, minus commissions."
+      },
+      "confluence": [
+        "Bullish POI",
+        "Tier 2",
+        "5M close above POI bottom"
+      ],
+      "signal_time": "2026-06-11 14:20:00",
+      "placed_time": "2026-06-11 14:23:42",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "POI",
+        "direction": "long",
+        "trigger_price": 34099.6331,
+        "zone_top": 34312.2611,
+        "zone_bottom": 34033.0578,
+        "time": "2026-06-11 14:20:00",
+        "confluence": [
+          "Bullish POI",
+          "Tier 2",
+          "5M close above POI bottom"
+        ],
+        "source_detail": {
+          "type": "Bullish POI",
+          "tier": 2,
+          "top": 34312.2611,
+          "bottom": 34033.0578,
+          "time": "2026-06-10 16:00:00",
+          "origin_index": 58,
+          "has_fvg": false,
+          "has_breaker": false,
+          "has_structure": true,
+          "pd_zone": "discount",
+          "status": "active"
+        },
+        "status": "pending",
+        "id": "Volatility 75 Index_POI_long_34099.6331",
+        "symbol": "Volatility 75 Index",
+        "staged_at": "2026-06-11T14:23:46.473193",
+        "confirmed": false
+      }
     }
   ],
   "closed_trades": [
@@ -363,7 +495,7 @@
     }
   ],
   "last_h1_run": "2026-06-11T13:38:02.269303",
-  "last_m5_run": "2026-06-11T14:19:09.413028",
+  "last_m5_run": "2026-06-11T14:24:06.643229",
   "symbols": [
     "EURUSD",
     "GBPUSD",

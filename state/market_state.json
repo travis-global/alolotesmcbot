@@ -38,17 +38,116 @@
         "pd_zone": "discount",
         "status": "active"
       },
-      "status": "pending",
+      "status": "executed",
       "symbol": "USDJPY",
       "staged_at": "2026-06-11T23:37:46.063461",
-      "confirmed": false,
+      "confirmed": true,
+      "id": "USDJPY_POI_long_160.078"
+    },
+    {
+      "source": "LGN",
+      "pattern": "POI",
+      "direction": "long",
+      "trigger_price": 160.078,
+      "zone_top": 160.08,
+      "zone_bottom": 159.789,
+      "time": "2026-06-11 23:35:00",
+      "confluence": [
+        "Bullish POI",
+        "Tier 2",
+        "5M close above POI bottom"
+      ],
+      "source_detail": {
+        "type": "Bullish POI",
+        "tier": 2,
+        "top": 160.08,
+        "bottom": 159.789,
+        "time": "2026-06-11 19:00:00",
+        "origin_index": 75,
+        "has_fvg": false,
+        "has_breaker": false,
+        "has_structure": true,
+        "pd_zone": "discount",
+        "status": "active"
+      },
+      "status": "executed",
+      "symbol": "USDJPY",
+      "staged_at": "2026-06-11T23:37:46.063461",
+      "confirmed": true,
       "id": "USDJPY_POI_long_160.078"
     }
   ],
-  "open_trades": [],
+  "open_trades": [
+    {
+      "id": "V1_POI_long_20260611234306",
+      "symbol": "USDJPY",
+      "source": "V1",
+      "pattern": "POI",
+      "direction": "long",
+      "entry": 160.078,
+      "sl": 159.759,
+      "tp": 160.80125,
+      "rr": 2.27,
+      "zone_top": 160.08,
+      "zone_bottom": 159.789,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 1941267199,
+        "buy_price": 1,
+        "balance_after": 10004.42,
+        "longcode": "If you select 'Up', your total profit/loss will be the percentage increase in USD/JPY, multiplied by 100, minus commissions."
+      },
+      "confluence": [
+        "Bullish POI",
+        "Tier 2",
+        "5M close above POI bottom"
+      ],
+      "signal_time": "2026-06-11 23:35:00",
+      "placed_time": "2026-06-11 23:43:06",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "POI",
+        "direction": "long",
+        "trigger_price": 160.078,
+        "zone_top": 160.08,
+        "zone_bottom": 159.789,
+        "time": "2026-06-11 23:35:00",
+        "confluence": [
+          "Bullish POI",
+          "Tier 2",
+          "5M close above POI bottom"
+        ],
+        "source_detail": {
+          "type": "Bullish POI",
+          "tier": 2,
+          "top": 160.08,
+          "bottom": 159.789,
+          "time": "2026-06-11 19:00:00",
+          "origin_index": 75,
+          "has_fvg": false,
+          "has_breaker": false,
+          "has_structure": true,
+          "pd_zone": "discount",
+          "status": "active"
+        },
+        "status": "executed",
+        "symbol": "USDJPY",
+        "staged_at": "2026-06-11T23:37:46.063461",
+        "confirmed": true,
+        "id": "USDJPY_POI_long_160.078"
+      }
+    }
+  ],
   "closed_trades": [],
   "last_h1_run": "2026-06-11T23:37:56.379656",
-  "last_m5_run": null,
+  "last_m5_run": "2026-06-11T23:43:27.534669",
   "symbols": [
     "EURUSD",
     "GBPUSD",

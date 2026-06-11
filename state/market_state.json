@@ -599,11 +599,147 @@
         "confirmed": false,
         "id": "AUDUSD_OB_short_0.69957"
       }
+    },
+    {
+      "id": "V1_OB_short_20260611121317",
+      "symbol": "AUDUSD",
+      "source": "V1",
+      "pattern": "OB",
+      "direction": "short",
+      "entry": 0.69962,
+      "sl": 0.70009,
+      "tp": 0.69845,
+      "rr": 2.49,
+      "zone_top": 0.69979,
+      "zone_bottom": 0.69939,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 1893653619,
+        "buy_price": 1,
+        "balance_after": 9991.66,
+        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in AUD/USD, multiplied by 100, minus commissions."
+      },
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "signal_time": "2026-06-11 11:45:00",
+      "placed_time": "2026-06-11 12:13:17",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "OB",
+        "direction": "short",
+        "trigger_price": 0.69962,
+        "zone_top": 0.69979,
+        "zone_bottom": 0.69939,
+        "time": "2026-06-11 11:45:00",
+        "confluence": [
+          "Bearish OB",
+          "5M close below OB top"
+        ],
+        "source_detail": {
+          "type": "Bearish OB",
+          "index": 68,
+          "time": "2026-06-11 00:00:00",
+          "top": 0.69979,
+          "bottom": 0.69939,
+          "mid": 0.6995899999999999,
+          "mitigated": false,
+          "mitigation_index": null,
+          "break_index": 79,
+          "impulse_start": 69,
+          "has_fvg": true,
+          "source": "CHoCH_DOWN",
+          "age": 11,
+          "touch_count": 0,
+          "expired_by": null
+        },
+        "status": "pending",
+        "id": "AUDUSD_OB_short_0.69962",
+        "symbol": "AUDUSD",
+        "staged_at": "2026-06-11T12:13:21.431155",
+        "confirmed": false
+      }
+    },
+    {
+      "id": "V1_OB_short_20260611121319",
+      "symbol": "AUDUSD",
+      "source": "V1",
+      "pattern": "OB",
+      "direction": "short",
+      "entry": 0.69957,
+      "sl": 0.70009,
+      "tp": 0.69827,
+      "rr": 2.5,
+      "zone_top": 0.69979,
+      "zone_bottom": 0.69939,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 1893655859,
+        "buy_price": 1,
+        "balance_after": 9990.66,
+        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in AUD/USD, multiplied by 100, minus commissions."
+      },
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "signal_time": "2026-06-11 11:35:00",
+      "placed_time": "2026-06-11 12:13:19",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "OB",
+        "direction": "short",
+        "trigger_price": 0.69957,
+        "zone_top": 0.69979,
+        "zone_bottom": 0.69939,
+        "time": "2026-06-11 11:35:00",
+        "confluence": [
+          "Bearish OB",
+          "5M close below OB top"
+        ],
+        "source_detail": {
+          "type": "Bearish OB",
+          "index": 68,
+          "time": "2026-06-11 00:00:00",
+          "top": 0.69979,
+          "bottom": 0.69939,
+          "mid": 0.6995899999999999,
+          "mitigated": false,
+          "mitigation_index": null,
+          "break_index": 79,
+          "impulse_start": 69,
+          "has_fvg": true,
+          "source": "CHoCH_DOWN",
+          "age": 11,
+          "touch_count": 0,
+          "expired_by": null
+        },
+        "status": "pending",
+        "symbol": "AUDUSD",
+        "staged_at": "2026-06-11T11:45:16.710919",
+        "confirmed": false,
+        "id": "AUDUSD_OB_short_0.69957"
+      }
     }
   ],
   "closed_trades": [],
   "last_h1_run": "2026-06-11T11:45:26.386215",
-  "last_m5_run": "2026-06-11T12:08:33.584934",
+  "last_m5_run": "2026-06-11T12:13:51.490807",
   "symbols": [
     "EURUSD",
     "GBPUSD",

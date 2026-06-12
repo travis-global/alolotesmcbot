@@ -46,7 +46,7 @@
       "staged_at": "2026-06-12T13:38:00.814526",
       "confirmed": false,
       "id": "Range Break 100 Index_OB_long_1.21071",
-      "last_filtered_at": "2026-06-12T14:28:46.895518"
+      "last_filtered_at": "2026-06-12T14:33:30.491011"
     },
     {
       "source": "LGN",
@@ -226,7 +226,7 @@
   ],
   "closed_trades": [],
   "last_h1_run": "2026-06-12T14:14:09.142961",
-  "last_m5_run": "2026-06-12T14:28:47.443314",
+  "last_m5_run": "2026-06-12T14:33:30.643330",
   "symbols": [
     "EURUSD",
     "GBPUSD",

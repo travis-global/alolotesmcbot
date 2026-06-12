@@ -46,77 +46,7 @@
       "staged_at": "2026-06-12T13:38:00.814526",
       "confirmed": false,
       "id": "Range Break 100 Index_OB_long_1.21071",
-      "last_filtered_at": "2026-06-12T14:13:34.513393"
-    },
-    {
-      "source": "LGN",
-      "pattern": "OB",
-      "direction": "long",
-      "trigger_price": 160.248,
-      "zone_top": 160.286,
-      "zone_bottom": 160.093,
-      "time": "2026-06-12 13:35:00",
-      "confluence": [
-        "Bullish OB",
-        "5M close above OB bottom"
-      ],
-      "source_detail": {
-        "type": "Bullish OB",
-        "index": 74,
-        "time": "2026-06-12 08:00:00",
-        "top": 160.286,
-        "bottom": 160.093,
-        "mid": 160.1895,
-        "mitigated": false,
-        "mitigation_index": null,
-        "break_index": 79,
-        "impulse_start": 78,
-        "has_fvg": false,
-        "source": "BOS_UP",
-        "age": 5,
-        "touch_count": 0,
-        "expired_by": null
-      },
-      "status": "executed",
-      "symbol": "USDJPY",
-      "staged_at": "2026-06-12T13:37:43.956882",
-      "confirmed": true,
-      "id": "USDJPY_OB_long_160.248"
-    },
-    {
-      "source": "LGN",
-      "pattern": "OB",
-      "direction": "long",
-      "trigger_price": 160.248,
-      "zone_top": 160.286,
-      "zone_bottom": 160.093,
-      "time": "2026-06-12 13:35:00",
-      "confluence": [
-        "Bullish OB",
-        "5M close above OB bottom"
-      ],
-      "source_detail": {
-        "type": "Bullish OB",
-        "index": 74,
-        "time": "2026-06-12 08:00:00",
-        "top": 160.286,
-        "bottom": 160.093,
-        "mid": 160.1895,
-        "mitigated": false,
-        "mitigation_index": null,
-        "break_index": 79,
-        "impulse_start": 78,
-        "has_fvg": false,
-        "source": "BOS_UP",
-        "age": 5,
-        "touch_count": 0,
-        "expired_by": null
-      },
-      "status": "executed",
-      "symbol": "USDJPY",
-      "staged_at": "2026-06-12T13:37:43.956882",
-      "confirmed": true,
-      "id": "USDJPY_OB_long_160.248"
+      "last_filtered_at": "2026-06-12T14:18:49.080545"
     },
     {
       "source": "LGN",
@@ -152,6 +82,76 @@
       "staged_at": "2026-06-12T14:13:57.052438",
       "confirmed": false,
       "id": "USDJPY_OB_long_160.245"
+    },
+    {
+      "source": "LGN",
+      "pattern": "OB",
+      "direction": "long",
+      "trigger_price": 160.248,
+      "zone_top": 160.286,
+      "zone_bottom": 160.093,
+      "time": "2026-06-12 13:35:00",
+      "confluence": [
+        "Bullish OB",
+        "5M close above OB bottom"
+      ],
+      "source_detail": {
+        "type": "Bullish OB",
+        "index": 74,
+        "time": "2026-06-12 08:00:00",
+        "top": 160.286,
+        "bottom": 160.093,
+        "mid": 160.1895,
+        "mitigated": false,
+        "mitigation_index": null,
+        "break_index": 79,
+        "impulse_start": 78,
+        "has_fvg": false,
+        "source": "BOS_UP",
+        "age": 5,
+        "touch_count": 0,
+        "expired_by": null
+      },
+      "status": "executed",
+      "symbol": "USDJPY",
+      "staged_at": "2026-06-12T13:37:43.956882",
+      "confirmed": true,
+      "id": "USDJPY_OB_long_160.248"
+    },
+    {
+      "source": "LGN",
+      "pattern": "OB",
+      "direction": "long",
+      "trigger_price": 160.248,
+      "zone_top": 160.286,
+      "zone_bottom": 160.093,
+      "time": "2026-06-12 13:35:00",
+      "confluence": [
+        "Bullish OB",
+        "5M close above OB bottom"
+      ],
+      "source_detail": {
+        "type": "Bullish OB",
+        "index": 74,
+        "time": "2026-06-12 08:00:00",
+        "top": 160.286,
+        "bottom": 160.093,
+        "mid": 160.1895,
+        "mitigated": false,
+        "mitigation_index": null,
+        "break_index": 79,
+        "impulse_start": 78,
+        "has_fvg": false,
+        "source": "BOS_UP",
+        "age": 5,
+        "touch_count": 0,
+        "expired_by": null
+      },
+      "status": "executed",
+      "symbol": "USDJPY",
+      "staged_at": "2026-06-12T13:37:43.956882",
+      "confirmed": true,
+      "id": "USDJPY_OB_long_160.248"
     }
   ],
   "open_trades": [
@@ -226,7 +226,7 @@
   ],
   "closed_trades": [],
   "last_h1_run": "2026-06-12T14:14:09.142961",
-  "last_m5_run": "2026-06-12T14:13:34.709493",
+  "last_m5_run": "2026-06-12T14:18:49.608457",
   "symbols": [
     "EURUSD",
     "GBPUSD",

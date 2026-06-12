@@ -12,10 +12,77 @@
   "structure": [],
   "swings": [],
   "active_signals": [],
-  "open_trades": [],
+  "open_trades": [
+    {
+      "id": "V1_POI_short_20260612183308",
+      "symbol": "EURUSD",
+      "source": "V1",
+      "pattern": "POI",
+      "direction": "short",
+      "entry": 1.15782,
+      "sl": 1.15872,
+      "tp": 1.15601,
+      "rr": 2.01,
+      "zone_top": 1.15842,
+      "zone_bottom": 1.15768,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 2008780319,
+        "buy_price": 1.29,
+        "balance_after": 9990.99,
+        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in EUR/USD, multiplied by 129, minus commissions."
+      },
+      "confluence": [
+        "Bearish POI",
+        "Tier 2",
+        "5M close below POI top"
+      ],
+      "signal_time": "2026-06-12 18:30:00",
+      "placed_time": "2026-06-12 18:33:08",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "POI",
+        "direction": "short",
+        "trigger_price": 1.15782,
+        "zone_top": 1.15842,
+        "zone_bottom": 1.15768,
+        "time": "2026-06-12 18:30:00",
+        "confluence": [
+          "Bearish POI",
+          "Tier 2",
+          "5M close below POI top"
+        ],
+        "source_detail": {
+          "type": "Bearish POI",
+          "tier": 2,
+          "top": 1.15842,
+          "bottom": 1.15768,
+          "time": "2026-06-12 09:00:00",
+          "origin_index": 71,
+          "has_fvg": false,
+          "has_breaker": false,
+          "has_structure": true,
+          "pd_zone": "premium",
+          "status": "active"
+        },
+        "status": "pending",
+        "id": "EURUSD_POI_short_1.15782",
+        "symbol": "EURUSD",
+        "staged_at": "2026-06-12T18:33:10.387371",
+        "confirmed": false
+      }
+    }
+  ],
   "closed_trades": [],
   "last_h1_run": "2026-06-12T17:41:45.733926",
-  "last_m5_run": "2026-06-12T18:29:33.552384",
+  "last_m5_run": "2026-06-12T18:33:38.123197",
   "symbols": [
     "EURUSD",
     "GBPUSD",

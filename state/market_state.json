@@ -12,10 +12,73 @@
   "structure": [],
   "swings": [],
   "active_signals": [],
-  "open_trades": [],
+  "open_trades": [
+    {
+      "id": "V1_BB_long_20260612015317",
+      "symbol": "USDJPY",
+      "source": "V1",
+      "pattern": "BB",
+      "direction": "long",
+      "entry": 160.247,
+      "sl": 160.193,
+      "tp": 160.344,
+      "rr": 1.8,
+      "zone_top": 160.255,
+      "zone_bottom": 160.223,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 1945927119,
+        "buy_price": 1,
+        "balance_after": 10003.42,
+        "longcode": "If you select 'Up', your total profit/loss will be the percentage increase in USD/JPY, multiplied by 100, minus commissions."
+      },
+      "confluence": [
+        "Bullish BB",
+        "5M close above BB bottom"
+      ],
+      "signal_time": "2026-06-12 01:50:00",
+      "placed_time": "2026-06-12 01:53:17",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "BB",
+        "direction": "long",
+        "trigger_price": 160.247,
+        "zone_top": 160.255,
+        "zone_bottom": 160.223,
+        "time": "2026-06-12 01:50:00",
+        "confluence": [
+          "Bullish BB",
+          "5M close above BB bottom"
+        ],
+        "source_detail": {
+          "type": "Bullish BB",
+          "origin_ob_index": 9,
+          "break_index": 53,
+          "retest_index": 71,
+          "confirmation_index": 76,
+          "top": 160.255,
+          "bottom": 160.223,
+          "time": "2026-06-11 22:00:00",
+          "status": "active"
+        },
+        "status": "pending",
+        "id": "USDJPY_BB_long_160.247",
+        "symbol": "USDJPY",
+        "staged_at": "2026-06-12T01:53:19.395711",
+        "confirmed": false
+      }
+    }
+  ],
   "closed_trades": [],
   "last_h1_run": "2026-06-12T01:38:04.906088",
-  "last_m5_run": "2026-06-12T01:48:25.467745",
+  "last_m5_run": "2026-06-12T01:53:53.416905",
   "symbols": [
     "EURUSD",
     "GBPUSD",

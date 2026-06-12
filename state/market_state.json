@@ -35,12 +35,42 @@
         "time": "2026-06-11 22:00:00",
         "status": "active"
       },
-      "status": "pending",
+      "status": "executed",
       "symbol": "USDJPY",
       "staged_at": "2026-06-12T03:37:47.070391",
-      "confirmed": false,
+      "confirmed": true,
       "id": "USDJPY_BB_long_160.228",
-      "last_filtered_at": "2026-06-12T03:43:07.857036"
+      "last_filtered_at": "2026-06-12T03:48:12.609320"
+    },
+    {
+      "source": "LGN",
+      "pattern": "BB",
+      "direction": "long",
+      "trigger_price": 160.228,
+      "zone_top": 160.255,
+      "zone_bottom": 160.223,
+      "time": "2026-06-12 03:35:00",
+      "confluence": [
+        "Bullish BB",
+        "5M close above BB bottom"
+      ],
+      "source_detail": {
+        "type": "Bullish BB",
+        "origin_ob_index": 7,
+        "break_index": 51,
+        "retest_index": 69,
+        "confirmation_index": 74,
+        "top": 160.255,
+        "bottom": 160.223,
+        "time": "2026-06-11 22:00:00",
+        "status": "active"
+      },
+      "status": "executed",
+      "symbol": "USDJPY",
+      "staged_at": "2026-06-12T03:37:47.070391",
+      "confirmed": true,
+      "id": "USDJPY_BB_long_160.228",
+      "last_filtered_at": "2026-06-12T03:48:12.609320"
     }
   ],
   "open_trades": [
@@ -140,7 +170,7 @@
   ],
   "closed_trades": [],
   "last_h1_run": "2026-06-12T03:38:05.783320",
-  "last_m5_run": "2026-06-12T03:43:30.573787",
+  "last_m5_run": "2026-06-12T03:48:38.490655",
   "symbols": [
     "EURUSD",
     "GBPUSD",

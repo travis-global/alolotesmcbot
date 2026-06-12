@@ -75,6 +75,138 @@
   ],
   "open_trades": [
     {
+      "id": "V1_BB_long_20260612035316",
+      "symbol": "USDJPY",
+      "source": "V1",
+      "pattern": "BB",
+      "direction": "long",
+      "entry": 160.249,
+      "sl": 160.193,
+      "tp": 160.344,
+      "rr": 1.7,
+      "zone_top": 160.255,
+      "zone_bottom": 160.223,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 1950018859,
+        "buy_price": 1,
+        "balance_after": 10002.16,
+        "longcode": "If you select 'Up', your total profit/loss will be the percentage increase in USD/JPY, multiplied by 100, minus commissions."
+      },
+      "confluence": [
+        "Bullish BB",
+        "5M close above BB bottom"
+      ],
+      "signal_time": "2026-06-12 03:50:00",
+      "placed_time": "2026-06-12 03:53:16",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "BB",
+        "direction": "long",
+        "trigger_price": 160.249,
+        "zone_top": 160.255,
+        "zone_bottom": 160.223,
+        "time": "2026-06-12 03:50:00",
+        "confluence": [
+          "Bullish BB",
+          "5M close above BB bottom"
+        ],
+        "source_detail": {
+          "type": "Bullish BB",
+          "origin_ob_index": 7,
+          "break_index": 51,
+          "retest_index": 69,
+          "confirmation_index": 74,
+          "top": 160.255,
+          "bottom": 160.223,
+          "time": "2026-06-11 22:00:00",
+          "status": "active"
+        },
+        "status": "pending",
+        "id": "USDJPY_BB_long_160.249",
+        "symbol": "USDJPY",
+        "staged_at": "2026-06-12T03:53:18.484219",
+        "confirmed": false
+      }
+    },
+    {
+      "id": "V1_OB_short_20260612035338",
+      "symbol": "Crash 500 Index",
+      "source": "V1",
+      "pattern": "OB",
+      "direction": "short",
+      "entry": 2994.476,
+      "sl": 3003.885,
+      "tp": 2976.416,
+      "rr": 1.92,
+      "zone_top": 3003.385,
+      "zone_bottom": 2990.137,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 1950032239,
+        "buy_price": 1,
+        "balance_after": 10001.16,
+        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in Crash 500 Index, multiplied by 200, minus commissions."
+      },
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "signal_time": "2026-06-12 03:50:00",
+      "placed_time": "2026-06-12 03:53:38",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "OB",
+        "direction": "short",
+        "trigger_price": 2994.476,
+        "zone_top": 3003.385,
+        "zone_bottom": 2990.137,
+        "time": "2026-06-12 03:50:00",
+        "confluence": [
+          "Bearish OB",
+          "5M close below OB top"
+        ],
+        "source_detail": {
+          "type": "Bearish OB",
+          "index": 75,
+          "time": "2026-06-11 23:00:00",
+          "top": 3003.385,
+          "bottom": 2990.137,
+          "mid": 2996.7610000000004,
+          "mitigated": false,
+          "mitigation_index": null,
+          "break_index": 78,
+          "impulse_start": 76,
+          "has_fvg": false,
+          "source": "BOS_DOWN",
+          "age": 4,
+          "touch_count": 1,
+          "expired_by": null
+        },
+        "status": "pending",
+        "id": "Crash 500 Index_OB_short_2994.476",
+        "symbol": "Crash 500 Index",
+        "staged_at": "2026-06-12T03:53:40.511506",
+        "confirmed": false
+      }
+    }
+  ],
+  "closed_trades": [
+    {
       "id": "V1_Trendline_long_20260612034306",
       "symbol": "GBPUSD",
       "source": "V1",
@@ -102,11 +234,11 @@
       ],
       "signal_time": "2026-06-12 03:40:00",
       "placed_time": "2026-06-12 03:43:06",
-      "status": "active",
-      "close_price": null,
-      "close_time": null,
-      "close_reason": null,
-      "pnl_pips": null,
+      "status": "closed",
+      "close_price": 1.34128,
+      "close_time": "2026-06-12 03:53:12",
+      "close_reason": "Price closed below ascending trendline \u2014 line broken",
+      "pnl_pips": -4.1,
       "lgn_signal": {
         "source": "LGN",
         "pattern": "Trendline",
@@ -165,12 +297,12 @@
         "symbol": "GBPUSD",
         "staged_at": "2026-06-12T03:43:07.273111",
         "confirmed": false
-      }
+      },
+      "exit_type": "condition"
     }
   ],
-  "closed_trades": [],
   "last_h1_run": "2026-06-12T03:38:05.783320",
-  "last_m5_run": "2026-06-12T03:48:38.490655",
+  "last_m5_run": "2026-06-12T03:53:53.866954",
   "symbols": [
     "EURUSD",
     "GBPUSD",

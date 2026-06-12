@@ -74,7 +74,9 @@
         "staged_at": "2026-06-12T01:53:19.395711",
         "confirmed": false
       }
-    },
+    }
+  ],
+  "closed_trades": [
     {
       "id": "V1_OB_long_20260612015828",
       "symbol": "Boom 1000 Index",
@@ -102,11 +104,11 @@
       ],
       "signal_time": "2026-06-12 01:55:00",
       "placed_time": "2026-06-12 01:58:28",
-      "status": "active",
-      "close_price": null,
-      "close_time": null,
-      "close_reason": null,
-      "pnl_pips": null,
+      "status": "closed",
+      "close_price": 13742.039,
+      "close_time": "2026-06-12 02:38:24",
+      "close_reason": "Price closed below OB bottom \u2014 block invalidated",
+      "pnl_pips": -105230.0,
       "lgn_signal": {
         "source": "LGN",
         "pattern": "OB",
@@ -141,12 +143,18 @@
         "symbol": "Boom 1000 Index",
         "staged_at": "2026-06-12T01:58:30.374651",
         "confirmed": false
-      }
+      },
+      "exit_type": "condition"
     }
   ],
+<<<<<<< Updated upstream
   "closed_trades": [],
   "last_h1_run": "2026-06-12T02:37:52.462666",
   "last_m5_run": "2026-06-12T02:33:25.582722",
+=======
+  "last_h1_run": "2026-06-12T01:38:04.906088",
+  "last_m5_run": "2026-06-12T02:38:29.858145",
+>>>>>>> Stashed changes
   "symbols": [
     "EURUSD",
     "GBPUSD",

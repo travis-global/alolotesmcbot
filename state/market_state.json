@@ -151,74 +151,6 @@
         "confirmed": true,
         "id": "Boom 1000 Index_OB_long_13877.561"
       }
-    },
-    {
-      "id": "V1_OB_short_20260612232811",
-      "symbol": "Volatility 75 Index",
-      "source": "V1",
-      "pattern": "OB",
-      "direction": "short",
-      "entry": 36957.9665,
-      "sl": 36994.9871,
-      "tp": 36544.2202,
-      "rr": 11.18,
-      "zone_top": 36994.5871,
-      "zone_bottom": 36803.3707,
-      "placed": true,
-      "filtered": false,
-      "filtered_reason": null,
-      "mt5_result": {
-        "contract_id": 2027464219,
-        "buy_price": 2,
-        "balance_after": 9987.64,
-        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in Volatility 75 Index, multiplied by 100, minus commissions."
-      },
-      "confluence": [
-        "Bearish OB",
-        "5M close below OB top"
-      ],
-      "signal_time": "2026-06-12 23:25:00",
-      "placed_time": "2026-06-12 23:28:11",
-      "status": "active",
-      "close_price": null,
-      "close_time": null,
-      "close_reason": null,
-      "pnl_pips": null,
-      "lgn_signal": {
-        "source": "LGN",
-        "pattern": "OB",
-        "direction": "short",
-        "trigger_price": 36957.9665,
-        "zone_top": 36994.5871,
-        "zone_bottom": 36803.3707,
-        "time": "2026-06-12 23:25:00",
-        "confluence": [
-          "Bearish OB",
-          "5M close below OB top"
-        ],
-        "source_detail": {
-          "type": "Bearish OB",
-          "index": 61,
-          "time": "2026-06-12 04:00:00",
-          "top": 36994.5871,
-          "bottom": 36803.3707,
-          "mid": 36898.9789,
-          "mitigated": false,
-          "mitigation_index": null,
-          "break_index": 75,
-          "impulse_start": 70,
-          "has_fvg": false,
-          "source": "BOS_DOWN",
-          "age": 18,
-          "touch_count": 0,
-          "expired_by": null
-        },
-        "status": "pending",
-        "id": "Volatility 75 Index_OB_short_36957.9665",
-        "symbol": "Volatility 75 Index",
-        "staged_at": "2026-06-12T23:28:14.314002",
-        "confirmed": false
-      }
     }
   ],
   "closed_trades": [
@@ -290,10 +222,84 @@
         "confirmed": false
       },
       "exit_type": "sl"
+    },
+    {
+      "id": "V1_OB_short_20260612232811",
+      "symbol": "Volatility 75 Index",
+      "source": "V1",
+      "pattern": "OB",
+      "direction": "short",
+      "entry": 36957.9665,
+      "sl": 36994.9871,
+      "tp": 36544.2202,
+      "rr": 11.18,
+      "zone_top": 36994.5871,
+      "zone_bottom": 36803.3707,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 2027464219,
+        "buy_price": 2,
+        "balance_after": 9987.64,
+        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in Volatility 75 Index, multiplied by 100, minus commissions."
+      },
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "signal_time": "2026-06-12 23:25:00",
+      "placed_time": "2026-06-12 23:28:11",
+      "status": "closed",
+      "close_price": 36994.9871,
+      "close_time": "2026-06-12 23:38:13",
+      "close_reason": "Stop loss hit",
+      "pnl_pips": -370206.0,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "OB",
+        "direction": "short",
+        "trigger_price": 36957.9665,
+        "zone_top": 36994.5871,
+        "zone_bottom": 36803.3707,
+        "time": "2026-06-12 23:25:00",
+        "confluence": [
+          "Bearish OB",
+          "5M close below OB top"
+        ],
+        "source_detail": {
+          "type": "Bearish OB",
+          "index": 61,
+          "time": "2026-06-12 04:00:00",
+          "top": 36994.5871,
+          "bottom": 36803.3707,
+          "mid": 36898.9789,
+          "mitigated": false,
+          "mitigation_index": null,
+          "break_index": 75,
+          "impulse_start": 70,
+          "has_fvg": false,
+          "source": "BOS_DOWN",
+          "age": 18,
+          "touch_count": 0,
+          "expired_by": null
+        },
+        "status": "pending",
+        "id": "Volatility 75 Index_OB_short_36957.9665",
+        "symbol": "Volatility 75 Index",
+        "staged_at": "2026-06-12T23:28:14.314002",
+        "confirmed": false
+      },
+      "exit_type": "sl"
     }
   ],
+<<<<<<< Updated upstream
   "last_h1_run": "2026-06-12T23:38:03.874711",
   "last_m5_run": "2026-06-12T23:33:37.474589",
+=======
+  "last_h1_run": "2026-06-12T22:43:38.565067",
+  "last_m5_run": "2026-06-12T23:38:25.778681",
+>>>>>>> Stashed changes
   "symbols": [
     "EURUSD",
     "GBPUSD",

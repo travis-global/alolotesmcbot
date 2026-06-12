@@ -203,99 +203,6 @@
         "staged_at": "2026-06-12T03:53:40.511506",
         "confirmed": false
       }
-    },
-    {
-      "id": "V1_Trendline_long_20260612035807",
-      "symbol": "GBPUSD",
-      "source": "V1",
-      "pattern": "Trendline",
-      "direction": "long",
-      "entry": 1.3417,
-      "sl": 1.34092,
-      "tp": 1.3433,
-      "rr": 2.05,
-      "zone_top": 1.341816,
-      "zone_bottom": 1.341216,
-      "placed": true,
-      "filtered": false,
-      "filtered_reason": null,
-      "mt5_result": {
-        "contract_id": 1950208759,
-        "buy_price": 1,
-        "balance_after": 10000.16,
-        "longcode": "If you select 'Up', your total profit/loss will be the percentage increase in GBP/USD, multiplied by 100, minus commissions."
-      },
-      "confluence": [
-        "Ascending trendline",
-        "Touch count: 2",
-        "5M close above trendline"
-      ],
-      "signal_time": "2026-06-12 03:40:00",
-      "placed_time": "2026-06-12 03:58:07",
-      "status": "active",
-      "close_price": null,
-      "close_time": null,
-      "close_reason": null,
-      "pnl_pips": null,
-      "lgn_signal": {
-        "source": "LGN",
-        "pattern": "Trendline",
-        "direction": "long",
-        "trigger_price": 1.3417,
-        "zone_top": 1.341816,
-        "zone_bottom": 1.341216,
-        "time": "2026-06-12 03:40:00",
-        "confluence": [
-          "Ascending trendline",
-          "Touch count: 2",
-          "5M close above trendline"
-        ],
-        "source_detail": {
-          "type": "Trendline",
-          "direction": "ascending",
-          "trade_bias": "long",
-          "state": "watching",
-          "touch_count": 2,
-          "touches": [
-            {
-              "type": "SL",
-              "price": 1.33248,
-              "index": 335,
-              "time": "2026-06-11 15:00:00"
-            },
-            {
-              "type": "SL",
-              "price": 1.34001,
-              "index": 345,
-              "time": "2026-06-12 01:00:00"
-            }
-          ],
-          "anchor_1": {
-            "type": "SL",
-            "price": 1.33248,
-            "index": 335,
-            "time": "2026-06-11 15:00:00"
-          },
-          "anchor_2": {
-            "type": "SL",
-            "price": 1.34001,
-            "index": 345,
-            "time": "2026-06-12 01:00:00"
-          },
-          "slope": 0.0007529999999999814,
-          "projected_y": 1.341516,
-          "last_touch_index": 345,
-          "last_touch_time": "2026-06-12 01:00:00",
-          "broken": false,
-          "broken_index": null,
-          "time": "2026-06-12 01:00:00"
-        },
-        "status": "pending",
-        "id": "GBPUSD_Trendline_long_1.3417",
-        "symbol": "GBPUSD",
-        "staged_at": "2026-06-12T03:58:09.310820",
-        "confirmed": false
-      }
     }
   ],
   "closed_trades": [
@@ -392,10 +299,104 @@
         "confirmed": false
       },
       "exit_type": "condition"
+    },
+    {
+      "id": "V1_Trendline_long_20260612035807",
+      "symbol": "GBPUSD",
+      "source": "V1",
+      "pattern": "Trendline",
+      "direction": "long",
+      "entry": 1.3417,
+      "sl": 1.34092,
+      "tp": 1.3433,
+      "rr": 2.05,
+      "zone_top": 1.341816,
+      "zone_bottom": 1.341216,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 1950208759,
+        "buy_price": 1,
+        "balance_after": 10000.16,
+        "longcode": "If you select 'Up', your total profit/loss will be the percentage increase in GBP/USD, multiplied by 100, minus commissions."
+      },
+      "confluence": [
+        "Ascending trendline",
+        "Touch count: 2",
+        "5M close above trendline"
+      ],
+      "signal_time": "2026-06-12 03:40:00",
+      "placed_time": "2026-06-12 03:58:07",
+      "status": "closed",
+      "close_price": 1.34146,
+      "close_time": "2026-06-12 04:03:08",
+      "close_reason": "Price closed below ascending trendline \u2014 line broken",
+      "pnl_pips": -2.4,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "Trendline",
+        "direction": "long",
+        "trigger_price": 1.3417,
+        "zone_top": 1.341816,
+        "zone_bottom": 1.341216,
+        "time": "2026-06-12 03:40:00",
+        "confluence": [
+          "Ascending trendline",
+          "Touch count: 2",
+          "5M close above trendline"
+        ],
+        "source_detail": {
+          "type": "Trendline",
+          "direction": "ascending",
+          "trade_bias": "long",
+          "state": "watching",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SL",
+              "price": 1.33248,
+              "index": 335,
+              "time": "2026-06-11 15:00:00"
+            },
+            {
+              "type": "SL",
+              "price": 1.34001,
+              "index": 345,
+              "time": "2026-06-12 01:00:00"
+            }
+          ],
+          "anchor_1": {
+            "type": "SL",
+            "price": 1.33248,
+            "index": 335,
+            "time": "2026-06-11 15:00:00"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.34001,
+            "index": 345,
+            "time": "2026-06-12 01:00:00"
+          },
+          "slope": 0.0007529999999999814,
+          "projected_y": 1.341516,
+          "last_touch_index": 345,
+          "last_touch_time": "2026-06-12 01:00:00",
+          "broken": false,
+          "broken_index": null,
+          "time": "2026-06-12 01:00:00"
+        },
+        "status": "pending",
+        "id": "GBPUSD_Trendline_long_1.3417",
+        "symbol": "GBPUSD",
+        "staged_at": "2026-06-12T03:58:09.310820",
+        "confirmed": false
+      },
+      "exit_type": "condition"
     }
   ],
   "last_h1_run": "2026-06-12T03:38:05.783320",
-  "last_m5_run": "2026-06-12T03:58:31.890538",
+  "last_m5_run": "2026-06-12T04:03:35.099948",
   "symbols": [
     "EURUSD",
     "GBPUSD",

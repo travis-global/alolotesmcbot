@@ -71,17 +71,82 @@
         "broken_index": null,
         "time": "2026-06-10 11:00:00"
       },
-      "status": "pending",
+      "status": "executed",
       "symbol": "GBPUSD",
       "staged_at": "2026-06-12T05:37:40.145186",
-      "confirmed": false,
+      "confirmed": true,
+      "id": "GBPUSD_Trendline_long_1.34048"
+    },
+    {
+      "source": "LGN",
+      "pattern": "Trendline",
+      "direction": "long",
+      "trigger_price": 1.34048,
+      "zone_top": 1.3406149999999997,
+      "zone_bottom": 1.3400149999999997,
+      "time": "2026-06-12 05:30:00",
+      "confluence": [
+        "Ascending trendline",
+        "Touch count: 3",
+        "5M close above trendline"
+      ],
+      "source_detail": {
+        "type": "Trendline",
+        "direction": "ascending",
+        "trade_bias": "long",
+        "state": "third_touch_confirmed",
+        "touch_count": 3,
+        "touches": [
+          {
+            "type": "SL",
+            "price": 1.33685,
+            "index": 293,
+            "time": "2026-06-09 23:00:00"
+          },
+          {
+            "type": "SL",
+            "price": 1.33762,
+            "index": 305,
+            "time": "2026-06-10 11:00:00"
+          },
+          {
+            "type": "SL",
+            "price": 1.34001,
+            "index": 343,
+            "time": "2026-06-12 01:00:00"
+          }
+        ],
+        "anchor_1": {
+          "type": "SL",
+          "price": 1.33685,
+          "index": 293,
+          "time": "2026-06-09 23:00:00"
+        },
+        "anchor_2": {
+          "type": "SL",
+          "price": 1.33762,
+          "index": 305,
+          "time": "2026-06-10 11:00:00"
+        },
+        "slope": 6.416666666666145e-05,
+        "projected_y": 1.3403149999999997,
+        "last_touch_index": 343,
+        "last_touch_time": "2026-06-12 01:00:00",
+        "broken": false,
+        "broken_index": null,
+        "time": "2026-06-10 11:00:00"
+      },
+      "status": "executed",
+      "symbol": "GBPUSD",
+      "staged_at": "2026-06-12T05:37:40.145186",
+      "confirmed": true,
       "id": "GBPUSD_Trendline_long_1.34048"
     }
   ],
   "open_trades": [],
   "closed_trades": [],
   "last_h1_run": "2026-06-12T05:37:50.463037",
-  "last_m5_run": "2026-06-12T05:48:31.847970",
+  "last_m5_run": "2026-06-12T05:53:29.583152",
   "symbols": [
     "EURUSD",
     "GBPUSD",

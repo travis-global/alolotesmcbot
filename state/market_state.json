@@ -12,10 +12,79 @@
   "structure": [],
   "swings": [],
   "active_signals": [],
-  "open_trades": [],
+  "open_trades": [
+    {
+      "id": "V1_OB_short_20260612082314",
+      "symbol": "XAUUSD",
+      "source": "V1",
+      "pattern": "OB",
+      "direction": "short",
+      "entry": 4218.23,
+      "sl": 4243.68,
+      "tp": 4053.14,
+      "rr": 6.49,
+      "zone_top": 4243.38,
+      "zone_bottom": 4213.92,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 1964605159,
+        "buy_price": 1,
+        "balance_after": 9998.68,
+        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in Gold/USD, multiplied by 100, minus commissions."
+      },
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "signal_time": "2026-06-12 08:20:00",
+      "placed_time": "2026-06-12 08:23:14",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "OB",
+        "direction": "short",
+        "trigger_price": 4218.23,
+        "zone_top": 4243.38,
+        "zone_bottom": 4213.92,
+        "time": "2026-06-12 08:20:00",
+        "confluence": [
+          "Bearish OB",
+          "5M close below OB top"
+        ],
+        "source_detail": {
+          "type": "Bearish OB",
+          "index": 70,
+          "time": "2026-06-11 22:00:00",
+          "top": 4243.38,
+          "bottom": 4213.92,
+          "mid": 4228.65,
+          "mitigated": false,
+          "mitigation_index": null,
+          "break_index": 77,
+          "impulse_start": 73,
+          "has_fvg": false,
+          "source": "BOS_DOWN",
+          "age": 9,
+          "touch_count": 0,
+          "expired_by": null
+        },
+        "status": "pending",
+        "id": "XAUUSD_OB_short_4218.23",
+        "symbol": "XAUUSD",
+        "staged_at": "2026-06-12T08:23:16.387389",
+        "confirmed": false
+      }
+    }
+  ],
   "closed_trades": [],
   "last_h1_run": "2026-06-12T07:38:05.867208",
-  "last_m5_run": "2026-06-12T08:18:29.598832",
+  "last_m5_run": "2026-06-12T08:23:35.082504",
   "symbols": [
     "EURUSD",
     "GBPUSD",

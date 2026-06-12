@@ -151,7 +151,9 @@
         "confirmed": true,
         "id": "Boom 1000 Index_OB_long_13877.561"
       }
-    },
+    }
+  ],
+  "closed_trades": [
     {
       "id": "V1_OB_short_20260612225314",
       "symbol": "Volatility 75 Index",
@@ -179,11 +181,11 @@
       ],
       "signal_time": "2026-06-12 22:50:00",
       "placed_time": "2026-06-12 22:53:14",
-      "status": "active",
-      "close_price": null,
-      "close_time": null,
-      "close_reason": null,
-      "pnl_pips": null,
+      "status": "closed",
+      "close_price": 36994.9871,
+      "close_time": "2026-06-12 23:08:13",
+      "close_reason": "Stop loss hit",
+      "pnl_pips": -1886342.0,
       "lgn_signal": {
         "source": "LGN",
         "pattern": "OB",
@@ -218,12 +220,12 @@
         "symbol": "Volatility 75 Index",
         "staged_at": "2026-06-12T22:53:16.273759",
         "confirmed": false
-      }
+      },
+      "exit_type": "sl"
     }
   ],
-  "closed_trades": [],
   "last_h1_run": "2026-06-12T22:43:38.565067",
-  "last_m5_run": "2026-06-12T23:03:37.316540",
+  "last_m5_run": "2026-06-12T23:08:23.462525",
   "symbols": [
     "EURUSD",
     "GBPUSD",

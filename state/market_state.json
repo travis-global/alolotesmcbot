@@ -78,6 +78,72 @@
         "staged_at": "2026-06-13T06:33:27.151143",
         "confirmed": false
       }
+    },
+    {
+      "id": "V1_POI_long_20260613064318",
+      "symbol": "Boom 1000 Index",
+      "source": "V1",
+      "pattern": "POI",
+      "direction": "long",
+      "entry": 13874.372,
+      "sl": 13855.729,
+      "tp": 13926.543,
+      "rr": 2.8,
+      "zone_top": 13877.656,
+      "zone_bottom": 13856.229,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 2045407119,
+        "buy_price": 1,
+        "balance_after": 9988.33,
+        "longcode": "If you select 'Up', your total profit/loss will be the percentage increase in Boom 1000 Index, multiplied by 100, minus commissions."
+      },
+      "confluence": [
+        "Bullish POI",
+        "Tier 2",
+        "5M close above POI bottom"
+      ],
+      "signal_time": "2026-06-13 06:40:00",
+      "placed_time": "2026-06-13 06:43:18",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "POI",
+        "direction": "long",
+        "trigger_price": 13874.372,
+        "zone_top": 13877.656,
+        "zone_bottom": 13856.229,
+        "time": "2026-06-13 06:40:00",
+        "confluence": [
+          "Bullish POI",
+          "Tier 2",
+          "5M close above POI bottom"
+        ],
+        "source_detail": {
+          "type": "Bullish POI",
+          "tier": 2,
+          "top": 13877.656,
+          "bottom": 13856.229,
+          "time": "2026-06-12 11:00:00",
+          "origin_index": 60,
+          "has_fvg": false,
+          "has_breaker": false,
+          "has_structure": true,
+          "pd_zone": "discount",
+          "status": "active"
+        },
+        "status": "pending",
+        "id": "Boom 1000 Index_POI_long_13874.372",
+        "symbol": "Boom 1000 Index",
+        "staged_at": "2026-06-13T06:43:20.228172",
+        "confirmed": false
+      }
     }
   ],
   "closed_trades": [
@@ -219,7 +285,7 @@
     }
   ],
   "last_h1_run": "2026-06-13T06:37:48.334555",
-  "last_m5_run": "2026-06-13T06:38:37.223554",
+  "last_m5_run": "2026-06-13T06:43:24.852497",
   "symbols": [
     "EURUSD",
     "GBPUSD",

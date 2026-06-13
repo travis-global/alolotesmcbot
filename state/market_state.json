@@ -38,10 +38,10 @@
         "pd_zone": "premium",
         "status": "active"
       },
-      "status": "pending",
+      "status": "executed",
       "symbol": "Volatility 100 Index",
       "staged_at": "2026-06-13T14:21:46.125274",
-      "confirmed": false,
+      "confirmed": true,
       "id": "Volatility 100 Index_POI_short_338.36"
     },
     {
@@ -70,10 +70,74 @@
         "pd_zone": "premium",
         "status": "active"
       },
-      "status": "pending",
+      "status": "executed",
       "symbol": "Volatility 100 Index",
       "staged_at": "2026-06-13T14:37:46.864361",
-      "confirmed": false,
+      "confirmed": true,
+      "id": "Volatility 100 Index_POI_short_338.29"
+    },
+    {
+      "source": "LGN",
+      "pattern": "POI",
+      "direction": "short",
+      "trigger_price": 338.36,
+      "zone_top": 342.02,
+      "zone_bottom": 336.18,
+      "time": "2026-06-13 14:20:00",
+      "confluence": [
+        "Bearish POI",
+        "Tier 2",
+        "5M close below POI top"
+      ],
+      "source_detail": {
+        "type": "Bearish POI",
+        "tier": 2,
+        "top": 342.02,
+        "bottom": 336.18,
+        "time": "2026-06-13 05:00:00",
+        "origin_index": 70,
+        "has_fvg": false,
+        "has_breaker": false,
+        "has_structure": true,
+        "pd_zone": "premium",
+        "status": "active"
+      },
+      "status": "executed",
+      "symbol": "Volatility 100 Index",
+      "staged_at": "2026-06-13T14:21:46.125274",
+      "confirmed": true,
+      "id": "Volatility 100 Index_POI_short_338.36"
+    },
+    {
+      "source": "LGN",
+      "pattern": "POI",
+      "direction": "short",
+      "trigger_price": 338.29,
+      "zone_top": 342.02,
+      "zone_bottom": 336.18,
+      "time": "2026-06-13 14:35:00",
+      "confluence": [
+        "Bearish POI",
+        "Tier 2",
+        "5M close below POI top"
+      ],
+      "source_detail": {
+        "type": "Bearish POI",
+        "tier": 2,
+        "top": 342.02,
+        "bottom": 336.18,
+        "time": "2026-06-13 05:00:00",
+        "origin_index": 70,
+        "has_fvg": false,
+        "has_breaker": false,
+        "has_structure": true,
+        "pd_zone": "premium",
+        "status": "active"
+      },
+      "status": "executed",
+      "symbol": "Volatility 100 Index",
+      "staged_at": "2026-06-13T14:37:46.864361",
+      "confirmed": true,
       "id": "Volatility 100 Index_POI_short_338.29"
     },
     {
@@ -487,7 +551,7 @@
     }
   ],
   "last_h1_run": "2026-06-13T14:37:51.428300",
-  "last_m5_run": "2026-06-13T15:32:39.427017",
+  "last_m5_run": "2026-06-13T15:33:29.935918",
   "symbols": [
     "EURUSD",
     "GBPUSD",

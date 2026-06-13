@@ -46,13 +46,18 @@
       "staged_at": "2026-06-13T20:24:52.261807",
       "confirmed": false,
       "id": "Range Break 100 Index_OB_long_1.20272",
-      "last_filtered_at": "2026-06-13T20:33:31.580838"
+      "last_filtered_at": "2026-06-13T20:38:23.287503"
     }
   ],
   "open_trades": [],
   "closed_trades": [],
+<<<<<<< Updated upstream
   "last_h1_run": "2026-06-13T20:37:58.315545",
   "last_m5_run": "2026-06-13T20:33:31.956928",
+=======
+  "last_h1_run": "2026-06-13T20:24:52.261802",
+  "last_m5_run": "2026-06-13T20:38:23.392774",
+>>>>>>> Stashed changes
   "symbols": [
     "EURUSD",
     "GBPUSD",

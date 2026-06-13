@@ -45,13 +45,14 @@
       "symbol": "Range Break 100 Index",
       "staged_at": "2026-06-13T20:24:52.261807",
       "confirmed": false,
-      "id": "Range Break 100 Index_OB_long_1.20272"
+      "id": "Range Break 100 Index_OB_long_1.20272",
+      "last_filtered_at": "2026-06-13T20:28:21.325152"
     }
   ],
   "open_trades": [],
   "closed_trades": [],
   "last_h1_run": "2026-06-13T20:24:52.261802",
-  "last_m5_run": null,
+  "last_m5_run": "2026-06-13T20:28:21.865162",
   "symbols": [
     "EURUSD",
     "GBPUSD",

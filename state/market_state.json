@@ -46,13 +46,21 @@
       "staged_at": "2026-06-13T10:37:53.569781",
       "confirmed": false,
       "id": "Volatility 50 Index_OB_long_94.5383",
+<<<<<<< Updated upstream
       "last_filtered_at": "2026-06-13T11:28:19.519182"
+=======
+      "last_filtered_at": "2026-06-13T11:28:35.049319"
+>>>>>>> Stashed changes
     }
   ],
   "open_trades": [],
   "closed_trades": [],
   "last_h1_run": "2026-06-13T10:38:04.687855",
+<<<<<<< Updated upstream
   "last_m5_run": "2026-06-13T11:28:44.360020",
+=======
+  "last_m5_run": "2026-06-13T11:28:47.811353",
+>>>>>>> Stashed changes
   "symbols": [
     "EURUSD",
     "GBPUSD",

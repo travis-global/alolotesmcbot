@@ -46,140 +46,6 @@
     },
     {
       "source": "LGN",
-      "pattern": "OB",
-      "direction": "short",
-      "trigger_price": 338.27,
-      "zone_top": 342.02,
-      "zone_bottom": 336.18,
-      "time": "2026-06-13 13:35:00",
-      "confluence": [
-        "Bearish OB",
-        "5M close below OB top"
-      ],
-      "source_detail": {
-        "type": "Bearish OB",
-        "index": 71,
-        "time": "2026-06-13 05:00:00",
-        "top": 342.02,
-        "bottom": 336.18,
-        "mid": 339.1,
-        "mitigated": false,
-        "mitigation_index": null,
-        "break_index": 78,
-        "impulse_start": 72,
-        "has_fvg": true,
-        "source": "BOS_DOWN",
-        "age": 8,
-        "touch_count": 1,
-        "expired_by": null
-      },
-      "status": "executed",
-      "symbol": "Volatility 100 Index",
-      "staged_at": "2026-06-13T13:37:53.921072",
-      "confirmed": true,
-      "id": "Volatility 100 Index_OB_short_338.27"
-    },
-    {
-      "source": "LGN",
-      "pattern": "POI",
-      "direction": "short",
-      "trigger_price": 338.27,
-      "zone_top": 342.02,
-      "zone_bottom": 336.18,
-      "time": "2026-06-13 13:35:00",
-      "confluence": [
-        "Bearish POI",
-        "Tier 2",
-        "5M close below POI top"
-      ],
-      "source_detail": {
-        "type": "Bearish POI",
-        "tier": 2,
-        "top": 342.02,
-        "bottom": 336.18,
-        "time": "2026-06-13 05:00:00",
-        "origin_index": 71,
-        "has_fvg": false,
-        "has_breaker": false,
-        "has_structure": true,
-        "pd_zone": "premium",
-        "status": "active"
-      },
-      "status": "executed",
-      "symbol": "Volatility 100 Index",
-      "staged_at": "2026-06-13T13:37:53.921085",
-      "confirmed": true,
-      "id": "Volatility 100 Index_POI_short_338.27"
-    },
-    {
-      "source": "LGN",
-      "pattern": "OB",
-      "direction": "short",
-      "trigger_price": 338.27,
-      "zone_top": 342.02,
-      "zone_bottom": 336.18,
-      "time": "2026-06-13 13:35:00",
-      "confluence": [
-        "Bearish OB",
-        "5M close below OB top"
-      ],
-      "source_detail": {
-        "type": "Bearish OB",
-        "index": 71,
-        "time": "2026-06-13 05:00:00",
-        "top": 342.02,
-        "bottom": 336.18,
-        "mid": 339.1,
-        "mitigated": false,
-        "mitigation_index": null,
-        "break_index": 78,
-        "impulse_start": 72,
-        "has_fvg": true,
-        "source": "BOS_DOWN",
-        "age": 8,
-        "touch_count": 1,
-        "expired_by": null
-      },
-      "status": "executed",
-      "symbol": "Volatility 100 Index",
-      "staged_at": "2026-06-13T13:37:53.921072",
-      "confirmed": true,
-      "id": "Volatility 100 Index_OB_short_338.27"
-    },
-    {
-      "source": "LGN",
-      "pattern": "POI",
-      "direction": "short",
-      "trigger_price": 338.27,
-      "zone_top": 342.02,
-      "zone_bottom": 336.18,
-      "time": "2026-06-13 13:35:00",
-      "confluence": [
-        "Bearish POI",
-        "Tier 2",
-        "5M close below POI top"
-      ],
-      "source_detail": {
-        "type": "Bearish POI",
-        "tier": 2,
-        "top": 342.02,
-        "bottom": 336.18,
-        "time": "2026-06-13 05:00:00",
-        "origin_index": 71,
-        "has_fvg": false,
-        "has_breaker": false,
-        "has_structure": true,
-        "pd_zone": "premium",
-        "status": "active"
-      },
-      "status": "executed",
-      "symbol": "Volatility 100 Index",
-      "staged_at": "2026-06-13T13:37:53.921085",
-      "confirmed": true,
-      "id": "Volatility 100 Index_POI_short_338.27"
-    },
-    {
-      "source": "LGN",
       "pattern": "POI",
       "direction": "short",
       "trigger_price": 338.29,
@@ -209,9 +75,144 @@
       "staged_at": "2026-06-13T14:37:46.864361",
       "confirmed": false,
       "id": "Volatility 100 Index_POI_short_338.29"
+    },
+    {
+      "source": "LGN",
+      "pattern": "OB",
+      "direction": "short",
+      "trigger_price": 338.27,
+      "zone_top": 342.02,
+      "zone_bottom": 336.18,
+      "time": "2026-06-13 13:35:00",
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "source_detail": {
+        "type": "Bearish OB",
+        "index": 71,
+        "time": "2026-06-13 05:00:00",
+        "top": 342.02,
+        "bottom": 336.18,
+        "mid": 339.1,
+        "mitigated": false,
+        "mitigation_index": null,
+        "break_index": 78,
+        "impulse_start": 72,
+        "has_fvg": true,
+        "source": "BOS_DOWN",
+        "age": 8,
+        "touch_count": 1,
+        "expired_by": null
+      },
+      "status": "executed",
+      "symbol": "Volatility 100 Index",
+      "staged_at": "2026-06-13T13:37:53.921072",
+      "confirmed": true,
+      "id": "Volatility 100 Index_OB_short_338.27"
+    },
+    {
+      "source": "LGN",
+      "pattern": "POI",
+      "direction": "short",
+      "trigger_price": 338.27,
+      "zone_top": 342.02,
+      "zone_bottom": 336.18,
+      "time": "2026-06-13 13:35:00",
+      "confluence": [
+        "Bearish POI",
+        "Tier 2",
+        "5M close below POI top"
+      ],
+      "source_detail": {
+        "type": "Bearish POI",
+        "tier": 2,
+        "top": 342.02,
+        "bottom": 336.18,
+        "time": "2026-06-13 05:00:00",
+        "origin_index": 71,
+        "has_fvg": false,
+        "has_breaker": false,
+        "has_structure": true,
+        "pd_zone": "premium",
+        "status": "active"
+      },
+      "status": "executed",
+      "symbol": "Volatility 100 Index",
+      "staged_at": "2026-06-13T13:37:53.921085",
+      "confirmed": true,
+      "id": "Volatility 100 Index_POI_short_338.27"
+    },
+    {
+      "source": "LGN",
+      "pattern": "OB",
+      "direction": "short",
+      "trigger_price": 338.27,
+      "zone_top": 342.02,
+      "zone_bottom": 336.18,
+      "time": "2026-06-13 13:35:00",
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "source_detail": {
+        "type": "Bearish OB",
+        "index": 71,
+        "time": "2026-06-13 05:00:00",
+        "top": 342.02,
+        "bottom": 336.18,
+        "mid": 339.1,
+        "mitigated": false,
+        "mitigation_index": null,
+        "break_index": 78,
+        "impulse_start": 72,
+        "has_fvg": true,
+        "source": "BOS_DOWN",
+        "age": 8,
+        "touch_count": 1,
+        "expired_by": null
+      },
+      "status": "executed",
+      "symbol": "Volatility 100 Index",
+      "staged_at": "2026-06-13T13:37:53.921072",
+      "confirmed": true,
+      "id": "Volatility 100 Index_OB_short_338.27"
+    },
+    {
+      "source": "LGN",
+      "pattern": "POI",
+      "direction": "short",
+      "trigger_price": 338.27,
+      "zone_top": 342.02,
+      "zone_bottom": 336.18,
+      "time": "2026-06-13 13:35:00",
+      "confluence": [
+        "Bearish POI",
+        "Tier 2",
+        "5M close below POI top"
+      ],
+      "source_detail": {
+        "type": "Bearish POI",
+        "tier": 2,
+        "top": 342.02,
+        "bottom": 336.18,
+        "time": "2026-06-13 05:00:00",
+        "origin_index": 71,
+        "has_fvg": false,
+        "has_breaker": false,
+        "has_structure": true,
+        "pd_zone": "premium",
+        "status": "active"
+      },
+      "status": "executed",
+      "symbol": "Volatility 100 Index",
+      "staged_at": "2026-06-13T13:37:53.921085",
+      "confirmed": true,
+      "id": "Volatility 100 Index_POI_short_338.27"
     }
   ],
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "id": "V1_OB_short_20260613134325",
       "symbol": "Volatility 100 Index",
@@ -239,11 +240,11 @@
       ],
       "signal_time": "2026-06-13 13:35:00",
       "placed_time": "2026-06-13 13:43:25",
-      "status": "active",
-      "close_price": null,
-      "close_time": null,
-      "close_reason": null,
-      "pnl_pips": null,
+      "status": "closed",
+      "close_price": 342.62,
+      "close_time": "2026-06-13 15:32:27",
+      "close_reason": "Stop loss hit",
+      "pnl_pips": -41300.0,
       "lgn_signal": {
         "source": "LGN",
         "pattern": "OB",
@@ -278,7 +279,8 @@
         "symbol": "Volatility 100 Index",
         "staged_at": "2026-06-13T13:43:32.265124",
         "confirmed": false
-      }
+      },
+      "exit_type": "sl"
     },
     {
       "id": "V1_POI_short_20260613134326",
@@ -308,11 +310,11 @@
       ],
       "signal_time": "2026-06-13 13:35:00",
       "placed_time": "2026-06-13 13:43:26",
-      "status": "active",
-      "close_price": null,
-      "close_time": null,
-      "close_reason": null,
-      "pnl_pips": null,
+      "status": "closed",
+      "close_price": 342.62,
+      "close_time": "2026-06-13 15:32:28",
+      "close_reason": "Stop loss hit",
+      "pnl_pips": -41300.0,
       "lgn_signal": {
         "source": "LGN",
         "pattern": "POI",
@@ -344,7 +346,8 @@
         "symbol": "Volatility 100 Index",
         "staged_at": "2026-06-13T13:43:32.265130",
         "confirmed": false
-      }
+      },
+      "exit_type": "sl"
     },
     {
       "id": "V1_OB_short_20260613134328",
@@ -373,11 +376,11 @@
       ],
       "signal_time": "2026-06-13 13:35:00",
       "placed_time": "2026-06-13 13:43:28",
-      "status": "active",
-      "close_price": null,
-      "close_time": null,
-      "close_reason": null,
-      "pnl_pips": null,
+      "status": "closed",
+      "close_price": 342.62,
+      "close_time": "2026-06-13 15:32:28",
+      "close_reason": "Stop loss hit",
+      "pnl_pips": -43500.0,
       "lgn_signal": {
         "source": "LGN",
         "pattern": "OB",
@@ -412,7 +415,8 @@
         "staged_at": "2026-06-13T13:37:53.921072",
         "confirmed": true,
         "id": "Volatility 100 Index_OB_short_338.27"
-      }
+      },
+      "exit_type": "sl"
     },
     {
       "id": "V1_POI_short_20260613134329",
@@ -442,11 +446,11 @@
       ],
       "signal_time": "2026-06-13 13:35:00",
       "placed_time": "2026-06-13 13:43:29",
-      "status": "active",
-      "close_price": null,
-      "close_time": null,
-      "close_reason": null,
-      "pnl_pips": null,
+      "status": "closed",
+      "close_price": 342.62,
+      "close_time": "2026-06-13 15:32:29",
+      "close_reason": "Stop loss hit",
+      "pnl_pips": -43500.0,
       "lgn_signal": {
         "source": "LGN",
         "pattern": "POI",
@@ -478,12 +482,12 @@
         "staged_at": "2026-06-13T13:37:53.921085",
         "confirmed": true,
         "id": "Volatility 100 Index_POI_short_338.27"
-      }
+      },
+      "exit_type": "sl"
     }
   ],
-  "closed_trades": [],
   "last_h1_run": "2026-06-13T14:37:51.428300",
-  "last_m5_run": "2026-06-13T14:28:25.792453",
+  "last_m5_run": "2026-06-13T15:32:39.427017",
   "symbols": [
     "EURUSD",
     "GBPUSD",

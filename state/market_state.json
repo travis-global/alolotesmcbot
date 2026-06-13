@@ -12,74 +12,7 @@
   "structure": [],
   "swings": [],
   "active_signals": [],
-  "open_trades": [
-    {
-      "id": "V1_POI_short_20260613055329",
-      "symbol": "Step Index",
-      "source": "V1",
-      "pattern": "POI",
-      "direction": "short",
-      "entry": 8003.4,
-      "sl": 8005.65,
-      "tp": 7997.4,
-      "rr": 2.67,
-      "zone_top": 8005.6,
-      "zone_bottom": 8001.1,
-      "placed": true,
-      "filtered": false,
-      "filtered_reason": null,
-      "mt5_result": {
-        "contract_id": 2042549039,
-        "buy_price": 1,
-        "balance_after": 9988.36,
-        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in Step Index 100, multiplied by 750, minus commissions."
-      },
-      "confluence": [
-        "Bearish POI",
-        "Tier 2",
-        "5M close below POI top"
-      ],
-      "signal_time": "2026-06-13 05:50:00",
-      "placed_time": "2026-06-13 05:53:29",
-      "status": "active",
-      "close_price": null,
-      "close_time": null,
-      "close_reason": null,
-      "pnl_pips": null,
-      "lgn_signal": {
-        "source": "LGN",
-        "pattern": "POI",
-        "direction": "short",
-        "trigger_price": 8003.4,
-        "zone_top": 8005.6,
-        "zone_bottom": 8001.1,
-        "time": "2026-06-13 05:50:00",
-        "confluence": [
-          "Bearish POI",
-          "Tier 2",
-          "5M close below POI top"
-        ],
-        "source_detail": {
-          "type": "Bearish POI",
-          "tier": 2,
-          "top": 8005.6,
-          "bottom": 8001.1,
-          "time": "2026-06-12 21:00:00",
-          "origin_index": 71,
-          "has_fvg": false,
-          "has_breaker": false,
-          "has_structure": true,
-          "pd_zone": "premium",
-          "status": "active"
-        },
-        "status": "pending",
-        "id": "Step Index_POI_short_8003.4",
-        "symbol": "Step Index",
-        "staged_at": "2026-06-13T05:53:31.205981",
-        "confirmed": false
-      }
-    }
-  ],
+  "open_trades": [],
   "closed_trades": [
     {
       "id": "V1_OB_long_20260613055324",
@@ -149,10 +82,77 @@
         "confirmed": false
       },
       "exit_type": "sl"
+    },
+    {
+      "id": "V1_POI_short_20260613055329",
+      "symbol": "Step Index",
+      "source": "V1",
+      "pattern": "POI",
+      "direction": "short",
+      "entry": 8003.4,
+      "sl": 8005.65,
+      "tp": 7997.4,
+      "rr": 2.67,
+      "zone_top": 8005.6,
+      "zone_bottom": 8001.1,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 2042549039,
+        "buy_price": 1,
+        "balance_after": 9988.36,
+        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in Step Index 100, multiplied by 750, minus commissions."
+      },
+      "confluence": [
+        "Bearish POI",
+        "Tier 2",
+        "5M close below POI top"
+      ],
+      "signal_time": "2026-06-13 05:50:00",
+      "placed_time": "2026-06-13 05:53:29",
+      "status": "closed",
+      "close_price": 7997.4,
+      "close_time": "2026-06-13 06:28:30",
+      "close_reason": "Take profit hit",
+      "pnl_pips": 60000.0,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "POI",
+        "direction": "short",
+        "trigger_price": 8003.4,
+        "zone_top": 8005.6,
+        "zone_bottom": 8001.1,
+        "time": "2026-06-13 05:50:00",
+        "confluence": [
+          "Bearish POI",
+          "Tier 2",
+          "5M close below POI top"
+        ],
+        "source_detail": {
+          "type": "Bearish POI",
+          "tier": 2,
+          "top": 8005.6,
+          "bottom": 8001.1,
+          "time": "2026-06-12 21:00:00",
+          "origin_index": 71,
+          "has_fvg": false,
+          "has_breaker": false,
+          "has_structure": true,
+          "pd_zone": "premium",
+          "status": "active"
+        },
+        "status": "pending",
+        "id": "Step Index_POI_short_8003.4",
+        "symbol": "Step Index",
+        "staged_at": "2026-06-13T05:53:31.205981",
+        "confirmed": false
+      },
+      "exit_type": "tp"
     }
   ],
   "last_h1_run": "2026-06-13T05:43:56.728710",
-  "last_m5_run": "2026-06-13T06:23:30.934880",
+  "last_m5_run": "2026-06-13T06:28:37.266380",
   "symbols": [
     "EURUSD",
     "GBPUSD",

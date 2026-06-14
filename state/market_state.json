@@ -46,7 +46,7 @@
       "staged_at": "2026-06-14T21:24:32.083283",
       "confirmed": false,
       "id": "Range Break 100 Index_OB_short_1.20395",
-      "last_filtered_at": "2026-06-14T21:33:23.319392"
+      "last_filtered_at": "2026-06-14T21:38:34.734572"
     },
     {
       "source": "LGN",
@@ -222,11 +222,84 @@
         "staged_at": "2026-06-14T20:43:31.215073",
         "confirmed": false
       }
+    },
+    {
+      "id": "V1_OB_short_20260614213832",
+      "symbol": "Jump 100 Index",
+      "source": "V1",
+      "pattern": "OB",
+      "direction": "short",
+      "entry": 213.23,
+      "sl": 214.15,
+      "tp": 207.5,
+      "rr": 6.23,
+      "zone_top": 214.05,
+      "zone_bottom": 210.29,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 2202559599,
+        "buy_price": 1,
+        "balance_after": 9984.65,
+        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in Jump 100 Index, multiplied by 100, minus commissions."
+      },
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "signal_time": "2026-06-14 21:30:00",
+      "placed_time": "2026-06-14 21:38:32",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "OB",
+        "direction": "short",
+        "trigger_price": 213.23,
+        "zone_top": 214.05,
+        "zone_bottom": 210.29,
+        "time": "2026-06-14 21:30:00",
+        "confluence": [
+          "Bearish OB",
+          "5M close below OB top"
+        ],
+        "source_detail": {
+          "type": "Bearish OB",
+          "index": 73,
+          "time": "2026-06-14 15:00:00",
+          "top": 214.05,
+          "bottom": 210.29,
+          "mid": 212.17000000000002,
+          "mitigated": false,
+          "mitigation_index": null,
+          "break_index": 79,
+          "impulse_start": 74,
+          "has_fvg": true,
+          "source": "CHoCH_DOWN",
+          "age": 6,
+          "touch_count": 0,
+          "expired_by": null
+        },
+        "status": "pending",
+        "id": "Jump 100 Index_OB_short_213.23",
+        "symbol": "Jump 100 Index",
+        "staged_at": "2026-06-14T21:38:34.276873",
+        "confirmed": false
+      }
     }
   ],
   "closed_trades": [],
+<<<<<<< Updated upstream
   "last_h1_run": "2026-06-14T21:37:50.771267",
   "last_m5_run": "2026-06-14T21:33:23.417416",
+=======
+  "last_h1_run": "2026-06-14T21:24:32.083276",
+  "last_m5_run": "2026-06-14T21:38:35.207093",
+>>>>>>> Stashed changes
   "symbols": [
     "EURUSD",
     "GBPUSD",

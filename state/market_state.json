@@ -41,17 +41,121 @@
         "touch_count": 0,
         "expired_by": null
       },
-      "status": "pending",
+      "status": "executed",
       "symbol": "Step Index",
       "staged_at": "2026-06-14T20:37:48.941596",
-      "confirmed": false,
+      "confirmed": true,
+      "id": "Step Index_OB_short_7994.3"
+    },
+    {
+      "source": "LGN",
+      "pattern": "OB",
+      "direction": "short",
+      "trigger_price": 7994.3,
+      "zone_top": 7997.2,
+      "zone_bottom": 7991.5,
+      "time": "2026-06-14 20:35:00",
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "source_detail": {
+        "type": "Bearish OB",
+        "index": 74,
+        "time": "2026-06-14 15:00:00",
+        "top": 7997.2,
+        "bottom": 7991.5,
+        "mid": 7994.35,
+        "mitigated": false,
+        "mitigation_index": null,
+        "break_index": 79,
+        "impulse_start": 77,
+        "has_fvg": false,
+        "source": "CHoCH_DOWN",
+        "age": 5,
+        "touch_count": 0,
+        "expired_by": null
+      },
+      "status": "executed",
+      "symbol": "Step Index",
+      "staged_at": "2026-06-14T20:37:48.941596",
+      "confirmed": true,
       "id": "Step Index_OB_short_7994.3"
     }
   ],
-  "open_trades": [],
+  "open_trades": [
+    {
+      "id": "V1_OB_short_20260614204328",
+      "symbol": "Step Index",
+      "source": "V1",
+      "pattern": "OB",
+      "direction": "short",
+      "entry": 7992.9,
+      "sl": 7997.25,
+      "tp": 7984.0,
+      "rr": 2.05,
+      "zone_top": 7997.2,
+      "zone_bottom": 7991.5,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 2199112559,
+        "buy_price": 1,
+        "balance_after": 9986.65,
+        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in Step Index 100, multiplied by 750, minus commissions."
+      },
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "signal_time": "2026-06-14 20:40:00",
+      "placed_time": "2026-06-14 20:43:28",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "OB",
+        "direction": "short",
+        "trigger_price": 7992.9,
+        "zone_top": 7997.2,
+        "zone_bottom": 7991.5,
+        "time": "2026-06-14 20:40:00",
+        "confluence": [
+          "Bearish OB",
+          "5M close below OB top"
+        ],
+        "source_detail": {
+          "type": "Bearish OB",
+          "index": 74,
+          "time": "2026-06-14 15:00:00",
+          "top": 7997.2,
+          "bottom": 7991.5,
+          "mid": 7994.35,
+          "mitigated": false,
+          "mitigation_index": null,
+          "break_index": 79,
+          "impulse_start": 77,
+          "has_fvg": false,
+          "source": "CHoCH_DOWN",
+          "age": 5,
+          "touch_count": 0,
+          "expired_by": null
+        },
+        "status": "pending",
+        "id": "Step Index_OB_short_7992.9",
+        "symbol": "Step Index",
+        "staged_at": "2026-06-14T20:43:31.215073",
+        "confirmed": false
+      }
+    }
+  ],
   "closed_trades": [],
   "last_h1_run": "2026-06-14T20:37:50.513154",
-  "last_m5_run": null,
+  "last_m5_run": "2026-06-14T20:43:33.927226",
   "symbols": [
     "EURUSD",
     "GBPUSD",

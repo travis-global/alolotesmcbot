@@ -12,10 +12,79 @@
   "structure": [],
   "swings": [],
   "active_signals": [],
-  "open_trades": [],
+  "open_trades": [
+    {
+      "id": "V1_OB_long_20260614153326",
+      "symbol": "Volatility 75 Index",
+      "source": "V1",
+      "pattern": "OB",
+      "direction": "long",
+      "entry": 38764.5466,
+      "sl": 38165.412,
+      "tp": 40261.38385,
+      "rr": 2.5,
+      "zone_top": 38782.8981,
+      "zone_bottom": 38165.812,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 2174852399,
+        "buy_price": 1,
+        "balance_after": 9988.42,
+        "longcode": "If you select 'Up', your total profit/loss will be the percentage increase in Volatility 75 Index, multiplied by 50, minus commissions."
+      },
+      "confluence": [
+        "Bullish OB",
+        "5M close above OB bottom"
+      ],
+      "signal_time": "2026-06-14 15:30:00",
+      "placed_time": "2026-06-14 15:33:26",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "OB",
+        "direction": "long",
+        "trigger_price": 38764.5466,
+        "zone_top": 38782.8981,
+        "zone_bottom": 38165.812,
+        "time": "2026-06-14 15:30:00",
+        "confluence": [
+          "Bullish OB",
+          "5M close above OB bottom"
+        ],
+        "source_detail": {
+          "type": "Bullish OB",
+          "index": 73,
+          "time": "2026-06-14 09:00:00",
+          "top": 38782.8981,
+          "bottom": 38165.812,
+          "mid": 38474.35505,
+          "mitigated": false,
+          "mitigation_index": null,
+          "break_index": 79,
+          "impulse_start": 76,
+          "has_fvg": true,
+          "source": "BOS_UP",
+          "age": 6,
+          "touch_count": 0,
+          "expired_by": null
+        },
+        "status": "pending",
+        "id": "Volatility 75 Index_OB_long_38764.5466",
+        "symbol": "Volatility 75 Index",
+        "staged_at": "2026-06-14T15:33:28.368270",
+        "confirmed": false
+      }
+    }
+  ],
   "closed_trades": [],
   "last_h1_run": "2026-06-14T15:16:04.272769",
-  "last_m5_run": "2026-06-14T15:28:31.005141",
+  "last_m5_run": "2026-06-14T15:33:39.031670",
   "symbols": [
     "EURUSD",
     "GBPUSD",

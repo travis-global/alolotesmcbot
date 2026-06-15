@@ -41,17 +41,121 @@
         "touch_count": 0,
         "expired_by": null
       },
-      "status": "pending",
+      "status": "executed",
       "symbol": "Volatility 100 Index",
       "staged_at": "2026-06-15T12:39:34.649444",
-      "confirmed": false,
+      "confirmed": true,
+      "id": "Volatility 100 Index_OB_short_339.92"
+    },
+    {
+      "source": "LGN",
+      "pattern": "OB",
+      "direction": "short",
+      "trigger_price": 339.92,
+      "zone_top": 345.65,
+      "zone_bottom": 339.73,
+      "time": "2026-06-15 12:35:00",
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "source_detail": {
+        "type": "Bearish OB",
+        "index": 64,
+        "time": "2026-06-14 21:00:00",
+        "top": 345.65,
+        "bottom": 339.73,
+        "mid": 342.69,
+        "mitigated": false,
+        "mitigation_index": null,
+        "break_index": 79,
+        "impulse_start": 72,
+        "has_fvg": true,
+        "source": "BOS_DOWN",
+        "age": 15,
+        "touch_count": 0,
+        "expired_by": null
+      },
+      "status": "executed",
+      "symbol": "Volatility 100 Index",
+      "staged_at": "2026-06-15T12:39:34.649444",
+      "confirmed": true,
       "id": "Volatility 100 Index_OB_short_339.92"
     }
   ],
-  "open_trades": [],
+  "open_trades": [
+    {
+      "id": "V1_OB_short_20260615124339",
+      "symbol": "Volatility 100 Index",
+      "source": "V1",
+      "pattern": "OB",
+      "direction": "short",
+      "entry": 339.92,
+      "sl": 346.25,
+      "tp": 328.45,
+      "rr": 1.81,
+      "zone_top": 345.65,
+      "zone_bottom": 339.73,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 2244418499,
+        "buy_price": 1,
+        "balance_after": 9995.15,
+        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in Volatility 100 Index, multiplied by 40, minus commissions."
+      },
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "signal_time": "2026-06-15 12:35:00",
+      "placed_time": "2026-06-15 12:43:39",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "OB",
+        "direction": "short",
+        "trigger_price": 339.92,
+        "zone_top": 345.65,
+        "zone_bottom": 339.73,
+        "time": "2026-06-15 12:35:00",
+        "confluence": [
+          "Bearish OB",
+          "5M close below OB top"
+        ],
+        "source_detail": {
+          "type": "Bearish OB",
+          "index": 64,
+          "time": "2026-06-14 21:00:00",
+          "top": 345.65,
+          "bottom": 339.73,
+          "mid": 342.69,
+          "mitigated": false,
+          "mitigation_index": null,
+          "break_index": 79,
+          "impulse_start": 72,
+          "has_fvg": true,
+          "source": "BOS_DOWN",
+          "age": 15,
+          "touch_count": 0,
+          "expired_by": null
+        },
+        "status": "executed",
+        "symbol": "Volatility 100 Index",
+        "staged_at": "2026-06-15T12:39:34.649444",
+        "confirmed": true,
+        "id": "Volatility 100 Index_OB_short_339.92"
+      }
+    }
+  ],
   "closed_trades": [],
   "last_h1_run": "2026-06-15T12:39:39.721194",
-  "last_m5_run": null,
+  "last_m5_run": "2026-06-15T12:43:57.390295",
   "symbols": [
     "EURUSD",
     "GBPUSD",

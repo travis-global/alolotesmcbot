@@ -83,7 +83,8 @@
       "id": "Jump 75 Index_OB_short_7932.0"
     }
   ],
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "id": "V1_OB_short_20260615004335",
       "symbol": "Jump 75 Index",
@@ -111,11 +112,11 @@
       ],
       "signal_time": "2026-06-15 00:35:00",
       "placed_time": "2026-06-15 00:43:35",
-      "status": "active",
-      "close_price": null,
-      "close_time": null,
-      "close_reason": null,
-      "pnl_pips": null,
+      "status": "closed",
+      "close_price": 7859.44,
+      "close_time": "2026-06-15 00:48:29",
+      "close_reason": "Take profit hit",
+      "pnl_pips": 725600.0,
       "lgn_signal": {
         "source": "LGN",
         "pattern": "OB",
@@ -150,12 +151,12 @@
         "staged_at": "2026-06-15T00:37:55.563477",
         "confirmed": true,
         "id": "Jump 75 Index_OB_short_7932.0"
-      }
+      },
+      "exit_type": "tp"
     }
   ],
-  "closed_trades": [],
   "last_h1_run": "2026-06-15T00:37:56.483374",
-  "last_m5_run": "2026-06-15T00:43:41.463585",
+  "last_m5_run": "2026-06-15T00:48:32.074060",
   "symbols": [
     "EURUSD",
     "GBPUSD",

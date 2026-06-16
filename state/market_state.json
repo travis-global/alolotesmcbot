@@ -41,10 +41,10 @@
         "touch_count": 0,
         "expired_by": null
       },
-      "status": "pending",
+      "status": "executed",
       "symbol": "Crash 500 Index",
       "staged_at": "2026-06-16T02:37:51.325755",
-      "confirmed": false,
+      "confirmed": true,
       "id": "Crash 500 Index_OB_short_2970.725"
     },
     {
@@ -80,13 +80,118 @@
       "symbol": "Range Break 100 Index",
       "staged_at": "2026-06-16T02:37:57.616393",
       "confirmed": false,
-      "id": "Range Break 100 Index_OB_long_1.20026"
+      "id": "Range Break 100 Index_OB_long_1.20026",
+      "last_filtered_at": "2026-06-16T02:43:34.684189"
+    },
+    {
+      "source": "LGN",
+      "pattern": "OB",
+      "direction": "short",
+      "trigger_price": 2970.725,
+      "zone_top": 2977.257,
+      "zone_bottom": 2964.136,
+      "time": "2026-06-16 02:35:00",
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "source_detail": {
+        "type": "Bearish OB",
+        "index": 67,
+        "time": "2026-06-15 14:00:00",
+        "top": 2977.257,
+        "bottom": 2964.136,
+        "mid": 2970.6965,
+        "mitigated": false,
+        "mitigation_index": null,
+        "break_index": 79,
+        "impulse_start": 73,
+        "has_fvg": true,
+        "source": "BOS_DOWN",
+        "age": 12,
+        "touch_count": 0,
+        "expired_by": null
+      },
+      "status": "executed",
+      "symbol": "Crash 500 Index",
+      "staged_at": "2026-06-16T02:37:51.325755",
+      "confirmed": true,
+      "id": "Crash 500 Index_OB_short_2970.725"
     }
   ],
-  "open_trades": [],
+  "open_trades": [
+    {
+      "id": "V1_OB_short_20260616024326",
+      "symbol": "Crash 500 Index",
+      "source": "V1",
+      "pattern": "OB",
+      "direction": "short",
+      "entry": 2972.809,
+      "sl": 2977.757,
+      "tp": 2963.738,
+      "rr": 1.83,
+      "zone_top": 2977.257,
+      "zone_bottom": 2964.136,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 2293003859,
+        "buy_price": 1,
+        "balance_after": 9993.4,
+        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in Crash 500 Index, multiplied by 200, minus commissions."
+      },
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "signal_time": "2026-06-16 02:40:00",
+      "placed_time": "2026-06-16 02:43:26",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "OB",
+        "direction": "short",
+        "trigger_price": 2972.809,
+        "zone_top": 2977.257,
+        "zone_bottom": 2964.136,
+        "time": "2026-06-16 02:40:00",
+        "confluence": [
+          "Bearish OB",
+          "5M close below OB top"
+        ],
+        "source_detail": {
+          "type": "Bearish OB",
+          "index": 67,
+          "time": "2026-06-15 14:00:00",
+          "top": 2977.257,
+          "bottom": 2964.136,
+          "mid": 2970.6965,
+          "mitigated": false,
+          "mitigation_index": null,
+          "break_index": 79,
+          "impulse_start": 73,
+          "has_fvg": true,
+          "source": "BOS_DOWN",
+          "age": 12,
+          "touch_count": 0,
+          "expired_by": null
+        },
+        "status": "pending",
+        "id": "Crash 500 Index_OB_short_2972.809",
+        "symbol": "Crash 500 Index",
+        "staged_at": "2026-06-16T02:43:28.282290",
+        "confirmed": false
+      }
+    }
+  ],
   "closed_trades": [],
   "last_h1_run": "2026-06-16T02:37:57.616387",
-  "last_m5_run": null,
+  "last_m5_run": "2026-06-16T02:43:35.528101",
   "symbols": [
     "EURUSD",
     "GBPUSD",

@@ -46,13 +46,13 @@
       "staged_at": "2026-06-16T14:38:01.570618",
       "confirmed": false,
       "id": "Range Break 100 Index_OB_short_1.1953",
-      "last_filtered_at": "2026-06-16T14:58:47.361384"
+      "last_filtered_at": "2026-06-16T15:04:06.880118"
     }
   ],
   "open_trades": [],
   "closed_trades": [],
   "last_h1_run": "2026-06-16T14:38:01.570612",
-  "last_m5_run": "2026-06-16T14:58:47.527097",
+  "last_m5_run": "2026-06-16T15:04:07.367371",
   "symbols": [
     "EURUSD",
     "GBPUSD",

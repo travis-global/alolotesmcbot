@@ -15,7 +15,11 @@
   "open_trades": [],
   "closed_trades": [],
   "last_h1_run": "2026-06-16T23:44:53.795461",
+<<<<<<< Updated upstream
   "last_m5_run": "2026-06-16T23:53:30.067372",
+=======
+  "last_m5_run": "2026-06-16T23:54:06.538077",
+>>>>>>> Stashed changes
   "symbols": [
     "EURUSD",
     "GBPUSD",

@@ -15,41 +15,6 @@
     {
       "source": "LGN",
       "pattern": "OB",
-      "direction": "short",
-      "trigger_price": 2970.725,
-      "zone_top": 2977.257,
-      "zone_bottom": 2964.136,
-      "time": "2026-06-16 02:35:00",
-      "confluence": [
-        "Bearish OB",
-        "5M close below OB top"
-      ],
-      "source_detail": {
-        "type": "Bearish OB",
-        "index": 67,
-        "time": "2026-06-15 14:00:00",
-        "top": 2977.257,
-        "bottom": 2964.136,
-        "mid": 2970.6965,
-        "mitigated": false,
-        "mitigation_index": null,
-        "break_index": 79,
-        "impulse_start": 73,
-        "has_fvg": true,
-        "source": "BOS_DOWN",
-        "age": 12,
-        "touch_count": 0,
-        "expired_by": null
-      },
-      "status": "executed",
-      "symbol": "Crash 500 Index",
-      "staged_at": "2026-06-16T02:37:51.325755",
-      "confirmed": true,
-      "id": "Crash 500 Index_OB_short_2970.725"
-    },
-    {
-      "source": "LGN",
-      "pattern": "OB",
       "direction": "long",
       "trigger_price": 1.20026,
       "zone_top": 1.20086,
@@ -81,7 +46,42 @@
       "staged_at": "2026-06-16T02:37:57.616393",
       "confirmed": false,
       "id": "Range Break 100 Index_OB_long_1.20026",
-      "last_filtered_at": "2026-06-16T02:43:34.684189"
+      "last_filtered_at": "2026-06-16T02:48:25.371784"
+    },
+    {
+      "source": "LGN",
+      "pattern": "OB",
+      "direction": "short",
+      "trigger_price": 2970.725,
+      "zone_top": 2977.257,
+      "zone_bottom": 2964.136,
+      "time": "2026-06-16 02:35:00",
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "source_detail": {
+        "type": "Bearish OB",
+        "index": 67,
+        "time": "2026-06-15 14:00:00",
+        "top": 2977.257,
+        "bottom": 2964.136,
+        "mid": 2970.6965,
+        "mitigated": false,
+        "mitigation_index": null,
+        "break_index": 79,
+        "impulse_start": 73,
+        "has_fvg": true,
+        "source": "BOS_DOWN",
+        "age": 12,
+        "touch_count": 0,
+        "expired_by": null
+      },
+      "status": "executed",
+      "symbol": "Crash 500 Index",
+      "staged_at": "2026-06-16T02:37:51.325755",
+      "confirmed": true,
+      "id": "Crash 500 Index_OB_short_2970.725"
     },
     {
       "source": "LGN",
@@ -191,7 +191,7 @@
   ],
   "closed_trades": [],
   "last_h1_run": "2026-06-16T02:37:57.616387",
-  "last_m5_run": "2026-06-16T02:43:35.528101",
+  "last_m5_run": "2026-06-16T02:48:25.492304",
   "symbols": [
     "EURUSD",
     "GBPUSD",

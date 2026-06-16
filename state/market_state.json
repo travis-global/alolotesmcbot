@@ -41,17 +41,121 @@
         "touch_count": 0,
         "expired_by": null
       },
-      "status": "pending",
+      "status": "executed",
       "symbol": "Volatility 100 Index",
       "staged_at": "2026-06-16T04:37:54.407476",
-      "confirmed": false,
+      "confirmed": true,
+      "id": "Volatility 100 Index_OB_long_342.92"
+    },
+    {
+      "source": "LGN",
+      "pattern": "OB",
+      "direction": "long",
+      "trigger_price": 342.92,
+      "zone_top": 345.56,
+      "zone_bottom": 341.07,
+      "time": "2026-06-16 04:35:00",
+      "confluence": [
+        "Bullish OB",
+        "5M close above OB bottom"
+      ],
+      "source_detail": {
+        "type": "Bullish OB",
+        "index": 72,
+        "time": "2026-06-15 21:00:00",
+        "top": 345.56,
+        "bottom": 341.07,
+        "mid": 343.315,
+        "mitigated": false,
+        "mitigation_index": null,
+        "break_index": 79,
+        "impulse_start": 78,
+        "has_fvg": false,
+        "source": "CHoCH_UP",
+        "age": 7,
+        "touch_count": 0,
+        "expired_by": null
+      },
+      "status": "executed",
+      "symbol": "Volatility 100 Index",
+      "staged_at": "2026-06-16T04:37:54.407476",
+      "confirmed": true,
       "id": "Volatility 100 Index_OB_long_342.92"
     }
   ],
-  "open_trades": [],
+  "open_trades": [
+    {
+      "id": "V1_OB_long_20260616044323",
+      "symbol": "Volatility 100 Index",
+      "source": "V1",
+      "pattern": "OB",
+      "direction": "long",
+      "entry": 343.45,
+      "sl": 340.47,
+      "tp": 348.27,
+      "rr": 1.62,
+      "zone_top": 345.56,
+      "zone_bottom": 341.07,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 2298448919,
+        "buy_price": 1,
+        "balance_after": 9993.07,
+        "longcode": "If you select 'Up', your total profit/loss will be the percentage increase in Volatility 100 Index, multiplied by 40, minus commissions."
+      },
+      "confluence": [
+        "Bullish OB",
+        "5M close above OB bottom"
+      ],
+      "signal_time": "2026-06-16 04:35:00",
+      "placed_time": "2026-06-16 04:43:23",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "OB",
+        "direction": "long",
+        "trigger_price": 343.45,
+        "zone_top": 345.56,
+        "zone_bottom": 341.07,
+        "time": "2026-06-16 04:35:00",
+        "confluence": [
+          "Bullish OB",
+          "5M close above OB bottom"
+        ],
+        "source_detail": {
+          "type": "Bullish OB",
+          "index": 72,
+          "time": "2026-06-15 21:00:00",
+          "top": 345.56,
+          "bottom": 341.07,
+          "mid": 343.315,
+          "mitigated": false,
+          "mitigation_index": null,
+          "break_index": 79,
+          "impulse_start": 78,
+          "has_fvg": false,
+          "source": "CHoCH_UP",
+          "age": 7,
+          "touch_count": 0,
+          "expired_by": null
+        },
+        "status": "pending",
+        "id": "Volatility 100 Index_OB_long_343.45",
+        "symbol": "Volatility 100 Index",
+        "staged_at": "2026-06-16T04:43:26.372120",
+        "confirmed": false
+      }
+    }
+  ],
   "closed_trades": [],
   "last_h1_run": "2026-06-16T04:37:58.684457",
-  "last_m5_run": null,
+  "last_m5_run": "2026-06-16T04:43:41.762188",
   "symbols": [
     "EURUSD",
     "GBPUSD",

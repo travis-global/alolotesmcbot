@@ -71,17 +71,182 @@
         "broken_index": null,
         "time": "2026-06-12 20:00:00"
       },
-      "status": "pending",
+      "status": "executed",
       "symbol": "USDCHF",
       "staged_at": "2026-06-17T08:37:55.110672",
-      "confirmed": false,
+      "confirmed": true,
+      "id": "USDCHF_Trendline_short_0.79188"
+    },
+    {
+      "source": "LGN",
+      "pattern": "Trendline",
+      "direction": "short",
+      "trigger_price": 0.79188,
+      "zone_top": 0.7926399999999993,
+      "zone_bottom": 0.7920399999999994,
+      "time": "2026-06-17 08:30:00",
+      "confluence": [
+        "Descending trendline",
+        "Touch count: 3",
+        "5M close below trendline"
+      ],
+      "source_detail": {
+        "type": "Trendline",
+        "direction": "descending",
+        "trade_bias": "short",
+        "state": "third_touch_confirmed",
+        "touch_count": 3,
+        "touches": [
+          {
+            "type": "SH",
+            "price": 0.79759,
+            "index": 284,
+            "time": "2026-06-12 14:00:00"
+          },
+          {
+            "type": "SH",
+            "price": 0.79709,
+            "index": 290,
+            "time": "2026-06-12 20:00:00"
+          },
+          {
+            "type": "SH",
+            "price": 0.79346,
+            "index": 334,
+            "time": "2026-06-16 19:00:00"
+          }
+        ],
+        "anchor_1": {
+          "type": "SH",
+          "price": 0.79759,
+          "index": 284,
+          "time": "2026-06-12 14:00:00"
+        },
+        "anchor_2": {
+          "type": "SH",
+          "price": 0.79709,
+          "index": 290,
+          "time": "2026-06-12 20:00:00"
+        },
+        "slope": -8.333333333334265e-05,
+        "projected_y": 0.7923399999999994,
+        "last_touch_index": 334,
+        "last_touch_time": "2026-06-16 19:00:00",
+        "broken": false,
+        "broken_index": null,
+        "time": "2026-06-12 20:00:00"
+      },
+      "status": "executed",
+      "symbol": "USDCHF",
+      "staged_at": "2026-06-17T08:37:55.110672",
+      "confirmed": true,
       "id": "USDCHF_Trendline_short_0.79188"
     }
   ],
-  "open_trades": [],
+  "open_trades": [
+    {
+      "id": "V1_Trendline_short_20260617084310",
+      "symbol": "USDCHF",
+      "source": "V1",
+      "pattern": "Trendline",
+      "direction": "short",
+      "entry": 0.79188,
+      "sl": 0.79294,
+      "tp": 0.7889,
+      "rr": 2.81,
+      "zone_top": 0.7926399999999993,
+      "zone_bottom": 0.7920399999999994,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 2415509999,
+        "buy_price": 1,
+        "balance_after": 9992.97,
+        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in USD/CHF, multiplied by 100, minus commissions."
+      },
+      "confluence": [
+        "Descending trendline",
+        "Touch count: 3",
+        "5M close below trendline"
+      ],
+      "signal_time": "2026-06-17 08:30:00",
+      "placed_time": "2026-06-17 08:43:10",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "Trendline",
+        "direction": "short",
+        "trigger_price": 0.79188,
+        "zone_top": 0.7926399999999993,
+        "zone_bottom": 0.7920399999999994,
+        "time": "2026-06-17 08:30:00",
+        "confluence": [
+          "Descending trendline",
+          "Touch count: 3",
+          "5M close below trendline"
+        ],
+        "source_detail": {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "third_touch_confirmed",
+          "touch_count": 3,
+          "touches": [
+            {
+              "type": "SH",
+              "price": 0.79759,
+              "index": 284,
+              "time": "2026-06-12 14:00:00"
+            },
+            {
+              "type": "SH",
+              "price": 0.79709,
+              "index": 290,
+              "time": "2026-06-12 20:00:00"
+            },
+            {
+              "type": "SH",
+              "price": 0.79346,
+              "index": 334,
+              "time": "2026-06-16 19:00:00"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 0.79759,
+            "index": 284,
+            "time": "2026-06-12 14:00:00"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 0.79709,
+            "index": 290,
+            "time": "2026-06-12 20:00:00"
+          },
+          "slope": -8.333333333334265e-05,
+          "projected_y": 0.7923399999999994,
+          "last_touch_index": 334,
+          "last_touch_time": "2026-06-16 19:00:00",
+          "broken": false,
+          "broken_index": null,
+          "time": "2026-06-12 20:00:00"
+        },
+        "status": "executed",
+        "symbol": "USDCHF",
+        "staged_at": "2026-06-17T08:37:55.110672",
+        "confirmed": true,
+        "id": "USDCHF_Trendline_short_0.79188"
+      }
+    }
+  ],
   "closed_trades": [],
   "last_h1_run": "2026-06-17T08:38:16.670723",
-  "last_m5_run": null,
+  "last_m5_run": "2026-06-17T08:43:29.510799",
   "symbols": [
     "EURUSD",
     "GBPUSD",

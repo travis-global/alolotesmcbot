@@ -46,7 +46,7 @@
       "staged_at": "2026-06-17T10:38:01.666274",
       "confirmed": false,
       "id": "Volatility 50 Index_OB_long_96.0502",
-      "last_filtered_at": "2026-06-17T11:13:22.574290"
+      "last_filtered_at": "2026-06-17T11:18:27.130978"
     },
     {
       "source": "LGN",
@@ -77,17 +77,121 @@
         "touch_count": 0,
         "expired_by": null
       },
-      "status": "pending",
+      "status": "executed",
       "symbol": "Jump 75 Index",
       "staged_at": "2026-06-17T11:14:55.852499",
-      "confirmed": false,
+      "confirmed": true,
+      "id": "Jump 75 Index_OB_short_8345.08"
+    },
+    {
+      "source": "LGN",
+      "pattern": "OB",
+      "direction": "short",
+      "trigger_price": 8345.08,
+      "zone_top": 8430.81,
+      "zone_bottom": 8289.48,
+      "time": "2026-06-17 11:10:00",
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "source_detail": {
+        "type": "Bearish OB",
+        "index": 76,
+        "time": "2026-06-17 08:00:00",
+        "top": 8430.81,
+        "bottom": 8289.48,
+        "mid": 8360.145,
+        "mitigated": false,
+        "mitigation_index": null,
+        "break_index": 79,
+        "impulse_start": 77,
+        "has_fvg": false,
+        "source": "BOS_DOWN",
+        "age": 3,
+        "touch_count": 0,
+        "expired_by": null
+      },
+      "status": "executed",
+      "symbol": "Jump 75 Index",
+      "staged_at": "2026-06-17T11:14:55.852499",
+      "confirmed": true,
       "id": "Jump 75 Index_OB_short_8345.08"
     }
   ],
-  "open_trades": [],
+  "open_trades": [
+    {
+      "id": "V1_OB_short_20260617111916",
+      "symbol": "Jump 75 Index",
+      "source": "V1",
+      "pattern": "OB",
+      "direction": "short",
+      "entry": 8337.79,
+      "sl": 8430.91,
+      "tp": 8145.87,
+      "rr": 2.06,
+      "zone_top": 8430.81,
+      "zone_bottom": 8289.48,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 2428843939,
+        "buy_price": 1,
+        "balance_after": 9992.84,
+        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in Jump 75 Index, multiplied by 15, minus commissions."
+      },
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "signal_time": "2026-06-17 11:15:00",
+      "placed_time": "2026-06-17 11:19:16",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "OB",
+        "direction": "short",
+        "trigger_price": 8337.79,
+        "zone_top": 8430.81,
+        "zone_bottom": 8289.48,
+        "time": "2026-06-17 11:15:00",
+        "confluence": [
+          "Bearish OB",
+          "5M close below OB top"
+        ],
+        "source_detail": {
+          "type": "Bearish OB",
+          "index": 76,
+          "time": "2026-06-17 08:00:00",
+          "top": 8430.81,
+          "bottom": 8289.48,
+          "mid": 8360.145,
+          "mitigated": false,
+          "mitigation_index": null,
+          "break_index": 79,
+          "impulse_start": 77,
+          "has_fvg": false,
+          "source": "BOS_DOWN",
+          "age": 3,
+          "touch_count": 0,
+          "expired_by": null
+        },
+        "status": "pending",
+        "id": "Jump 75 Index_OB_short_8337.79",
+        "symbol": "Jump 75 Index",
+        "staged_at": "2026-06-17T11:19:18.500238",
+        "confirmed": false
+      }
+    }
+  ],
   "closed_trades": [],
   "last_h1_run": "2026-06-17T11:14:56.735972",
-  "last_m5_run": "2026-06-17T11:14:04.828284",
+  "last_m5_run": "2026-06-17T11:19:21.753061",
   "symbols": [
     "EURUSD",
     "GBPUSD",

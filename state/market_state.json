@@ -11,6 +11,7 @@
   "pd_arrays": {},
   "structure": [],
   "swings": [],
+<<<<<<< Updated upstream
   "active_signals": [
     {
       "source": "LGN",
@@ -20,10 +21,36 @@
       "zone_top": 336.05,
       "zone_bottom": 332.96,
       "time": "2026-06-17 21:35:00",
+=======
+  "active_signals": [],
+  "open_trades": [
+    {
+      "id": "V1_OB_short_20260617213815",
+      "symbol": "Volatility 100 Index",
+      "source": "V1",
+      "pattern": "OB",
+      "direction": "short",
+      "entry": 333.93,
+      "sl": 336.65,
+      "tp": 329.16,
+      "rr": 1.75,
+      "zone_top": 336.05,
+      "zone_bottom": 332.96,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 2481205959,
+        "buy_price": 1,
+        "balance_after": 9992.84,
+        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in Volatility 100 Index, multiplied by 40, minus commissions."
+      },
+>>>>>>> Stashed changes
       "confluence": [
         "Bearish OB",
         "5M close below OB top"
       ],
+<<<<<<< Updated upstream
       "source_detail": {
         "type": "Bearish OB",
         "index": 63,
@@ -52,6 +79,55 @@
   "closed_trades": [],
   "last_h1_run": "2026-06-17T21:38:06.979093",
   "last_m5_run": "2026-06-17T21:33:27.883436",
+=======
+      "signal_time": "2026-06-17 21:35:00",
+      "placed_time": "2026-06-17 21:38:15",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "OB",
+        "direction": "short",
+        "trigger_price": 333.93,
+        "zone_top": 336.05,
+        "zone_bottom": 332.96,
+        "time": "2026-06-17 21:35:00",
+        "confluence": [
+          "Bearish OB",
+          "5M close below OB top"
+        ],
+        "source_detail": {
+          "type": "Bearish OB",
+          "index": 63,
+          "time": "2026-06-17 05:00:00",
+          "top": 336.05,
+          "bottom": 332.96,
+          "mid": 334.505,
+          "mitigated": false,
+          "mitigation_index": null,
+          "break_index": 69,
+          "impulse_start": 66,
+          "has_fvg": false,
+          "source": "BOS_DOWN",
+          "age": 16,
+          "touch_count": 0,
+          "expired_by": null
+        },
+        "status": "pending",
+        "id": "Volatility 100 Index_OB_short_333.93",
+        "symbol": "Volatility 100 Index",
+        "staged_at": "2026-06-17T21:38:18.253202",
+        "confirmed": false
+      }
+    }
+  ],
+  "closed_trades": [],
+  "last_h1_run": "2026-06-17T21:19:48.523157",
+  "last_m5_run": "2026-06-17T21:38:25.478618",
+>>>>>>> Stashed changes
   "symbols": [
     "EURUSD",
     "GBPUSD",

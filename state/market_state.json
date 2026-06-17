@@ -46,13 +46,13 @@
       "staged_at": "2026-06-17T10:38:01.666274",
       "confirmed": false,
       "id": "Volatility 50 Index_OB_long_96.0502",
-      "last_filtered_at": "2026-06-17T10:53:14.498001"
+      "last_filtered_at": "2026-06-17T10:58:14.727573"
     }
   ],
   "open_trades": [],
   "closed_trades": [],
   "last_h1_run": "2026-06-17T10:38:17.710608",
-  "last_m5_run": "2026-06-17T10:53:27.479784",
+  "last_m5_run": "2026-06-17T10:58:29.917031",
   "symbols": [
     "EURUSD",
     "GBPUSD",

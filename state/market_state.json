@@ -41,17 +41,121 @@
         "touch_count": 0,
         "expired_by": null
       },
-      "status": "pending",
+      "status": "executed",
       "symbol": "Crash 500 Index",
       "staged_at": "2026-06-17T02:37:52.316091",
-      "confirmed": false,
+      "confirmed": true,
+      "id": "Crash 500 Index_OB_long_3008.162"
+    },
+    {
+      "source": "LGN",
+      "pattern": "OB",
+      "direction": "long",
+      "trigger_price": 3008.162,
+      "zone_top": 3010.029,
+      "zone_bottom": 3001.647,
+      "time": "2026-06-17 02:35:00",
+      "confluence": [
+        "Bullish OB",
+        "5M close above OB bottom"
+      ],
+      "source_detail": {
+        "type": "Bullish OB",
+        "index": 74,
+        "time": "2026-06-16 21:00:00",
+        "top": 3010.029,
+        "bottom": 3001.647,
+        "mid": 3005.8379999999997,
+        "mitigated": false,
+        "mitigation_index": null,
+        "break_index": 79,
+        "impulse_start": 76,
+        "has_fvg": false,
+        "source": "CHoCH_UP",
+        "age": 5,
+        "touch_count": 0,
+        "expired_by": null
+      },
+      "status": "executed",
+      "symbol": "Crash 500 Index",
+      "staged_at": "2026-06-17T02:37:52.316091",
+      "confirmed": true,
       "id": "Crash 500 Index_OB_long_3008.162"
     }
   ],
-  "open_trades": [],
+  "open_trades": [
+    {
+      "id": "V1_OB_long_20260617024351",
+      "symbol": "Crash 500 Index",
+      "source": "V1",
+      "pattern": "OB",
+      "direction": "long",
+      "entry": 3008.162,
+      "sl": 3001.147,
+      "tp": 3021.727,
+      "rr": 1.93,
+      "zone_top": 3010.029,
+      "zone_bottom": 3001.647,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 2393674259,
+        "buy_price": 1,
+        "balance_after": 9992.07,
+        "longcode": "If you select 'Up', your total profit/loss will be the percentage increase in Crash 500 Index, multiplied by 200, minus commissions."
+      },
+      "confluence": [
+        "Bullish OB",
+        "5M close above OB bottom"
+      ],
+      "signal_time": "2026-06-17 02:35:00",
+      "placed_time": "2026-06-17 02:43:51",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "OB",
+        "direction": "long",
+        "trigger_price": 3008.162,
+        "zone_top": 3010.029,
+        "zone_bottom": 3001.647,
+        "time": "2026-06-17 02:35:00",
+        "confluence": [
+          "Bullish OB",
+          "5M close above OB bottom"
+        ],
+        "source_detail": {
+          "type": "Bullish OB",
+          "index": 74,
+          "time": "2026-06-16 21:00:00",
+          "top": 3010.029,
+          "bottom": 3001.647,
+          "mid": 3005.8379999999997,
+          "mitigated": false,
+          "mitigation_index": null,
+          "break_index": 79,
+          "impulse_start": 76,
+          "has_fvg": false,
+          "source": "CHoCH_UP",
+          "age": 5,
+          "touch_count": 0,
+          "expired_by": null
+        },
+        "status": "executed",
+        "symbol": "Crash 500 Index",
+        "staged_at": "2026-06-17T02:37:52.316091",
+        "confirmed": true,
+        "id": "Crash 500 Index_OB_long_3008.162"
+      }
+    }
+  ],
   "closed_trades": [],
   "last_h1_run": "2026-06-17T02:37:55.539238",
-  "last_m5_run": null,
+  "last_m5_run": "2026-06-17T02:44:00.063988",
   "symbols": [
     "EURUSD",
     "GBPUSD",

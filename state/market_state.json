@@ -12,10 +12,110 @@
   "structure": [],
   "swings": [],
   "active_signals": [],
-  "open_trades": [],
+  "open_trades": [
+    {
+      "id": "V1_Trendline_short_20260617130808",
+      "symbol": "GBPUSD",
+      "source": "V1",
+      "pattern": "Trendline",
+      "direction": "short",
+      "entry": 1.34132,
+      "sl": 1.34237,
+      "tp": 1.33907,
+      "rr": 2.14,
+      "zone_top": 1.3420650000000003,
+      "zone_bottom": 1.3414650000000004,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 2437980739,
+        "buy_price": 1.28,
+        "balance_after": 9991.56,
+        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in GBP/USD, multiplied by 128, minus commissions."
+      },
+      "confluence": [
+        "Descending trendline",
+        "Touch count: 3",
+        "5M close below trendline"
+      ],
+      "signal_time": "2026-06-17 13:00:00",
+      "placed_time": "2026-06-17 13:08:08",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "Trendline",
+        "direction": "short",
+        "trigger_price": 1.34132,
+        "zone_top": 1.3420650000000003,
+        "zone_bottom": 1.3414650000000004,
+        "time": "2026-06-17 13:00:00",
+        "confluence": [
+          "Descending trendline",
+          "Touch count: 3",
+          "5M close below trendline"
+        ],
+        "source_detail": {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "third_touch_confirmed",
+          "touch_count": 3,
+          "touches": [
+            {
+              "type": "SH",
+              "price": 1.34432,
+              "index": 326,
+              "time": "2026-06-16 15:00:00"
+            },
+            {
+              "type": "SH",
+              "price": 1.34359,
+              "index": 332,
+              "time": "2026-06-16 21:00:00"
+            },
+            {
+              "type": "SH",
+              "price": 1.34336,
+              "index": 336,
+              "time": "2026-06-17 01:00:00"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 1.34432,
+            "index": 326,
+            "time": "2026-06-16 15:00:00"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.34359,
+            "index": 332,
+            "time": "2026-06-16 21:00:00"
+          },
+          "slope": -0.00012166666666664956,
+          "projected_y": 1.3417650000000003,
+          "last_touch_index": 336,
+          "last_touch_time": "2026-06-17 01:00:00",
+          "broken": false,
+          "broken_index": null,
+          "time": "2026-06-16 21:00:00"
+        },
+        "status": "pending",
+        "id": "GBPUSD_Trendline_short_1.34132",
+        "symbol": "GBPUSD",
+        "staged_at": "2026-06-17T13:08:09.276603",
+        "confirmed": false
+      }
+    }
+  ],
   "closed_trades": [],
   "last_h1_run": "2026-06-17T12:37:52.555605",
-  "last_m5_run": "2026-06-17T13:03:47.499211",
+  "last_m5_run": "2026-06-17T13:08:29.581293",
   "symbols": [
     "EURUSD",
     "GBPUSD",

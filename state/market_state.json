@@ -13,9 +13,110 @@
   "swings": [],
   "active_signals": [],
   "open_trades": [],
-  "closed_trades": [],
+  "closed_trades": [
+    {
+      "id": "V1_Trendline_short_20260618074815",
+      "symbol": "AUDUSD",
+      "source": "V1",
+      "pattern": "Trendline",
+      "direction": "short",
+      "entry": 0.70291,
+      "sl": 0.70408,
+      "tp": 0.70053,
+      "rr": 2.03,
+      "zone_top": 0.7037799999999999,
+      "zone_bottom": 0.7031799999999999,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 2512031479,
+        "buy_price": 1,
+        "balance_after": 9993.39,
+        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in AUD/USD, multiplied by 100, minus commissions."
+      },
+      "confluence": [
+        "Descending trendline",
+        "Touch count: 3",
+        "5M close below trendline"
+      ],
+      "signal_time": "2026-06-18 07:30:00",
+      "placed_time": "2026-06-18 07:48:15",
+      "status": "closed",
+      "close_price": 0.70354,
+      "close_time": "2026-06-18 07:48:17",
+      "close_reason": "Price closed above descending trendline \u2014 line broken",
+      "pnl_pips": -6.3,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "Trendline",
+        "direction": "short",
+        "trigger_price": 0.70291,
+        "zone_top": 0.7037799999999999,
+        "zone_bottom": 0.7031799999999999,
+        "time": "2026-06-18 07:30:00",
+        "confluence": [
+          "Descending trendline",
+          "Touch count: 3",
+          "5M close below trendline"
+        ],
+        "source_detail": {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "third_touch_confirmed",
+          "touch_count": 3,
+          "touches": [
+            {
+              "type": "SH",
+              "price": 0.70723,
+              "index": 317,
+              "time": "2026-06-17 01:00:00"
+            },
+            {
+              "type": "SH",
+              "price": 0.70648,
+              "index": 323,
+              "time": "2026-06-17 07:00:00"
+            },
+            {
+              "type": "SH",
+              "price": 0.70416,
+              "index": 344,
+              "time": "2026-06-18 04:00:00"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 0.70723,
+            "index": 317,
+            "time": "2026-06-17 01:00:00"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 0.70648,
+            "index": 323,
+            "time": "2026-06-17 07:00:00"
+          },
+          "slope": -0.00012500000000000475,
+          "projected_y": 0.7034799999999999,
+          "last_touch_index": 344,
+          "last_touch_time": "2026-06-18 04:00:00",
+          "broken": false,
+          "broken_index": null,
+          "time": "2026-06-17 07:00:00"
+        },
+        "status": "pending",
+        "id": "AUDUSD_Trendline_short_0.70291",
+        "symbol": "AUDUSD",
+        "staged_at": "2026-06-18T07:48:19.476002",
+        "confirmed": false
+      },
+      "exit_type": "condition"
+    }
+  ],
   "last_h1_run": "2026-06-18T07:37:59.767587",
-  "last_m5_run": null,
+  "last_m5_run": "2026-06-18T07:48:49.443836",
   "symbols": [
     "EURUSD",
     "GBPUSD",

@@ -13,9 +13,79 @@
   "swings": [],
   "active_signals": [],
   "open_trades": [],
-  "closed_trades": [],
+  "closed_trades": [
+    {
+      "id": "V1_OB_short_20260618144329",
+      "symbol": "Volatility 25 Index",
+      "source": "V1",
+      "pattern": "OB",
+      "direction": "short",
+      "entry": 2677.061,
+      "sl": 2678.078,
+      "tp": 2663.653,
+      "rr": 13.18,
+      "zone_top": 2677.928,
+      "zone_bottom": 2668.223,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 2547055459,
+        "buy_price": 1.65,
+        "balance_after": 9993.01,
+        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in Volatility 25 Index, multiplied by 264, minus commissions."
+      },
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "signal_time": "2026-06-18 14:35:00",
+      "placed_time": "2026-06-18 14:43:29",
+      "status": "closed",
+      "close_price": 2678.078,
+      "close_time": "2026-06-18 14:43:31",
+      "close_reason": "Stop loss hit",
+      "pnl_pips": -101.7,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "OB",
+        "direction": "short",
+        "trigger_price": 2677.061,
+        "zone_top": 2677.928,
+        "zone_bottom": 2668.223,
+        "time": "2026-06-18 14:35:00",
+        "confluence": [
+          "Bearish OB",
+          "5M close below OB top"
+        ],
+        "source_detail": {
+          "type": "Bearish OB",
+          "index": 70,
+          "time": "2026-06-18 05:00:00",
+          "top": 2677.928,
+          "bottom": 2668.223,
+          "mid": 2673.0755,
+          "mitigated": false,
+          "mitigation_index": null,
+          "break_index": 79,
+          "impulse_start": 77,
+          "has_fvg": false,
+          "source": "BOS_DOWN",
+          "age": 9,
+          "touch_count": 0,
+          "expired_by": null
+        },
+        "status": "pending",
+        "id": "Volatility 25 Index_OB_short_2677.061",
+        "symbol": "Volatility 25 Index",
+        "staged_at": "2026-06-18T14:43:34.381242",
+        "confirmed": false
+      },
+      "exit_type": "sl"
+    }
+  ],
   "last_h1_run": "2026-06-18T14:38:09.399479",
-  "last_m5_run": null,
+  "last_m5_run": "2026-06-18T14:43:58.493628",
   "symbols": [
     "EURUSD",
     "GBPUSD",

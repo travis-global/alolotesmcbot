@@ -45,11 +45,46 @@
         "touch_count": 1,
         "expired_by": null
       },
-      "status": "pending",
+      "status": "executed",
       "symbol": "Volatility 25 Index",
 <<<<<<< Updated upstream
       "staged_at": "2026-06-18T20:37:19.873873",
-      "confirmed": false,
+      "confirmed": true,
+      "id": "Volatility 25 Index_OB_short_2667.166"
+    },
+    {
+      "source": "LGN",
+      "pattern": "OB",
+      "direction": "short",
+      "trigger_price": 2667.166,
+      "zone_top": 2673.764,
+      "zone_bottom": 2666.748,
+      "time": "2026-06-18 20:35:00",
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "source_detail": {
+        "type": "Bearish OB",
+        "index": 71,
+        "time": "2026-06-18 12:00:00",
+        "top": 2673.764,
+        "bottom": 2666.748,
+        "mid": 2670.2560000000003,
+        "mitigated": false,
+        "mitigation_index": null,
+        "break_index": 78,
+        "impulse_start": 75,
+        "has_fvg": false,
+        "source": "BOS_DOWN",
+        "age": 8,
+        "touch_count": 1,
+        "expired_by": null
+      },
+      "status": "executed",
+      "symbol": "Volatility 25 Index",
+      "staged_at": "2026-06-18T20:37:19.873873",
+      "confirmed": true,
       "id": "Volatility 25 Index_OB_short_2667.166"
 =======
       "staged_at": "2026-06-18T20:37:53.662220",
@@ -58,14 +93,87 @@
 >>>>>>> Stashed changes
     }
   ],
-  "open_trades": [],
+  "open_trades": [
+    {
+      "id": "V1_OB_short_20260618203826",
+      "symbol": "Volatility 25 Index",
+      "source": "V1",
+      "pattern": "OB",
+      "direction": "short",
+      "entry": 2667.281,
+      "sl": 2673.914,
+      "tp": 2651.07275,
+      "rr": 2.44,
+      "zone_top": 2673.764,
+      "zone_bottom": 2666.748,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 2577126759,
+        "buy_price": 1,
+        "balance_after": 9993.12,
+        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in Volatility 25 Index, multiplied by 160, minus commissions."
+      },
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "signal_time": "2026-06-18 20:35:00",
+      "placed_time": "2026-06-18 20:38:26",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "OB",
+        "direction": "short",
+        "trigger_price": 2667.281,
+        "zone_top": 2673.764,
+        "zone_bottom": 2666.748,
+        "time": "2026-06-18 20:35:00",
+        "confluence": [
+          "Bearish OB",
+          "5M close below OB top"
+        ],
+        "source_detail": {
+          "type": "Bearish OB",
+          "index": 71,
+          "time": "2026-06-18 12:00:00",
+          "top": 2673.764,
+          "bottom": 2666.748,
+          "mid": 2670.2560000000003,
+          "mitigated": false,
+          "mitigation_index": null,
+          "break_index": 78,
+          "impulse_start": 75,
+          "has_fvg": false,
+          "source": "BOS_DOWN",
+          "age": 8,
+          "touch_count": 1,
+          "expired_by": null
+        },
+        "status": "pending",
+        "id": "Volatility 25 Index_OB_short_2667.281",
+        "symbol": "Volatility 25 Index",
+        "staged_at": "2026-06-18T20:38:30.426099",
+        "confirmed": false
+      }
+    }
+  ],
   "closed_trades": [],
 <<<<<<< Updated upstream
   "last_h1_run": "2026-06-18T20:37:27.192768",
+<<<<<<< Updated upstream
 =======
   "last_h1_run": "2026-06-18T20:38:11.436216",
 >>>>>>> Stashed changes
   "last_m5_run": null,
+=======
+  "last_m5_run": "2026-06-18T20:38:51.375882",
+>>>>>>> Stashed changes
   "symbols": [
     "EURUSD",
     "GBPUSD",

@@ -427,10 +427,84 @@
         "confirmed": false
       },
       "exit_type": "sl"
+    },
+    {
+      "id": "V1_OB_short_20260618153827",
+      "symbol": "Volatility 25 Index",
+      "source": "V1",
+      "pattern": "OB",
+      "direction": "short",
+      "entry": 2672.565,
+      "sl": 2678.078,
+      "tp": 2659.15675,
+      "rr": 2.43,
+      "zone_top": 2677.928,
+      "zone_bottom": 2668.223,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 2551602519,
+        "buy_price": 1,
+        "balance_after": 9991.81,
+        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in Volatility 25 Index, multiplied by 160, minus commissions."
+      },
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "signal_time": "2026-06-18 15:35:00",
+      "placed_time": "2026-06-18 15:38:27",
+      "status": "closed",
+      "close_price": 2678.078,
+      "close_time": "2026-06-18 15:38:29",
+      "close_reason": "Stop loss hit",
+      "pnl_pips": -551.3,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "OB",
+        "direction": "short",
+        "trigger_price": 2672.565,
+        "zone_top": 2677.928,
+        "zone_bottom": 2668.223,
+        "time": "2026-06-18 15:35:00",
+        "confluence": [
+          "Bearish OB",
+          "5M close below OB top"
+        ],
+        "source_detail": {
+          "type": "Bearish OB",
+          "index": 70,
+          "time": "2026-06-18 05:00:00",
+          "top": 2677.928,
+          "bottom": 2668.223,
+          "mid": 2673.0755,
+          "mitigated": false,
+          "mitigation_index": null,
+          "break_index": 79,
+          "impulse_start": 77,
+          "has_fvg": false,
+          "source": "BOS_DOWN",
+          "age": 9,
+          "touch_count": 0,
+          "expired_by": null
+        },
+        "status": "pending",
+        "id": "Volatility 25 Index_OB_short_2672.565",
+        "symbol": "Volatility 25 Index",
+        "staged_at": "2026-06-18T15:38:32.398834",
+        "confirmed": false
+      },
+      "exit_type": "sl"
     }
   ],
+<<<<<<< Updated upstream
   "last_h1_run": "2026-06-18T15:37:58.510097",
   "last_m5_run": "2026-06-18T15:33:40.893482",
+=======
+  "last_h1_run": "2026-06-18T14:38:09.399479",
+  "last_m5_run": "2026-06-18T15:38:53.393644",
+>>>>>>> Stashed changes
   "symbols": [
     "EURUSD",
     "GBPUSD",

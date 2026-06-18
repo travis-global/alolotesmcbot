@@ -33,6 +33,7 @@ jobs:
           DERIV_ACCOUNT:    ${{ secrets.DERIV_ACCOUNT }}
           TELEGRAM_TOKEN:   ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_PERSONAL_ID: ${{ secrets.TELEGRAM_PERSONAL_ID }}
         run: python bot.py --mode m5
       - name: Commit updated state
         run: |

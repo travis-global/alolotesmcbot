@@ -14,7 +14,11 @@
   "active_signals": [],
   "open_trades": [],
   "closed_trades": [],
+<<<<<<< Updated upstream
   "last_h1_run": "2026-06-18T13:38:04.133700",
+=======
+  "last_h1_run": "2026-06-18T13:38:20.474999",
+>>>>>>> Stashed changes
   "last_m5_run": null,
   "symbols": [
     "EURUSD",
@@ -1773,7 +1777,11 @@
           "bottom": 1.14781,
           "top": 1.1494866666666668
         },
+<<<<<<< Updated upstream
         "current_price": 1.14793,
+=======
+        "current_price": 1.14794,
+>>>>>>> Stashed changes
         "current_zone": "discount",
         "valid_ob": null,
         "valid_fvg": null,
@@ -3146,10 +3154,17 @@
           "O": 1.14695,
           "H": 1.148,
           "L": 1.14631,
+<<<<<<< Updated upstream
           "C": 1.14793
         }
       ],
       "updated_at": "2026-06-18T13:37:44.423892"
+=======
+          "C": 1.14794
+        }
+      ],
+      "updated_at": "2026-06-18T13:38:01.009854"
+>>>>>>> Stashed changes
     },
     "GBPUSD": {
       "order_blocks": [
@@ -5320,7 +5335,11 @@
           "bottom": 1.32052,
           "top": 1.3245133333333332
         },
+<<<<<<< Updated upstream
         "current_price": 1.32464,
+=======
+        "current_price": 1.32465,
+>>>>>>> Stashed changes
         "current_zone": "equilibrium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -6885,10 +6904,17 @@
           "O": 1.32334,
           "H": 1.32474,
           "L": 1.32244,
+<<<<<<< Updated upstream
           "C": 1.32464
         }
       ],
       "updated_at": "2026-06-18T13:37:45.326942"
+=======
+          "C": 1.32465
+        }
+      ],
+      "updated_at": "2026-06-18T13:38:02.558302"
+>>>>>>> Stashed changes
     },
     "USDJPY": {
       "order_blocks": [
@@ -8941,7 +8967,11 @@
           "bottom": 160.484,
           "top": 160.63933333333333
         },
+<<<<<<< Updated upstream
         "current_price": 160.814,
+=======
+        "current_price": 160.821,
+>>>>>>> Stashed changes
         "current_zone": "premium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -10374,10 +10404,17 @@
           "O": 160.874,
           "H": 160.929,
           "L": 160.802,
+<<<<<<< Updated upstream
           "C": 160.814
         }
       ],
       "updated_at": "2026-06-18T13:37:46.350431"
+=======
+          "C": 160.821
+        }
+      ],
+      "updated_at": "2026-06-18T13:38:03.476102"
+>>>>>>> Stashed changes
     },
     "USDCHF": {
       "order_blocks": [
@@ -12293,7 +12330,11 @@
           "bottom": 0.79821,
           "top": 0.7993233333333333
         },
+<<<<<<< Updated upstream
         "current_price": 0.80294,
+=======
+        "current_price": 0.80297,
+>>>>>>> Stashed changes
         "current_zone": "premium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -13762,10 +13803,17 @@
           "O": 0.80366,
           "H": 0.80451,
           "L": 0.80289,
+<<<<<<< Updated upstream
           "C": 0.80294
         }
       ],
       "updated_at": "2026-06-18T13:37:47.467587"
+=======
+          "C": 0.80297
+        }
+      ],
+      "updated_at": "2026-06-18T13:38:04.407966"
+>>>>>>> Stashed changes
     },
     "AUDUSD": {
       "order_blocks": [
@@ -15842,7 +15890,11 @@
           "bottom": 0.69952,
           "top": 0.7010666666666667
         },
+<<<<<<< Updated upstream
         "current_price": 0.70285,
+=======
+        "current_price": 0.70281,
+>>>>>>> Stashed changes
         "current_zone": "premium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -17323,10 +17375,17 @@
           "O": 0.7018,
           "H": 0.70288,
           "L": 0.70131,
+<<<<<<< Updated upstream
           "C": 0.70285
         }
       ],
       "updated_at": "2026-06-18T13:37:48.384639"
+=======
+          "C": 0.70281
+        }
+      ],
+      "updated_at": "2026-06-18T13:38:05.352949"
+>>>>>>> Stashed changes
     },
     "XAUUSD": {
       "order_blocks": [
@@ -19107,7 +19166,11 @@
           "bottom": 4219.37,
           "top": 4256.193333333334
         },
+<<<<<<< Updated upstream
         "current_price": 4269.67,
+=======
+        "current_price": 4270.84,
+>>>>>>> Stashed changes
         "current_zone": "equilibrium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -20444,10 +20507,17 @@
           "O": 4246.73,
           "H": 4276.08,
           "L": 4245.2,
+<<<<<<< Updated upstream
           "C": 4269.67
         }
       ],
       "updated_at": "2026-06-18T13:37:49.285763"
+=======
+          "C": 4270.84
+        }
+      ],
+      "updated_at": "2026-06-18T13:38:06.270916"
+>>>>>>> Stashed changes
     },
     "BTCUSD": {
       "order_blocks": [
@@ -23684,7 +23754,11 @@
           "bottom": 63667.567,
           "top": 63982.923
         },
+<<<<<<< Updated upstream
         "current_price": 64043.525,
+=======
+        "current_price": 64024.04,
+>>>>>>> Stashed changes
         "current_zone": "equilibrium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -25597,10 +25671,17 @@
           "O": 64345.854,
           "H": 64415.335,
           "L": 63974.655,
+<<<<<<< Updated upstream
           "C": 64043.525
         }
       ],
       "updated_at": "2026-06-18T13:37:50.335138"
+=======
+          "C": 64024.04
+        }
+      ],
+      "updated_at": "2026-06-18T13:38:07.368808"
+>>>>>>> Stashed changes
     },
     "ETHUSD": {
       "order_blocks": [
@@ -28442,7 +28523,11 @@
           "bottom": 1722.115,
           "top": 1732.275
         },
+<<<<<<< Updated upstream
         "current_price": 1737.635,
+=======
+        "current_price": 1736.985,
+>>>>>>> Stashed changes
         "current_zone": "equilibrium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -30223,10 +30308,17 @@
           "O": 1749.275,
           "H": 1751.308,
           "L": 1735.085,
+<<<<<<< Updated upstream
           "C": 1737.635
         }
       ],
       "updated_at": "2026-06-18T13:37:51.333910"
+=======
+          "C": 1736.985
+        }
+      ],
+      "updated_at": "2026-06-18T13:38:08.335031"
+>>>>>>> Stashed changes
     },
     "Volatility 25 Index": {
       "order_blocks": [
@@ -33016,7 +33108,11 @@
           "bottom": 2663.104,
           "top": 2671.1906666666664
         },
+<<<<<<< Updated upstream
         "current_price": 2670.772,
+=======
+        "current_price": 2670.976,
+>>>>>>> Stashed changes
         "current_zone": "discount",
         "valid_ob": null,
         "valid_fvg": null,
@@ -34821,10 +34917,17 @@
           "O": 2673.807,
           "H": 2676.008,
           "L": 2669.118,
+<<<<<<< Updated upstream
           "C": 2670.772
         }
       ],
       "updated_at": "2026-06-18T13:37:52.423805"
+=======
+          "C": 2670.976
+        }
+      ],
+      "updated_at": "2026-06-18T13:38:09.361705"
+>>>>>>> Stashed changes
     },
     "Volatility 50 Index": {
       "order_blocks": [
@@ -37917,7 +38020,11 @@
           "bottom": 94.5723,
           "top": 95.18043333333333
         },
+<<<<<<< Updated upstream
         "current_price": 96.8305,
+=======
+        "current_price": 96.8652,
+>>>>>>> Stashed changes
         "current_zone": "premium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -39854,10 +39961,17 @@
           "O": 96.6621,
           "H": 97.0244,
           "L": 96.4736,
+<<<<<<< Updated upstream
           "C": 96.8305
         }
       ],
       "updated_at": "2026-06-18T13:37:53.327738"
+=======
+          "C": 96.8652
+        }
+      ],
+      "updated_at": "2026-06-18T13:38:10.447458"
+>>>>>>> Stashed changes
     },
     "Volatility 75 Index": {
       "order_blocks": [
@@ -42918,7 +43032,11 @@
           "bottom": 36989.5485,
           "top": 37443.80973333333
         },
+<<<<<<< Updated upstream
         "current_price": 37813.2671,
+=======
+        "current_price": 37821.1164,
+>>>>>>> Stashed changes
         "current_zone": "equilibrium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -44807,10 +44925,17 @@
           "O": 38220.0264,
           "H": 38255.2493,
           "L": 37771.3456,
+<<<<<<< Updated upstream
           "C": 37813.2671
         }
       ],
       "updated_at": "2026-06-18T13:37:54.337422"
+=======
+          "C": 37821.1164
+        }
+      ],
+      "updated_at": "2026-06-18T13:38:11.479890"
+>>>>>>> Stashed changes
     },
     "Volatility 100 Index": {
       "order_blocks": [
@@ -47522,7 +47647,11 @@
           "bottom": 342.05,
           "top": 343.93333333333334
         },
+<<<<<<< Updated upstream
         "current_price": 348.3,
+=======
+        "current_price": 348.02,
+>>>>>>> Stashed changes
         "current_zone": "premium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -49291,10 +49420,17 @@
           "O": 349.36,
           "H": 350.82,
           "L": 347.42,
+<<<<<<< Updated upstream
           "C": 348.3
         }
       ],
       "updated_at": "2026-06-18T13:37:55.293047"
+=======
+          "C": 348.02
+        }
+      ],
+      "updated_at": "2026-06-18T13:38:12.541057"
+>>>>>>> Stashed changes
     },
     "Crash 500 Index": {
       "order_blocks": [
@@ -52488,7 +52624,11 @@
           "bottom": 3060.312,
           "top": 3065.694
         },
+<<<<<<< Updated upstream
         "current_price": 3044.712,
+=======
+        "current_price": 3044.825,
+>>>>>>> Stashed changes
         "current_zone": "discount",
         "valid_ob": null,
         "valid_fvg": null,
@@ -54401,10 +54541,17 @@
           "O": 3063.624,
           "H": 3066.488,
           "L": 3044.293,
+<<<<<<< Updated upstream
           "C": 3044.712
         }
       ],
       "updated_at": "2026-06-18T13:37:56.389035"
+=======
+          "C": 3044.825
+        }
+      ],
+      "updated_at": "2026-06-18T13:38:13.520956"
+>>>>>>> Stashed changes
     },
     "Crash 1000 Index": {
       "order_blocks": [
@@ -56693,7 +56840,11 @@
           "bottom": 6105.105,
           "top": 6128.962666666666
         },
+<<<<<<< Updated upstream
         "current_price": 6147.576,
+=======
+        "current_price": 6147.651,
+>>>>>>> Stashed changes
         "current_zone": "equilibrium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -58330,10 +58481,17 @@
           "O": 6138.389,
           "H": 6149.75,
           "L": 6138.389,
+<<<<<<< Updated upstream
           "C": 6147.576
         }
       ],
       "updated_at": "2026-06-18T13:37:57.362401"
+=======
+          "C": 6147.651
+        }
+      ],
+      "updated_at": "2026-06-18T13:38:14.530224"
+>>>>>>> Stashed changes
     },
     "Boom 500 Index": {
       "order_blocks": [
@@ -61469,7 +61627,11 @@
           "bottom": 5183.251,
           "top": 5206.5143333333335
         },
+<<<<<<< Updated upstream
         "current_price": 5226.119,
+=======
+        "current_price": 5225.932,
+>>>>>>> Stashed changes
         "current_zone": "equilibrium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -63357,11 +63519,19 @@
           "time": "2026-06-18 13:00:00",
           "O": 5239.945,
           "H": 5239.945,
+<<<<<<< Updated upstream
           "L": 5226.119,
           "C": 5226.119
         }
       ],
       "updated_at": "2026-06-18T13:37:58.377875"
+=======
+          "L": 5225.932,
+          "C": 5225.932
+        }
+      ],
+      "updated_at": "2026-06-18T13:38:15.486278"
+>>>>>>> Stashed changes
     },
     "Boom 1000 Index": {
       "order_blocks": [
@@ -66199,7 +66369,11 @@
           "bottom": 14238.186,
           "top": 14278.945
         },
+<<<<<<< Updated upstream
         "current_price": 14374.836,
+=======
+        "current_price": 14374.529,
+>>>>>>> Stashed changes
         "current_zone": "premium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -68004,10 +68178,17 @@
           "O": 14339.015,
           "H": 14378.187,
           "L": 14317.872,
+<<<<<<< Updated upstream
           "C": 14374.836
         }
       ],
       "updated_at": "2026-06-18T13:37:59.357795"
+=======
+          "C": 14374.529
+        }
+      ],
+      "updated_at": "2026-06-18T13:38:16.519466"
+>>>>>>> Stashed changes
     },
     "Step Index": {
       "order_blocks": [
@@ -70982,7 +71163,11 @@
           "bottom": 7983.5,
           "top": 7996.1
         },
+<<<<<<< Updated upstream
         "current_price": 7989.6,
+=======
+        "current_price": 7989.7,
+>>>>>>> Stashed changes
         "current_zone": "discount",
         "valid_ob": null,
         "valid_fvg": null,
@@ -72895,10 +73080,17 @@
           "O": 7986.5,
           "H": 7990.3,
           "L": 7984.4,
+<<<<<<< Updated upstream
           "C": 7989.6
         }
       ],
       "updated_at": "2026-06-18T13:38:00.517880"
+=======
+          "C": 7989.7
+        }
+      ],
+      "updated_at": "2026-06-18T13:38:17.647287"
+>>>>>>> Stashed changes
     },
     "Jump 75 Index": {
       "order_blocks": [
@@ -75698,7 +75890,11 @@
           "bottom": 8110.93,
           "top": 8239.036666666667
         },
+<<<<<<< Updated upstream
         "current_price": 8246.51,
+=======
+        "current_price": 8242.25,
+>>>>>>> Stashed changes
         "current_zone": "equilibrium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -77587,10 +77783,17 @@
           "O": 8333.2,
           "H": 8345.06,
           "L": 8241.6,
+<<<<<<< Updated upstream
           "C": 8246.51
         }
       ],
       "updated_at": "2026-06-18T13:38:02.357576"
+=======
+          "C": 8242.25
+        }
+      ],
+      "updated_at": "2026-06-18T13:38:18.722354"
+>>>>>>> Stashed changes
     },
     "Jump 100 Index": {
       "order_blocks": [
@@ -80025,7 +80228,11 @@
           "bottom": 181.0,
           "top": 190.0
         },
+<<<<<<< Updated upstream
         "current_price": 202.86,
+=======
+        "current_price": 202.87,
+>>>>>>> Stashed changes
         "current_zone": "premium",
         "valid_ob": null,
         "valid_fvg": null,
@@ -81722,15 +81929,23 @@
           "O": 205.53,
           "H": 205.69,
           "L": 202.76,
+<<<<<<< Updated upstream
           "C": 202.86
         }
       ],
       "updated_at": "2026-06-18T13:38:03.364928"
+=======
+          "C": 202.87
+        }
+      ],
+      "updated_at": "2026-06-18T13:38:19.748101"
+>>>>>>> Stashed changes
     },
     "Range Break 100 Index": {
       "order_blocks": [
         {
           "type": "Bearish OB",
+<<<<<<< Updated upstream
           "index": 2,
           "time": "2026-07-06 03:38:03",
           "top": 1.16806,
@@ -81739,6 +81954,16 @@
           "mitigated": true,
           "mitigation_index": 13,
           "break_index": 12,
+=======
+          "index": 10,
+          "time": "2026-07-06 11:38:20",
+          "top": 1.23176,
+          "bottom": 1.22758,
+          "mid": 1.22967,
+          "mitigated": true,
+          "mitigation_index": 23,
+          "break_index": 22,
+>>>>>>> Stashed changes
           "impulse_start": 11,
           "has_fvg": false,
           "source": "BOS_DOWN",
@@ -81747,6 +81972,7 @@
           "expired_by": null
         },
         {
+<<<<<<< Updated upstream
           "type": "Bearish OB",
           "index": 18,
           "time": "2026-07-06 19:38:03",
@@ -81776,12 +82002,27 @@
           "impulse_start": 30,
           "has_fvg": false,
           "source": "BOS_DOWN",
+=======
+          "type": "Bullish OB",
+          "index": 23,
+          "time": "2026-07-07 00:38:20",
+          "top": 1.23342,
+          "bottom": 1.23239,
+          "mid": 1.2329050000000001,
+          "mitigated": true,
+          "mitigation_index": 39,
+          "break_index": 34,
+          "impulse_start": 31,
+          "has_fvg": false,
+          "source": "BOS_UP",
+>>>>>>> Stashed changes
           "age": 0,
           "touch_count": 0,
           "expired_by": null
         },
         {
           "type": "Bullish OB",
+<<<<<<< Updated upstream
           "index": 53,
           "time": "2026-07-08 06:38:03",
           "top": 1.18068,
@@ -81791,6 +82032,17 @@
           "mitigation_index": 61,
           "break_index": 60,
           "impulse_start": 56,
+=======
+          "index": 43,
+          "time": "2026-07-07 20:38:20",
+          "top": 1.22929,
+          "bottom": 1.22812,
+          "mid": 1.2287050000000002,
+          "mitigated": true,
+          "mitigation_index": 52,
+          "break_index": 51,
+          "impulse_start": 46,
+>>>>>>> Stashed changes
           "has_fvg": false,
           "source": "CHoCH_UP",
           "age": 0,
@@ -81811,12 +82063,50 @@
           "has_fvg": false,
           "source": "BOS_UP",
           "age": 0,
+<<<<<<< Updated upstream
+=======
+          "touch_count": 0,
+          "expired_by": null
+        },
+        {
+          "type": "Bullish OB",
+          "index": 54,
+          "time": "2026-07-08 07:38:20",
+          "top": 1.22851,
+          "bottom": 1.22801,
+          "mid": 1.2282600000000001,
+          "mitigated": false,
+          "mitigation_index": null,
+          "break_index": 61,
+          "impulse_start": 57,
+          "has_fvg": false,
+          "source": "BOS_UP",
+          "age": 25,
+          "touch_count": 0,
+          "expired_by": null
+        },
+        {
+          "type": "Bullish OB",
+          "index": 66,
+          "time": "2026-07-08 19:38:20",
+          "top": 1.23197,
+          "bottom": 1.23149,
+          "mid": 1.23173,
+          "mitigated": true,
+          "mitigation_index": 77,
+          "break_index": 74,
+          "impulse_start": 71,
+          "has_fvg": false,
+          "source": "BOS_UP",
+          "age": 0,
+>>>>>>> Stashed changes
           "touch_count": 0,
           "expired_by": null
         }
       ],
       "fvgs": [
         {
+<<<<<<< Updated upstream
           "type": "FVG_BEARISH",
           "index": 21,
           "time": "2026-07-06 22:38:03",
@@ -81825,6 +82115,16 @@
           "mid": 1.1774149999999999,
           "mitigated": true,
           "mitigation_index": 24,
+=======
+          "type": "FVG_BULLISH",
+          "index": 69,
+          "time": "2026-07-08 22:38:20",
+          "top": 1.23398,
+          "bottom": 1.23248,
+          "mid": 1.23323,
+          "mitigated": true,
+          "mitigation_index": 72,
+>>>>>>> Stashed changes
           "source_events": [
             "BOS_DOWN",
             "CHoCH_DOWN"
@@ -81835,6 +82135,7 @@
         },
         {
           "type": "FVG_BULLISH",
+<<<<<<< Updated upstream
           "index": 61,
           "time": "2026-07-08 14:38:03",
           "top": 1.18027,
@@ -81844,6 +82145,17 @@
           "mitigation_index": 70,
           "source_events": [
             "CHoCH_UP"
+=======
+          "index": 74,
+          "time": "2026-07-09 03:38:20",
+          "top": 1.23472,
+          "bottom": 1.23449,
+          "mid": 1.2346050000000002,
+          "mitigated": true,
+          "mitigation_index": 76,
+          "source_events": [
+            "BOS_UP"
+>>>>>>> Stashed changes
           ],
           "age": 0,
           "touch_count": 0,
@@ -81853,6 +82165,7 @@
       "breakers": [],
       "bos_events": [
         {
+<<<<<<< Updated upstream
           "type": "BOS_DOWN",
           "level": 1.19712,
           "break_index": 12,
@@ -82054,11 +82367,250 @@
           "break_index": 436,
           "swing_index": 432,
           "time": "2026-07-06 17:38:03"
+=======
+          "type": "BOS_UP",
+          "level": 1.20713,
+          "break_index": 67,
+          "swing_index": 11,
+          "time": "2026-06-21 08:38:20"
+        },
+        {
+          "type": "BOS_UP",
+          "level": 1.20732,
+          "break_index": 74,
+          "swing_index": 18,
+          "time": "2026-06-21 15:38:20"
+        },
+        {
+          "type": "BOS_DOWN",
+          "level": 1.20249,
+          "break_index": 22,
+          "swing_index": 19,
+          "time": "2026-06-19 11:38:20"
+        },
+        {
+          "type": "BOS_UP",
+          "level": 1.20202,
+          "break_index": 34,
+          "swing_index": 30,
+          "time": "2026-06-19 23:38:20"
+        },
+        {
+          "type": "BOS_UP",
+          "level": 1.20587,
+          "break_index": 61,
+          "swing_index": 36,
+          "time": "2026-06-21 02:38:20"
+        },
+        {
+          "type": "BOS_UP",
+          "level": 1.20313,
+          "break_index": 51,
+          "swing_index": 42,
+          "time": "2026-06-20 16:38:20"
+        },
+        {
+          "type": "BOS_UP",
+          "level": 1.21382,
+          "break_index": 82,
+          "swing_index": 77,
+          "time": "2026-06-21 23:38:20"
+        },
+        {
+          "type": "BOS_UP",
+          "level": 1.2194,
+          "break_index": 173,
+          "swing_index": 95,
+          "time": "2026-06-25 18:38:20"
+        },
+        {
+          "type": "BOS_DOWN",
+          "level": 1.2158,
+          "break_index": 108,
+          "swing_index": 103,
+          "time": "2026-06-23 01:38:20"
+        },
+        {
+          "type": "BOS_DOWN",
+          "level": 1.21289,
+          "break_index": 119,
+          "swing_index": 111,
+          "time": "2026-06-23 12:38:20"
+        },
+        {
+          "type": "BOS_UP",
+          "level": 1.21538,
+          "break_index": 169,
+          "swing_index": 150,
+          "time": "2026-06-25 14:38:20"
+        },
+        {
+          "type": "BOS_UP",
+          "level": 1.22092,
+          "break_index": 185,
+          "swing_index": 175,
+          "time": "2026-06-26 06:38:20"
+        },
+        {
+          "type": "BOS_UP",
+          "level": 1.22255,
+          "break_index": 191,
+          "swing_index": 185,
+          "time": "2026-06-26 12:38:20"
+        },
+        {
+          "type": "BOS_UP",
+          "level": 1.22607,
+          "break_index": 370,
+          "swing_index": 193,
+          "time": "2026-07-03 23:38:20"
+        },
+        {
+          "type": "BOS_DOWN",
+          "level": 1.22161,
+          "break_index": 216,
+          "swing_index": 211,
+          "time": "2026-06-27 13:38:20"
+        },
+        {
+          "type": "BOS_DOWN",
+          "level": 1.22,
+          "break_index": 240,
+          "swing_index": 218,
+          "time": "2026-06-28 13:38:20"
+        },
+        {
+          "type": "BOS_DOWN",
+          "level": 1.21611,
+          "break_index": 276,
+          "swing_index": 244,
+          "time": "2026-06-30 01:38:20"
+        },
+        {
+          "type": "BOS_UP",
+          "level": 1.21975,
+          "break_index": 251,
+          "swing_index": 247,
+          "time": "2026-06-29 00:38:20"
+        },
+        {
+          "type": "BOS_UP",
+          "level": 1.22445,
+          "break_index": 321,
+          "swing_index": 252,
+          "time": "2026-07-01 22:38:20"
+        },
+        {
+          "type": "BOS_DOWN",
+          "level": 1.21793,
+          "break_index": 269,
+          "swing_index": 259,
+          "time": "2026-06-29 18:38:20"
+        },
+        {
+          "type": "BOS_UP",
+          "level": 1.22252,
+          "break_index": 320,
+          "swing_index": 260,
+          "time": "2026-07-01 21:38:20"
+        },
+        {
+          "type": "BOS_UP",
+          "level": 1.21858,
+          "break_index": 285,
+          "swing_index": 276,
+          "time": "2026-06-30 10:38:20"
+        },
+        {
+          "type": "BOS_UP",
+          "level": 1.22024,
+          "break_index": 303,
+          "swing_index": 287,
+          "time": "2026-07-01 04:38:20"
+        },
+        {
+          "type": "BOS_UP",
+          "level": 1.22134,
+          "break_index": 307,
+          "swing_index": 304,
+          "time": "2026-07-01 08:38:20"
+        },
+        {
+          "type": "BOS_DOWN",
+          "level": 1.21823,
+          "break_index": 341,
+          "swing_index": 334,
+          "time": "2026-07-02 18:38:20"
+        },
+        {
+          "type": "BOS_UP",
+          "level": 1.21975,
+          "break_index": 354,
+          "swing_index": 347,
+          "time": "2026-07-03 07:38:20"
+        },
+        {
+          "type": "BOS_UP",
+          "level": 1.2296,
+          "break_index": 384,
+          "swing_index": 377,
+          "time": "2026-07-04 13:38:20"
+        },
+        {
+          "type": "BOS_UP",
+          "level": 1.23409,
+          "break_index": 489,
+          "swing_index": 385,
+          "time": "2026-07-08 22:38:20"
+        },
+        {
+          "type": "BOS_DOWN",
+          "level": 1.22878,
+          "break_index": 394,
+          "swing_index": 390,
+          "time": "2026-07-04 23:38:20"
+        },
+        {
+          "type": "BOS_DOWN",
+          "level": 1.22429,
+          "break_index": 401,
+          "swing_index": 395,
+          "time": "2026-07-05 06:38:20"
+        },
+        {
+          "type": "BOS_UP",
+          "level": 1.2297,
+          "break_index": 430,
+          "swing_index": 413,
+          "time": "2026-07-06 11:38:20"
+        },
+        {
+          "type": "BOS_UP",
+          "level": 1.23527,
+          "break_index": 494,
+          "swing_index": 435,
+          "time": "2026-07-09 03:38:20"
+        },
+        {
+          "type": "BOS_DOWN",
+          "level": 1.23081,
+          "break_index": 459,
+          "swing_index": 438,
+          "time": "2026-07-07 16:38:20"
+        },
+        {
+          "type": "BOS_DOWN",
+          "level": 1.23192,
+          "break_index": 498,
+          "swing_index": 492,
+          "time": "2026-07-09 07:38:20"
+>>>>>>> Stashed changes
         }
       ],
       "choch_events": [
         {
           "type": "CHoCH_DOWN",
+<<<<<<< Updated upstream
           "level": 1.19295,
           "break_index": 23,
           "swing_index": 18,
@@ -82336,18 +82888,298 @@
           "break_index": 481,
           "swing_index": 477,
           "time": "2026-07-08 14:38:03"
+=======
+          "level": 1.20272,
+          "break_index": 22,
+          "swing_index": 16,
+          "time": "2026-06-19 11:38:20"
+        },
+        {
+          "type": "CHoCH_UP",
+          "level": 1.20519,
+          "break_index": 51,
+          "swing_index": 21,
+          "time": "2026-06-20 16:38:20"
+        },
+        {
+          "type": "CHoCH_UP",
+          "level": 1.20202,
+          "break_index": 34,
+          "swing_index": 30,
+          "time": "2026-06-19 23:38:20"
+        },
+        {
+          "type": "CHoCH_UP",
+          "level": 1.20313,
+          "break_index": 51,
+          "swing_index": 42,
+          "time": "2026-06-20 16:38:20"
+        },
+        {
+          "type": "CHoCH_DOWN",
+          "level": 1.20923,
+          "break_index": 155,
+          "swing_index": 78,
+          "time": "2026-06-25 00:38:20"
+        },
+        {
+          "type": "CHoCH_DOWN",
+          "level": 1.21485,
+          "break_index": 108,
+          "swing_index": 97,
+          "time": "2026-06-23 01:38:20"
+        },
+        {
+          "type": "CHoCH_DOWN",
+          "level": 1.2158,
+          "break_index": 108,
+          "swing_index": 103,
+          "time": "2026-06-23 01:38:20"
+        },
+        {
+          "type": "CHoCH_UP",
+          "level": 1.21822,
+          "break_index": 173,
+          "swing_index": 108,
+          "time": "2026-06-25 18:38:20"
+        },
+        {
+          "type": "CHoCH_UP",
+          "level": 1.21722,
+          "break_index": 173,
+          "swing_index": 113,
+          "time": "2026-06-25 18:38:20"
+        },
+        {
+          "type": "CHoCH_UP",
+          "level": 1.21538,
+          "break_index": 169,
+          "swing_index": 150,
+          "time": "2026-06-25 14:38:20"
+        },
+        {
+          "type": "CHoCH_DOWN",
+          "level": 1.21738,
+          "break_index": 269,
+          "swing_index": 178,
+          "time": "2026-06-29 18:38:20"
+        },
+        {
+          "type": "CHoCH_DOWN",
+          "level": 1.21999,
+          "break_index": 240,
+          "swing_index": 191,
+          "time": "2026-06-28 13:38:20"
+        },
+        {
+          "type": "CHoCH_DOWN",
+          "level": 1.22137,
+          "break_index": 216,
+          "swing_index": 196,
+          "time": "2026-06-27 13:38:20"
+        },
+        {
+          "type": "CHoCH_DOWN",
+          "level": 1.22161,
+          "break_index": 216,
+          "swing_index": 211,
+          "time": "2026-06-27 13:38:20"
+        },
+        {
+          "type": "CHoCH_UP",
+          "level": 1.22582,
+          "break_index": 370,
+          "swing_index": 216,
+          "time": "2026-07-03 23:38:20"
+        },
+        {
+          "type": "CHoCH_UP",
+          "level": 1.22434,
+          "break_index": 321,
+          "swing_index": 238,
+          "time": "2026-07-01 22:38:20"
+        },
+        {
+          "type": "CHoCH_UP",
+          "level": 1.21975,
+          "break_index": 251,
+          "swing_index": 247,
+          "time": "2026-06-29 00:38:20"
+        },
+        {
+          "type": "CHoCH_DOWN",
+          "level": 1.21734,
+          "break_index": 269,
+          "swing_index": 248,
+          "time": "2026-06-29 18:38:20"
+        },
+        {
+          "type": "CHoCH_DOWN",
+          "level": 1.21793,
+          "break_index": 269,
+          "swing_index": 259,
+          "time": "2026-06-29 18:38:20"
+        },
+        {
+          "type": "CHoCH_UP",
+          "level": 1.22252,
+          "break_index": 320,
+          "swing_index": 260,
+          "time": "2026-07-01 21:38:20"
+        },
+        {
+          "type": "CHoCH_DOWN",
+          "level": 1.21857,
+          "break_index": 269,
+          "swing_index": 264,
+          "time": "2026-06-29 18:38:20"
+        },
+        {
+          "type": "CHoCH_UP",
+          "level": 1.22093,
+          "break_index": 307,
+          "swing_index": 269,
+          "time": "2026-07-01 08:38:20"
+        },
+        {
+          "type": "CHoCH_UP",
+          "level": 1.21858,
+          "break_index": 285,
+          "swing_index": 276,
+          "time": "2026-06-30 10:38:20"
+        },
+        {
+          "type": "CHoCH_DOWN",
+          "level": 1.21498,
+          "break_index": 290,
+          "swing_index": 278,
+          "time": "2026-06-30 15:38:20"
+        },
+        {
+          "type": "CHoCH_UP",
+          "level": 1.21677,
+          "break_index": 303,
+          "swing_index": 294,
+          "time": "2026-07-01 04:38:20"
+        },
+        {
+          "type": "CHoCH_DOWN",
+          "level": 1.21893,
+          "break_index": 336,
+          "swing_index": 307,
+          "time": "2026-07-02 13:38:20"
+        },
+        {
+          "type": "CHoCH_UP",
+          "level": 1.22141,
+          "break_index": 360,
+          "swing_index": 336,
+          "time": "2026-07-03 13:38:20"
+        },
+        {
+          "type": "CHoCH_UP",
+          "level": 1.21975,
+          "break_index": 354,
+          "swing_index": 347,
+          "time": "2026-07-03 07:38:20"
+        },
+        {
+          "type": "CHoCH_DOWN",
+          "level": 1.22448,
+          "break_index": 401,
+          "swing_index": 367,
+          "time": "2026-07-05 06:38:20"
+        },
+        {
+          "type": "CHoCH_DOWN",
+          "level": 1.22878,
+          "break_index": 394,
+          "swing_index": 390,
+          "time": "2026-07-04 23:38:20"
+        },
+        {
+          "type": "CHoCH_UP",
+          "level": 1.23095,
+          "break_index": 430,
+          "swing_index": 394,
+          "time": "2026-07-06 11:38:20"
+        },
+        {
+          "type": "CHoCH_UP",
+          "level": 1.22674,
+          "break_index": 409,
+          "swing_index": 401,
+          "time": "2026-07-05 14:38:20"
+        },
+        {
+          "type": "CHoCH_DOWN",
+          "level": 1.23081,
+          "break_index": 459,
+          "swing_index": 438,
+          "time": "2026-07-07 16:38:20"
+        },
+        {
+          "type": "CHoCH_UP",
+          "level": 1.23516,
+          "break_index": 494,
+          "swing_index": 442,
+          "time": "2026-07-09 03:38:20"
+        },
+        {
+          "type": "CHoCH_UP",
+          "level": 1.23417,
+          "break_index": 489,
+          "swing_index": 449,
+          "time": "2026-07-08 22:38:20"
+        },
+        {
+          "type": "CHoCH_DOWN",
+          "level": 1.23068,
+          "break_index": 459,
+          "swing_index": 450,
+          "time": "2026-07-07 16:38:20"
+        },
+        {
+          "type": "CHoCH_UP",
+          "level": 1.23284,
+          "break_index": 489,
+          "swing_index": 468,
+          "time": "2026-07-08 22:38:20"
+        },
+        {
+          "type": "CHoCH_DOWN",
+          "level": 1.23192,
+          "break_index": 498,
+          "swing_index": 492,
+          "time": "2026-07-09 07:38:20"
+>>>>>>> Stashed changes
         }
       ],
       "sweeps": [
         {
+<<<<<<< Updated upstream
           "type": "Buy-side Sweep",
           "time": "2026-07-07 18:38:03",
           "level": 1.1801,
           "index": 41,
+=======
+          "type": "Sell-side Sweep",
+          "time": "2026-07-08 04:38:20",
+          "level": 1.22721,
+          "index": 51,
+          "confirmed": true
+        },
+        {
+          "type": "Buy-side Sweep",
+          "time": "2026-07-07 10:38:20",
+          "level": 1.23527,
+          "index": 33,
+>>>>>>> Stashed changes
           "confirmed": false
         },
         {
           "type": "Sell-side Sweep",
+<<<<<<< Updated upstream
           "time": "2026-07-07 11:38:03",
           "level": 1.17341,
           "index": 34,
@@ -82379,13 +83211,80 @@
           "time": "2026-07-08 23:38:03",
           "level": 1.18052,
           "index": 70,
+=======
+          "time": "2026-07-07 03:38:20",
+          "level": 1.23081,
+          "index": 26,
+          "confirmed": true
+        },
+        {
+          "type": "Buy-side Sweep",
+          "time": "2026-07-07 10:38:20",
+          "level": 1.23516,
+          "index": 33,
           "confirmed": false
         },
         {
           "type": "Sell-side Sweep",
+          "time": "2026-07-08 00:38:20",
+          "level": 1.23034,
+          "index": 47,
+          "confirmed": true
+        },
+        {
+          "type": "Buy-side Sweep",
+          "time": "2026-07-07 10:38:20",
+          "level": 1.23417,
+          "index": 33,
+>>>>>>> Stashed changes
+          "confirmed": false
+        },
+        {
+          "type": "Sell-side Sweep",
+<<<<<<< Updated upstream
           "time": "2026-07-09 02:38:03",
           "level": 1.17711,
           "index": 73,
+=======
+          "time": "2026-07-08 10:38:20",
+          "level": 1.23068,
+          "index": 57,
+          "confirmed": true
+        },
+        {
+          "type": "Buy-side Sweep",
+          "time": "2026-07-08 22:38:20",
+          "level": 1.23534,
+          "index": 69,
+          "confirmed": false
+        },
+        {
+          "type": "Sell-side Sweep",
+          "time": "2026-07-08 04:38:20",
+          "level": 1.22771,
+          "index": 51,
+          "confirmed": true
+        },
+        {
+          "type": "Buy-side Sweep",
+          "time": "2026-07-08 12:38:20",
+          "level": 1.23284,
+          "index": 59,
+          "confirmed": false
+        },
+        {
+          "type": "Buy-side Sweep",
+          "time": "2026-07-09 05:38:20",
+          "level": 1.23413,
+          "index": 76,
+          "confirmed": false
+        },
+        {
+          "type": "Sell-side Sweep",
+          "time": "2026-07-09 06:38:20",
+          "level": 1.23192,
+          "index": 77,
+>>>>>>> Stashed changes
           "confirmed": false
         }
       ],
@@ -82399,6 +83298,7 @@
           "touches": [
             {
               "type": "SL",
+<<<<<<< Updated upstream
               "price": 1.16884,
               "index": 234,
               "time": "2026-06-28 07:38:03"
@@ -82432,10 +83332,150 @@
               "price": 1.17618,
               "index": 321,
               "time": "2026-07-01 22:38:03"
+=======
+              "price": 1.20818,
+              "index": 121,
+              "time": "2026-06-23 14:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.21142,
+              "index": 167,
+              "time": "2026-06-25 12:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.21734,
+              "index": 248,
+              "time": "2026-06-28 21:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.21793,
+              "index": 259,
+              "time": "2026-06-29 08:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.21857,
+              "index": 264,
+              "time": "2026-06-29 13:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.23081,
+              "index": 438,
+              "time": "2026-07-06 19:38:20"
             }
           ],
           "anchor_1": {
             "type": "SL",
+            "price": 1.20818,
+            "index": 121,
+            "time": "2026-06-23 14:38:20"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.21142,
+            "index": 167,
+            "time": "2026-06-25 12:38:20"
+          },
+          "slope": 7.043478260869368e-05,
+          "projected_y": 1.2348043478260862,
+          "last_touch_index": 438,
+          "last_touch_time": "2026-07-06 19:38:20",
+          "broken": true,
+          "broken_index": 459,
+          "time": "2026-06-25 12:38:20"
+        },
+        {
+          "type": "Trendline",
+          "direction": "ascending",
+          "trade_bias": "long",
+          "state": "broken",
+          "touch_count": 4,
+          "touches": [
+            {
+              "type": "SL",
+              "price": 1.19836,
+              "index": 31,
+              "time": "2026-06-19 20:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.19989,
+              "index": 41,
+              "time": "2026-06-20 06:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.20056,
+              "index": 44,
+              "time": "2026-06-20 09:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.20096,
+              "index": 50,
+              "time": "2026-06-20 15:38:20"
+            }
+          ],
+          "anchor_1": {
+            "type": "SL",
+            "price": 1.19836,
+            "index": 31,
+            "time": "2026-06-19 20:38:20"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.19989,
+            "index": 41,
+            "time": "2026-06-20 06:38:20"
+          },
+          "slope": 0.00015299999999998092,
+          "projected_y": 1.2699639999999912,
+          "last_touch_index": 50,
+          "last_touch_time": "2026-06-20 15:38:20",
+          "broken": true,
+          "broken_index": 119,
+          "time": "2026-06-20 06:38:20"
+        },
+        {
+          "type": "Trendline",
+          "direction": "ascending",
+          "trade_bias": "long",
+          "state": "broken",
+          "touch_count": 4,
+          "touches": [
+            {
+              "type": "SL",
+              "price": 1.20056,
+              "index": 44,
+              "time": "2026-06-20 09:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.20096,
+              "index": 50,
+              "time": "2026-06-20 15:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.21852,
+              "index": 310,
+              "time": "2026-07-01 11:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.22429,
+              "index": 395,
+              "time": "2026-07-05 00:38:20"
+>>>>>>> Stashed changes
+            }
+          ],
+          "anchor_1": {
+            "type": "SL",
+<<<<<<< Updated upstream
             "price": 1.16884,
             "index": 234,
             "time": "2026-06-28 07:38:03"
@@ -82453,6 +83493,25 @@
           "broken": true,
           "broken_index": 329,
           "time": "2026-06-28 12:38:03"
+=======
+            "price": 1.20056,
+            "index": 44,
+            "time": "2026-06-20 09:38:20"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.20096,
+            "index": 50,
+            "time": "2026-06-20 15:38:20"
+          },
+          "slope": 6.666666666665932e-05,
+          "projected_y": 1.23089333333333,
+          "last_touch_index": 395,
+          "last_touch_time": "2026-07-05 00:38:20",
+          "broken": true,
+          "broken_index": 401,
+          "time": "2026-06-20 15:38:20"
+>>>>>>> Stashed changes
         },
         {
           "type": "Trendline",
@@ -82463,6 +83522,7 @@
           "touches": [
             {
               "type": "SL",
+<<<<<<< Updated upstream
               "price": 1.17277,
               "index": 349,
               "time": "2026-07-03 02:38:03"
@@ -82484,10 +83544,34 @@
               "price": 1.17658,
               "index": 380,
               "time": "2026-07-04 09:38:03"
+=======
+              "price": 1.20096,
+              "index": 50,
+              "time": "2026-06-20 15:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.2024,
+              "index": 61,
+              "time": "2026-06-21 02:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.21738,
+              "index": 178,
+              "time": "2026-06-25 23:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.22161,
+              "index": 211,
+              "time": "2026-06-27 08:38:20"
+>>>>>>> Stashed changes
             }
           ],
           "anchor_1": {
             "type": "SL",
+<<<<<<< Updated upstream
             "price": 1.17277,
             "index": 349,
             "time": "2026-07-03 02:38:03"
@@ -82505,16 +83589,40 @@
           "broken": true,
           "broken_index": 387,
           "time": "2026-07-03 08:38:03"
+=======
+            "price": 1.20096,
+            "index": 50,
+            "time": "2026-06-20 15:38:20"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.2024,
+            "index": 61,
+            "time": "2026-06-21 02:38:20"
+          },
+          "slope": 0.00013090909090908052,
+          "projected_y": 1.2597381818181772,
+          "last_touch_index": 211,
+          "last_touch_time": "2026-06-27 08:38:20",
+          "broken": true,
+          "broken_index": 216,
+          "time": "2026-06-21 02:38:20"
+>>>>>>> Stashed changes
         },
         {
           "type": "Trendline",
           "direction": "ascending",
           "trade_bias": "long",
+<<<<<<< Updated upstream
           "state": "third_touch_confirmed",
+=======
+          "state": "broken",
+>>>>>>> Stashed changes
           "touch_count": 4,
           "touches": [
             {
               "type": "SL",
+<<<<<<< Updated upstream
               "price": 1.17507,
               "index": 464,
               "time": "2026-07-07 21:38:03"
@@ -82536,10 +83644,34 @@
               "price": 1.17666,
               "index": 496,
               "time": "2026-07-09 05:38:03"
+=======
+              "price": 1.22137,
+              "index": 196,
+              "time": "2026-06-26 17:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.22161,
+              "index": 211,
+              "time": "2026-06-27 08:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.22448,
+              "index": 367,
+              "time": "2026-07-03 20:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.22429,
+              "index": 395,
+              "time": "2026-07-05 00:38:20"
+>>>>>>> Stashed changes
             }
           ],
           "anchor_1": {
             "type": "SL",
+<<<<<<< Updated upstream
             "price": 1.17507,
             "index": 464,
             "time": "2026-07-07 21:38:03"
@@ -82557,16 +83689,220 @@
           "broken": false,
           "broken_index": null,
           "time": "2026-07-08 08:38:03"
+=======
+            "price": 1.22137,
+            "index": 196,
+            "time": "2026-06-26 17:38:20"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.22161,
+            "index": 211,
+            "time": "2026-06-27 08:38:20"
+          },
+          "slope": 1.60000000000012e-05,
+          "projected_y": 1.2262180000000005,
+          "last_touch_index": 395,
+          "last_touch_time": "2026-07-05 00:38:20",
+          "broken": true,
+          "broken_index": 401,
+          "time": "2026-06-27 08:38:20"
+        },
+        {
+          "type": "Trendline",
+          "direction": "ascending",
+          "trade_bias": "long",
+          "state": "broken",
+          "touch_count": 3,
+          "touches": [
+            {
+              "type": "SL",
+              "price": 1.21738,
+              "index": 178,
+              "time": "2026-06-25 23:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.21999,
+              "index": 191,
+              "time": "2026-06-26 12:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.22137,
+              "index": 196,
+              "time": "2026-06-26 17:38:20"
+            }
+          ],
+          "anchor_1": {
+            "type": "SL",
+            "price": 1.21738,
+            "index": 178,
+            "time": "2026-06-25 23:38:20"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.21999,
+            "index": 191,
+            "time": "2026-06-26 12:38:20"
+          },
+          "slope": 0.00020076923076923087,
+          "projected_y": 1.281826923076923,
+          "last_touch_index": 196,
+          "last_touch_time": "2026-06-26 17:38:20",
+          "broken": true,
+          "broken_index": 216,
+          "time": "2026-06-26 12:38:20"
+        },
+        {
+          "type": "Trendline",
+          "direction": "ascending",
+          "trade_bias": "long",
+          "state": "broken",
+          "touch_count": 3,
+          "touches": [
+            {
+              "type": "SL",
+              "price": 1.21734,
+              "index": 248,
+              "time": "2026-06-28 21:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.21793,
+              "index": 259,
+              "time": "2026-06-29 08:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.21857,
+              "index": 264,
+              "time": "2026-06-29 13:38:20"
+            }
+          ],
+          "anchor_1": {
+            "type": "SL",
+            "price": 1.21734,
+            "index": 248,
+            "time": "2026-06-28 21:38:20"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.21793,
+            "index": 259,
+            "time": "2026-06-29 08:38:20"
+          },
+          "slope": 5.3636363636351675e-05,
+          "projected_y": 1.2308027272727244,
+          "last_touch_index": 264,
+          "last_touch_time": "2026-06-29 13:38:20",
+          "broken": true,
+          "broken_index": 269,
+          "time": "2026-06-29 08:38:20"
+        },
+        {
+          "type": "Trendline",
+          "direction": "ascending",
+          "trade_bias": "long",
+          "state": "broken",
+          "touch_count": 3,
+          "touches": [
+            {
+              "type": "SL",
+              "price": 1.21307,
+              "index": 342,
+              "time": "2026-07-02 19:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.217,
+              "index": 354,
+              "time": "2026-07-03 07:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.22878,
+              "index": 390,
+              "time": "2026-07-04 19:38:20"
+            }
+          ],
+          "anchor_1": {
+            "type": "SL",
+            "price": 1.21307,
+            "index": 342,
+            "time": "2026-07-02 19:38:20"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.217,
+            "index": 354,
+            "time": "2026-07-03 07:38:20"
+          },
+          "slope": 0.00032749999999999907,
+          "projected_y": 1.2644875,
+          "last_touch_index": 390,
+          "last_touch_time": "2026-07-04 19:38:20",
+          "broken": true,
+          "broken_index": 394,
+          "time": "2026-07-03 07:38:20"
+>>>>>>> Stashed changes
         },
         {
           "type": "Trendline",
           "direction": "descending",
           "trade_bias": "short",
           "state": "broken",
-          "touch_count": 4,
+          "touch_count": 3,
           "touches": [
             {
               "type": "SH",
+              "price": 1.21967,
+              "index": 101,
+              "time": "2026-06-22 18:38:20"
+            },
+            {
+              "type": "SH",
+              "price": 1.21822,
+              "index": 108,
+              "time": "2026-06-23 01:38:20"
+            },
+            {
+              "type": "SH",
+              "price": 1.21722,
+              "index": 113,
+              "time": "2026-06-23 06:38:20"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 1.21967,
+            "index": 101,
+            "time": "2026-06-22 18:38:20"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.21822,
+            "index": 108,
+            "time": "2026-06-23 01:38:20"
+          },
+          "slope": -0.0002071428571428502,
+          "projected_y": 1.1372271428571457,
+          "last_touch_index": 113,
+          "last_touch_time": "2026-06-23 06:38:20",
+          "broken": true,
+          "broken_index": 142,
+          "time": "2026-06-23 01:38:20"
+        },
+        {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "broken",
+          "touch_count": 3,
+          "touches": [
+            {
+              "type": "SH",
+<<<<<<< Updated upstream
               "price": 1.18209,
               "index": 138,
               "time": "2026-06-24 07:38:03"
@@ -82588,10 +83924,28 @@
               "price": 1.17082,
               "index": 255,
               "time": "2026-06-29 04:38:03"
+=======
+              "price": 1.22747,
+              "index": 207,
+              "time": "2026-06-27 04:38:20"
+            },
+            {
+              "type": "SH",
+              "price": 1.22582,
+              "index": 216,
+              "time": "2026-06-27 13:38:20"
+            },
+            {
+              "type": "SH",
+              "price": 1.21975,
+              "index": 247,
+              "time": "2026-06-28 20:38:20"
+>>>>>>> Stashed changes
             }
           ],
           "anchor_1": {
             "type": "SH",
+<<<<<<< Updated upstream
             "price": 1.18209,
             "index": 138,
             "time": "2026-06-24 07:38:03"
@@ -82747,6 +84101,25 @@
           "broken": true,
           "broken_index": 388,
           "time": "2026-07-03 11:38:03"
+=======
+            "price": 1.22747,
+            "index": 207,
+            "time": "2026-06-27 04:38:20"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.22582,
+            "index": 216,
+            "time": "2026-06-27 13:38:20"
+          },
+          "slope": -0.00018333333333335014,
+          "projected_y": 1.1739366666666617,
+          "last_touch_index": 247,
+          "last_touch_time": "2026-06-28 20:38:20",
+          "broken": true,
+          "broken_index": 251,
+          "time": "2026-06-27 13:38:20"
+>>>>>>> Stashed changes
         },
         {
           "type": "Trendline",
@@ -82757,6 +84130,7 @@
           "touches": [
             {
               "type": "SH",
+<<<<<<< Updated upstream
               "price": 1.20101,
               "index": 3,
               "time": "2026-06-18 16:38:03"
@@ -82772,10 +84146,28 @@
               "price": 1.18583,
               "index": 152,
               "time": "2026-06-24 21:38:03"
+=======
+              "price": 1.22445,
+              "index": 252,
+              "time": "2026-06-29 01:38:20"
+            },
+            {
+              "type": "SH",
+              "price": 1.22252,
+              "index": 260,
+              "time": "2026-06-29 09:38:20"
+            },
+            {
+              "type": "SH",
+              "price": 1.21858,
+              "index": 276,
+              "time": "2026-06-30 01:38:20"
+>>>>>>> Stashed changes
             }
           ],
           "anchor_1": {
             "type": "SH",
+<<<<<<< Updated upstream
             "price": 1.20101,
             "index": 3,
             "time": "2026-06-18 16:38:03"
@@ -82793,6 +84185,25 @@
           "broken": true,
           "broken_index": 164,
           "time": "2026-06-19 01:38:03"
+=======
+            "price": 1.22445,
+            "index": 252,
+            "time": "2026-06-29 01:38:20"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.22252,
+            "index": 260,
+            "time": "2026-06-29 09:38:20"
+          },
+          "slope": -0.0002412499999999984,
+          "projected_y": 1.1648612500000004,
+          "last_touch_index": 276,
+          "last_touch_time": "2026-06-30 01:38:20",
+          "broken": true,
+          "broken_index": 279,
+          "time": "2026-06-29 09:38:20"
+>>>>>>> Stashed changes
         },
         {
           "type": "Trendline",
@@ -82803,6 +84214,7 @@
           "touches": [
             {
               "type": "SH",
+<<<<<<< Updated upstream
               "price": 1.19682,
               "index": 15,
               "time": "2026-06-19 04:38:03"
@@ -82818,10 +84230,28 @@
               "price": 1.1903,
               "index": 67,
               "time": "2026-06-21 08:38:03"
+=======
+              "price": 1.22252,
+              "index": 260,
+              "time": "2026-06-29 09:38:20"
+            },
+            {
+              "type": "SH",
+              "price": 1.22093,
+              "index": 269,
+              "time": "2026-06-29 18:38:20"
+            },
+            {
+              "type": "SH",
+              "price": 1.21677,
+              "index": 294,
+              "time": "2026-06-30 19:38:20"
+>>>>>>> Stashed changes
             }
           ],
           "anchor_1": {
             "type": "SH",
+<<<<<<< Updated upstream
             "price": 1.19682,
             "index": 15,
             "time": "2026-06-19 04:38:03"
@@ -83115,6 +84545,25 @@
           "broken": true,
           "broken_index": 431,
           "time": "2026-07-05 04:38:03"
+=======
+            "price": 1.22252,
+            "index": 260,
+            "time": "2026-06-29 09:38:20"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.22093,
+            "index": 269,
+            "time": "2026-06-29 18:38:20"
+          },
+          "slope": -0.0001766666666666645,
+          "projected_y": 1.1802966666666672,
+          "last_touch_index": 294,
+          "last_touch_time": "2026-06-30 19:38:20",
+          "broken": true,
+          "broken_index": 298,
+          "time": "2026-06-29 18:38:20"
+>>>>>>> Stashed changes
         },
         {
           "type": "Trendline",
@@ -83125,6 +84574,7 @@
           "touches": [
             {
               "type": "SL",
+<<<<<<< Updated upstream
               "price": 1.19168,
               "index": 14,
               "time": "2026-06-19 03:38:03"
@@ -83134,10 +84584,22 @@
               "price": 1.19295,
               "index": 18,
               "time": "2026-06-19 07:38:03"
+=======
+              "price": 1.19843,
+              "index": 3,
+              "time": "2026-06-18 16:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.20272,
+              "index": 16,
+              "time": "2026-06-19 05:38:20"
+>>>>>>> Stashed changes
             }
           ],
           "anchor_1": {
             "type": "SL",
+<<<<<<< Updated upstream
             "price": 1.19168,
             "index": 14,
             "time": "2026-06-19 03:38:03"
@@ -83395,6 +84857,24 @@
           "broken": true,
           "broken_index": 187,
           "time": "2026-06-25 04:38:03"
+=======
+            "price": 1.19843,
+            "index": 3,
+            "time": "2026-06-18 16:38:20"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.20272,
+            "index": 16,
+            "time": "2026-06-19 05:38:20"
+          },
+          "slope": 0.0003299999999999927,
+          "projected_y": 1.3621099999999964,
+          "last_touch_index": 16,
+          "last_touch_time": "2026-06-19 05:38:20",
+          "broken": true,
+          "broken_index": 22,
+          "time": "2026-06-19 05:38:20"
         },
         {
           "type": "Trendline",
@@ -83405,6 +84885,48 @@
           "touches": [
             {
               "type": "SL",
+              "price": 1.19699,
+              "index": 27,
+              "time": "2026-06-19 16:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.19836,
+              "index": 31,
+              "time": "2026-06-19 20:38:20"
+            }
+          ],
+          "anchor_1": {
+            "type": "SL",
+            "price": 1.19699,
+            "index": 27,
+            "time": "2026-06-19 16:38:20"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.19836,
+            "index": 31,
+            "time": "2026-06-19 20:38:20"
+          },
+          "slope": 0.00034250000000002334,
+          "projected_y": 1.358650000000011,
+          "last_touch_index": 31,
+          "last_touch_time": "2026-06-19 20:38:20",
+          "broken": true,
+          "broken_index": 61,
+          "time": "2026-06-19 20:38:20"
+>>>>>>> Stashed changes
+        },
+        {
+          "type": "Trendline",
+          "direction": "ascending",
+          "trade_bias": "long",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SL",
+<<<<<<< Updated upstream
               "price": 1.1836,
               "index": 159,
               "time": "2026-06-25 04:38:03"
@@ -83414,10 +84936,22 @@
               "price": 1.18916,
               "index": 172,
               "time": "2026-06-25 17:38:03"
+=======
+              "price": 1.19989,
+              "index": 41,
+              "time": "2026-06-20 06:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.20056,
+              "index": 44,
+              "time": "2026-06-20 09:38:20"
+>>>>>>> Stashed changes
             }
           ],
           "anchor_1": {
             "type": "SL",
+<<<<<<< Updated upstream
             "price": 1.1836,
             "index": 159,
             "time": "2026-06-25 04:38:03"
@@ -83435,6 +84969,25 @@
           "broken": true,
           "broken_index": 187,
           "time": "2026-06-25 17:38:03"
+=======
+            "price": 1.19989,
+            "index": 41,
+            "time": "2026-06-20 06:38:20"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.20056,
+            "index": 44,
+            "time": "2026-06-20 09:38:20"
+          },
+          "slope": 0.00022333333333339014,
+          "projected_y": 1.3021766666666925,
+          "last_touch_index": 44,
+          "last_touch_time": "2026-06-20 09:38:20",
+          "broken": true,
+          "broken_index": 64,
+          "time": "2026-06-20 09:38:20"
+>>>>>>> Stashed changes
         },
         {
           "type": "Trendline",
@@ -83445,6 +84998,7 @@
           "touches": [
             {
               "type": "SL",
+<<<<<<< Updated upstream
               "price": 1.16773,
               "index": 258,
               "time": "2026-06-29 07:38:03"
@@ -83454,10 +85008,22 @@
               "price": 1.17038,
               "index": 271,
               "time": "2026-06-29 20:38:03"
+=======
+              "price": 1.2024,
+              "index": 61,
+              "time": "2026-06-21 02:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.20923,
+              "index": 78,
+              "time": "2026-06-21 19:38:20"
+>>>>>>> Stashed changes
             }
           ],
           "anchor_1": {
             "type": "SL",
+<<<<<<< Updated upstream
             "price": 1.16773,
             "index": 258,
             "time": "2026-06-29 07:38:03"
@@ -83475,6 +85041,25 @@
           "broken": true,
           "broken_index": 316,
           "time": "2026-06-29 20:38:03"
+=======
+            "price": 1.2024,
+            "index": 61,
+            "time": "2026-06-21 02:38:20"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.20923,
+            "index": 78,
+            "time": "2026-06-21 19:38:20"
+          },
+          "slope": 0.00040176470588235966,
+          "projected_y": 1.3783729411764734,
+          "last_touch_index": 78,
+          "last_touch_time": "2026-06-21 19:38:20",
+          "broken": true,
+          "broken_index": 101,
+          "time": "2026-06-21 19:38:20"
+>>>>>>> Stashed changes
         },
         {
           "type": "Trendline",
@@ -83485,6 +85070,7 @@
           "touches": [
             {
               "type": "SL",
+<<<<<<< Updated upstream
               "price": 1.17038,
               "index": 271,
               "time": "2026-06-29 20:38:03"
@@ -83494,10 +85080,22 @@
               "price": 1.1746,
               "index": 283,
               "time": "2026-06-30 08:38:03"
+=======
+              "price": 1.20923,
+              "index": 78,
+              "time": "2026-06-21 19:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.21485,
+              "index": 97,
+              "time": "2026-06-22 14:38:20"
+>>>>>>> Stashed changes
             }
           ],
           "anchor_1": {
             "type": "SL",
+<<<<<<< Updated upstream
             "price": 1.17038,
             "index": 271,
             "time": "2026-06-29 20:38:03"
@@ -83515,6 +85113,25 @@
           "broken": true,
           "broken_index": 299,
           "time": "2026-06-30 08:38:03"
+=======
+            "price": 1.20923,
+            "index": 78,
+            "time": "2026-06-21 19:38:20"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.21485,
+            "index": 97,
+            "time": "2026-06-22 14:38:20"
+          },
+          "slope": 0.0002957894736842083,
+          "projected_y": 1.3337573684210517,
+          "last_touch_index": 97,
+          "last_touch_time": "2026-06-22 14:38:20",
+          "broken": true,
+          "broken_index": 108,
+          "time": "2026-06-22 14:38:20"
+>>>>>>> Stashed changes
         },
         {
           "type": "Trendline",
@@ -83525,6 +85142,7 @@
           "touches": [
             {
               "type": "SL",
+<<<<<<< Updated upstream
               "price": 1.17546,
               "index": 314,
               "time": "2026-07-01 15:38:03"
@@ -83534,10 +85152,22 @@
               "price": 1.17618,
               "index": 321,
               "time": "2026-07-01 22:38:03"
+=======
+              "price": 1.21485,
+              "index": 97,
+              "time": "2026-06-22 14:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.2158,
+              "index": 103,
+              "time": "2026-06-22 20:38:20"
+>>>>>>> Stashed changes
             }
           ],
           "anchor_1": {
             "type": "SL",
+<<<<<<< Updated upstream
             "price": 1.17546,
             "index": 314,
             "time": "2026-07-01 15:38:03"
@@ -83555,6 +85185,25 @@
           "broken": true,
           "broken_index": 328,
           "time": "2026-07-01 22:38:03"
+=======
+            "price": 1.21485,
+            "index": 97,
+            "time": "2026-06-22 14:38:20"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.2158,
+            "index": 103,
+            "time": "2026-06-22 20:38:20"
+          },
+          "slope": 0.0001583333333333344,
+          "projected_y": 1.2785000000000004,
+          "last_touch_index": 103,
+          "last_touch_time": "2026-06-22 20:38:20",
+          "broken": true,
+          "broken_index": 108,
+          "time": "2026-06-22 20:38:20"
+>>>>>>> Stashed changes
         },
         {
           "type": "Trendline",
@@ -83565,6 +85214,7 @@
           "touches": [
             {
               "type": "SL",
+<<<<<<< Updated upstream
               "price": 1.17394,
               "index": 363,
               "time": "2026-07-03 16:38:03"
@@ -83574,10 +85224,22 @@
               "price": 1.17658,
               "index": 380,
               "time": "2026-07-04 09:38:03"
+=======
+              "price": 1.21142,
+              "index": 167,
+              "time": "2026-06-25 12:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.21738,
+              "index": 178,
+              "time": "2026-06-25 23:38:20"
+>>>>>>> Stashed changes
             }
           ],
           "anchor_1": {
             "type": "SL",
+<<<<<<< Updated upstream
             "price": 1.17394,
             "index": 363,
             "time": "2026-07-03 16:38:03"
@@ -83595,6 +85257,24 @@
           "broken": true,
           "broken_index": 387,
           "time": "2026-07-04 09:38:03"
+=======
+            "price": 1.21142,
+            "index": 167,
+            "time": "2026-06-25 12:38:20"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.21738,
+            "index": 178,
+            "time": "2026-06-25 23:38:20"
+          },
+          "slope": 0.0005418181818181787,
+          "projected_y": 1.3913036363636353,
+          "last_touch_index": 178,
+          "last_touch_time": "2026-06-25 23:38:20",
+          "broken": true,
+          "broken_index": 191,
+          "time": "2026-06-25 23:38:20"
         },
         {
           "type": "Trendline",
@@ -83605,6 +85285,208 @@
           "touches": [
             {
               "type": "SL",
+              "price": 1.21999,
+              "index": 191,
+              "time": "2026-06-26 12:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.22137,
+              "index": 196,
+              "time": "2026-06-26 17:38:20"
+            }
+          ],
+          "anchor_1": {
+            "type": "SL",
+            "price": 1.21999,
+            "index": 191,
+            "time": "2026-06-26 12:38:20"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.22137,
+            "index": 196,
+            "time": "2026-06-26 17:38:20"
+          },
+          "slope": 0.00027600000000003175,
+          "projected_y": 1.3049980000000097,
+          "last_touch_index": 196,
+          "last_touch_time": "2026-06-26 17:38:20",
+          "broken": true,
+          "broken_index": 216,
+          "time": "2026-06-26 17:38:20"
+        },
+        {
+          "type": "Trendline",
+          "direction": "ascending",
+          "trade_bias": "long",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SL",
+              "price": 1.21611,
+              "index": 244,
+              "time": "2026-06-28 17:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.21734,
+              "index": 248,
+              "time": "2026-06-28 21:38:20"
+            }
+          ],
+          "anchor_1": {
+            "type": "SL",
+            "price": 1.21611,
+            "index": 244,
+            "time": "2026-06-28 17:38:20"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.21734,
+            "index": 248,
+            "time": "2026-06-28 21:38:20"
+          },
+          "slope": 0.0003075000000000161,
+          "projected_y": 1.2945225000000042,
+          "last_touch_index": 248,
+          "last_touch_time": "2026-06-28 21:38:20",
+          "broken": true,
+          "broken_index": 263,
+          "time": "2026-06-28 21:38:20"
+        },
+        {
+          "type": "Trendline",
+          "direction": "ascending",
+          "trade_bias": "long",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SL",
+              "price": 1.21793,
+              "index": 259,
+              "time": "2026-06-29 08:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.21857,
+              "index": 264,
+              "time": "2026-06-29 13:38:20"
+            }
+          ],
+          "anchor_1": {
+            "type": "SL",
+            "price": 1.21793,
+            "index": 259,
+            "time": "2026-06-29 08:38:20"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.21857,
+            "index": 264,
+            "time": "2026-06-29 13:38:20"
+          },
+          "slope": 0.0001279999999999948,
+          "projected_y": 1.2486499999999987,
+          "last_touch_index": 264,
+          "last_touch_time": "2026-06-29 13:38:20",
+          "broken": true,
+          "broken_index": 269,
+          "time": "2026-06-29 13:38:20"
+        },
+        {
+          "type": "Trendline",
+          "direction": "ascending",
+          "trade_bias": "long",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SL",
+              "price": 1.21365,
+              "index": 272,
+              "time": "2026-06-29 21:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.21498,
+              "index": 278,
+              "time": "2026-06-30 03:38:20"
+            }
+          ],
+          "anchor_1": {
+            "type": "SL",
+            "price": 1.21365,
+            "index": 272,
+            "time": "2026-06-29 21:38:20"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.21498,
+            "index": 278,
+            "time": "2026-06-30 03:38:20"
+          },
+          "slope": 0.00022166666666667556,
+          "projected_y": 1.2639683333333354,
+          "last_touch_index": 278,
+          "last_touch_time": "2026-06-30 03:38:20",
+          "broken": true,
+          "broken_index": 290,
+          "time": "2026-06-30 03:38:20"
+        },
+        {
+          "type": "Trendline",
+          "direction": "ascending",
+          "trade_bias": "long",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SL",
+              "price": 1.21242,
+              "index": 291,
+              "time": "2026-06-30 16:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.21342,
+              "index": 295,
+              "time": "2026-06-30 20:38:20"
+            }
+          ],
+          "anchor_1": {
+            "type": "SL",
+            "price": 1.21242,
+            "index": 291,
+            "time": "2026-06-30 16:38:20"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.21342,
+            "index": 295,
+            "time": "2026-06-30 20:38:20"
+          },
+          "slope": 0.00024999999999997247,
+          "projected_y": 1.2644199999999943,
+          "last_touch_index": 295,
+          "last_touch_time": "2026-06-30 20:38:20",
+          "broken": true,
+          "broken_index": 329,
+          "time": "2026-06-30 20:38:20"
+>>>>>>> Stashed changes
+        },
+        {
+          "type": "Trendline",
+          "direction": "ascending",
+          "trade_bias": "long",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SL",
+<<<<<<< Updated upstream
               "price": 1.16317,
               "index": 416,
               "time": "2026-07-05 21:38:03"
@@ -83614,10 +85496,142 @@
               "price": 1.16651,
               "index": 426,
               "time": "2026-07-06 07:38:03"
+=======
+              "price": 1.21342,
+              "index": 295,
+              "time": "2026-06-30 20:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.21893,
+              "index": 307,
+              "time": "2026-07-01 08:38:20"
             }
           ],
           "anchor_1": {
             "type": "SL",
+            "price": 1.21342,
+            "index": 295,
+            "time": "2026-06-30 20:38:20"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.21893,
+            "index": 307,
+            "time": "2026-07-01 08:38:20"
+          },
+          "slope": 0.00045916666666667716,
+          "projected_y": 1.307090000000002,
+          "last_touch_index": 307,
+          "last_touch_time": "2026-07-01 08:38:20",
+          "broken": true,
+          "broken_index": 320,
+          "time": "2026-07-01 08:38:20"
+        },
+        {
+          "type": "Trendline",
+          "direction": "ascending",
+          "trade_bias": "long",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SL",
+              "price": 1.217,
+              "index": 354,
+              "time": "2026-07-03 07:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.22448,
+              "index": 367,
+              "time": "2026-07-03 20:38:20"
+            }
+          ],
+          "anchor_1": {
+            "type": "SL",
+            "price": 1.217,
+            "index": 354,
+            "time": "2026-07-03 07:38:20"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.22448,
+            "index": 367,
+            "time": "2026-07-03 20:38:20"
+          },
+          "slope": 0.0005753846153846101,
+          "projected_y": 1.3004307692307686,
+          "last_touch_index": 367,
+          "last_touch_time": "2026-07-03 20:38:20",
+          "broken": true,
+          "broken_index": 377,
+          "time": "2026-07-03 20:38:20"
+        },
+        {
+          "type": "Trendline",
+          "direction": "ascending",
+          "trade_bias": "long",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SL",
+              "price": 1.22366,
+              "index": 379,
+              "time": "2026-07-04 08:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.22878,
+              "index": 390,
+              "time": "2026-07-04 19:38:20"
+            }
+          ],
+          "anchor_1": {
+            "type": "SL",
+            "price": 1.22366,
+            "index": 379,
+            "time": "2026-07-04 08:38:20"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.22878,
+            "index": 390,
+            "time": "2026-07-04 19:38:20"
+          },
+          "slope": 0.0004654545454545467,
+          "projected_y": 1.2795145454545456,
+          "last_touch_index": 390,
+          "last_touch_time": "2026-07-04 19:38:20",
+          "broken": true,
+          "broken_index": 394,
+          "time": "2026-07-04 19:38:20"
+        },
+        {
+          "type": "Trendline",
+          "direction": "ascending",
+          "trade_bias": "long",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SL",
+              "price": 1.22166,
+              "index": 402,
+              "time": "2026-07-05 07:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.22372,
+              "index": 419,
+              "time": "2026-07-06 00:38:20"
+>>>>>>> Stashed changes
+            }
+          ],
+          "anchor_1": {
+            "type": "SL",
+<<<<<<< Updated upstream
             "price": 1.16317,
             "index": 416,
             "time": "2026-07-05 21:38:03"
@@ -83635,6 +85649,25 @@
           "broken": true,
           "broken_index": 462,
           "time": "2026-07-06 07:38:03"
+=======
+            "price": 1.22166,
+            "index": 402,
+            "time": "2026-07-05 07:38:20"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.22372,
+            "index": 419,
+            "time": "2026-07-06 00:38:20"
+          },
+          "slope": 0.0001211764705882324,
+          "projected_y": 1.2334141176470585,
+          "last_touch_index": 419,
+          "last_touch_time": "2026-07-06 00:38:20",
+          "broken": true,
+          "broken_index": 463,
+          "time": "2026-07-06 00:38:20"
+>>>>>>> Stashed changes
         },
         {
           "type": "Trendline",
@@ -83645,6 +85678,7 @@
           "touches": [
             {
               "type": "SL",
+<<<<<<< Updated upstream
               "price": 1.16651,
               "index": 426,
               "time": "2026-07-06 07:38:03"
@@ -84235,6 +86269,157 @@
           "broken": true,
           "broken_index": 316,
           "time": "2026-07-01 06:38:03"
+=======
+              "price": 1.22372,
+              "index": 419,
+              "time": "2026-07-06 00:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.23081,
+              "index": 438,
+              "time": "2026-07-06 19:38:20"
+            }
+          ],
+          "anchor_1": {
+            "type": "SL",
+            "price": 1.22372,
+            "index": 419,
+            "time": "2026-07-06 00:38:20"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.23081,
+            "index": 438,
+            "time": "2026-07-06 19:38:20"
+          },
+          "slope": 0.00037315789473684423,
+          "projected_y": 1.2535726315789475,
+          "last_touch_index": 438,
+          "last_touch_time": "2026-07-06 19:38:20",
+          "broken": true,
+          "broken_index": 451,
+          "time": "2026-07-06 19:38:20"
+        },
+        {
+          "type": "Trendline",
+          "direction": "ascending",
+          "trade_bias": "long",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SL",
+              "price": 1.23034,
+              "index": 446,
+              "time": "2026-07-07 03:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.23068,
+              "index": 450,
+              "time": "2026-07-07 07:38:20"
+            }
+          ],
+          "anchor_1": {
+            "type": "SL",
+            "price": 1.23034,
+            "index": 446,
+            "time": "2026-07-07 03:38:20"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.23068,
+            "index": 450,
+            "time": "2026-07-07 07:38:20"
+          },
+          "slope": 8.500000000000174e-05,
+          "projected_y": 1.234845,
+          "last_touch_index": 450,
+          "last_touch_time": "2026-07-07 07:38:20",
+          "broken": true,
+          "broken_index": 459,
+          "time": "2026-07-07 07:38:20"
+        },
+        {
+          "type": "Trendline",
+          "direction": "ascending",
+          "trade_bias": "long",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SL",
+              "price": 1.22691,
+              "index": 471,
+              "time": "2026-07-08 04:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.23089,
+              "index": 483,
+              "time": "2026-07-08 16:38:20"
+            }
+          ],
+          "anchor_1": {
+            "type": "SL",
+            "price": 1.22691,
+            "index": 471,
+            "time": "2026-07-08 04:38:20"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.23089,
+            "index": 483,
+            "time": "2026-07-08 16:38:20"
+          },
+          "slope": 0.00033166666666667455,
+          "projected_y": 1.2361966666666668,
+          "last_touch_index": 483,
+          "last_touch_time": "2026-07-08 16:38:20",
+          "broken": true,
+          "broken_index": 496,
+          "time": "2026-07-08 16:38:20"
+        },
+        {
+          "type": "Trendline",
+          "direction": "ascending",
+          "trade_bias": "long",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SL",
+              "price": 1.23089,
+              "index": 483,
+              "time": "2026-07-08 16:38:20"
+            },
+            {
+              "type": "SL",
+              "price": 1.23192,
+              "index": 492,
+              "time": "2026-07-09 01:38:20"
+            }
+          ],
+          "anchor_1": {
+            "type": "SL",
+            "price": 1.23089,
+            "index": 483,
+            "time": "2026-07-08 16:38:20"
+          },
+          "anchor_2": {
+            "type": "SL",
+            "price": 1.23192,
+            "index": 492,
+            "time": "2026-07-09 01:38:20"
+          },
+          "slope": 0.00011444444444442937,
+          "projected_y": 1.232721111111111,
+          "last_touch_index": 492,
+          "last_touch_time": "2026-07-09 01:38:20",
+          "broken": true,
+          "broken_index": 498,
+          "time": "2026-07-09 01:38:20"
         },
         {
           "type": "Trendline",
@@ -84245,6 +86430,408 @@
           "touches": [
             {
               "type": "SH",
+              "price": 1.20732,
+              "index": 18,
+              "time": "2026-06-19 07:38:20"
+            },
+            {
+              "type": "SH",
+              "price": 1.20519,
+              "index": 21,
+              "time": "2026-06-19 10:38:20"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 1.20732,
+            "index": 18,
+            "time": "2026-06-19 07:38:20"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.20519,
+            "index": 21,
+            "time": "2026-06-19 10:38:20"
+          },
+          "slope": -0.0007099999999999884,
+          "projected_y": 0.8658100000000055,
+          "last_touch_index": 21,
+          "last_touch_time": "2026-06-19 10:38:20",
+          "broken": true,
+          "broken_index": 34,
+          "time": "2026-06-19 10:38:20"
+        },
+        {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SH",
+              "price": 1.20519,
+              "index": 21,
+              "time": "2026-06-19 10:38:20"
+            },
+            {
+              "type": "SH",
+              "price": 1.20202,
+              "index": 30,
+              "time": "2026-06-19 19:38:20"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 1.20519,
+            "index": 21,
+            "time": "2026-06-19 10:38:20"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.20202,
+            "index": 30,
+            "time": "2026-06-19 19:38:20"
+          },
+          "slope": -0.0003522222222222106,
+          "projected_y": 1.0368277777777832,
+          "last_touch_index": 30,
+          "last_touch_time": "2026-06-19 19:38:20",
+          "broken": true,
+          "broken_index": 34,
+          "time": "2026-06-19 19:38:20"
+        },
+        {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SH",
+              "price": 1.20587,
+              "index": 36,
+              "time": "2026-06-20 01:38:20"
+            },
+            {
+              "type": "SH",
+              "price": 1.20313,
+              "index": 42,
+              "time": "2026-06-20 07:38:20"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 1.20587,
+            "index": 36,
+            "time": "2026-06-20 01:38:20"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.20313,
+            "index": 42,
+            "time": "2026-06-20 07:38:20"
+          },
+          "slope": -0.0004566666666666608,
+          "projected_y": 0.9944333333333361,
+          "last_touch_index": 42,
+          "last_touch_time": "2026-06-20 07:38:20",
+          "broken": true,
+          "broken_index": 51,
+          "time": "2026-06-20 07:38:20"
+        },
+        {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SH",
+              "price": 1.21822,
+              "index": 108,
+              "time": "2026-06-23 01:38:20"
+            },
+            {
+              "type": "SH",
+              "price": 1.21722,
+              "index": 113,
+              "time": "2026-06-23 06:38:20"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 1.21822,
+            "index": 108,
+            "time": "2026-06-23 01:38:20"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.21722,
+            "index": 113,
+            "time": "2026-06-23 06:38:20"
+          },
+          "slope": -0.00020000000000002237,
+          "projected_y": 1.1400199999999914,
+          "last_touch_index": 113,
+          "last_touch_time": "2026-06-23 06:38:20",
+          "broken": true,
+          "broken_index": 142,
+          "time": "2026-06-23 06:38:20"
+        },
+        {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SH",
+              "price": 1.21722,
+              "index": 113,
+              "time": "2026-06-23 06:38:20"
+            },
+            {
+              "type": "SH",
+              "price": 1.21538,
+              "index": 150,
+              "time": "2026-06-24 19:38:20"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 1.21722,
+            "index": 113,
+            "time": "2026-06-23 06:38:20"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.21538,
+            "index": 150,
+            "time": "2026-06-24 19:38:20"
+          },
+          "slope": -4.972972972973145e-05,
+          "projected_y": 1.1980243243243236,
+          "last_touch_index": 150,
+          "last_touch_time": "2026-06-24 19:38:20",
+          "broken": true,
+          "broken_index": 169,
+          "time": "2026-06-24 19:38:20"
+        },
+        {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SH",
+              "price": 1.22682,
+              "index": 224,
+              "time": "2026-06-27 21:38:20"
+            },
+            {
+              "type": "SH",
+              "price": 1.22434,
+              "index": 238,
+              "time": "2026-06-28 11:38:20"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 1.22682,
+            "index": 224,
+            "time": "2026-06-27 21:38:20"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.22434,
+            "index": 238,
+            "time": "2026-06-28 11:38:20"
+          },
+          "slope": -0.00017714285714285984,
+          "projected_y": 1.1781057142857136,
+          "last_touch_index": 238,
+          "last_touch_time": "2026-06-28 11:38:20",
+          "broken": true,
+          "broken_index": 251,
+          "time": "2026-06-28 11:38:20"
+        },
+        {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SH",
+              "price": 1.22434,
+              "index": 238,
+              "time": "2026-06-28 11:38:20"
+            },
+            {
+              "type": "SH",
+              "price": 1.21975,
+              "index": 247,
+              "time": "2026-06-28 20:38:20"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 1.22434,
+            "index": 238,
+            "time": "2026-06-28 11:38:20"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.21975,
+            "index": 247,
+            "time": "2026-06-28 20:38:20"
+          },
+          "slope": -0.0005100000000000104,
+          "projected_y": 1.0912299999999973,
+          "last_touch_index": 247,
+          "last_touch_time": "2026-06-28 20:38:20",
+          "broken": true,
+          "broken_index": 251,
+          "time": "2026-06-28 20:38:20"
+        },
+        {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SH",
+              "price": 1.22093,
+              "index": 269,
+              "time": "2026-06-29 18:38:20"
+            },
+            {
+              "type": "SH",
+              "price": 1.21858,
+              "index": 276,
+              "time": "2026-06-30 01:38:20"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 1.22093,
+            "index": 269,
+            "time": "2026-06-29 18:38:20"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.21858,
+            "index": 276,
+            "time": "2026-06-30 01:38:20"
+          },
+          "slope": -0.00033571428571429633,
+          "projected_y": 1.143715714285712,
+          "last_touch_index": 276,
+          "last_touch_time": "2026-06-30 01:38:20",
+          "broken": true,
+          "broken_index": 279,
+          "time": "2026-06-30 01:38:20"
+        },
+        {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SH",
+              "price": 1.22024,
+              "index": 287,
+              "time": "2026-06-30 12:38:20"
+            },
+            {
+              "type": "SH",
+              "price": 1.21677,
+              "index": 294,
+              "time": "2026-06-30 19:38:20"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 1.22024,
+            "index": 287,
+            "time": "2026-06-30 12:38:20"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.21677,
+            "index": 294,
+            "time": "2026-06-30 19:38:20"
+          },
+          "slope": -0.0004957142857142978,
+          "projected_y": 1.115148571428569,
+          "last_touch_index": 294,
+          "last_touch_time": "2026-06-30 19:38:20",
+          "broken": true,
+          "broken_index": 298,
+          "time": "2026-06-30 19:38:20"
+        },
+        {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SH",
+              "price": 1.22585,
+              "index": 322,
+              "time": "2026-07-01 23:38:20"
+            },
+            {
+              "type": "SH",
+              "price": 1.22141,
+              "index": 336,
+              "time": "2026-07-02 13:38:20"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 1.22585,
+            "index": 322,
+            "time": "2026-07-01 23:38:20"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.22141,
+            "index": 336,
+            "time": "2026-07-02 13:38:20"
+          },
+          "slope": -0.0003171428571428571,
+          "projected_y": 1.1697157142857144,
+          "last_touch_index": 336,
+          "last_touch_time": "2026-07-02 13:38:20",
+          "broken": true,
+          "broken_index": 354,
+          "time": "2026-07-02 13:38:20"
+>>>>>>> Stashed changes
+        },
+        {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "broken",
+          "touch_count": 2,
+          "touches": [
+            {
+              "type": "SH",
+<<<<<<< Updated upstream
               "price": 1.17728,
               "index": 351,
               "time": "2026-07-03 04:38:03"
@@ -84254,10 +86841,22 @@
               "price": 1.17659,
               "index": 356,
               "time": "2026-07-03 09:38:03"
+=======
+              "price": 1.22141,
+              "index": 336,
+              "time": "2026-07-02 13:38:20"
+            },
+            {
+              "type": "SH",
+              "price": 1.21975,
+              "index": 347,
+              "time": "2026-07-03 00:38:20"
+>>>>>>> Stashed changes
             }
           ],
           "anchor_1": {
             "type": "SH",
+<<<<<<< Updated upstream
             "price": 1.17728,
             "index": 351,
             "time": "2026-07-03 04:38:03"
@@ -84275,6 +86874,25 @@
           "broken": true,
           "broken_index": 361,
           "time": "2026-07-03 09:38:03"
+=======
+            "price": 1.22141,
+            "index": 336,
+            "time": "2026-07-02 13:38:20"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.21975,
+            "index": 347,
+            "time": "2026-07-03 00:38:20"
+          },
+          "slope": -0.00015090909090911063,
+          "projected_y": 1.196811818181815,
+          "last_touch_index": 347,
+          "last_touch_time": "2026-07-03 00:38:20",
+          "broken": true,
+          "broken_index": 354,
+          "time": "2026-07-03 00:38:20"
+>>>>>>> Stashed changes
         },
         {
           "type": "Trendline",
@@ -84283,6 +86901,7 @@
           "state": "broken",
           "touch_count": 2,
           "touches": [
+<<<<<<< Updated upstream
             {
               "type": "SH",
               "price": 1.18218,
@@ -84294,10 +86913,24 @@
               "price": 1.18083,
               "index": 384,
               "time": "2026-07-04 13:38:03"
+=======
+            {
+              "type": "SH",
+              "price": 1.23409,
+              "index": 385,
+              "time": "2026-07-04 14:38:20"
+            },
+            {
+              "type": "SH",
+              "price": 1.23095,
+              "index": 394,
+              "time": "2026-07-04 23:38:20"
+>>>>>>> Stashed changes
             }
           ],
           "anchor_1": {
             "type": "SH",
+<<<<<<< Updated upstream
             "price": 1.18218,
             "index": 372,
             "time": "2026-07-04 01:38:03"
@@ -84315,6 +86948,25 @@
           "broken": true,
           "broken_index": 436,
           "time": "2026-07-04 13:38:03"
+=======
+            "price": 1.23409,
+            "index": 385,
+            "time": "2026-07-04 14:38:20"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.23095,
+            "index": 394,
+            "time": "2026-07-04 23:38:20"
+          },
+          "slope": -0.0003488888888888801,
+          "projected_y": 1.1943166666666676,
+          "last_touch_index": 394,
+          "last_touch_time": "2026-07-04 23:38:20",
+          "broken": true,
+          "broken_index": 409,
+          "time": "2026-07-04 23:38:20"
+>>>>>>> Stashed changes
         },
         {
           "type": "Trendline",
@@ -84325,6 +86977,7 @@
           "touches": [
             {
               "type": "SH",
+<<<<<<< Updated upstream
               "price": 1.17585,
               "index": 399,
               "time": "2026-07-05 04:38:03"
@@ -84374,10 +87027,22 @@
               "price": 1.1701,
               "index": 425,
               "time": "2026-07-06 06:38:03"
+=======
+              "price": 1.23095,
+              "index": 394,
+              "time": "2026-07-04 23:38:20"
+            },
+            {
+              "type": "SH",
+              "price": 1.22674,
+              "index": 401,
+              "time": "2026-07-05 06:38:20"
+>>>>>>> Stashed changes
             }
           ],
           "anchor_1": {
             "type": "SH",
+<<<<<<< Updated upstream
             "price": 1.17135,
             "index": 414,
             "time": "2026-07-05 19:38:03"
@@ -84395,6 +87060,25 @@
           "broken": true,
           "broken_index": 431,
           "time": "2026-07-06 06:38:03"
+=======
+            "price": 1.23095,
+            "index": 394,
+            "time": "2026-07-04 23:38:20"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.22674,
+            "index": 401,
+            "time": "2026-07-05 06:38:20"
+          },
+          "slope": -0.0006014285714285782,
+          "projected_y": 1.1677999999999993,
+          "last_touch_index": 401,
+          "last_touch_time": "2026-07-05 06:38:20",
+          "broken": true,
+          "broken_index": 409,
+          "time": "2026-07-05 06:38:20"
+>>>>>>> Stashed changes
         },
         {
           "type": "Trendline",
@@ -84405,6 +87089,7 @@
           "touches": [
             {
               "type": "SH",
+<<<<<<< Updated upstream
               "price": 1.1801,
               "index": 441,
               "time": "2026-07-06 22:38:03"
@@ -84414,10 +87099,22 @@
               "price": 1.17927,
               "index": 450,
               "time": "2026-07-07 07:38:03"
+=======
+              "price": 1.23516,
+              "index": 442,
+              "time": "2026-07-06 23:38:20"
+            },
+            {
+              "type": "SH",
+              "price": 1.23417,
+              "index": 449,
+              "time": "2026-07-07 06:38:20"
+>>>>>>> Stashed changes
             }
           ],
           "anchor_1": {
             "type": "SH",
+<<<<<<< Updated upstream
             "price": 1.1801,
             "index": 441,
             "time": "2026-07-06 22:38:03"
@@ -84435,6 +87132,25 @@
           "broken": true,
           "broken_index": 466,
           "time": "2026-07-07 07:38:03"
+=======
+            "price": 1.23516,
+            "index": 442,
+            "time": "2026-07-06 23:38:20"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.23417,
+            "index": 449,
+            "time": "2026-07-07 06:38:20"
+          },
+          "slope": -0.00014142857142857807,
+          "projected_y": 1.2270985714285711,
+          "last_touch_index": 449,
+          "last_touch_time": "2026-07-07 06:38:20",
+          "broken": true,
+          "broken_index": 477,
+          "time": "2026-07-07 06:38:20"
+>>>>>>> Stashed changes
         },
         {
           "type": "Trendline",
@@ -84445,6 +87161,7 @@
           "touches": [
             {
               "type": "SH",
+<<<<<<< Updated upstream
               "price": 1.18091,
               "index": 467,
               "time": "2026-07-08 00:38:03"
@@ -84454,10 +87171,22 @@
               "price": 1.18052,
               "index": 477,
               "time": "2026-07-08 10:38:03"
+=======
+              "price": 1.23534,
+              "index": 453,
+              "time": "2026-07-07 10:38:20"
+            },
+            {
+              "type": "SH",
+              "price": 1.23284,
+              "index": 468,
+              "time": "2026-07-08 01:38:20"
+>>>>>>> Stashed changes
             }
           ],
           "anchor_1": {
             "type": "SH",
+<<<<<<< Updated upstream
             "price": 1.18091,
             "index": 467,
             "time": "2026-07-08 00:38:03"
@@ -84475,6 +87204,25 @@
           "broken": true,
           "broken_index": 481,
           "time": "2026-07-08 10:38:03"
+=======
+            "price": 1.23534,
+            "index": 453,
+            "time": "2026-07-07 10:38:20"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.23284,
+            "index": 468,
+            "time": "2026-07-08 01:38:20"
+          },
+          "slope": -0.0001666666666666779,
+          "projected_y": 1.227673333333333,
+          "last_touch_index": 468,
+          "last_touch_time": "2026-07-08 01:38:20",
+          "broken": true,
+          "broken_index": 477,
+          "time": "2026-07-08 01:38:20"
+>>>>>>> Stashed changes
         },
         {
           "type": "Trendline",
@@ -84485,6 +87233,7 @@
           "touches": [
             {
               "type": "SH",
+<<<<<<< Updated upstream
               "price": 1.18483,
               "index": 486,
               "time": "2026-07-08 19:38:03"
@@ -84494,10 +87243,22 @@
               "price": 1.18063,
               "index": 495,
               "time": "2026-07-09 04:38:03"
+=======
+              "price": 1.23694,
+              "index": 491,
+              "time": "2026-07-09 00:38:20"
+            },
+            {
+              "type": "SH",
+              "price": 1.23668,
+              "index": 496,
+              "time": "2026-07-09 05:38:20"
+>>>>>>> Stashed changes
             }
           ],
           "anchor_1": {
             "type": "SH",
+<<<<<<< Updated upstream
             "price": 1.18483,
             "index": 486,
             "time": "2026-07-08 19:38:03"
@@ -84515,12 +87276,32 @@
           "broken": false,
           "broken_index": null,
           "time": "2026-07-09 04:38:03"
+=======
+            "price": 1.23694,
+            "index": 491,
+            "time": "2026-07-09 00:38:20"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.23668,
+            "index": 496,
+            "time": "2026-07-09 05:38:20"
+          },
+          "slope": -5.1999999999985394e-05,
+          "projected_y": 1.236524,
+          "last_touch_index": 496,
+          "last_touch_time": "2026-07-09 05:38:20",
+          "broken": false,
+          "broken_index": null,
+          "time": "2026-07-09 05:38:20"
+>>>>>>> Stashed changes
         }
       ],
       "double_tops": [],
       "double_bottoms": [],
       "pois": [],
       "pd_arrays": {
+<<<<<<< Updated upstream
         "trend": "bearish",
         "range_high": 1.18063,
         "range_low": 1.17658,
@@ -84538,12 +87319,32 @@
         },
         "current_price": 1.18032,
         "current_zone": "premium",
+=======
+        "trend": "bullish",
+        "range_high": 1.23694,
+        "range_low": 1.23192,
+        "premium": {
+          "bottom": 1.2352666666666665,
+          "top": 1.23694
+        },
+        "equilibrium": {
+          "bottom": 1.2335933333333333,
+          "top": 1.2352666666666665
+        },
+        "discount": {
+          "bottom": 1.23192,
+          "top": 1.2335933333333333
+        },
+        "current_price": 1.23103,
+        "current_zone": "discount",
+>>>>>>> Stashed changes
         "valid_ob": null,
         "valid_fvg": null,
         "entry_valid": false
       },
       "structure": [
         {
+<<<<<<< Updated upstream
           "label": "LL",
           "price": 1.19712,
           "time": "2026-06-18 19:38:03",
@@ -84794,9 +87595,238 @@
           "price": 1.18472,
           "time": "2026-06-27 09:38:03",
           "index": 212
+=======
+          "label": "HL",
+          "price": 1.20272,
+          "time": "2026-06-19 05:38:20",
+          "index": 16
+        },
+        {
+          "label": "HH",
+          "price": 1.20732,
+          "time": "2026-06-19 07:38:20",
+          "index": 18
         },
         {
           "label": "LL",
+          "price": 1.20249,
+          "time": "2026-06-19 08:38:20",
+          "index": 19
+        },
+        {
+          "label": "LH",
+          "price": 1.20519,
+          "time": "2026-06-19 10:38:20",
+          "index": 21
+        },
+        {
+          "label": "LL",
+          "price": 1.19699,
+          "time": "2026-06-19 16:38:20",
+          "index": 27
+        },
+        {
+          "label": "LH",
+          "price": 1.20202,
+          "time": "2026-06-19 19:38:20",
+          "index": 30
+        },
+        {
+          "label": "HL",
+          "price": 1.19836,
+          "time": "2026-06-19 20:38:20",
+          "index": 31
+        },
+        {
+          "label": "HH",
+          "price": 1.20587,
+          "time": "2026-06-20 01:38:20",
+          "index": 36
+        },
+        {
+          "label": "HL",
+          "price": 1.19989,
+          "time": "2026-06-20 06:38:20",
+          "index": 41
+        },
+        {
+          "label": "LH",
+          "price": 1.20313,
+          "time": "2026-06-20 07:38:20",
+          "index": 42
+        },
+        {
+          "label": "HL",
+          "price": 1.20056,
+          "time": "2026-06-20 09:38:20",
+          "index": 44
+        },
+        {
+          "label": "HH",
+          "price": 1.20402,
+          "time": "2026-06-20 10:38:20",
+          "index": 45
+        },
+        {
+          "label": "HL",
+          "price": 1.20096,
+          "time": "2026-06-20 15:38:20",
+          "index": 50
+        },
+        {
+          "label": "HH",
+          "price": 1.20724,
+          "time": "2026-06-20 16:38:20",
+          "index": 51
+        },
+        {
+          "label": "HL",
+          "price": 1.2024,
+          "time": "2026-06-21 02:38:20",
+          "index": 61
+        },
+        {
+          "label": "HH",
+          "price": 1.21382,
+          "time": "2026-06-21 18:38:20",
+          "index": 77
+        },
+        {
+          "label": "HL",
+          "price": 1.20923,
+          "time": "2026-06-21 19:38:20",
+          "index": 78
+        },
+        {
+          "label": "HH",
+          "price": 1.2194,
+          "time": "2026-06-22 12:38:20",
+          "index": 95
+        },
+        {
+          "label": "HL",
+          "price": 1.21485,
+          "time": "2026-06-22 14:38:20",
+          "index": 97
+        },
+        {
+          "label": "HH",
+          "price": 1.21967,
+          "time": "2026-06-22 18:38:20",
+          "index": 101
+        },
+        {
+          "label": "HL",
+          "price": 1.2158,
+          "time": "2026-06-22 20:38:20",
+          "index": 103
+        },
+        {
+          "label": "LH",
+          "price": 1.21822,
+          "time": "2026-06-23 01:38:20",
+          "index": 108
+        },
+        {
+          "label": "LL",
+          "price": 1.21289,
+          "time": "2026-06-23 04:38:20",
+          "index": 111
+        },
+        {
+          "label": "LH",
+          "price": 1.21722,
+          "time": "2026-06-23 06:38:20",
+          "index": 113
+        },
+        {
+          "label": "LL",
+          "price": 1.20818,
+          "time": "2026-06-23 14:38:20",
+          "index": 121
+        },
+        {
+          "label": "LH",
+          "price": 1.21538,
+          "time": "2026-06-24 19:38:20",
+          "index": 150
+        },
+        {
+          "label": "HL",
+          "price": 1.21142,
+          "time": "2026-06-25 12:38:20",
+          "index": 167
+        },
+        {
+          "label": "HH",
+          "price": 1.22092,
+          "time": "2026-06-25 20:38:20",
+          "index": 175
+        },
+        {
+          "label": "HL",
+          "price": 1.21738,
+          "time": "2026-06-25 23:38:20",
+          "index": 178
+        },
+        {
+          "label": "HH",
+          "price": 1.22255,
+          "time": "2026-06-26 06:38:20",
+          "index": 185
+        },
+        {
+          "label": "HL",
+          "price": 1.21999,
+          "time": "2026-06-26 12:38:20",
+          "index": 191
+        },
+        {
+          "label": "HH",
+          "price": 1.22607,
+          "time": "2026-06-26 14:38:20",
+          "index": 193
+        },
+        {
+          "label": "HL",
+          "price": 1.22137,
+          "time": "2026-06-26 17:38:20",
+          "index": 196
+        },
+        {
+          "label": "HH",
+          "price": 1.22747,
+          "time": "2026-06-27 04:38:20",
+          "index": 207
+        },
+        {
+          "label": "HL",
+          "price": 1.22161,
+          "time": "2026-06-27 08:38:20",
+          "index": 211
+        },
+        {
+          "label": "LH",
+          "price": 1.22582,
+          "time": "2026-06-27 13:38:20",
+          "index": 216
+        },
+        {
+          "label": "LL",
+          "price": 1.22,
+          "time": "2026-06-27 15:38:20",
+          "index": 218
+>>>>>>> Stashed changes
+        },
+        {
+          "label": "HH",
+          "price": 1.22682,
+          "time": "2026-06-27 21:38:20",
+          "index": 224
+        },
+        {
+          "label": "LL",
+<<<<<<< Updated upstream
           "price": 1.1781,
           "time": "2026-06-27 12:38:03",
           "index": 215
@@ -84991,10 +88021,219 @@
           "label": "LL",
           "price": 1.17235,
           "time": "2026-07-05 00:38:03",
+=======
+          "price": 1.2197,
+          "time": "2026-06-28 02:38:20",
+          "index": 229
+        },
+        {
+          "label": "LH",
+          "price": 1.22434,
+          "time": "2026-06-28 11:38:20",
+          "index": 238
+        },
+        {
+          "label": "LL",
+          "price": 1.21611,
+          "time": "2026-06-28 17:38:20",
+          "index": 244
+        },
+        {
+          "label": "LH",
+          "price": 1.21975,
+          "time": "2026-06-28 20:38:20",
+          "index": 247
+        },
+        {
+          "label": "HL",
+          "price": 1.21734,
+          "time": "2026-06-28 21:38:20",
+          "index": 248
+        },
+        {
+          "label": "HH",
+          "price": 1.22445,
+          "time": "2026-06-29 01:38:20",
+          "index": 252
+        },
+        {
+          "label": "HL",
+          "price": 1.21793,
+          "time": "2026-06-29 08:38:20",
+          "index": 259
+        },
+        {
+          "label": "LH",
+          "price": 1.22252,
+          "time": "2026-06-29 09:38:20",
+          "index": 260
+        },
+        {
+          "label": "HL",
+          "price": 1.21857,
+          "time": "2026-06-29 13:38:20",
+          "index": 264
+        },
+        {
+          "label": "LH",
+          "price": 1.22093,
+          "time": "2026-06-29 18:38:20",
+          "index": 269
+        },
+        {
+          "label": "LL",
+          "price": 1.21365,
+          "time": "2026-06-29 21:38:20",
+          "index": 272
+        },
+        {
+          "label": "LH",
+          "price": 1.21858,
+          "time": "2026-06-30 01:38:20",
+          "index": 276
+        },
+        {
+          "label": "HL",
+          "price": 1.21498,
+          "time": "2026-06-30 03:38:20",
+          "index": 278
+        },
+        {
+          "label": "HH",
+          "price": 1.22024,
+          "time": "2026-06-30 12:38:20",
+          "index": 287
+        },
+        {
+          "label": "LL",
+          "price": 1.21242,
+          "time": "2026-06-30 16:38:20",
+          "index": 291
+        },
+        {
+          "label": "LH",
+          "price": 1.21677,
+          "time": "2026-06-30 19:38:20",
+          "index": 294
+        },
+        {
+          "label": "HL",
+          "price": 1.21342,
+          "time": "2026-06-30 20:38:20",
+          "index": 295
+        },
+        {
+          "label": "HH",
+          "price": 1.22134,
+          "time": "2026-07-01 05:38:20",
+          "index": 304
+        },
+        {
+          "label": "HL",
+          "price": 1.21893,
+          "time": "2026-07-01 08:38:20",
+          "index": 307
+        },
+        {
+          "label": "HH",
+          "price": 1.22306,
+          "time": "2026-07-01 09:38:20",
+          "index": 308
+        },
+        {
+          "label": "LL",
+          "price": 1.21852,
+          "time": "2026-07-01 11:38:20",
+          "index": 310
+        },
+        {
+          "label": "HH",
+          "price": 1.22585,
+          "time": "2026-07-01 23:38:20",
+          "index": 322
+        },
+        {
+          "label": "LL",
+          "price": 1.21823,
+          "time": "2026-07-02 11:38:20",
+          "index": 334
+        },
+        {
+          "label": "LH",
+          "price": 1.22141,
+          "time": "2026-07-02 13:38:20",
+          "index": 336
+        },
+        {
+          "label": "LL",
+          "price": 1.21307,
+          "time": "2026-07-02 19:38:20",
+          "index": 342
+        },
+        {
+          "label": "LH",
+          "price": 1.21975,
+          "time": "2026-07-03 00:38:20",
+          "index": 347
+        },
+        {
+          "label": "HL",
+          "price": 1.217,
+          "time": "2026-07-03 07:38:20",
+          "index": 354
+        },
+        {
+          "label": "HH",
+          "price": 1.22727,
+          "time": "2026-07-03 18:38:20",
+          "index": 365
+        },
+        {
+          "label": "HL",
+          "price": 1.22448,
+          "time": "2026-07-03 20:38:20",
+          "index": 367
+        },
+        {
+          "label": "HH",
+          "price": 1.2296,
+          "time": "2026-07-04 06:38:20",
+          "index": 377
+        },
+        {
+          "label": "LL",
+          "price": 1.22366,
+          "time": "2026-07-04 08:38:20",
+          "index": 379
+        },
+        {
+          "label": "HH",
+          "price": 1.23409,
+          "time": "2026-07-04 14:38:20",
+          "index": 385
+        },
+        {
+          "label": "HL",
+          "price": 1.22878,
+          "time": "2026-07-04 19:38:20",
+          "index": 390
+        },
+        {
+          "label": "LH",
+          "price": 1.23095,
+          "time": "2026-07-04 23:38:20",
+          "index": 394
+        },
+        {
+          "label": "LL",
+          "price": 1.22429,
+          "time": "2026-07-05 00:38:20",
+>>>>>>> Stashed changes
           "index": 395
         },
         {
           "label": "LH",
+<<<<<<< Updated upstream
           "price": 1.17585,
           "time": "2026-07-05 04:38:03",
           "index": 399
@@ -85123,12 +88362,125 @@
           "label": "HL",
           "price": 1.17666,
           "time": "2026-07-09 05:38:03",
+=======
+          "price": 1.22674,
+          "time": "2026-07-05 06:38:20",
+          "index": 401
+        },
+        {
+          "label": "LL",
+          "price": 1.22166,
+          "time": "2026-07-05 07:38:20",
+          "index": 402
+        },
+        {
+          "label": "HH",
+          "price": 1.2297,
+          "time": "2026-07-05 18:38:20",
+          "index": 413
+        },
+        {
+          "label": "HL",
+          "price": 1.22372,
+          "time": "2026-07-06 00:38:20",
+          "index": 419
+        },
+        {
+          "label": "HH",
+          "price": 1.23527,
+          "time": "2026-07-06 16:38:20",
+          "index": 435
+        },
+        {
+          "label": "HL",
+          "price": 1.23081,
+          "time": "2026-07-06 19:38:20",
+          "index": 438
+        },
+        {
+          "label": "LH",
+          "price": 1.23516,
+          "time": "2026-07-06 23:38:20",
+          "index": 442
+        },
+        {
+          "label": "LL",
+          "price": 1.23034,
+          "time": "2026-07-07 03:38:20",
+          "index": 446
+        },
+        {
+          "label": "LH",
+          "price": 1.23417,
+          "time": "2026-07-07 06:38:20",
+          "index": 449
+        },
+        {
+          "label": "HL",
+          "price": 1.23068,
+          "time": "2026-07-07 07:38:20",
+          "index": 450
+        },
+        {
+          "label": "HH",
+          "price": 1.23534,
+          "time": "2026-07-07 10:38:20",
+          "index": 453
+        },
+        {
+          "label": "LL",
+          "price": 1.22771,
+          "time": "2026-07-07 17:38:20",
+          "index": 460
+        },
+        {
+          "label": "LH",
+          "price": 1.23284,
+          "time": "2026-07-08 01:38:20",
+          "index": 468
+        },
+        {
+          "label": "LL",
+          "price": 1.22691,
+          "time": "2026-07-08 04:38:20",
+          "index": 471
+        },
+        {
+          "label": "HH",
+          "price": 1.23413,
+          "time": "2026-07-08 12:38:20",
+          "index": 479
+        },
+        {
+          "label": "HL",
+          "price": 1.23089,
+          "time": "2026-07-08 16:38:20",
+          "index": 483
+        },
+        {
+          "label": "HH",
+          "price": 1.23694,
+          "time": "2026-07-09 00:38:20",
+          "index": 491
+        },
+        {
+          "label": "HL",
+          "price": 1.23192,
+          "time": "2026-07-09 01:38:20",
+          "index": 492
+        },
+        {
+          "label": "LH",
+          "price": 1.23668,
+          "time": "2026-07-09 05:38:20",
+>>>>>>> Stashed changes
           "index": 496
         }
       ],
       "swings": [
         {
           "type": "SL",
+<<<<<<< Updated upstream
           "price": 1.19725,
           "index": 2,
           "time": "2026-06-18 15:38:03"
@@ -85720,10 +89072,574 @@
           "price": 1.17666,
           "index": 496,
           "time": "2026-07-09 05:38:03"
+=======
+          "price": 1.19843,
+          "index": 3,
+          "time": "2026-06-18 16:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.20713,
+          "index": 11,
+          "time": "2026-06-19 00:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.20272,
+          "index": 16,
+          "time": "2026-06-19 05:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.20732,
+          "index": 18,
+          "time": "2026-06-19 07:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.20249,
+          "index": 19,
+          "time": "2026-06-19 08:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.20519,
+          "index": 21,
+          "time": "2026-06-19 10:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.19699,
+          "index": 27,
+          "time": "2026-06-19 16:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.20202,
+          "index": 30,
+          "time": "2026-06-19 19:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.19836,
+          "index": 31,
+          "time": "2026-06-19 20:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.20587,
+          "index": 36,
+          "time": "2026-06-20 01:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.19989,
+          "index": 41,
+          "time": "2026-06-20 06:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.20313,
+          "index": 42,
+          "time": "2026-06-20 07:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.20056,
+          "index": 44,
+          "time": "2026-06-20 09:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.20402,
+          "index": 45,
+          "time": "2026-06-20 10:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.20096,
+          "index": 50,
+          "time": "2026-06-20 15:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.20724,
+          "index": 51,
+          "time": "2026-06-20 16:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.2024,
+          "index": 61,
+          "time": "2026-06-21 02:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.21382,
+          "index": 77,
+          "time": "2026-06-21 18:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.20923,
+          "index": 78,
+          "time": "2026-06-21 19:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.2194,
+          "index": 95,
+          "time": "2026-06-22 12:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.21485,
+          "index": 97,
+          "time": "2026-06-22 14:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.21967,
+          "index": 101,
+          "time": "2026-06-22 18:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.2158,
+          "index": 103,
+          "time": "2026-06-22 20:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.21822,
+          "index": 108,
+          "time": "2026-06-23 01:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.21289,
+          "index": 111,
+          "time": "2026-06-23 04:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.21722,
+          "index": 113,
+          "time": "2026-06-23 06:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.20818,
+          "index": 121,
+          "time": "2026-06-23 14:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.21538,
+          "index": 150,
+          "time": "2026-06-24 19:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.21142,
+          "index": 167,
+          "time": "2026-06-25 12:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.22092,
+          "index": 175,
+          "time": "2026-06-25 20:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.21738,
+          "index": 178,
+          "time": "2026-06-25 23:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.22255,
+          "index": 185,
+          "time": "2026-06-26 06:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.21999,
+          "index": 191,
+          "time": "2026-06-26 12:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.22607,
+          "index": 193,
+          "time": "2026-06-26 14:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.22137,
+          "index": 196,
+          "time": "2026-06-26 17:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.22747,
+          "index": 207,
+          "time": "2026-06-27 04:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.22161,
+          "index": 211,
+          "time": "2026-06-27 08:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.22582,
+          "index": 216,
+          "time": "2026-06-27 13:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.22,
+          "index": 218,
+          "time": "2026-06-27 15:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.22682,
+          "index": 224,
+          "time": "2026-06-27 21:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.2197,
+          "index": 229,
+          "time": "2026-06-28 02:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.22434,
+          "index": 238,
+          "time": "2026-06-28 11:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.21611,
+          "index": 244,
+          "time": "2026-06-28 17:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.21975,
+          "index": 247,
+          "time": "2026-06-28 20:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.21734,
+          "index": 248,
+          "time": "2026-06-28 21:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.22445,
+          "index": 252,
+          "time": "2026-06-29 01:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.21793,
+          "index": 259,
+          "time": "2026-06-29 08:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.22252,
+          "index": 260,
+          "time": "2026-06-29 09:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.21857,
+          "index": 264,
+          "time": "2026-06-29 13:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.22093,
+          "index": 269,
+          "time": "2026-06-29 18:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.21365,
+          "index": 272,
+          "time": "2026-06-29 21:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.21858,
+          "index": 276,
+          "time": "2026-06-30 01:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.21498,
+          "index": 278,
+          "time": "2026-06-30 03:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.22024,
+          "index": 287,
+          "time": "2026-06-30 12:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.21242,
+          "index": 291,
+          "time": "2026-06-30 16:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.21677,
+          "index": 294,
+          "time": "2026-06-30 19:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.21342,
+          "index": 295,
+          "time": "2026-06-30 20:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.22134,
+          "index": 304,
+          "time": "2026-07-01 05:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.21893,
+          "index": 307,
+          "time": "2026-07-01 08:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.22306,
+          "index": 308,
+          "time": "2026-07-01 09:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.21852,
+          "index": 310,
+          "time": "2026-07-01 11:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.22585,
+          "index": 322,
+          "time": "2026-07-01 23:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.21823,
+          "index": 334,
+          "time": "2026-07-02 11:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.22141,
+          "index": 336,
+          "time": "2026-07-02 13:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.21307,
+          "index": 342,
+          "time": "2026-07-02 19:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.21975,
+          "index": 347,
+          "time": "2026-07-03 00:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.217,
+          "index": 354,
+          "time": "2026-07-03 07:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.22727,
+          "index": 365,
+          "time": "2026-07-03 18:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.22448,
+          "index": 367,
+          "time": "2026-07-03 20:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.2296,
+          "index": 377,
+          "time": "2026-07-04 06:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.22366,
+          "index": 379,
+          "time": "2026-07-04 08:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.23409,
+          "index": 385,
+          "time": "2026-07-04 14:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.22878,
+          "index": 390,
+          "time": "2026-07-04 19:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.23095,
+          "index": 394,
+          "time": "2026-07-04 23:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.22429,
+          "index": 395,
+          "time": "2026-07-05 00:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.22674,
+          "index": 401,
+          "time": "2026-07-05 06:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.22166,
+          "index": 402,
+          "time": "2026-07-05 07:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.2297,
+          "index": 413,
+          "time": "2026-07-05 18:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.22372,
+          "index": 419,
+          "time": "2026-07-06 00:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.23527,
+          "index": 435,
+          "time": "2026-07-06 16:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.23081,
+          "index": 438,
+          "time": "2026-07-06 19:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.23516,
+          "index": 442,
+          "time": "2026-07-06 23:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.23034,
+          "index": 446,
+          "time": "2026-07-07 03:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.23417,
+          "index": 449,
+          "time": "2026-07-07 06:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.23068,
+          "index": 450,
+          "time": "2026-07-07 07:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.23534,
+          "index": 453,
+          "time": "2026-07-07 10:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.22771,
+          "index": 460,
+          "time": "2026-07-07 17:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.23284,
+          "index": 468,
+          "time": "2026-07-08 01:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.22691,
+          "index": 471,
+          "time": "2026-07-08 04:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.23413,
+          "index": 479,
+          "time": "2026-07-08 12:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.23089,
+          "index": 483,
+          "time": "2026-07-08 16:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.23694,
+          "index": 491,
+          "time": "2026-07-09 00:38:20"
+        },
+        {
+          "type": "SL",
+          "price": 1.23192,
+          "index": 492,
+          "time": "2026-07-09 01:38:20"
+        },
+        {
+          "type": "SH",
+          "price": 1.23668,
+          "index": 496,
+          "time": "2026-07-09 05:38:20"
+>>>>>>> Stashed changes
         }
       ],
       "ohlc": [
         {
+<<<<<<< Updated upstream
           "time": "2026-07-06 01:38:03",
           "O": 1.164,
           "H": 1.16468,
@@ -86285,6 +90201,569 @@
         }
       ],
       "updated_at": "2026-06-18T13:38:04.133695"
+=======
+          "time": "2026-07-06 01:38:20",
+          "O": 1.22572,
+          "H": 1.22665,
+          "L": 1.22481,
+          "C": 1.2258
+        },
+        {
+          "time": "2026-07-06 02:38:20",
+          "O": 1.2258,
+          "H": 1.22665,
+          "L": 1.22493,
+          "C": 1.22499
+        },
+        {
+          "time": "2026-07-06 03:38:20",
+          "O": 1.22499,
+          "H": 1.22569,
+          "L": 1.22481,
+          "C": 1.22515
+        },
+        {
+          "time": "2026-07-06 04:38:20",
+          "O": 1.22515,
+          "H": 1.22934,
+          "L": 1.22488,
+          "C": 1.22834
+        },
+        {
+          "time": "2026-07-06 05:38:20",
+          "O": 1.22834,
+          "H": 1.22967,
+          "L": 1.22744,
+          "C": 1.2291
+        },
+        {
+          "time": "2026-07-06 06:38:20",
+          "O": 1.2291,
+          "H": 1.22967,
+          "L": 1.22839,
+          "C": 1.22843
+        },
+        {
+          "time": "2026-07-06 07:38:20",
+          "O": 1.22843,
+          "H": 1.22907,
+          "L": 1.22768,
+          "C": 1.22816
+        },
+        {
+          "time": "2026-07-06 08:38:20",
+          "O": 1.22816,
+          "H": 1.22867,
+          "L": 1.22765,
+          "C": 1.22785
+        },
+        {
+          "time": "2026-07-06 09:38:20",
+          "O": 1.22785,
+          "H": 1.22871,
+          "L": 1.22744,
+          "C": 1.22806
+        },
+        {
+          "time": "2026-07-06 10:38:20",
+          "O": 1.22806,
+          "H": 1.22875,
+          "L": 1.22744,
+          "C": 1.22758
+        },
+        {
+          "time": "2026-07-06 11:38:20",
+          "O": 1.22758,
+          "H": 1.23296,
+          "L": 1.22721,
+          "C": 1.23176
+        },
+        {
+          "time": "2026-07-06 12:38:20",
+          "O": 1.23176,
+          "H": 1.23337,
+          "L": 1.23069,
+          "C": 1.23305
+        },
+        {
+          "time": "2026-07-06 13:38:20",
+          "O": 1.23305,
+          "H": 1.23412,
+          "L": 1.23206,
+          "C": 1.23326
+        },
+        {
+          "time": "2026-07-06 14:38:20",
+          "O": 1.23326,
+          "H": 1.23434,
+          "L": 1.2315,
+          "C": 1.23404
+        },
+        {
+          "time": "2026-07-06 15:38:20",
+          "O": 1.23404,
+          "H": 1.23477,
+          "L": 1.23242,
+          "C": 1.23333
+        },
+        {
+          "time": "2026-07-06 16:38:20",
+          "O": 1.23333,
+          "H": 1.23527,
+          "L": 1.2317,
+          "C": 1.23279
+        },
+        {
+          "time": "2026-07-06 17:38:20",
+          "O": 1.23279,
+          "H": 1.2345,
+          "L": 1.2314,
+          "C": 1.2338
+        },
+        {
+          "time": "2026-07-06 18:38:20",
+          "O": 1.2338,
+          "H": 1.23525,
+          "L": 1.23273,
+          "C": 1.2328
+        },
+        {
+          "time": "2026-07-06 19:38:20",
+          "O": 1.2328,
+          "H": 1.23472,
+          "L": 1.23081,
+          "C": 1.23346
+        },
+        {
+          "time": "2026-07-06 20:38:20",
+          "O": 1.23346,
+          "H": 1.23409,
+          "L": 1.23235,
+          "C": 1.23343
+        },
+        {
+          "time": "2026-07-06 21:38:20",
+          "O": 1.23343,
+          "H": 1.23415,
+          "L": 1.23241,
+          "C": 1.23339
+        },
+        {
+          "time": "2026-07-06 22:38:20",
+          "O": 1.23339,
+          "H": 1.23465,
+          "L": 1.23184,
+          "C": 1.23431
+        },
+        {
+          "time": "2026-07-06 23:38:20",
+          "O": 1.23431,
+          "H": 1.23516,
+          "L": 1.23274,
+          "C": 1.23342
+        },
+        {
+          "time": "2026-07-07 00:38:20",
+          "O": 1.23342,
+          "H": 1.23394,
+          "L": 1.23201,
+          "C": 1.23239
+        },
+        {
+          "time": "2026-07-07 01:38:20",
+          "O": 1.23239,
+          "H": 1.23309,
+          "L": 1.23146,
+          "C": 1.23207
+        },
+        {
+          "time": "2026-07-07 02:38:20",
+          "O": 1.23207,
+          "H": 1.23405,
+          "L": 1.23111,
+          "C": 1.23157
+        },
+        {
+          "time": "2026-07-07 03:38:20",
+          "O": 1.23157,
+          "H": 1.233,
+          "L": 1.23034,
+          "C": 1.23174
+        },
+        {
+          "time": "2026-07-07 04:38:20",
+          "O": 1.23174,
+          "H": 1.23302,
+          "L": 1.23083,
+          "C": 1.23272
+        },
+        {
+          "time": "2026-07-07 05:38:20",
+          "O": 1.23272,
+          "H": 1.23356,
+          "L": 1.23204,
+          "C": 1.23245
+        },
+        {
+          "time": "2026-07-07 06:38:20",
+          "O": 1.23245,
+          "H": 1.23417,
+          "L": 1.23102,
+          "C": 1.23237
+        },
+        {
+          "time": "2026-07-07 07:38:20",
+          "O": 1.23237,
+          "H": 1.23325,
+          "L": 1.23068,
+          "C": 1.23217
+        },
+        {
+          "time": "2026-07-07 08:38:20",
+          "O": 1.23217,
+          "H": 1.23391,
+          "L": 1.23111,
+          "C": 1.23356
+        },
+        {
+          "time": "2026-07-07 09:38:20",
+          "O": 1.23356,
+          "H": 1.23417,
+          "L": 1.23179,
+          "C": 1.23383
+        },
+        {
+          "time": "2026-07-07 10:38:20",
+          "O": 1.23383,
+          "H": 1.23534,
+          "L": 1.23331,
+          "C": 1.23335
+        },
+        {
+          "time": "2026-07-07 11:38:20",
+          "O": 1.23335,
+          "H": 1.23423,
+          "L": 1.23266,
+          "C": 1.23376
+        },
+        {
+          "time": "2026-07-07 12:38:20",
+          "O": 1.23376,
+          "H": 1.23423,
+          "L": 1.2331,
+          "C": 1.23367
+        },
+        {
+          "time": "2026-07-07 13:38:20",
+          "O": 1.23367,
+          "H": 1.23423,
+          "L": 1.233,
+          "C": 1.23371
+        },
+        {
+          "time": "2026-07-07 14:38:20",
+          "O": 1.23371,
+          "H": 1.23423,
+          "L": 1.23308,
+          "C": 1.23387
+        },
+        {
+          "time": "2026-07-07 15:38:20",
+          "O": 1.23387,
+          "H": 1.23423,
+          "L": 1.233,
+          "C": 1.23387
+        },
+        {
+          "time": "2026-07-07 16:38:20",
+          "O": 1.23387,
+          "H": 1.23422,
+          "L": 1.22866,
+          "C": 1.22906
+        },
+        {
+          "time": "2026-07-07 17:38:20",
+          "O": 1.22906,
+          "H": 1.2302,
+          "L": 1.22771,
+          "C": 1.22897
+        },
+        {
+          "time": "2026-07-07 18:38:20",
+          "O": 1.22897,
+          "H": 1.2309,
+          "L": 1.22847,
+          "C": 1.23021
+        },
+        {
+          "time": "2026-07-07 19:38:20",
+          "O": 1.23021,
+          "H": 1.23095,
+          "L": 1.22893,
+          "C": 1.22929
+        },
+        {
+          "time": "2026-07-07 20:38:20",
+          "O": 1.22929,
+          "H": 1.22999,
+          "L": 1.22774,
+          "C": 1.22812
+        },
+        {
+          "time": "2026-07-07 21:38:20",
+          "O": 1.22812,
+          "H": 1.22888,
+          "L": 1.22774,
+          "C": 1.22825
+        },
+        {
+          "time": "2026-07-07 22:38:20",
+          "O": 1.22825,
+          "H": 1.22893,
+          "L": 1.22774,
+          "C": 1.2283
+        },
+        {
+          "time": "2026-07-07 23:38:20",
+          "O": 1.2283,
+          "H": 1.23158,
+          "L": 1.22794,
+          "C": 1.23056
+        },
+        {
+          "time": "2026-07-08 00:38:20",
+          "O": 1.23056,
+          "H": 1.23192,
+          "L": 1.22934,
+          "C": 1.23102
+        },
+        {
+          "time": "2026-07-08 01:38:20",
+          "O": 1.23102,
+          "H": 1.23284,
+          "L": 1.2292,
+          "C": 1.23011
+        },
+        {
+          "time": "2026-07-08 02:38:20",
+          "O": 1.23011,
+          "H": 1.23148,
+          "L": 1.22846,
+          "C": 1.22913
+        },
+        {
+          "time": "2026-07-08 03:38:20",
+          "O": 1.22913,
+          "H": 1.23015,
+          "L": 1.22808,
+          "C": 1.22879
+        },
+        {
+          "time": "2026-07-08 04:38:20",
+          "O": 1.22879,
+          "H": 1.22954,
+          "L": 1.22691,
+          "C": 1.22867
+        },
+        {
+          "time": "2026-07-08 05:38:20",
+          "O": 1.22867,
+          "H": 1.22933,
+          "L": 1.22706,
+          "C": 1.22912
+        },
+        {
+          "time": "2026-07-08 06:38:20",
+          "O": 1.22912,
+          "H": 1.22933,
+          "L": 1.22839,
+          "C": 1.22851
+        },
+        {
+          "time": "2026-07-08 07:38:20",
+          "O": 1.22851,
+          "H": 1.22905,
+          "L": 1.22763,
+          "C": 1.22801
+        },
+        {
+          "time": "2026-07-08 08:38:20",
+          "O": 1.22801,
+          "H": 1.22893,
+          "L": 1.2272,
+          "C": 1.22791
+        },
+        {
+          "time": "2026-07-08 09:38:20",
+          "O": 1.22791,
+          "H": 1.22841,
+          "L": 1.22706,
+          "C": 1.22766
+        },
+        {
+          "time": "2026-07-08 10:38:20",
+          "O": 1.22766,
+          "H": 1.23255,
+          "L": 1.22718,
+          "C": 1.23189
+        },
+        {
+          "time": "2026-07-08 11:38:20",
+          "O": 1.23189,
+          "H": 1.23261,
+          "L": 1.23097,
+          "C": 1.2322
+        },
+        {
+          "time": "2026-07-08 12:38:20",
+          "O": 1.2322,
+          "H": 1.23413,
+          "L": 1.23164,
+          "C": 1.23242
+        },
+        {
+          "time": "2026-07-08 13:38:20",
+          "O": 1.23242,
+          "H": 1.23336,
+          "L": 1.23118,
+          "C": 1.23246
+        },
+        {
+          "time": "2026-07-08 14:38:20",
+          "O": 1.23246,
+          "H": 1.23297,
+          "L": 1.23195,
+          "C": 1.23255
+        },
+        {
+          "time": "2026-07-08 15:38:20",
+          "O": 1.23255,
+          "H": 1.2332,
+          "L": 1.23183,
+          "C": 1.23265
+        },
+        {
+          "time": "2026-07-08 16:38:20",
+          "O": 1.23265,
+          "H": 1.23371,
+          "L": 1.23089,
+          "C": 1.23279
+        },
+        {
+          "time": "2026-07-08 17:38:20",
+          "O": 1.23279,
+          "H": 1.2338,
+          "L": 1.23146,
+          "C": 1.23224
+        },
+        {
+          "time": "2026-07-08 18:38:20",
+          "O": 1.23224,
+          "H": 1.23316,
+          "L": 1.23146,
+          "C": 1.23197
+        },
+        {
+          "time": "2026-07-08 19:38:20",
+          "O": 1.23197,
+          "H": 1.23274,
+          "L": 1.23146,
+          "C": 1.23149
+        },
+        {
+          "time": "2026-07-08 20:38:20",
+          "O": 1.23149,
+          "H": 1.2323,
+          "L": 1.23146,
+          "C": 1.2315
+        },
+        {
+          "time": "2026-07-08 21:38:20",
+          "O": 1.2315,
+          "H": 1.23248,
+          "L": 1.23146,
+          "C": 1.23193
+        },
+        {
+          "time": "2026-07-08 22:38:20",
+          "O": 1.23193,
+          "H": 1.23559,
+          "L": 1.23151,
+          "C": 1.23465
+        },
+        {
+          "time": "2026-07-08 23:38:20",
+          "O": 1.23465,
+          "H": 1.23562,
+          "L": 1.23398,
+          "C": 1.23503
+        },
+        {
+          "time": "2026-07-09 00:38:20",
+          "O": 1.23503,
+          "H": 1.23694,
+          "L": 1.2335,
+          "C": 1.23387
+        },
+        {
+          "time": "2026-07-09 01:38:20",
+          "O": 1.23387,
+          "H": 1.23502,
+          "L": 1.23192,
+          "C": 1.23394
+        },
+        {
+          "time": "2026-07-09 02:38:20",
+          "O": 1.23394,
+          "H": 1.23449,
+          "L": 1.23294,
+          "C": 1.23436
+        },
+        {
+          "time": "2026-07-09 03:38:20",
+          "O": 1.23436,
+          "H": 1.23616,
+          "L": 1.23358,
+          "C": 1.23546
+        },
+        {
+          "time": "2026-07-09 04:38:20",
+          "O": 1.23546,
+          "H": 1.2366,
+          "L": 1.23472,
+          "C": 1.23504
+        },
+        {
+          "time": "2026-07-09 05:38:20",
+          "O": 1.23504,
+          "H": 1.23668,
+          "L": 1.23325,
+          "C": 1.23337
+        },
+        {
+          "time": "2026-07-09 06:38:20",
+          "O": 1.23337,
+          "H": 1.23434,
+          "L": 1.23163,
+          "C": 1.23269
+        },
+        {
+          "time": "2026-07-09 07:38:20",
+          "O": 1.23269,
+          "H": 1.2334,
+          "L": 1.23113,
+          "C": 1.23158
+        },
+        {
+          "time": "2026-07-09 08:38:20",
+          "O": 1.23158,
+          "H": 1.23287,
+          "L": 1.23048,
+          "C": 1.23103
+        }
+      ],
+      "updated_at": "2026-06-18T13:38:20.474994"
+>>>>>>> Stashed changes
     }
   }
 }

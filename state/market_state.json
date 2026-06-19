@@ -85,6 +85,107 @@
   ],
   "open_trades": [
     {
+      "id": "V1_Trendline_short_20260619134811",
+      "symbol": "EURUSD",
+      "source": "V1",
+      "pattern": "Trendline",
+      "direction": "short",
+      "entry": 1.14623,
+      "sl": 1.14726,
+      "tp": 1.14181,
+      "rr": 4.29,
+      "zone_top": 1.1469583333333333,
+      "zone_bottom": 1.1463583333333334,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 2642350879,
+        "buy_price": 1.11,
+        "balance_after": 9991.91,
+        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in EUR/USD, multiplied by 111, minus commissions."
+      },
+      "confluence": [
+        "Descending trendline",
+        "Touch count: 3",
+        "5M close below trendline"
+      ],
+      "signal_time": "2026-06-19 13:30:00",
+      "placed_time": "2026-06-19 13:48:11",
+      "status": "active",
+      "close_price": null,
+      "close_time": null,
+      "close_reason": null,
+      "pnl_pips": null,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "Trendline",
+        "direction": "short",
+        "trigger_price": 1.14623,
+        "zone_top": 1.1469583333333333,
+        "zone_bottom": 1.1463583333333334,
+        "time": "2026-06-19 13:30:00",
+        "confluence": [
+          "Descending trendline",
+          "Touch count: 3",
+          "5M close below trendline"
+        ],
+        "source_detail": {
+          "type": "Trendline",
+          "direction": "descending",
+          "trade_bias": "short",
+          "state": "third_touch_confirmed",
+          "touch_count": 3,
+          "touches": [
+            {
+              "type": "SH",
+              "price": 1.15896,
+              "index": 226,
+              "time": "2026-06-12 09:00:00"
+            },
+            {
+              "type": "SH",
+              "price": 1.15835,
+              "index": 232,
+              "time": "2026-06-12 15:00:00"
+            },
+            {
+              "type": "SH",
+              "price": 1.14876,
+              "index": 325,
+              "time": "2026-06-18 15:00:00"
+            }
+          ],
+          "anchor_1": {
+            "type": "SH",
+            "price": 1.15896,
+            "index": 226,
+            "time": "2026-06-12 09:00:00"
+          },
+          "anchor_2": {
+            "type": "SH",
+            "price": 1.15835,
+            "index": 232,
+            "time": "2026-06-12 15:00:00"
+          },
+          "slope": -0.00010166666666666657,
+          "projected_y": 1.1466583333333333,
+          "last_touch_index": 325,
+          "last_touch_time": "2026-06-18 15:00:00",
+          "broken": false,
+          "broken_index": null,
+          "time": "2026-06-12 15:00:00"
+        },
+        "status": "pending",
+        "id": "EURUSD_Trendline_short_1.14623",
+        "symbol": "EURUSD",
+        "staged_at": "2026-06-19T13:48:15.404164",
+        "confirmed": false
+      }
+    }
+  ],
+  "closed_trades": [
+    {
       "id": "V1_OB_short_20260619134330",
       "symbol": "Step Index",
       "source": "V1",
@@ -111,11 +212,11 @@
       ],
       "signal_time": "2026-06-19 13:35:00",
       "placed_time": "2026-06-19 13:43:30",
-      "status": "active",
-      "close_price": null,
-      "close_time": null,
-      "close_reason": null,
-      "pnl_pips": null,
+      "status": "closed",
+      "close_price": 7975.45,
+      "close_time": "2026-06-19 13:48:48",
+      "close_reason": "Stop loss hit",
+      "pnl_pips": -285.0,
       "lgn_signal": {
         "source": "LGN",
         "pattern": "OB",
@@ -150,12 +251,81 @@
         "staged_at": "2026-06-19T13:37:53.946945",
         "confirmed": true,
         "id": "Step Index_OB_short_7972.6"
-      }
+      },
+      "exit_type": "sl"
+    },
+    {
+      "id": "V1_OB_short_20260619134330",
+      "symbol": "Step Index",
+      "source": "V1",
+      "pattern": "OB",
+      "direction": "short",
+      "entry": 7972.6,
+      "sl": 7975.45,
+      "tp": 7964.6,
+      "rr": 2.81,
+      "zone_top": 7975.4,
+      "zone_bottom": 7970.5,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 2641954219,
+        "buy_price": 1,
+        "balance_after": 9993.02,
+        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in Step Index 100, multiplied by 750, minus commissions."
+      },
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "signal_time": "2026-06-19 13:35:00",
+      "placed_time": "2026-06-19 13:43:30",
+      "status": "closed",
+      "close_price": 7975.45,
+      "close_time": "2026-06-19 13:48:48",
+      "close_reason": "Stop loss hit",
+      "pnl_pips": -285.0,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "OB",
+        "direction": "short",
+        "trigger_price": 7972.6,
+        "zone_top": 7975.4,
+        "zone_bottom": 7970.5,
+        "time": "2026-06-19 13:35:00",
+        "confluence": [
+          "Bearish OB",
+          "5M close below OB top"
+        ],
+        "source_detail": {
+          "type": "Bearish OB",
+          "index": 72,
+          "time": "2026-06-19 06:00:00",
+          "top": 7975.4,
+          "bottom": 7970.5,
+          "mid": 7972.95,
+          "mitigated": false,
+          "mitigation_index": null,
+          "break_index": 77,
+          "impulse_start": 75,
+          "has_fvg": false,
+          "source": "BOS_DOWN",
+          "age": 7,
+          "touch_count": 1,
+          "expired_by": null
+        },
+        "status": "executed",
+        "symbol": "Step Index",
+        "staged_at": "2026-06-19T13:37:53.946945",
+        "confirmed": true,
+        "id": "Step Index_OB_short_7972.6"
+      },
+      "exit_type": "sl"
     }
   ],
-  "closed_trades": [],
   "last_h1_run": "2026-06-19T13:37:55.574581",
-  "last_m5_run": "2026-06-19T13:43:35.916233",
+  "last_m5_run": "2026-06-19T13:48:55.453195",
   "symbols": [
     "EURUSD",
     "GBPUSD",

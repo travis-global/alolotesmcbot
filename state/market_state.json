@@ -360,8 +360,13 @@
       "exit_type": "sl"
     }
   ],
+<<<<<<< Updated upstream
   "last_h1_run": "2026-06-19T01:38:03.114606",
   "last_m5_run": "2026-06-19T01:33:26.576442",
+=======
+  "last_h1_run": "2026-06-19T00:38:02.832560",
+  "last_m5_run": "2026-06-19T01:38:35.351021",
+>>>>>>> Stashed changes
   "symbols": [
     "EURUSD",
     "GBPUSD",

@@ -12,7 +12,8 @@
   "structure": [],
   "swings": [],
   "active_signals": [],
-  "open_trades": [
+  "open_trades": [],
+  "closed_trades": [
     {
       "id": "V1_OB_long_20260619091342",
       "symbol": "Boom 1000 Index",
@@ -40,11 +41,11 @@
       ],
       "signal_time": "2026-06-19 09:10:00",
       "placed_time": "2026-06-19 09:13:42",
-      "status": "active",
-      "close_price": null,
-      "close_time": null,
-      "close_reason": null,
-      "pnl_pips": null,
+      "status": "closed",
+      "close_price": 14253.316,
+      "close_time": "2026-06-19 09:33:39",
+      "close_reason": "Stop loss hit",
+      "pnl_pips": -126.7,
       "lgn_signal": {
         "source": "LGN",
         "pattern": "OB",
@@ -79,12 +80,81 @@
         "symbol": "Boom 1000 Index",
         "staged_at": "2026-06-19T09:13:46.420258",
         "confirmed": false
-      }
+      },
+      "exit_type": "sl"
+    },
+    {
+      "id": "V1_OB_long_20260619091342",
+      "symbol": "Boom 1000 Index",
+      "source": "V1",
+      "pattern": "OB",
+      "direction": "long",
+      "entry": 14265.987,
+      "sl": 14253.316,
+      "tp": 14326.48,
+      "rr": 4.77,
+      "zone_top": 14266.029,
+      "zone_bottom": 14253.816,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 2619478979,
+        "buy_price": 1.13,
+        "balance_after": 9994.09,
+        "longcode": "If you select 'Up', your total profit/loss will be the percentage increase in Boom 1000 Index, multiplied by 113, minus commissions."
+      },
+      "confluence": [
+        "Bullish OB",
+        "5M close above OB bottom"
+      ],
+      "signal_time": "2026-06-19 09:10:00",
+      "placed_time": "2026-06-19 09:13:42",
+      "status": "closed",
+      "close_price": 14253.316,
+      "close_time": "2026-06-19 09:33:39",
+      "close_reason": "Stop loss hit",
+      "pnl_pips": -126.7,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "OB",
+        "direction": "long",
+        "trigger_price": 14265.987,
+        "zone_top": 14266.029,
+        "zone_bottom": 14253.816,
+        "time": "2026-06-19 09:10:00",
+        "confluence": [
+          "Bullish OB",
+          "5M close above OB bottom"
+        ],
+        "source_detail": {
+          "type": "Bullish OB",
+          "index": 52,
+          "time": "2026-06-18 05:00:00",
+          "top": 14266.029,
+          "bottom": 14253.816,
+          "mid": 14259.9225,
+          "mitigated": false,
+          "mitigation_index": null,
+          "break_index": 60,
+          "impulse_start": 56,
+          "has_fvg": false,
+          "source": "BOS_UP",
+          "age": 27,
+          "touch_count": 0,
+          "expired_by": null
+        },
+        "status": "pending",
+        "id": "Boom 1000 Index_OB_long_14265.987",
+        "symbol": "Boom 1000 Index",
+        "staged_at": "2026-06-19T09:13:46.420258",
+        "confirmed": false
+      },
+      "exit_type": "sl"
     }
   ],
-  "closed_trades": [],
   "last_h1_run": "2026-06-19T08:38:18.977391",
-  "last_m5_run": "2026-06-19T09:28:31.017955",
+  "last_m5_run": "2026-06-19T09:33:48.474521",
   "symbols": [
     "EURUSD",
     "GBPUSD",

@@ -220,10 +220,79 @@
         "confirmed": false
       },
       "exit_type": "sl"
+    },
+    {
+      "id": "V1_OB_short_20260619010853",
+      "symbol": "Boom 500 Index",
+      "source": "V1",
+      "pattern": "OB",
+      "direction": "short",
+      "entry": 5209.855,
+      "sl": 5214.754,
+      "tp": 5194.484,
+      "rr": 3.14,
+      "zone_top": 5214.254,
+      "zone_bottom": 5193.447,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 2592015079,
+        "buy_price": 1,
+        "balance_after": 9993.83,
+        "longcode": "If you select 'Down', your total profit/loss will be the percentage decrease in Boom 500 Index, multiplied by 200, minus commissions."
+      },
+      "confluence": [
+        "Bearish OB",
+        "5M close below OB top"
+      ],
+      "signal_time": "2026-06-19 01:05:00",
+      "placed_time": "2026-06-19 01:08:53",
+      "status": "closed",
+      "close_price": 5214.754,
+      "close_time": "2026-06-19 01:08:54",
+      "close_reason": "Stop loss hit",
+      "pnl_pips": -49.0,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "OB",
+        "direction": "short",
+        "trigger_price": 5209.855,
+        "zone_top": 5214.254,
+        "zone_bottom": 5193.447,
+        "time": "2026-06-19 01:05:00",
+        "confluence": [
+          "Bearish OB",
+          "5M close below OB top"
+        ],
+        "source_detail": {
+          "type": "Bearish OB",
+          "index": 75,
+          "time": "2026-06-18 20:00:00",
+          "top": 5214.254,
+          "bottom": 5193.447,
+          "mid": 5203.8505000000005,
+          "mitigated": false,
+          "mitigation_index": null,
+          "break_index": 79,
+          "impulse_start": 78,
+          "has_fvg": false,
+          "source": "BOS_DOWN",
+          "age": 4,
+          "touch_count": 0,
+          "expired_by": null
+        },
+        "status": "pending",
+        "id": "Boom 500 Index_OB_short_5209.855",
+        "symbol": "Boom 500 Index",
+        "staged_at": "2026-06-19T01:08:56.376002",
+        "confirmed": false
+      },
+      "exit_type": "sl"
     }
   ],
   "last_h1_run": "2026-06-19T00:38:02.832560",
-  "last_m5_run": "2026-06-19T01:03:44.552519",
+  "last_m5_run": "2026-06-19T01:09:01.350749",
   "symbols": [
     "EURUSD",
     "GBPUSD",

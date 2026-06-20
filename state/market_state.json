@@ -222,8 +222,13 @@
       "exit_type": "tp"
     }
   ],
+<<<<<<< Updated upstream
   "last_h1_run": "2026-06-20T06:37:49.573581",
   "last_m5_run": "2026-06-20T06:33:37.493388",
+=======
+  "last_h1_run": "2026-06-20T05:37:54.321671",
+  "last_m5_run": "2026-06-20T06:38:19.379841",
+>>>>>>> Stashed changes
   "symbols": [
     "EURUSD",
     "GBPUSD",

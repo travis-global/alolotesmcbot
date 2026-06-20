@@ -291,10 +291,79 @@
         "confirmed": false
       },
       "exit_type": "sl"
+    },
+    {
+      "id": "V1_OB_long_20260620161334",
+      "symbol": "Boom 1000 Index",
+      "source": "V1",
+      "pattern": "OB",
+      "direction": "long",
+      "entry": 14306.151,
+      "sl": 14302.262,
+      "tp": 14326.48,
+      "rr": 5.23,
+      "zone_top": 14332.789,
+      "zone_bottom": 14302.762,
+      "placed": true,
+      "filtered": false,
+      "filtered_reason": null,
+      "mt5_result": {
+        "contract_id": 2750570399,
+        "buy_price": 3.68,
+        "balance_after": 9989.47,
+        "longcode": "If you select 'Up', your total profit/loss will be the percentage increase in Boom 1000 Index, multiplied by 368, minus commissions."
+      },
+      "confluence": [
+        "Bullish OB",
+        "5M close above OB bottom"
+      ],
+      "signal_time": "2026-06-20 16:10:00",
+      "placed_time": "2026-06-20 16:13:34",
+      "status": "closed",
+      "close_price": 14302.262,
+      "close_time": "2026-06-20 16:13:36",
+      "close_reason": "Stop loss hit",
+      "pnl_pips": -38.9,
+      "lgn_signal": {
+        "source": "LGN",
+        "pattern": "OB",
+        "direction": "long",
+        "trigger_price": 14306.151,
+        "zone_top": 14332.789,
+        "zone_bottom": 14302.762,
+        "time": "2026-06-20 16:10:00",
+        "confluence": [
+          "Bullish OB",
+          "5M close above OB bottom"
+        ],
+        "source_detail": {
+          "type": "Bullish OB",
+          "index": 72,
+          "time": "2026-06-20 08:00:00",
+          "top": 14332.789,
+          "bottom": 14302.762,
+          "mid": 14317.7755,
+          "mitigated": false,
+          "mitigation_index": null,
+          "break_index": 79,
+          "impulse_start": 75,
+          "has_fvg": false,
+          "source": "BOS_UP",
+          "age": 7,
+          "touch_count": 0,
+          "expired_by": null
+        },
+        "status": "pending",
+        "id": "Boom 1000 Index_OB_long_14306.151",
+        "symbol": "Boom 1000 Index",
+        "staged_at": "2026-06-20T16:13:38.336489",
+        "confirmed": false
+      },
+      "exit_type": "sl"
     }
   ],
   "last_h1_run": "2026-06-20T15:38:00.305733",
-  "last_m5_run": "2026-06-20T16:08:47.657347",
+  "last_m5_run": "2026-06-20T16:13:45.296803",
   "symbols": [
     "EURUSD",
     "GBPUSD",
